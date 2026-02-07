@@ -1,0 +1,3260 @@
+{
+    "chunks": [
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " We have seen many concepts of JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 2.0,
+            "end": 5.5,
+            "text": " In today's video, I will talk about error handling"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 5.5,
+            "end": 7.5,
+            "text": " JavaScript is a mechanism"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 7.5,
+            "end": 13.0,
+            "text": " where you can handle it and continue your program execution"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 13.0,
+            "end": 16.5,
+            "text": " Like this video and write a sigma patch in the comment section"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 16.5,
+            "end": 19.5,
+            "text": " Let's roll the intro in the computer screen"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 19.5,
+            "end": 24.5,
+            "text": " Let's start the video"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 28.5,
+            "end": 30.5,
+            "text": " I am in the computer screen"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 30.5,
+            "end": 33.5,
+            "text": " and I am going to make video number 79"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 33.5,
+            "end": 35.5,
+            "text": " Video 79 is the folder name"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 35.5,
+            "end": 38.5,
+            "text": " and today I am going to tell you about error handling in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 38.5,
+            "end": 41.5,
+            "text": " It is very important because of error handling"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 41.5,
+            "end": 46.5,
+            "text": " we can handle the errors in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 46.5,
+            "end": 54.5,
+            "text": " I am going to write a script in the name of script.js"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 54.5,
+            "end": 59.5,
+            "text": " and write script.js"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 59.5,
+            "end": 61.5,
+            "text": " and write error handling"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 61.5,
+            "end": 68.5,
+            "text": " Let A is equal to prompt enter a number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 68.5,
+            "end": 70.5,
+            "text": " I am going to write enter a number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 70.5,
+            "end": 78.5,
+            "text": " and let B is equal to prompt enter a number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 78.5,
+            "end": 80.5,
+            "text": " Let me make it enter first number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 80.5,
+            "end": 82.5,
+            "text": " enter second number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 82.5,
+            "end": 88.5,
+            "text": " and if I write console.log"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 88.5,
+            "end": 89.5,
+            "text": " or we can alert"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 89.5,
+            "end": 91.5,
+            "text": " the sum is"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 91.5,
+            "end": 95.5,
+            "text": " I will tell you the sum is"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 95.5,
+            "end": 98.5,
+            "text": " and I will call A plus"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 98.5,
+            "end": 101.5,
+            "text": " or I will call A plus B"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 101.5,
+            "end": 107.5,
+            "text": " and I have written console.log"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 107.5,
+            "end": 110.5,
+            "text": " and the sum should be of these two numbers"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 110.5,
+            "end": 112.5,
+            "text": " Now this quote is correct"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 112.5,
+            "end": 114.5,
+            "text": " many of you may know this quote"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 114.5,
+            "end": 116.5,
+            "text": " but let me tell you that this quote is wrong"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 116.5,
+            "end": 117.5,
+            "text": " why?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 117.5,
+            "end": 119.5,
+            "text": " I will tell you in a second"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 119.5,
+            "end": 122.5,
+            "text": " if I preview this quote"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 122.5,
+            "end": 123.5,
+            "text": " enter first number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 123.5,
+            "end": 125.5,
+            "text": " enter second number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 125.5,
+            "end": 127.5,
+            "text": " I have written 67"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 127.5,
+            "end": 130.5,
+            "text": " 67 plus 12 is 79"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 130.5,
+            "end": 133.5,
+            "text": " but see what I have written on console"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 133.5,
+            "end": 135.5,
+            "text": " I have written 127"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 135.5,
+            "end": 138.5,
+            "text": " that means it has appended this number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 138.5,
+            "end": 139.5,
+            "text": " why did I do this?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 139.5,
+            "end": 142.5,
+            "text": " if I write 4 and write 7"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 142.5,
+            "end": 144.5,
+            "text": " then it is writing 47"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 144.5,
+            "end": 146.5,
+            "text": " but it should have written 11"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 146.5,
+            "end": 148.5,
+            "text": " it did not say 11"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 148.5,
+            "end": 150.5,
+            "text": " why did I say it wrong?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 150.5,
+            "end": 152.5,
+            "text": " is it an error?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 152.5,
+            "end": 158.5,
+            "text": " because when you use A plus B"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 158.5,
+            "end": 160.5,
+            "text": " it has AB string and BB string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 160.5,
+            "end": 161.5,
+            "text": " it will append"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 161.5,
+            "end": 162.5,
+            "text": " plus operation"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 162.5,
+            "end": 163.5,
+            "text": " if you do it in two strings"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 163.5,
+            "end": 165.5,
+            "text": " it will append"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 165.5,
+            "end": 167.5,
+            "text": " that means it will connect this string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 167.5,
+            "end": 168.5,
+            "text": " so what we have to do?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 168.5,
+            "end": 171.5,
+            "text": " we have to convert these two into integers"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 171.5,
+            "end": 173.5,
+            "text": " so what I will write here?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 173.5,
+            "end": 174.5,
+            "text": " parsnit"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 174.5,
+            "end": 176.5,
+            "text": " parsnit is a function in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 176.5,
+            "end": 179.5,
+            "text": " which parses a string in integer"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 179.5,
+            "end": 181.5,
+            "text": " and I will do the same with B"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 181.5,
+            "end": 183.5,
+            "text": " and now you will see"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 183.5,
+            "end": 185.5,
+            "text": " when I pass the first number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 185.5,
+            "end": 186.5,
+            "text": " I will do the second number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 186.5,
+            "end": 188.5,
+            "text": " so there are 5 and 3"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 188.5,
+            "end": 189.5,
+            "text": " here PA is not defined"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 189.5,
+            "end": 190.5,
+            "text": " let me see what is wrong"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 190.5,
+            "end": 192.5,
+            "text": " PA is not defined"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 192.5,
+            "end": 194.5,
+            "text": " where did I write PA?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 194.5,
+            "end": 196.5,
+            "text": " PA is not defined"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 196.5,
+            "end": 197.5,
+            "text": " where did I write it?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 197.5,
+            "end": 198.5,
+            "text": " script.js"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 198.5,
+            "end": 200.5,
+            "text": " oh I have written PA plus B here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 200.5,
+            "end": 201.5,
+            "text": " it is wrong"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 201.5,
+            "end": 203.5,
+            "text": " let C is equal to A plus B"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 203.5,
+            "end": 205.5,
+            "text": " I should write A plus B"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 205.5,
+            "end": 208.5,
+            "text": " sum is equal to percent A"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 208.5,
+            "end": 210.5,
+            "text": " percent B"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 210.5,
+            "end": 212.5,
+            "text": " let me see what is wrong"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 212.5,
+            "end": 214.5,
+            "text": " let me reload it again"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 214.5,
+            "end": 216.5,
+            "text": " I have written 3 and 5"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 216.5,
+            "end": 218.5,
+            "text": " I have written 3 and 5"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 218.5,
+            "end": 220.5,
+            "text": " so you see sum is equal to A"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 220.5,
+            "end": 222.5,
+            "text": " so I will reload it again"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 222.5,
+            "end": 224.5,
+            "text": " I have written 1, I have written 5"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 224.5,
+            "end": 225.5,
+            "text": " 1 and 5"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 225.5,
+            "end": 226.5,
+            "text": " if you see here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 226.5,
+            "end": 227.5,
+            "text": " 6 is here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 227.5,
+            "end": 228.5,
+            "text": " I hope you can see the console"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 228.5,
+            "end": 230.5,
+            "text": " sum is 6"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 230.5,
+            "end": 232.5,
+            "text": " so what happens when you meet"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 232.5,
+            "end": 233.5,
+            "text": " fundamentally"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 233.5,
+            "end": 235.5,
+            "text": " if you use prompt"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 235.5,
+            "end": 237.5,
+            "text": " it gives you a string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 237.5,
+            "end": 239.5,
+            "text": " and you don't want it to give you a string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 239.5,
+            "end": 241.5,
+            "text": " when you are dealing with numbers"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 241.5,
+            "end": 243.5,
+            "text": " so you used parse string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 243.5,
+            "end": 244.5,
+            "text": " but"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 244.5,
+            "end": 245.5,
+            "text": " sometimes"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 245.5,
+            "end": 246.5,
+            "text": " your user"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 246.5,
+            "end": 247.5,
+            "text": " will give you such input"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 247.5,
+            "end": 249.5,
+            "text": " which you asked for"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 249.5,
+            "end": 251.5,
+            "text": " but he is a user"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 251.5,
+            "end": 252.5,
+            "text": " he will do it wrong"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 252.5,
+            "end": 254.5,
+            "text": " he will play around with your application"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 254.5,
+            "end": 256.5,
+            "text": " so if I write"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 256.5,
+            "end": 257.5,
+            "text": " enter first number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 257.5,
+            "end": 258.5,
+            "text": " I write Harry"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 258.5,
+            "end": 259.5,
+            "text": " enter number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 259.5,
+            "end": 260.5,
+            "text": " enter second number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 260.5,
+            "end": 262.5,
+            "text": " I write Rohan"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 262.5,
+            "end": 263.5,
+            "text": " enter"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 263.5,
+            "end": 265.5,
+            "text": " the sum is NAN"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 265.5,
+            "end": 266.5,
+            "text": " the sum is NAN"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 266.5,
+            "end": 268.5,
+            "text": " why is the sum is NAN?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 268.5,
+            "end": 271.5,
+            "text": " because when you parse string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 271.5,
+            "end": 273.5,
+            "text": " it will give you a number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 273.5,
+            "end": 275.5,
+            "text": " it will not give you a number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 275.5,
+            "end": 276.5,
+            "text": " it will give you a NAN"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 276.5,
+            "end": 277.5,
+            "text": " not a number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 277.5,
+            "end": 278.5,
+            "text": " ok"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 278.5,
+            "end": 280.5,
+            "text": " and if you believe here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 280.5,
+            "end": 281.5,
+            "text": " you do something like this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 281.5,
+            "end": 283.5,
+            "text": " that you add something in it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 283.5,
+            "end": 285.5,
+            "text": " or subtract something"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 285.5,
+            "end": 287.5,
+            "text": " then you will not be able to do that"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 287.5,
+            "end": 289.5,
+            "text": " because simply what is here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 289.5,
+            "end": 291.5,
+            "text": " that this number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 291.5,
+            "end": 292.5,
+            "text": " is actually not a number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 292.5,
+            "end": 293.5,
+            "text": " it is a string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 293.5,
+            "end": 295.5,
+            "text": " so how can you give a string to parse string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 295.5,
+            "end": 296.5,
+            "text": " you cannot do that"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 296.5,
+            "end": 298.5,
+            "text": " so I want this behavior"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 298.5,
+            "end": 299.5,
+            "text": " to be acceptable"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 299.5,
+            "end": 301.5,
+            "text": " I do not want this behavior to be accepted"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 301.5,
+            "end": 304.5,
+            "text": " because this box will be introduced in my code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 304.5,
+            "end": 306.5,
+            "text": " I am not getting the error message"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 306.5,
+            "end": 307.5,
+            "text": " and JavaScript intentionally"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 307.5,
+            "end": 309.5,
+            "text": " makes you not get the error message"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 309.5,
+            "end": 311.5,
+            "text": " it is the forgiving nature of JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 311.5,
+            "end": 313.5,
+            "text": " but you will not want"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 313.5,
+            "end": 315.5,
+            "text": " that JavaScript is forgiving sometimes"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 315.5,
+            "end": 316.5,
+            "text": " because if you want"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 316.5,
+            "end": 317.5,
+            "text": " if you want then tell me"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 317.5,
+            "end": 318.5,
+            "text": " I will fix it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 318.5,
+            "end": 319.5,
+            "text": " so here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 319.5,
+            "end": 321.5,
+            "text": " to stop the forgiving nature"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 321.5,
+            "end": 322.5,
+            "text": " you can throw the error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 322.5,
+            "end": 323.5,
+            "text": " so I will put a check here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 323.5,
+            "end": 326.5,
+            "text": " I will say if A is equal to NAN"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 326.5,
+            "end": 329.5,
+            "text": " and we check NAN"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 329.5,
+            "end": 331.5,
+            "text": " we do it with this NAN function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 331.5,
+            "end": 332.5,
+            "text": " in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 332.5,
+            "end": 333.5,
+            "text": " we do something like this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 333.5,
+            "end": 334.5,
+            "text": " and I will say"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 334.5,
+            "end": 335.5,
+            "text": " for OR"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 335.5,
+            "end": 336.5,
+            "text": " and we will use this for OR"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 336.5,
+            "end": 337.5,
+            "text": " and we will say"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 337.5,
+            "end": 339.5,
+            "text": " or if B is NAN"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 339.5,
+            "end": 340.5,
+            "text": " then what we will do"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 340.5,
+            "end": 343.5,
+            "text": " we will throw an error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 343.5,
+            "end": 344.5,
+            "text": " and which error we will throw"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 344.5,
+            "end": 346.5,
+            "text": " you know we want to throw a syntax error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 346.5,
+            "end": 348.5,
+            "text": " so we will throw a syntax error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 348.5,
+            "end": 350.5,
+            "text": " sorry this is not allowed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 350.5,
+            "end": 352.5,
+            "text": " so we will do this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 352.5,
+            "end": 354.5,
+            "text": " there are many errors in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 354.5,
+            "end": 355.5,
+            "text": " you can throw them"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 355.5,
+            "end": 357.5,
+            "text": " if you want a comprehensive list"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 357.5,
+            "end": 360.5,
+            "text": " errors in JSMDN"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 360.5,
+            "end": 362.5,
+            "text": " so you can go to MDN error reference"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 362.5,
+            "end": 364.5,
+            "text": " and you will see many errors here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 364.5,
+            "end": 365.5,
+            "text": " in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 365.5,
+            "end": 367.5,
+            "text": " which are of different types of errors"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 367.5,
+            "end": 369.5,
+            "text": " like you can"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 369.5,
+            "end": 371.5,
+            "text": " throw a type error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 371.5,
+            "end": 373.5,
+            "text": " or you can throw a syntax error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 373.5,
+            "end": 375.5,
+            "text": " or you can throw an internal error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 375.5,
+            "end": 377.5,
+            "text": " you can throw any error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 377.5,
+            "end": 378.5,
+            "text": " it is your choice"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 378.5,
+            "end": 380.5,
+            "text": " or you can throw a generic error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 380.5,
+            "end": 382.5,
+            "text": " if I write any string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 382.5,
+            "end": 384.5,
+            "text": " or I will reload it again"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 384.5,
+            "end": 386.5,
+            "text": " any string"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 386.5,
+            "end": 388.5,
+            "text": " you can see here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 388.5,
+            "end": 390.5,
+            "text": " and you can throw an error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 390.5,
+            "end": 392.5,
+            "text": " in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 392.5,
+            "end": 394.5,
+            "text": " this error was not thrown"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 394.5,
+            "end": 396.5,
+            "text": " internally"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 396.5,
+            "end": 398.5,
+            "text": " you wanted to tell the user"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 398.5,
+            "end": 399.5,
+            "text": " of your application"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 399.5,
+            "end": 401.5,
+            "text": " that you are doing wrong"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 401.5,
+            "end": 402.5,
+            "text": " you are not doing right"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 402.5,
+            "end": 404.5,
+            "text": " so fix this before moving on"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 404.5,
+            "end": 406.5,
+            "text": " otherwise he will not know"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 406.5,
+            "end": 408.5,
+            "text": " where he is making a mistake"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 408.5,
+            "end": 410.5,
+            "text": " there are many errors"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 410.5,
+            "end": 412.5,
+            "text": " like surf excel is good"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 412.5,
+            "end": 414.5,
+            "text": " errors are good"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 414.5,
+            "end": 416.5,
+            "text": " you can know what is it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 416.5,
+            "end": 418.5,
+            "text": " so you can throw a syntax error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 418.5,
+            "end": 421.5,
+            "text": " now I will write sum is equal to sum into X"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 421.5,
+            "end": 423.5,
+            "text": " what is X?"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 423.5,
+            "end": 425.5,
+            "text": " I have never defined X"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 425.5,
+            "end": 427.5,
+            "text": " I am writing something like this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 427.5,
+            "end": 429.5,
+            "text": " and I will reload it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 429.5,
+            "end": 431.5,
+            "text": " I have written 4"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 431.5,
+            "end": 433.5,
+            "text": " and 7"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 433.5,
+            "end": 435.5,
+            "text": " look here X is not defined reference error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 435.5,
+            "end": 437.5,
+            "text": " if there is any error like this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 437.5,
+            "end": 439.5,
+            "text": " I can handle it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 439.5,
+            "end": 441.5,
+            "text": " I don't want to see this error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 441.5,
+            "end": 443.5,
+            "text": " I can take some actions based off"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 443.5,
+            "end": 445.5,
+            "text": " error thrown by"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 445.5,
+            "end": 447.5,
+            "text": " a JavaScript library"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 447.5,
+            "end": 449.5,
+            "text": " or an internal error of JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 449.5,
+            "end": 451.5,
+            "text": " so if I want"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 451.5,
+            "end": 453.5,
+            "text": " any kind of error to give me JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 453.5,
+            "end": 454.5,
+            "text": " I am getting it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 454.5,
+            "end": 455.5,
+            "text": " there are 2 types of errors"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 455.5,
+            "end": 456.5,
+            "text": " you will encounter"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 456.5,
+            "end": 458.5,
+            "text": " one is you will give the error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 458.5,
+            "end": 460.5,
+            "text": " you will say that you are doing wrong"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 460.5,
+            "end": 462.5,
+            "text": " you can take this error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 462.5,
+            "end": 464.5,
+            "text": " you will make custom errors"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 464.5,
+            "end": 466.5,
+            "text": " and throw it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 466.5,
+            "end": 468.5,
+            "text": " you will handle the errors"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 468.5,
+            "end": 470.5,
+            "text": " you made a mistake"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 470.5,
+            "end": 472.5,
+            "text": " you made a mistake"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 472.5,
+            "end": 474.5,
+            "text": " like you made a network call"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 474.5,
+            "end": 476.5,
+            "text": " and the data that came out unexpected"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 476.5,
+            "end": 478.5,
+            "text": " and you threw the error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 478.5,
+            "end": 480.5,
+            "text": " so you can handle that error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 480.5,
+            "end": 482.5,
+            "text": " maybe you want to retry"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 482.5,
+            "end": 484.5,
+            "text": " if you make an error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 484.5,
+            "end": 486.5,
+            "text": " so what can you do here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 486.5,
+            "end": 488.5,
+            "text": " you did console.log"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 488.5,
+            "end": 490.5,
+            "text": " this sum is sum into X"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 490.5,
+            "end": 492.5,
+            "text": " now you want to handle it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 492.5,
+            "end": 494.5,
+            "text": " how to handle it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 494.5,
+            "end": 496.5,
+            "text": " you can use"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 496.5,
+            "end": 498.5,
+            "text": " trycatch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 498.5,
+            "end": 500.5,
+            "text": " you get trycatch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 500.5,
+            "end": 502.5,
+            "text": " in JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 502.5,
+            "end": 504.5,
+            "text": " in VS code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 504.5,
+            "end": 506.5,
+            "text": " you will get trycatch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 506.5,
+            "end": 508.5,
+            "text": " so you say try"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 508.5,
+            "end": 510.5,
+            "text": " try to run this code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 510.5,
+            "end": 512.5,
+            "text": " and try to run this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 512.5,
+            "end": 514.5,
+            "text": " if it works"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 514.5,
+            "end": 516.5,
+            "text": " then it doesn't work"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 516.5,
+            "end": 518.5,
+            "text": " so what to do here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 518.5,
+            "end": 520.5,
+            "text": " console.log"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 520.5,
+            "end": 522.5,
+            "text": " so what we did here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 522.5,
+            "end": 524.5,
+            "text": " we handled this error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 524.5,
+            "end": 526.5,
+            "text": " we caught the error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 526.5,
+            "end": 528.5,
+            "text": " we caught it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 528.5,
+            "end": 530.5,
+            "text": " means now the error won't come"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 530.5,
+            "end": 532.5,
+            "text": " now we will get this code executed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 532.5,
+            "end": 534.5,
+            "text": " I have written console.log"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 534.5,
+            "end": 536.5,
+            "text": " so it will look like normal console.log"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 536.5,
+            "end": 538.5,
+            "text": " so you see here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 538.5,
+            "end": 540.5,
+            "text": " as I put anything here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 540.5,
+            "end": 542.5,
+            "text": " sorry this is not allowed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 542.5,
+            "end": 544.5,
+            "text": " but"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 544.5,
+            "end": 546.5,
+            "text": " if I put the right numbers"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 546.5,
+            "end": 548.5,
+            "text": " 1 and 4"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 548.5,
+            "end": 550.5,
+            "text": " then why did this happen"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 550.5,
+            "end": 552.5,
+            "text": " because this was executed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 552.5,
+            "end": 554.5,
+            "text": " whenever we throw an error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 554.5,
+            "end": 556.5,
+            "text": " script stops there"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 556.5,
+            "end": 558.5,
+            "text": " script says error is here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 558.5,
+            "end": 560.5,
+            "text": " error is here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 560.5,
+            "end": 562.5,
+            "text": " if you throw an error in the script"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 562.5,
+            "end": 564.5,
+            "text": " but in this case"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 564.5,
+            "end": 566.5,
+            "text": " what is happening is"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 566.5,
+            "end": 568.5,
+            "text": " because I have given both the numbers valid"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 568.5,
+            "end": 570.5,
+            "text": " it is not going in if"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 570.5,
+            "end": 572.5,
+            "text": " because of which this sum is being calculated"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 572.5,
+            "end": 574.5,
+            "text": " finally we are trying"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 574.5,
+            "end": 576.5,
+            "text": " to catch a code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 576.5,
+            "end": 578.5,
+            "text": " it is going in the catch code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 578.5,
+            "end": 580.5,
+            "text": " I hope you understood this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 580.5,
+            "end": 582.5,
+            "text": " I have made this thing"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 582.5,
+            "end": 584.5,
+            "text": " very clearly"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 584.5,
+            "end": 586.5,
+            "text": " very clearly"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 586.5,
+            "end": 588.5,
+            "text": " so if I show you"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 588.5,
+            "end": 590.5,
+            "text": " try catch syntax"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 590.5,
+            "end": 592.5,
+            "text": " so you can see here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 592.5,
+            "end": 594.5,
+            "text": " now I want to tell you"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 594.5,
+            "end": 596.5,
+            "text": " a very important thing"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 596.5,
+            "end": 598.5,
+            "text": " which I have written in the notes"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 598.5,
+            "end": 600.5,
+            "text": " if you see here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 600.5,
+            "end": 602.5,
+            "text": " I have told you about try catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 602.5,
+            "end": 604.5,
+            "text": " two main blocks"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 604.5,
+            "end": 606.5,
+            "text": " then I have told you"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 606.5,
+            "end": 608.5,
+            "text": " if there is no error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 608.5,
+            "end": 610.5,
+            "text": " try catch works synchronously"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 610.5,
+            "end": 612.5,
+            "text": " if you have an async function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 612.5,
+            "end": 614.5,
+            "text": " like set time"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 614.5,
+            "end": 616.5,
+            "text": " then the script dies"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 616.5,
+            "end": 618.5,
+            "text": " and the catch doesn't work"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 618.5,
+            "end": 620.5,
+            "text": " so you have to see this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 620.5,
+            "end": 622.5,
+            "text": " and here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 622.5,
+            "end": 624.5,
+            "text": " I have told about the error object"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 624.5,
+            "end": 626.5,
+            "text": " which you get to see this error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 626.5,
+            "end": 628.5,
+            "text": " this is the error object"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 628.5,
+            "end": 630.5,
+            "text": " from this object you can"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 630.5,
+            "end": 632.5,
+            "text": " extract the error message"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 632.5,
+            "end": 634.5,
+            "text": " so try out this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 634.5,
+            "end": 636.5,
+            "text": " now the final thing"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 636.5,
+            "end": 638.5,
+            "text": " is finally clause"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 638.5,
+            "end": 640.5,
+            "text": " I have already told you"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 640.5,
+            "end": 642.5,
+            "text": " to throw custom error here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 642.5,
+            "end": 644.5,
+            "text": " you can throw a new error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 644.5,
+            "end": 646.5,
+            "text": " I have written a new error here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 646.5,
+            "end": 648.5,
+            "text": " and you can do throw syntax error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 648.5,
+            "end": 650.5,
+            "text": " a new syntax error will be thrown"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 650.5,
+            "end": 652.5,
+            "text": " so here I will tell you about the"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 652.5,
+            "end": 654.5,
+            "text": " finally clause"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 654.5,
+            "end": 656.5,
+            "text": " what happens in the finally clause"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 656.5,
+            "end": 658.5,
+            "text": " is that you use try catch construct"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 658.5,
+            "end": 660.5,
+            "text": " and you will want to do this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 660.5,
+            "end": 662.5,
+            "text": " whenever you want to clean up"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 662.5,
+            "end": 664.5,
+            "text": " so I have written try"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 664.5,
+            "end": 666.5,
+            "text": " I have written catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 666.5,
+            "end": 668.5,
+            "text": " now finally"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 668.5,
+            "end": 670.5,
+            "text": " what will you do"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 670.5,
+            "end": 672.5,
+            "text": " that you will close your files"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 672.5,
+            "end": 674.5,
+            "text": " if you want"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 674.5,
+            "end": 676.5,
+            "text": " files are being"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 676.5,
+            "end": 678.5,
+            "text": " closed and db connection"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 678.5,
+            "end": 680.5,
+            "text": " is being"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 680.5,
+            "end": 682.5,
+            "text": " closed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 682.5,
+            "end": 684.5,
+            "text": " now I will explain this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 684.5,
+            "end": 686.5,
+            "text": " and this is one of the things"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 686.5,
+            "end": 688.5,
+            "text": " which you won't get in every place"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 688.5,
+            "end": 690.5,
+            "text": " so try to understand"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 690.5,
+            "end": 692.5,
+            "text": " I am telling you this experience"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 692.5,
+            "end": 694.5,
+            "text": " people don't understand this very well"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 694.5,
+            "end": 696.5,
+            "text": " I will explain it to you"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 696.5,
+            "end": 698.5,
+            "text": " whenever we have try catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 698.5,
+            "end": 700.5,
+            "text": " you go to try"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 700.5,
+            "end": 702.5,
+            "text": " and you will get the code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 702.5,
+            "end": 704.5,
+            "text": " if there is an error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 704.5,
+            "end": 706.5,
+            "text": " and after that"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 706.5,
+            "end": 708.5,
+            "text": " finally we are writing"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 708.5,
+            "end": 710.5,
+            "text": " the instructors tell"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 710.5,
+            "end": 712.5,
+            "text": " if there is a try"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 712.5,
+            "end": 714.5,
+            "text": " or catch in any of them"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 714.5,
+            "end": 716.5,
+            "text": " then why should I not do this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 716.5,
+            "end": 718.5,
+            "text": " why should I not do this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 718.5,
+            "end": 720.5,
+            "text": " what I have to write"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 720.5,
+            "end": 722.5,
+            "text": " I will tell you what I have to write"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 722.5,
+            "end": 724.5,
+            "text": " if this was the case"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 724.5,
+            "end": 726.5,
+            "text": " if you try or catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 726.5,
+            "end": 728.5,
+            "text": " then it will work but it won't"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 728.5,
+            "end": 730.5,
+            "text": " it is mainly useful in functions"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 730.5,
+            "end": 732.5,
+            "text": " if I run this code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 732.5,
+            "end": 734.5,
+            "text": " I will run it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 734.5,
+            "end": 736.5,
+            "text": " I have written here first number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 736.5,
+            "end": 738.5,
+            "text": " what is 3, second number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 738.5,
+            "end": 740.5,
+            "text": " error is here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 740.5,
+            "end": 742.5,
+            "text": " and here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 742.5,
+            "end": 744.5,
+            "text": " error is here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 744.5,
+            "end": 746.5,
+            "text": " I will reload again"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 746.5,
+            "end": 748.5,
+            "text": " it didn't refresh properly"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 748.5,
+            "end": 750.5,
+            "text": " error is here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 750.5,
+            "end": 752.5,
+            "text": " files are being closed and db connection is being closed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 752.5,
+            "end": 754.5,
+            "text": " now you don't get the error"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 754.5,
+            "end": 756.5,
+            "text": " I define this x here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 756.5,
+            "end": 758.5,
+            "text": " let x is equal to 5"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 758.5,
+            "end": 760.5,
+            "text": " or close it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 760.5,
+            "end": 762.5,
+            "text": " so this error won't come"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 762.5,
+            "end": 764.5,
+            "text": " then finally it will work"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 764.5,
+            "end": 766.5,
+            "text": " I will refresh it again"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 766.5,
+            "end": 768.5,
+            "text": " I will refresh it again"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 768.5,
+            "end": 770.5,
+            "text": " I have written here 1"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 770.5,
+            "end": 772.5,
+            "text": " I have written here 5"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 772.5,
+            "end": 774.5,
+            "text": " and db connection is being closed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 774.5,
+            "end": 776.5,
+            "text": " so finally it is equal to write"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 776.5,
+            "end": 778.5,
+            "text": " so can't I finally remove it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 778.5,
+            "end": 780.5,
+            "text": " then also it will work"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 780.5,
+            "end": 782.5,
+            "text": " but there is a catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 782.5,
+            "end": 784.5,
+            "text": " I will tell you what is the catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 784.5,
+            "end": 786.5,
+            "text": " and this is the interview I will tell you"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 786.5,
+            "end": 788.5,
+            "text": " I have written here 4 in second number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 788.5,
+            "end": 790.5,
+            "text": " 10 is done and files are being closed"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 790.5,
+            "end": 792.5,
+            "text": " so what is the benefit of writing finally"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 792.5,
+            "end": 794.5,
+            "text": " the benefit of writing is mainly in functions"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 794.5,
+            "end": 796.5,
+            "text": " you know I wrap it in a function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 796.5,
+            "end": 798.5,
+            "text": " in a function named as main"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 798.5,
+            "end": 800.5,
+            "text": " I wrap it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 800.5,
+            "end": 802.5,
+            "text": " and I will run the main function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 802.5,
+            "end": 804.5,
+            "text": " so it is possible"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 804.5,
+            "end": 806.5,
+            "text": " that I will do"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 806.5,
+            "end": 808.5,
+            "text": " let a is equal to main"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 808.5,
+            "end": 810.5,
+            "text": " I know I do something like this"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 810.5,
+            "end": 812.5,
+            "text": " and this main function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 812.5,
+            "end": 814.5,
+            "text": " or let b is equal to main"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 814.5,
+            "end": 816.5,
+            "text": " I have already defined a"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 816.5,
+            "end": 818.5,
+            "text": " so here you see"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 818.5,
+            "end": 820.5,
+            "text": " if I return it here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 820.5,
+            "end": 822.5,
+            "text": " return true"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 822.5,
+            "end": 824.5,
+            "text": " and here I am doing return false"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 824.5,
+            "end": 826.5,
+            "text": " so whenever we return the function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 826.5,
+            "end": 828.5,
+            "text": " then the code doesn't work"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 828.5,
+            "end": 830.5,
+            "text": " so now you see"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 830.5,
+            "end": 832.5,
+            "text": " when I am doing return true"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 832.5,
+            "end": 834.5,
+            "text": " now you see I refresh it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 834.5,
+            "end": 836.5,
+            "text": " I am doing return true"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 836.5,
+            "end": 838.5,
+            "text": " so I have written one here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 838.5,
+            "end": 840.5,
+            "text": " something else is written here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 840.5,
+            "end": 842.5,
+            "text": " now if I remove it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 842.5,
+            "end": 844.5,
+            "text": " finally you see"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 844.5,
+            "end": 846.5,
+            "text": " so I have written first number and second number"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 846.5,
+            "end": 848.5,
+            "text": " look it is not here"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 848.5,
+            "end": 850.5,
+            "text": " that is whenever there is a return statement in the function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 850.5,
+            "end": 852.5,
+            "text": " and after that you want to try"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 852.5,
+            "end": 854.5,
+            "text": " or catch the code of the lower"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 854.5,
+            "end": 856.5,
+            "text": " so after return the code doesn't work"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 856.5,
+            "end": 858.5,
+            "text": " but finally your return code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 858.5,
+            "end": 860.5,
+            "text": " runs the lower one"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 860.5,
+            "end": 862.5,
+            "text": " so finally it is used mainly"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 862.5,
+            "end": 864.5,
+            "text": " otherwise if you want"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 864.5,
+            "end": 866.5,
+            "text": " to go in the try or catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 866.5,
+            "end": 868.5,
+            "text": " then finally don't write it"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 868.5,
+            "end": 870.5,
+            "text": " write the simple line below"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 870.5,
+            "end": 872.5,
+            "text": " but sometimes we are in the function"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 872.5,
+            "end": 874.5,
+            "text": " and there we have to return"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 874.5,
+            "end": 876.5,
+            "text": " in the try or catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 876.5,
+            "end": 878.5,
+            "text": " and after return the function doesn't work"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 878.5,
+            "end": 880.5,
+            "text": " means return is done"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 880.5,
+            "end": 882.5,
+            "text": " so after returning"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 882.5,
+            "end": 884.5,
+            "text": " even after returning this code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 884.5,
+            "end": 886.5,
+            "text": " that is why we use finally"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 886.5,
+            "end": 888.5,
+            "text": " this question is asked"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 888.5,
+            "end": 890.5,
+            "text": " JavaScript"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 890.5,
+            "end": 892.5,
+            "text": " how strong is your knowledge"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 892.5,
+            "end": 894.5,
+            "text": " through interviewers"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 894.5,
+            "end": 896.5,
+            "text": " and if any interviewer"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 896.5,
+            "end": 898.5,
+            "text": " asks you then you can tell"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 898.5,
+            "end": 900.5,
+            "text": " so this is the try or catch"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 900.5,
+            "end": 902.5,
+            "text": " finally I hope you understood"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 902.5,
+            "end": 904.5,
+            "text": " there is some practice set in the notes"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 904.5,
+            "end": 906.5,
+            "text": " solve them"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 906.5,
+            "end": 908.5,
+            "text": " solve questions"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 908.5,
+            "end": 910.5,
+            "text": " and the solution of this question"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 910.5,
+            "end": 912.5,
+            "text": " is very simple but still nothing is happening"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 912.5,
+            "end": 914.5,
+            "text": " so I hope you are enjoying this course"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 914.5,
+            "end": 916.5,
+            "text": " if you haven't"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 916.5,
+            "end": 918.5,
+            "text": " done playlist then do"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 918.5,
+            "end": 920.5,
+            "text": " and I will update the"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 920.5,
+            "end": 922.5,
+            "text": " GitHub code"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 922.5,
+            "end": 924.5,
+            "text": " there will be a lot of fun projects"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 924.5,
+            "end": 926.5,
+            "text": " so take this course lightly"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 926.5,
+            "end": 928.5,
+            "text": " I saw a lot of people taking it lightly"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 928.5,
+            "end": 930.5,
+            "text": " no there will be a lot of fun projects"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 930.5,
+            "end": 932.5,
+            "text": " everything will be implemented"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 932.5,
+            "end": 934.5,
+            "text": " I hope you are enjoying this course"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 934.5,
+            "end": 936.5,
+            "text": " Thank you so much for watching this video"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 936.5,
+            "end": 938.5,
+            "text": " and I will see you next time"
+        },
+        {
+            "title": "ErrorHandling",
+            "Number": "6",
+            "start": 942.5,
+            "end": 944.5,
+            "text": " Bye"
+        }
+    ],
+    "text": " We have seen many concepts of JavaScript In today's video, I will talk about error handling JavaScript is a mechanism where you can handle it and continue your program execution Like this video and write a sigma patch in the comment section Let's roll the intro in the computer screen Let's start the video I am in the computer screen and I am going to make video number 79 Video 79 is the folder name and today I am going to tell you about error handling in JavaScript It is very important because of error handling we can handle the errors in JavaScript I am going to write a script in the name of script.js and write script.js and write error handling Let A is equal to prompt enter a number I am going to write enter a number and let B is equal to prompt enter a number Let me make it enter first number enter second number and if I write console.log or we can alert the sum is I will tell you the sum is and I will call A plus or I will call A plus B and I have written console.log and the sum should be of these two numbers Now this quote is correct many of you may know this quote but let me tell you that this quote is wrong why? I will tell you in a second if I preview this quote enter first number enter second number I have written 67 67 plus 12 is 79 but see what I have written on console I have written 127 that means it has appended this number why did I do this? if I write 4 and write 7 then it is writing 47 but it should have written 11 it did not say 11 why did I say it wrong? is it an error? because when you use A plus B it has AB string and BB string it will append plus operation if you do it in two strings it will append that means it will connect this string so what we have to do? we have to convert these two into integers so what I will write here? parsnit parsnit is a function in JavaScript which parses a string in integer and I will do the same with B and now you will see when I pass the first number I will do the second number so there are 5 and 3 here PA is not defined let me see what is wrong PA is not defined where did I write PA? PA is not defined where did I write it? script.js oh I have written PA plus B here it is wrong let C is equal to A plus B I should write A plus B sum is equal to percent A percent B let me see what is wrong let me reload it again I have written 3 and 5 I have written 3 and 5 so you see sum is equal to A so I will reload it again I have written 1, I have written 5 1 and 5 if you see here 6 is here I hope you can see the console sum is 6 so what happens when you meet fundamentally if you use prompt it gives you a string and you don't want it to give you a string when you are dealing with numbers so you used parse string but sometimes your user will give you such input which you asked for but he is a user he will do it wrong he will play around with your application so if I write enter first number I write Harry enter number enter second number I write Rohan enter the sum is NAN the sum is NAN why is the sum is NAN? because when you parse string it will give you a number it will not give you a number it will give you a NAN not a number ok and if you believe here you do something like this that you add something in it or subtract something then you will not be able to do that because simply what is here that this number is actually not a number it is a string so how can you give a string to parse string you cannot do that so I want this behavior to be acceptable I do not want this behavior to be accepted because this box will be introduced in my code I am not getting the error message and JavaScript intentionally makes you not get the error message it is the forgiving nature of JavaScript but you will not want that JavaScript is forgiving sometimes because if you want if you want then tell me I will fix it so here to stop the forgiving nature you can throw the error so I will put a check here I will say if A is equal to NAN and we check NAN we do it with this NAN function in JavaScript we do something like this and I will say for OR and we will use this for OR and we will say or if B is NAN then what we will do we will throw an error and which error we will throw you know we want to throw a syntax error so we will throw a syntax error sorry this is not allowed so we will do this there are many errors in JavaScript you can throw them if you want a comprehensive list errors in JSMDN so you can go to MDN error reference and you will see many errors here in JavaScript which are of different types of errors like you can throw a type error or you can throw a syntax error or you can throw an internal error you can throw any error it is your choice or you can throw a generic error if I write any string or I will reload it again any string you can see here and you can throw an error in JavaScript this error was not thrown internally you wanted to tell the user of your application that you are doing wrong you are not doing right so fix this before moving on otherwise he will not know where he is making a mistake there are many errors like surf excel is good errors are good you can know what is it so you can throw a syntax error now I will write sum is equal to sum into X what is X? I have never defined X I am writing something like this and I will reload it I have written 4 and 7 look here X is not defined reference error if there is any error like this I can handle it I don't want to see this error I can take some actions based off error thrown by a JavaScript library or an internal error of JavaScript so if I want any kind of error to give me JavaScript I am getting it there are 2 types of errors you will encounter one is you will give the error you will say that you are doing wrong you can take this error you will make custom errors and throw it you will handle the errors you made a mistake you made a mistake like you made a network call and the data that came out unexpected and you threw the error so you can handle that error maybe you want to retry if you make an error so what can you do here you did console.log this sum is sum into X now you want to handle it how to handle it you can use trycatch you get trycatch in JavaScript in VS code you will get trycatch so you say try try to run this code and try to run this if it works then it doesn't work so what to do here console.log so what we did here we handled this error we caught the error we caught it means now the error won't come now we will get this code executed I have written console.log so it will look like normal console.log so you see here as I put anything here sorry this is not allowed but if I put the right numbers 1 and 4 then why did this happen because this was executed whenever we throw an error script stops there script says error is here error is here if you throw an error in the script but in this case what is happening is because I have given both the numbers valid it is not going in if because of which this sum is being calculated finally we are trying to catch a code it is going in the catch code I hope you understood this I have made this thing very clearly very clearly so if I show you try catch syntax so you can see here now I want to tell you a very important thing which I have written in the notes if you see here I have told you about try catch two main blocks then I have told you if there is no error try catch works synchronously if you have an async function like set time then the script dies and the catch doesn't work so you have to see this and here I have told about the error object which you get to see this error this is the error object from this object you can extract the error message so try out this now the final thing is finally clause I have already told you to throw custom error here you can throw a new error I have written a new error here and you can do throw syntax error a new syntax error will be thrown so here I will tell you about the finally clause what happens in the finally clause is that you use try catch construct and you will want to do this whenever you want to clean up so I have written try I have written catch now finally what will you do that you will close your files if you want files are being closed and db connection is being closed now I will explain this and this is one of the things which you won't get in every place so try to understand I am telling you this experience people don't understand this very well I will explain it to you whenever we have try catch you go to try and you will get the code if there is an error and after that finally we are writing the instructors tell if there is a try or catch in any of them then why should I not do this why should I not do this what I have to write I will tell you what I have to write if this was the case if you try or catch then it will work but it won't it is mainly useful in functions if I run this code I will run it I have written here first number what is 3, second number error is here and here error is here I will reload again it didn't refresh properly error is here files are being closed and db connection is being closed now you don't get the error I define this x here let x is equal to 5 or close it so this error won't come then finally it will work I will refresh it again I will refresh it again I have written here 1 I have written here 5 and db connection is being closed so finally it is equal to write so can't I finally remove it then also it will work but there is a catch I will tell you what is the catch and this is the interview I will tell you I have written here 4 in second number 10 is done and files are being closed so what is the benefit of writing finally the benefit of writing is mainly in functions you know I wrap it in a function in a function named as main I wrap it and I will run the main function so it is possible that I will do let a is equal to main I know I do something like this and this main function or let b is equal to main I have already defined a so here you see if I return it here return true and here I am doing return false so whenever we return the function then the code doesn't work so now you see when I am doing return true now you see I refresh it I am doing return true so I have written one here something else is written here now if I remove it finally you see so I have written first number and second number look it is not here that is whenever there is a return statement in the function and after that you want to try or catch the code of the lower so after return the code doesn't work but finally your return code runs the lower one so finally it is used mainly otherwise if you want to go in the try or catch then finally don't write it write the simple line below but sometimes we are in the function and there we have to return in the try or catch and after return the function doesn't work means return is done so after returning even after returning this code that is why we use finally this question is asked JavaScript how strong is your knowledge through interviewers and if any interviewer asks you then you can tell so this is the try or catch finally I hope you understood there is some practice set in the notes solve them solve questions and the solution of this question is very simple but still nothing is happening so I hope you are enjoying this course if you haven't done playlist then do and I will update the GitHub code there will be a lot of fun projects so take this course lightly I saw a lot of people taking it lightly no there will be a lot of fun projects everything will be implemented I hope you are enjoying this course Thank you so much for watching this video and I will see you next time Bye"
+}

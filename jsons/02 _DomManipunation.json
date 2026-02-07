@@ -1,0 +1,4562 @@
+{
+    "chunks": [
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 0.0,
+            "end": 3.0,
+            "text": " We have seen a lot of DOM manipulation in JavaScript."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 3.0,
+            "end": 9.0,
+            "text": " In today's video, I will tell you how you can insert elements in JavaScript"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 9.0,
+            "end": 13.0,
+            "text": " and how you can remove elements from your DOM."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 13.0,
+            "end": 17.0,
+            "text": " This is very useful when you want to make single page applications"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 17.0,
+            "end": 20.0,
+            "text": " or you want to reload a page without any work."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 20.0,
+            "end": 24.0,
+            "text": " Do like this video and write a sigma batch in the comment section."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 24.0,
+            "end": 27.0,
+            "text": " Let's roll the intro in the computer screen."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 31.0,
+            "end": 37.0,
+            "text": " I have come to the computer screen."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 37.0,
+            "end": 41.0,
+            "text": " I will make video number 71 and shift it to a higher level"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 41.0,
+            "end": 45.0,
+            "text": " so that you don't even know when I made the index.html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 45.0,
+            "end": 49.0,
+            "text": " I will put the exclamation mark here and put the boilerplate template."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 49.0,
+            "end": 52.0,
+            "text": " Today we are going to talk about some functions"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 52.0,
+            "end": 56.0,
+            "text": " which I have written in good terms in the notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 56.0,
+            "end": 60.0,
+            "text": " You will know the benefits of giving notes in this video."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 60.0,
+            "end": 63.0,
+            "text": " There are many functions here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 63.0,
+            "end": 68.0,
+            "text": " I have written them in the notes in the industry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 68.0,
+            "end": 72.0,
+            "text": " For example, I have a div here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 72.0,
+            "end": 76.0,
+            "text": " There is a container in which I have written the spelling wrong."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 76.0,
+            "end": 80.0,
+            "text": " I will make a div dot box here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 80.0,
+            "end": 83.0,
+            "text": " I will make a div dot box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 83.0,
+            "end": 86.0,
+            "text": " I have written a div dot box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 86.0,
+            "end": 90.0,
+            "text": " I will inspect it and write in the console"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 90.0,
+            "end": 94.0,
+            "text": " document dot query selector."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 94.0,
+            "end": 99.0,
+            "text": " I will write document dot query selector."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 99.0,
+            "end": 103.0,
+            "text": " I can also write document dot query selector."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 103.0,
+            "end": 107.0,
+            "text": " I will write document dot query selector."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 107.0,
+            "end": 110.0,
+            "text": " The first box will come to me."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 110.0,
+            "end": 113.0,
+            "text": " I will write document dot inner HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 113.0,
+            "end": 116.0,
+            "text": " I will get any HTML in it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 116.0,
+            "end": 120.0,
+            "text": " If I do this with the container, I will get the HTML in it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 120.0,
+            "end": 123.0,
+            "text": " I will zoom it a little."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 123.0,
+            "end": 127.0,
+            "text": " You can see here that box"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 127.0,
+            "end": 131.0,
+            "text": " If I do it, I will get the inner HTML in the box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 131.0,
+            "end": 135.0,
+            "text": " You will get any HTML in it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 135.0,
+            "end": 138.0,
+            "text": " Then there is the inner text method."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 138.0,
+            "end": 141.0,
+            "text": " The text in the inner HTML is shown as text."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 141.0,
+            "end": 144.0,
+            "text": " If I do this with the container, I will show you here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 144.0,
+            "end": 151.0,
+            "text": " You will see here that the text in the container is only VIE."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 151.0,
+            "end": 154.0,
+            "text": " You will get this text."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 154.0,
+            "end": 158.0,
+            "text": " If I put two boxes here, and then I say show the inner text,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 158.0,
+            "end": 161.0,
+            "text": " then you will get the text of both the boxes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 161.0,
+            "end": 165.0,
+            "text": " Sometimes we have to know the text of an element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 165.0,
+            "end": 168.0,
+            "text": " So we can use it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 168.0,
+            "end": 171.0,
+            "text": " Now I will show you how to use the rest of the methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 171.0,
+            "end": 174.0,
+            "text": " So the inner HTML is done."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 174.0,
+            "end": 177.0,
+            "text": " I will tell you about outer HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 177.0,
+            "end": 180.0,
+            "text": " Outer HTML is in the property."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 180.0,
+            "end": 183.0,
+            "text": " It is the inner HTML plus element itself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 183.0,
+            "end": 187.0,
+            "text": " If I do outer HTML,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 187.0,
+            "end": 191.0,
+            "text": " then you will see what I got."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 191.0,
+            "end": 194.0,
+            "text": " I got the container myself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 194.0,
+            "end": 197.0,
+            "text": " The inner HTML is the container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 197.0,
+            "end": 201.0,
+            "text": " The inner HTML and outer HTML are different."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 201.0,
+            "end": 205.0,
+            "text": " This was the inner HTML and this was the outer HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 205.0,
+            "end": 208.0,
+            "text": " Then we have the tag name or node name."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 208.0,
+            "end": 210.0,
+            "text": " I will tell you quickly."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 210.0,
+            "end": 213.0,
+            "text": " If I want to tell you the tag name of this,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 213.0,
+            "end": 216.0,
+            "text": " then you will tell me that it is a div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 216.0,
+            "end": 218.0,
+            "text": " The container is a div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 218.0,
+            "end": 222.0,
+            "text": " Sometimes you need to know in JavaScript which element is it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 222.0,
+            "end": 225.0,
+            "text": " There is a property by doing a node name."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 225.0,
+            "end": 228.0,
+            "text": " If I write something like this,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 228.0,
+            "end": 230.0,
+            "text": " the node name will also be div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 230.0,
+            "end": 232.0,
+            "text": " What is the difference between tag name and node name?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 232.0,
+            "end": 234.0,
+            "text": " The tag name is applicable only for elements."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 234.0,
+            "end": 237.0,
+            "text": " The node name is applicable for any type of node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 237.0,
+            "end": 239.0,
+            "text": " Like the text node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 239.0,
+            "end": 242.0,
+            "text": " These things will be very clear after reading the nodes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 242.0,
+            "end": 244.0,
+            "text": " I have shown you the demo."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 244.0,
+            "end": 248.0,
+            "text": " Then there is text content which provides access to the text inside the element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 248.0,
+            "end": 251.0,
+            "text": " Only text minus all the tags."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 251.0,
+            "end": 257.0,
+            "text": " If you do the text content,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 257.0,
+            "end": 260.0,
+            "text": " then you will get the text content inside the element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 260.0,
+            "end": 264.0,
+            "text": " I hope you have understood how these things work."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 264.0,
+            "end": 267.0,
+            "text": " You can add an attribute in the div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 267.0,
+            "end": 269.0,
+            "text": " The name is hidden."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 269.0,
+            "end": 272.0,
+            "text": " If you add a hidden element,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 272.0,
+            "end": 274.0,
+            "text": " then the element will be hidden."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 274.0,
+            "end": 276.0,
+            "text": " You can also add an element.hidden."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 276.0,
+            "end": 279.0,
+            "text": " If I do this with the container,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 279.0,
+            "end": 282.0,
+            "text": " then I can add an attribute.hidden."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 282.0,
+            "end": 284.0,
+            "text": " I can also add a attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 284.0,
+            "end": 287.0,
+            "text": " I will use boolean.hidden is also true."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 287.0,
+            "end": 289.0,
+            "text": " This is also hidden."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 289.0,
+            "end": 291.0,
+            "text": " What will you do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 291.0,
+            "end": 293.0,
+            "text": " You will add an attribute hidden inside the container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 293.0,
+            "end": 296.0,
+            "text": " This will hide the element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 296.0,
+            "end": 300.0,
+            "text": " I want to tell you one more thing."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 300.0,
+            "end": 304.0,
+            "text": " I can change the inner HTML of any element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 304.0,
+            "end": 306.0,
+            "text": " I will say,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 306.0,
+            "end": 308.0,
+            "text": " I am Harry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 308.0,
+            "end": 310.0,
+            "text": " I will reload the page."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 310.0,
+            "end": 312.0,
+            "text": " So that the missing element comes back."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 312.0,
+            "end": 314.0,
+            "text": " I will enter here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 314.0,
+            "end": 316.0,
+            "text": " The content of Hey I am Harry has changed."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 316.0,
+            "end": 322.0,
+            "text": " When I say document.querySelector.box.innerhtml"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 322.0,
+            "end": 323.0,
+            "text": " What will you do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 323.0,
+            "end": 326.0,
+            "text": " First element will select document.querySelector."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 326.0,
+            "end": 330.0,
+            "text": " The element inside which the class box is located."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " You should be clear about this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 332.0,
+            "end": 336.0,
+            "text": " I have changed the inner HTML of Hey I am Harry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 336.0,
+            "end": 338.0,
+            "text": " It can look a little boring."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 338.0,
+            "end": 340.0,
+            "text": " I am telling you by using all these methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 340.0,
+            "end": 342.0,
+            "text": " But it is written in the notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 342.0,
+            "end": 344.0,
+            "text": " Don't worry about remembering."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 344.0,
+            "end": 346.0,
+            "text": " You can download the notes from here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 346.0,
+            "end": 348.0,
+            "text": " Download them."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 348.0,
+            "end": 350.0,
+            "text": " Download them from codewitherry.com."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 350.0,
+            "end": 353.0,
+            "text": " There are some methods of attributes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 353.0,
+            "end": 356.0,
+            "text": " Like element.lm is an element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 356.0,
+            "end": 358.0,
+            "text": " If I add a dot as an attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 358.0,
+            "end": 360.0,
+            "text": " And I want to check if this attribute is there."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 360.0,
+            "end": 362.0,
+            "text": " It will tell me."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 362.0,
+            "end": 367.0,
+            "text": " For example, if I ask if this box has attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 367.0,
+            "end": 369.0,
+            "text": " Is this attribute style?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 369.0,
+            "end": 371.0,
+            "text": " No, it is not."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 371.0,
+            "end": 373.0,
+            "text": " But if I add a style attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 373.0,
+            "end": 377.0,
+            "text": " I mean, I say style is equal to display none."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 377.0,
+            "end": 378.0,
+            "text": " I will not do display none."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 378.0,
+            "end": 379.0,
+            "text": " Display flex."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 379.0,
+            "end": 381.0,
+            "text": " Since I will do none, it will hide."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 381.0,
+            "end": 385.0,
+            "text": " If I do dot style, it will be true."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 385.0,
+            "end": 388.0,
+            "text": " The box selected has a style attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 388.0,
+            "end": 392.0,
+            "text": " And if you want to get an attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 392.0,
+            "end": 394.0,
+            "text": " Then you will get an attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 394.0,
+            "end": 396.0,
+            "text": " Show me what style attribute is."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 396.0,
+            "end": 398.0,
+            "text": " You will get this style."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 398.0,
+            "end": 401.0,
+            "text": " And you will see the set attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 401.0,
+            "end": 402.0,
+            "text": " This is not style."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 402.0,
+            "end": 404.0,
+            "text": " I want to do display inline."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 404.0,
+            "end": 406.0,
+            "text": " So you will get set attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 406.0,
+            "end": 408.0,
+            "text": " And you will get set attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 408.0,
+            "end": 409.0,
+            "text": " What should I do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 409.0,
+            "end": 411.0,
+            "text": " Display inline."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 411.0,
+            "end": 412.0,
+            "text": " What should I do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 412.0,
+            "end": 413.0,
+            "text": " Display inline."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 413.0,
+            "end": 414.0,
+            "text": " And this will be set."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 414.0,
+            "end": 415.0,
+            "text": " Display inline."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 415.0,
+            "end": 418.0,
+            "text": " But the style of display inline is set."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 418.0,
+            "end": 419.0,
+            "text": " There are some methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 419.0,
+            "end": 421.0,
+            "text": " You don't need to write."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 421.0,
+            "end": 423.0,
+            "text": " But you should know."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 423.0,
+            "end": 424.0,
+            "text": " Remove attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 424.0,
+            "end": 427.0,
+            "text": " And you will get all attributes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 427.0,
+            "end": 431.0,
+            "text": " People don't know that all attributes can be obtained."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 431.0,
+            "end": 435.0,
+            "text": " So knowing this will be a big thing for you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 435.0,
+            "end": 438.0,
+            "text": " Because if you know, if you don't know that something can happen."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 438.0,
+            "end": 440.0,
+            "text": " You will find it very strange."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 440.0,
+            "end": 441.0,
+            "text": " But I have felt it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 441.0,
+            "end": 443.0,
+            "text": " And until you feel it, you will not know."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 443.0,
+            "end": 445.0,
+            "text": " If you are doing anything."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 445.0,
+            "end": 449.0,
+            "text": " You don't know that you can get all attributes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 449.0,
+            "end": 451.0,
+            "text": " You will never think about it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 451.0,
+            "end": 453.0,
+            "text": " But you are making a project."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 453.0,
+            "end": 456.0,
+            "text": " You will think that you have told me about video number."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 456.0,
+            "end": 457.0,
+            "text": " So I will take notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 457.0,
+            "end": 458.0,
+            "text": " I will look at notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 458.0,
+            "end": 459.0,
+            "text": " I will look at notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 459.0,
+            "end": 460.0,
+            "text": " How does it work?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " This is very useful for you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 462.0,
+            "end": 464.0,
+            "text": " That's why I am telling you one by one."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 464.0,
+            "end": 466.0,
+            "text": " Otherwise I would have said that you should read notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 466.0,
+            "end": 467.0,
+            "text": " It is important to do it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 467.0,
+            "end": 470.0,
+            "text": " Now here I can remove any attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 470.0,
+            "end": 472.0,
+            "text": " I will write here R."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 472.0,
+            "end": 475.0,
+            "text": " And this will be shown in your VS code."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 475.0,
+            "end": 476.0,
+            "text": " Tap it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 476.0,
+            "end": 478.0,
+            "text": " I will say remove the style."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 478.0,
+            "end": 480.0,
+            "text": " I will say remove the style."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 480.0,
+            "end": 482.0,
+            "text": " And this style has been removed."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 482.0,
+            "end": 483.0,
+            "text": " Look, the style has been removed."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 483.0,
+            "end": 484.0,
+            "text": " The style attribute has been removed."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 484.0,
+            "end": 485.0,
+            "text": " I will reload it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 485.0,
+            "end": 488.0,
+            "text": " Because whatever JavaScript we write here is temporary."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 488.0,
+            "end": 492.0,
+            "text": " It is only for till the time you don't refresh the page."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 492.0,
+            "end": 494.0,
+            "text": " So whatever JavaScript you write here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 494.0,
+            "end": 495.0,
+            "text": " Manipulate the page."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 495.0,
+            "end": 496.0,
+            "text": " It is temporary."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 496.0,
+            "end": 497.0,
+            "text": " Google, Facebook, Microsoft."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 497.0,
+            "end": 501.0,
+            "text": " You can change any website to temporary in your browser."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 501.0,
+            "end": 505.0,
+            "text": " You can edit your things here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 505.0,
+            "end": 509.0,
+            "text": " Now you can write document.design mode is equal to on."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 509.0,
+            "end": 512.0,
+            "text": " If you have done this, you can change any page."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 512.0,
+            "end": 516.0,
+            "text": " I will write any website of this world."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 516.0,
+            "end": 519.0,
+            "text": " If I write TechCrunch here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 519.0,
+            "end": 522.0,
+            "text": " And I will write JavaScript here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 522.0,
+            "end": 526.0,
+            "text": " And I will say I want document.design mode on."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 526.0,
+            "end": 527.0,
+            "text": " I have turned on the design mode."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 527.0,
+            "end": 528.0,
+            "text": " I will show you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 528.0,
+            "end": 529.0,
+            "text": " I have run this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 529.0,
+            "end": 531.0,
+            "text": " I have run document.design mode on."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 531.0,
+            "end": 533.0,
+            "text": " Now I can edit anything on this website."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 533.0,
+            "end": 534.0,
+            "text": " By pressing backspace."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 534.0,
+            "end": 536.0,
+            "text": " Okay, until and unless I am not redirecting."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 536.0,
+            "end": 537.0,
+            "text": " Look, I can change this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 537.0,
+            "end": 539.0,
+            "text": " I can do anything."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 539.0,
+            "end": 540.0,
+            "text": " Content."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 540.0,
+            "end": 542.0,
+            "text": " That's why they say don't trust screenshots."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 542.0,
+            "end": 543.0,
+            "text": " And especially if you are a web developer."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 543.0,
+            "end": 544.0,
+            "text": " You should tell me this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 544.0,
+            "end": 547.0,
+            "text": " Okay, and you will know 90% of people."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 547.0,
+            "end": 549.0,
+            "text": " But again, some things are very big."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 549.0,
+            "end": 551.0,
+            "text": " And it is important to tell them."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 551.0,
+            "end": 554.0,
+            "text": " So that's why you can do what you can do here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 554.0,
+            "end": 556.0,
+            "text": " Where are the notes?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 556.0,
+            "end": 558.0,
+            "text": " You can use all these methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 558.0,
+            "end": 560.0,
+            "text": " Okay, then there are data attributes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 560.0,
+            "end": 562.0,
+            "text": " Which you can add to custom attributes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 562.0,
+            "end": 565.0,
+            "text": " Suppose I want to give an attribute in my box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 565.0,
+            "end": 568.0,
+            "text": " In which I can store which element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 568.0,
+            "end": 571.0,
+            "text": " For some reason, I want to store."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 571.0,
+            "end": 572.0,
+            "text": " Who made this element?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 572.0,
+            "end": 574.0,
+            "text": " It is a very weird attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 574.0,
+            "end": 578.0,
+            "text": " But I want to do data created by is equal to."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 578.0,
+            "end": 580.0,
+            "text": " So I can write Harry like this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 580.0,
+            "end": 582.0,
+            "text": " So I will say data created by is equal to Harry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 582.0,
+            "end": 584.0,
+            "text": " So I have added a data attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 584.0,
+            "end": 586.0,
+            "text": " And I have written data created by."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 586.0,
+            "end": 587.0,
+            "text": " And I have done is equal to Harry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 587.0,
+            "end": 590.0,
+            "text": " So you can add this custom attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 590.0,
+            "end": 591.0,
+            "text": " Without any error."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 591.0,
+            "end": 594.0,
+            "text": " You can store information in any element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 594.0,
+            "end": 596.0,
+            "text": " Okay, so you can do this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 596.0,
+            "end": 601.0,
+            "text": " And now if you want to access them here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 601.0,
+            "end": 602.0,
+            "text": " So you can say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 602.0,
+            "end": 606.0,
+            "text": " Key document dot query selector dot box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 606.0,
+            "end": 607.0,
+            "text": " And you can say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 607.0,
+            "end": 608.0,
+            "text": " Dot data set."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 608.0,
+            "end": 611.0,
+            "text": " Okay, and you see that I am created by Harry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 611.0,
+            "end": 613.0,
+            "text": " Why I am telling you created by Harry?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 613.0,
+            "end": 615.0,
+            "text": " Because the properties of data dash."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 615.0,
+            "end": 617.0,
+            "text": " This is of any element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 617.0,
+            "end": 623.0,
+            "text": " If I say data concept by is equal to."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 623.0,
+            "end": 625.0,
+            "text": " And I write Rohan here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 625.0,
+            "end": 627.0,
+            "text": " And after that I will show you this again."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 627.0,
+            "end": 629.0,
+            "text": " So where created by Harry will come."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 629.0,
+            "end": 630.0,
+            "text": " Concept by Rohan will come."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 630.0,
+            "end": 632.0,
+            "text": " This data dash is ignored."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 632.0,
+            "end": 633.0,
+            "text": " I will tell you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 633.0,
+            "end": 637.0,
+            "text": " After data dash, it is given as key value pair."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 637.0,
+            "end": 640.0,
+            "text": " Wherever you set any element dot data."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 640.0,
+            "end": 642.0,
+            "text": " So I have written all this in notes for you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 642.0,
+            "end": 644.0,
+            "text": " And to be honest, I myself forget."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 644.0,
+            "end": 645.0,
+            "text": " Sometimes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 645.0,
+            "end": 646.0,
+            "text": " I am telling you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 646.0,
+            "end": 648.0,
+            "text": " After so much experience, I forget that."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 648.0,
+            "end": 649.0,
+            "text": " Data set is stored in this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 649.0,
+            "end": 650.0,
+            "text": " I got to know by seeing."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 650.0,
+            "end": 652.0,
+            "text": " So I put in notes once."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 652.0,
+            "end": 655.0,
+            "text": " And made it so that you don't download."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 655.0,
+            "end": 656.0,
+            "text": " I am saying on your face."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 656.0,
+            "end": 657.0,
+            "text": " It is your loss."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 657.0,
+            "end": 658.0,
+            "text": " It is a big loss."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 658.0,
+            "end": 659.0,
+            "text": " It is a big loss."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 659.0,
+            "end": 661.0,
+            "text": " I was freely available these notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 661.0,
+            "end": 662.0,
+            "text": " But I am saying it myself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 662.0,
+            "end": 665.0,
+            "text": " If there were trees, then you would have taken."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 665.0,
+            "end": 666.0,
+            "text": " It would have been useful to you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 666.0,
+            "end": 667.0,
+            "text": " Okay, I am telling you this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 667.0,
+            "end": 669.0,
+            "text": " Let's talk about insertion methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 669.0,
+            "end": 671.0,
+            "text": " Which was the topic of this video."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 671.0,
+            "end": 674.0,
+            "text": " Look, whenever you want to create an element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 674.0,
+            "end": 675.0,
+            "text": " You can say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 675.0,
+            "end": 677.0,
+            "text": " I will put a script tag here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 677.0,
+            "end": 680.0,
+            "text": " Okay, script and I will write you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 680.0,
+            "end": 684.0,
+            "text": " Let div is equal to document dot create element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 684.0,
+            "end": 686.0,
+            "text": " So I can create a new element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 686.0,
+            "end": 688.0,
+            "text": " I can say, create a div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 688.0,
+            "end": 691.0,
+            "text": " Then I can say that the div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 691.0,
+            "end": 692.0,
+            "text": " What do you do in that?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 692.0,
+            "end": 693.0,
+            "text": " Attribute the set."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 693.0,
+            "end": 694.0,
+            "text": " Put it in this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 694.0,
+            "end": 695.0,
+            "text": " Put the class."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 695.0,
+            "end": 697.0,
+            "text": " I can put the class like this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 697.0,
+            "end": 699.0,
+            "text": " And create it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 700.0,
+            "end": 702.0,
+            "text": " I have set the attribute like this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 702.0,
+            "end": 704.0,
+            "text": " Okay, what can I do now?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 704.0,
+            "end": 706.0,
+            "text": " I want to insert it in the container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 706.0,
+            "end": 710.0,
+            "text": " So I will write document dot query selector."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 710.0,
+            "end": 711.0,
+            "text": " And I will say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 711.0,
+            "end": 712.0,
+            "text": " Dot container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 712.0,
+            "end": 714.0,
+            "text": " That is the first container with class."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 714.0,
+            "end": 716.0,
+            "text": " First element with class."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 716.0,
+            "end": 717.0,
+            "text": " Dot container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 717.0,
+            "end": 719.0,
+            "text": " That is the first element of the container class."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 719.0,
+            "end": 720.0,
+            "text": " Which will be this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 720.0,
+            "end": 722.0,
+            "text": " Now I will say what I want to do in this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 722.0,
+            "end": 724.0,
+            "text": " I want to insert it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 724.0,
+            "end": 726.0,
+            "text": " Okay, so I will write insert here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 726.0,
+            "end": 728.0,
+            "text": " I am getting many methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 728.0,
+            "end": 732.0,
+            "text": " Which I have to insert here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 732.0,
+            "end": 735.0,
+            "text": " Okay, I have explained here very well."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 735.0,
+            "end": 738.0,
+            "text": " But you can do it by doing inner HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 738.0,
+            "end": 741.0,
+            "text": " Or you can do it by doing document dot body dot."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 741.0,
+            "end": 744.0,
+            "text": " So I will tell you a very simple method."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 744.0,
+            "end": 745.0,
+            "text": " Dot append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 745.0,
+            "end": 748.0,
+            "text": " Okay, we have appended div by doing dot append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 748.0,
+            "end": 750.0,
+            "text": " So now you see how your page looks like."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 750.0,
+            "end": 751.0,
+            "text": " So I will reload it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 751.0,
+            "end": 753.0,
+            "text": " I have not put content in it by the way."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 753.0,
+            "end": 755.0,
+            "text": " So what can I do here?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 755.0,
+            "end": 758.0,
+            "text": " I can say div dot inner HTML is equal to"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 758.0,
+            "end": 761.0,
+            "text": " I have been inserted."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 761.0,
+            "end": 764.0,
+            "text": " And I will put a bull tag to show you that"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 764.0,
+            "end": 766.0,
+            "text": " this HTML is working."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 766.0,
+            "end": 768.0,
+            "text": " Okay, so I will write here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 768.0,
+            "end": 770.0,
+            "text": " I have been inserted by Harry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 770.0,
+            "end": 773.0,
+            "text": " Okay, and I wrote here like this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 773.0,
+            "end": 775.0,
+            "text": " So you see here I have been inserted by Harry."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 775.0,
+            "end": 776.0,
+            "text": " Dot append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 776.0,
+            "end": 779.0,
+            "text": " Whenever we use it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 779.0,
+            "end": 783.0,
+            "text": " Then you will get to see the element in the end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 783.0,
+            "end": 786.0,
+            "text": " In which you have done dot append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 786.0,
+            "end": 788.0,
+            "text": " Okay, good."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 788.0,
+            "end": 791.0,
+            "text": " So this dot append is the simplest method to append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 791.0,
+            "end": 794.0,
+            "text": " Okay, you can append directly in the document."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 794.0,
+            "end": 796.0,
+            "text": " Okay, you can append in the body."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 796.0,
+            "end": 798.0,
+            "text": " Means document dot body dot append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 798.0,
+            "end": 799.0,
+            "text": " Which I have done here in the notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 799.0,
+            "end": 801.0,
+            "text": " Document dot body dot append div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 801.0,
+            "end": 802.0,
+            "text": " So this will be appended."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 802.0,
+            "end": 805.0,
+            "text": " So dynamically you can generate the elements with JavaScript."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 805.0,
+            "end": 807.0,
+            "text": " So this is what you have to do when you get the data."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 807.0,
+            "end": 809.0,
+            "text": " Suppose you have the data somewhere."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 809.0,
+            "end": 812.0,
+            "text": " And you want to reload the page without the DOM."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 812.0,
+            "end": 814.0,
+            "text": " You can reload the page and then update the data."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 814.0,
+            "end": 816.0,
+            "text": " Then you can do this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 816.0,
+            "end": 818.0,
+            "text": " So it is very useful."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 818.0,
+            "end": 820.0,
+            "text": " Append is a function."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 820.0,
+            "end": 821.0,
+            "text": " Pre-pend is a function."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 821.0,
+            "end": 822.0,
+            "text": " Before is a function."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 822.0,
+            "end": 823.0,
+            "text": " After is a function."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 823.0,
+            "end": 825.0,
+            "text": " Replace with a function."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 825.0,
+            "end": 826.0,
+            "text": " What will you do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 826.0,
+            "end": 828.0,
+            "text": " You will replace this element with this node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 828.0,
+            "end": 831.0,
+            "text": " Okay, so try out all these methods yourself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 831.0,
+            "end": 834.0,
+            "text": " I will show you before and after quickly."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 834.0,
+            "end": 836.0,
+            "text": " So if I do dot before."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 836.0,
+            "end": 840.0,
+            "text": " Okay, if I do dot before and you show here HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 840.0,
+            "end": 842.0,
+            "text": " So you see that this body."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 842.0,
+            "end": 844.0,
+            "text": " Before the container was in it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 844.0,
+            "end": 845.0,
+            "text": " It will insert it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 845.0,
+            "end": 848.0,
+            "text": " If I do dot after it will insert it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 848.0,
+            "end": 849.0,
+            "text": " And if I do append it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 849.0,
+            "end": 851.0,
+            "text": " It will insert it at the end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 851.0,
+            "end": 852.0,
+            "text": " And if I do pre-pend it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 852.0,
+            "end": 854.0,
+            "text": " It will insert it at the end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 854.0,
+            "end": 856.0,
+            "text": " So try out yourself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 856.0,
+            "end": 857.0,
+            "text": " If you have any questions."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 857.0,
+            "end": 858.0,
+            "text": " Write in the comments."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 858.0,
+            "end": 860.0,
+            "text": " How to tell you again in pre-pend."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 860.0,
+            "end": 862.0,
+            "text": " No, do it yourself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 862.0,
+            "end": 863.0,
+            "text": " Do it yourself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 863.0,
+            "end": 864.0,
+            "text": " You have all the code words."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 864.0,
+            "end": 865.0,
+            "text": " You have all the words."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 865.0,
+            "end": 866.0,
+            "text": " You can go to GitHub."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 866.0,
+            "end": 867.0,
+            "text": " You have the link in GitHub."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 867.0,
+            "end": 869.0,
+            "text": " Okay, access."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 869.0,
+            "end": 871.0,
+            "text": " I know it's getting cold."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 871.0,
+            "end": 873.0,
+            "text": " But if it's getting hot."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 873.0,
+            "end": 874.0,
+            "text": " Then do it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 874.0,
+            "end": 875.0,
+            "text": " Anything is happening."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 875.0,
+            "end": 876.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 876.0,
+            "end": 878.0,
+            "text": " Now you see here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 878.0,
+            "end": 881.0,
+            "text": " Try out the other methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 881.0,
+            "end": 883.0,
+            "text": " Now there is another method."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 883.0,
+            "end": 884.0,
+            "text": " Insert-adjustment-html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 884.0,
+            "end": 885.0,
+            "text": " We talked about the node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 885.0,
+            "end": 886.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 886.0,
+            "end": 888.0,
+            "text": " You have a node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 888.0,
+            "end": 889.0,
+            "text": " You have made a node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 889.0,
+            "end": 891.0,
+            "text": " Or you have brought elements from somewhere else."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 891.0,
+            "end": 893.0,
+            "text": " You can insert it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 893.0,
+            "end": 895.0,
+            "text": " You can do whatever you want to do."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 895.0,
+            "end": 897.0,
+            "text": " But what if you have HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 897.0,
+            "end": 898.0,
+            "text": " That is HTML string."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 898.0,
+            "end": 900.0,
+            "text": " And if you want to insert."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 900.0,
+            "end": 902.0,
+            "text": " Then how will you do it?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 902.0,
+            "end": 903.0,
+            "text": " There is a method."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 903.0,
+            "end": 904.0,
+            "text": " Insert-adjustment-html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 904.0,
+            "end": 905.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 905.0,
+            "end": 907.0,
+            "text": " I will show you an example."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 907.0,
+            "end": 908.0,
+            "text": " So what I told you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 908.0,
+            "end": 910.0,
+            "text": " Creating a dynamically element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 910.0,
+            "end": 912.0,
+            "text": " This is a very good thing to do."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 912.0,
+            "end": 914.0,
+            "text": " But I can say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 914.0,
+            "end": 917.0,
+            "text": " Let-Count is equal to my container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 917.0,
+            "end": 918.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 918.0,
+            "end": 919.0,
+            "text": " I can say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 919.0,
+            "end": 922.0,
+            "text": " Con-Dot-Insert-adjustment-html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 922.0,
+            "end": 925.0,
+            "text": " I will insert-adjustment-html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 925.0,
+            "end": 928.0,
+            "text": " And the same thing is required for element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 928.0,
+            "end": 931.0,
+            "text": " You can use insert-adjustment-html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 931.0,
+            "end": 935.0,
+            "text": " I am doing insert-adjustment-html here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 935.0,
+            "end": 936.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 936.0,
+            "end": 937.0,
+            "text": " And what will I do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 937.0,
+            "end": 938.0,
+            "text": " If I begin before."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 938.0,
+            "end": 941.0,
+            "text": " Then HTML will be inserted immediately before element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 941.0,
+            "end": 943.0,
+            "text": " After I will begin immediately."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 943.0,
+            "end": 944.0,
+            "text": " At the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 944.0,
+            "end": 945.0,
+            "text": " It will be inserted."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 945.0,
+            "end": 946.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 946.0,
+            "end": 947.0,
+            "text": " If I end before."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 947.0,
+            "end": 948.0,
+            "text": " Then at the end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 948.0,
+            "end": 949.0,
+            "text": " If I end after."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 949.0,
+            "end": 950.0,
+            "text": " Then after element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 950.0,
+            "end": 952.0,
+            "text": " This is hidden in its name."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 952.0,
+            "end": 953.0,
+            "text": " Where it will be inserted."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 953.0,
+            "end": 955.0,
+            "text": " So if you try it out yourself."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 955.0,
+            "end": 957.0,
+            "text": " Then you will understand very easily."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 957.0,
+            "end": 961.0,
+            "text": " The first argument is this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 961.0,
+            "end": 963.0,
+            "text": " And then the second is HTML string."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 963.0,
+            "end": 964.0,
+            "text": " I will show you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 964.0,
+            "end": 965.0,
+            "text": " It will be easy for you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 965.0,
+            "end": 967.0,
+            "text": " So as soon as I have put a double code."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 967.0,
+            "end": 969.0,
+            "text": " I will tell you where to insert from these four."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 969.0,
+            "end": 970.0,
+            "text": " After end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 970.0,
+            "end": 971.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 971.0,
+            "end": 973.0,
+            "text": " And what you want to insert?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 973.0,
+            "end": 976.0,
+            "text": " I am inserted."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 976.0,
+            "end": 980.0,
+            "text": " I am under the water."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 980.0,
+            "end": 981.0,
+            "text": " Here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 981.0,
+            "end": 982.0,
+            "text": " Please help me."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 982.0,
+            "end": 983.0,
+            "text": " Please help me."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 983.0,
+            "end": 984.0,
+            "text": " Please help me."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 984.0,
+            "end": 988.0,
+            "text": " Here too much raining."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 988.0,
+            "end": 989.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 989.0,
+            "end": 990.0,
+            "text": " So I wrote."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 990.0,
+            "end": 992.0,
+            "text": " I have written a string here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 992.0,
+            "end": 995.0,
+            "text": " And I want to close the bolt tag here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 995.0,
+            "end": 996.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 996.0,
+            "end": 998.0,
+            "text": " I have closed the bolt tag here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 998.0,
+            "end": 1000.0,
+            "text": " So I have written this string here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1000.0,
+            "end": 1001.0,
+            "text": " It was very random."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1001.0,
+            "end": 1003.0,
+            "text": " Now let's see where it will be inserted."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1003.0,
+            "end": 1004.0,
+            "text": " So if I show you here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1004.0,
+            "end": 1005.0,
+            "text": " So what did he do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1005.0,
+            "end": 1008.0,
+            "text": " That after making this HTML element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1008.0,
+            "end": 1009.0,
+            "text": " After the container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1009.0,
+            "end": 1010.0,
+            "text": " Insert it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1010.0,
+            "end": 1011.0,
+            "text": " So after end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1011.0,
+            "end": 1012.0,
+            "text": " What will happen?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1012.0,
+            "end": 1014.0,
+            "text": " That he will insert after that element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1014.0,
+            "end": 1018.0,
+            "text": " But if I want to do it after the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1018.0,
+            "end": 1019.0,
+            "text": " So where will it be inserted?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1019.0,
+            "end": 1020.0,
+            "text": " It will be inserted inside it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1020.0,
+            "end": 1021.0,
+            "text": " That is after it starts."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1021.0,
+            "end": 1022.0,
+            "text": " After the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1022.0,
+            "end": 1023.0,
+            "text": " After it starts."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1023.0,
+            "end": 1024.0,
+            "text": " After."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1024.0,
+            "end": 1025.0,
+            "text": " That is inside."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1025.0,
+            "end": 1026.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1026.0,
+            "end": 1027.0,
+            "text": " After the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1027.0,
+            "end": 1029.0,
+            "text": " And if I do it here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1029.0,
+            "end": 1031.0,
+            "text": " And if I have to put this again."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1031.0,
+            "end": 1032.0,
+            "text": " For the solutions."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1032.0,
+            "end": 1034.0,
+            "text": " If I do it before the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1034.0,
+            "end": 1035.0,
+            "text": " Then I will insert it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1035.0,
+            "end": 1036.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1036.0,
+            "end": 1037.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1037.0,
+            "end": 1038.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1038.0,
+            "end": 1040.0,
+            "text": " If I do it before the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1040.0,
+            "end": 1041.0,
+            "text": " So what will happen?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1041.0,
+            "end": 1043.0,
+            "text": " Before it starts."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1043.0,
+            "end": 1044.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1044.0,
+            "end": 1045.0,
+            "text": " Before it starts."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1045.0,
+            "end": 1046.0,
+            "text": " Before the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1046.0,
+            "end": 1047.0,
+            "text": " After the end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1047.0,
+            "end": 1048.0,
+            "text": " What will happen?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1048.0,
+            "end": 1049.0,
+            "text": " After it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1049.0,
+            "end": 1050.0,
+            "text": " That is after the end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1050.0,
+            "end": 1051.0,
+            "text": " After that element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1051.0,
+            "end": 1052.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1052.0,
+            "end": 1053.0,
+            "text": " Now you can insert HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1053.0,
+            "end": 1054.0,
+            "text": " You can insert text."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1054.0,
+            "end": 1056.0,
+            "text": " You can insert element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1056.0,
+            "end": 1058.0,
+            "text": " For HTML, insert, adjacent element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1058.0,
+            "end": 1060.0,
+            "text": " HTML function is there."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1060.0,
+            "end": 1063.0,
+            "text": " For text, insert, adjacent text function is there."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1063.0,
+            "end": 1066.0,
+            "text": " For element, insert, adjacent element function is there."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1066.0,
+            "end": 1067.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1067.0,
+            "end": 1069.0,
+            "text": " For text, you will see from the notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1069.0,
+            "end": 1070.0,
+            "text": " Look at it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1070.0,
+            "end": 1073.0,
+            "text": " It will not give you any understanding until you see it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1073.0,
+            "end": 1074.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1074.0,
+            "end": 1075.0,
+            "text": " After that there is a node removal."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1075.0,
+            "end": 1077.0,
+            "text": " How is node removal done?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1077.0,
+            "end": 1079.0,
+            "text": " You will remove dot here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1079.0,
+            "end": 1081.0,
+            "text": " So this node will leave the DOM."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1081.0,
+            "end": 1082.0,
+            "text": " Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1082.0,
+            "end": 1083.0,
+            "text": " You can do this for anyone."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1083.0,
+            "end": 1085.0,
+            "text": " If I tell here that my container."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1085.0,
+            "end": 1087.0,
+            "text": " Or the first element of my dot box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1087.0,
+            "end": 1089.0,
+            "text": " Remove the dot there."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1089.0,
+            "end": 1090.0,
+            "text": " Then it will go away."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1090.0,
+            "end": 1092.0,
+            "text": " If I run it again."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1092.0,
+            "end": 1094.0,
+            "text": " It will select the first element of class."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1094.0,
+            "end": 1096.0,
+            "text": " Class is equal to box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1096.0,
+            "end": 1098.0,
+            "text": " I will remove dot and it will be removed"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1098.0,
+            "end": 1100.0,
+            "text": " See, the DOM is being updated"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1100.0,
+            "end": 1102.0,
+            "text": " You can watch the video if you haven't seen it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1102.0,
+            "end": 1105.0,
+            "text": " I would like to talk about the class name and class list"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1105.0,
+            "end": 1107.0,
+            "text": " Because it is very important"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1107.0,
+            "end": 1109.0,
+            "text": " Suppose I have this container"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1109.0,
+            "end": 1111.0,
+            "text": " Suppose I have given a class in this, red"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1111.0,
+            "end": 1113.0,
+            "text": " And I have given a class in this, bggreen"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1113.0,
+            "end": 1115.0,
+            "text": " Suppose I have given a class in this, bggreen and red"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1115.0,
+            "end": 1118.0,
+            "text": " I am not writing their styles, I have given a class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1118.0,
+            "end": 1120.0,
+            "text": " So if I say that my container"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1120.0,
+            "end": 1122.0,
+            "text": " I want all the classes"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1122.0,
+            "end": 1125.0,
+            "text": " So I will say that the dot container element"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1125.0,
+            "end": 1127.0,
+            "text": " And if I want, I can select it in other ways"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1127.0,
+            "end": 1129.0,
+            "text": " I have chosen the query selector method"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1129.0,
+            "end": 1131.0,
+            "text": " To select this element"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1131.0,
+            "end": 1133.0,
+            "text": " I could also say that document dot"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1133.0,
+            "end": 1135.0,
+            "text": " Get elements by class name"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1135.0,
+            "end": 1137.0,
+            "text": " Container"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1137.0,
+            "end": 1139.0,
+            "text": " And then, square bracket 0"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1139.0,
+            "end": 1141.0,
+            "text": " This element would be selected in any way"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1141.0,
+            "end": 1143.0,
+            "text": " So this is my choice, how to select the element"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1143.0,
+            "end": 1145.0,
+            "text": " I have written this, I will say"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1145.0,
+            "end": 1147.0,
+            "text": " Give me its class list"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1147.0,
+            "end": 1149.0,
+            "text": " So when I say class list, I will get a list like this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1149.0,
+            "end": 1151.0,
+            "text": " So you see"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1151.0,
+            "end": 1153.0,
+            "text": " These classes are present in it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1153.0,
+            "end": 1157.0,
+            "text": " You can see that I got this class list"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1157.0,
+            "end": 1159.0,
+            "text": " But if I say"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1159.0,
+            "end": 1161.0,
+            "text": " Dot class name"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1161.0,
+            "end": 1163.0,
+            "text": " Then it will give me the class attribute"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1163.0,
+            "end": 1165.0,
+            "text": " That is equal to its class attribute"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1165.0,
+            "end": 1167.0,
+            "text": " It will give me the value of it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1167.0,
+            "end": 1169.0,
+            "text": " It will give me the value of it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1169.0,
+            "end": 1171.0,
+            "text": " So container red, bggreen"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1171.0,
+            "end": 1173.0,
+            "text": " I will get it like this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1173.0,
+            "end": 1175.0,
+            "text": " I hope you have cleared this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1175.0,
+            "end": 1177.0,
+            "text": " Class name and class list"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1177.0,
+            "end": 1179.0,
+            "text": " If you want, there are some methods here"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1179.0,
+            "end": 1181.0,
+            "text": " To add in the class list"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1181.0,
+            "end": 1183.0,
+            "text": " You can add dot class list"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1183.0,
+            "end": 1185.0,
+            "text": " And one class will be added"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1185.0,
+            "end": 1187.0,
+            "text": " You can remove it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1187.0,
+            "end": 1189.0,
+            "text": " It is very useful"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1189.0,
+            "end": 1191.0,
+            "text": " So I will do it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1191.0,
+            "end": 1193.0,
+            "text": " If I want to add it in the class list"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1193.0,
+            "end": 1195.0,
+            "text": " A class named Harry"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1195.0,
+            "end": 1197.0,
+            "text": " So you see here, Harry will be added in the class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1197.0,
+            "end": 1199.0,
+            "text": " At the end"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1199.0,
+            "end": 1201.0,
+            "text": " If I want to remove the class named Harry"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1201.0,
+            "end": 1203.0,
+            "text": " Then I can use the dot remove function"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1203.0,
+            "end": 1205.0,
+            "text": " So this will do"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1205.0,
+            "end": 1207.0,
+            "text": " If I want to remove the red class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1207.0,
+            "end": 1209.0,
+            "text": " Then what I will write here"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1209.0,
+            "end": 1211.0,
+            "text": " Dot remove red"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1211.0,
+            "end": 1213.0,
+            "text": " And you see here"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1213.0,
+            "end": 1215.0,
+            "text": " This red class is also removed"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1215.0,
+            "end": 1217.0,
+            "text": " If I want to insert it, then I will add dot"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1217.0,
+            "end": 1219.0,
+            "text": " Let me show you"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1219.0,
+            "end": 1221.0,
+            "text": " If I add dot add red"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1221.0,
+            "end": 1223.0,
+            "text": " Then the class name red will be added"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1223.0,
+            "end": 1225.0,
+            "text": " If I run it again and again"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1225.0,
+            "end": 1227.0,
+            "text": " I will keep running it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1227.0,
+            "end": 1229.0,
+            "text": " So it will be added only once"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1229.0,
+            "end": 1231.0,
+            "text": " Multiple times, one class is not added"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1231.0,
+            "end": 1233.0,
+            "text": " Because it is already class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1233.0,
+            "end": 1235.0,
+            "text": " It is used when we want"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1235.0,
+            "end": 1237.0,
+            "text": " I have an element"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1237.0,
+            "end": 1239.0,
+            "text": " Because it is sometimes rotated"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1239.0,
+            "end": 1241.0,
+            "text": " So I will make one class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1241.0,
+            "end": 1243.0,
+            "text": " In which I will write animations of rotating"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1243.0,
+            "end": 1245.0,
+            "text": " And then I will toggle that class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1245.0,
+            "end": 1247.0,
+            "text": " And another method comes with this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1247.0,
+            "end": 1249.0,
+            "text": " Toggle"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1249.0,
+            "end": 1251.0,
+            "text": " Dot last list dot toggle"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1251.0,
+            "end": 1253.0,
+            "text": " It is a method"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1253.0,
+            "end": 1255.0,
+            "text": " Toggle means"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1255.0,
+            "end": 1257.0,
+            "text": " If it is open, then close it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1257.0,
+            "end": 1259.0,
+            "text": " If I tell you to toggle the light switch"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1259.0,
+            "end": 1261.0,
+            "text": " If it is open, then you will close it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1261.0,
+            "end": 1263.0,
+            "text": " If it is closed, then open it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1263.0,
+            "end": 1265.0,
+            "text": " If there is a class in it, then remove it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1265.0,
+            "end": 1267.0,
+            "text": " Then it will be closed"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1267.0,
+            "end": 1269.0,
+            "text": " So I will add a style"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1269.0,
+            "end": 1271.0,
+            "text": " So that I can clear my point"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1271.0,
+            "end": 1273.0,
+            "text": " It is making a little longer video"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1273.0,
+            "end": 1275.0,
+            "text": " But I have to clear the concept"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1275.0,
+            "end": 1277.0,
+            "text": " I will do color red"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1277.0,
+            "end": 1279.0,
+            "text": " I will do color red"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1279.0,
+            "end": 1281.0,
+            "text": " Now you see"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1281.0,
+            "end": 1283.0,
+            "text": " As soon as I toggle"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1283.0,
+            "end": 1285.0,
+            "text": " This red class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1285.0,
+            "end": 1287.0,
+            "text": " Is gone from the container"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1287.0,
+            "end": 1289.0,
+            "text": " I will toggle again and red class is here"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1289.0,
+            "end": 1291.0,
+            "text": " So what can I do like this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1291.0,
+            "end": 1293.0,
+            "text": " When I want"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1293.0,
+            "end": 1295.0,
+            "text": " When I want to red it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1295.0,
+            "end": 1297.0,
+            "text": " Or any CSS can be added"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1297.0,
+            "end": 1299.0,
+            "text": " When I can remove it, then only using JavaScript"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1299.0,
+            "end": 1301.0,
+            "text": " So whatever CSS I want to use"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1301.0,
+            "end": 1303.0,
+            "text": " I will submit it in a class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1303.0,
+            "end": 1305.0,
+            "text": " And I will toggle that class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1305.0,
+            "end": 1307.0,
+            "text": " Do you understand?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1307.0,
+            "end": 1309.0,
+            "text": " So we will do such projects"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1309.0,
+            "end": 1311.0,
+            "text": " You will see, then it will be clear"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1311.0,
+            "end": 1313.0,
+            "text": " It is going to be a very good project"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1313.0,
+            "end": 1315.0,
+            "text": " And all this will be used"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1315.0,
+            "end": 1317.0,
+            "text": " I am telling you, all this will be used"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1317.0,
+            "end": 1319.0,
+            "text": " So I have included toggle class in the notes"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1319.0,
+            "end": 1321.0,
+            "text": " Access the notes"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1321.0,
+            "end": 1323.0,
+            "text": " I will not say this again"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1323.0,
+            "end": 1325.0,
+            "text": " I have no use in this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1325.0,
+            "end": 1327.0,
+            "text": " Download the notes in your computer"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1327.0,
+            "end": 1329.0,
+            "text": " And it will help you a lot"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1329.0,
+            "end": 1331.0,
+            "text": " Trust me, it will help you a lot"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1331.0,
+            "end": 1333.0,
+            "text": " So that was about all the functions"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1333.0,
+            "end": 1335.0,
+            "text": " That you should know"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1335.0,
+            "end": 1337.0,
+            "text": " After reading these notes"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1337.0,
+            "end": 1339.0,
+            "text": " When you will read chapter 8"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1339.0,
+            "end": 1341.0,
+            "text": " Then you will be clear"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1341.0,
+            "end": 1343.0,
+            "text": " JavaScript will be in your thumb"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1343.0,
+            "end": 1345.0,
+            "text": " If you will access it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1345.0,
+            "end": 1347.0,
+            "text": " Because you will forget it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1347.0,
+            "end": 1349.0,
+            "text": " And I will say, keep a hard copy"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1349.0,
+            "end": 1351.0,
+            "text": " It helps you a lot"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1351.0,
+            "end": 1353.0,
+            "text": " You can open it in your phone"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1353.0,
+            "end": 1355.0,
+            "text": " Or in iPad"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1355.0,
+            "end": 1357.0,
+            "text": " But there is another thing about hard copy"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1357.0,
+            "end": 1359.0,
+            "text": " When you are making hard copies"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1359.0,
+            "end": 1361.0,
+            "text": " And you will see that this class was in this page number"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1361.0,
+            "end": 1363.0,
+            "text": " You will remember which page it was"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1363.0,
+            "end": 1365.0,
+            "text": " Which side it was"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1365.0,
+            "end": 1367.0,
+            "text": " I believe in this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1367.0,
+            "end": 1369.0,
+            "text": " You should have hard copy important things"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1369.0,
+            "end": 1371.0,
+            "text": " With that said, if you have not yet"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1371.0,
+            "end": 1373.0,
+            "text": " Accessed this playlist, then do it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1373.0,
+            "end": 1375.0,
+            "text": " With that, you can bookmark it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1375.0,
+            "end": 1377.0,
+            "text": " Save it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1377.0,
+            "end": 1379.0,
+            "text": " If you want to make me happy"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1379.0,
+            "end": 1381.0,
+            "text": " Then go to the video and do a review"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1381.0,
+            "end": 1383.0,
+            "text": " Of this course"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1383.0,
+            "end": 1385.0,
+            "text": " Will any person"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1385.0,
+            "end": 1387.0,
+            "text": " After making HTML, CSS, JavaScript and projects"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1387.0,
+            "end": 1389.0,
+            "text": " Can be a full stack developer"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1389.0,
+            "end": 1391.0,
+            "text": " Or not"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1391.0,
+            "end": 1393.0,
+            "text": " You can do a review here"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1393.0,
+            "end": 1395.0,
+            "text": " You still feel that this course is good"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1395.0,
+            "end": 1397.0,
+            "text": " If it is good, then do a review"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1397.0,
+            "end": 1399.0,
+            "text": " I have 5 stars in the comment section"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1399.0,
+            "end": 1401.0,
+            "text": " I will be happy with the heart"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1401.0,
+            "end": 1403.0,
+            "text": " That's all for this video"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1403.0,
+            "end": 1405.0,
+            "text": " Thank you so much for watching this video"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1405.0,
+            "end": 1407.0,
+            "text": " See you next time"
+        }
+    ],
+    "text": " We have seen a lot of DOM manipulation in JavaScript. In today's video, I will tell you how you can insert elements in JavaScript and how you can remove elements from your DOM. This is very useful when you want to make single page applications or you want to reload a page without any work. Do like this video and write a sigma batch in the comment section. Let's roll the intro in the computer screen. I have come to the computer screen. I will make video number 71 and shift it to a higher level so that you don't even know when I made the index.html. I will put the exclamation mark here and put the boilerplate template. Today we are going to talk about some functions which I have written in good terms in the notes. You will know the benefits of giving notes in this video. There are many functions here. I have written them in the notes in the industry. For example, I have a div here. There is a container in which I have written the spelling wrong. I will make a div dot box here. I will make a div dot box. I have written a div dot box. I will inspect it and write in the console document dot query selector. I will write document dot query selector. I can also write document dot query selector. I will write document dot query selector. The first box will come to me. I will write document dot inner HTML. I will get any HTML in it. If I do this with the container, I will get the HTML in it. I will zoom it a little. You can see here that box If I do it, I will get the inner HTML in the box. You will get any HTML in it. Then there is the inner text method. The text in the inner HTML is shown as text. If I do this with the container, I will show you here. You will see here that the text in the container is only VIE. You will get this text. If I put two boxes here, and then I say show the inner text, then you will get the text of both the boxes. Sometimes we have to know the text of an element. So we can use it. Now I will show you how to use the rest of the methods. So the inner HTML is done. I will tell you about outer HTML. Outer HTML is in the property. It is the inner HTML plus element itself. If I do outer HTML, then you will see what I got. I got the container myself. The inner HTML is the container. The inner HTML and outer HTML are different. This was the inner HTML and this was the outer HTML. Then we have the tag name or node name. I will tell you quickly. If I want to tell you the tag name of this, then you will tell me that it is a div. The container is a div. Sometimes you need to know in JavaScript which element is it. There is a property by doing a node name. If I write something like this, the node name will also be div. What is the difference between tag name and node name? The tag name is applicable only for elements. The node name is applicable for any type of node. Like the text node. These things will be very clear after reading the nodes. I have shown you the demo. Then there is text content which provides access to the text inside the element. Only text minus all the tags. If you do the text content, then you will get the text content inside the element. I hope you have understood how these things work. You can add an attribute in the div. The name is hidden. If you add a hidden element, then the element will be hidden. You can also add an element.hidden. If I do this with the container, then I can add an attribute.hidden. I can also add a attribute. I will use boolean.hidden is also true. This is also hidden. What will you do? You will add an attribute hidden inside the container. This will hide the element. I want to tell you one more thing. I can change the inner HTML of any element. I will say, I am Harry. I will reload the page. So that the missing element comes back. I will enter here. The content of Hey I am Harry has changed. When I say document.querySelector.box.innerhtml What will you do? First element will select document.querySelector. The element inside which the class box is located. You should be clear about this. I have changed the inner HTML of Hey I am Harry. It can look a little boring. I am telling you by using all these methods. But it is written in the notes. Don't worry about remembering. You can download the notes from here. Download them. Download them from codewitherry.com. There are some methods of attributes. Like element.lm is an element. If I add a dot as an attribute. And I want to check if this attribute is there. It will tell me. For example, if I ask if this box has attribute. Is this attribute style? No, it is not. But if I add a style attribute. I mean, I say style is equal to display none. I will not do display none. Display flex. Since I will do none, it will hide. If I do dot style, it will be true. The box selected has a style attribute. And if you want to get an attribute. Then you will get an attribute. Show me what style attribute is. You will get this style. And you will see the set attribute. This is not style. I want to do display inline. So you will get set attribute. And you will get set attribute. What should I do? Display inline. What should I do? Display inline. And this will be set. Display inline. But the style of display inline is set. There are some methods. You don't need to write. But you should know. Remove attribute. And you will get all attributes. People don't know that all attributes can be obtained. So knowing this will be a big thing for you. Because if you know, if you don't know that something can happen. You will find it very strange. But I have felt it. And until you feel it, you will not know. If you are doing anything. You don't know that you can get all attributes. You will never think about it. But you are making a project. You will think that you have told me about video number. So I will take notes. I will look at notes. I will look at notes. How does it work? This is very useful for you. That's why I am telling you one by one. Otherwise I would have said that you should read notes. It is important to do it. Now here I can remove any attribute. I will write here R. And this will be shown in your VS code. Tap it. I will say remove the style. I will say remove the style. And this style has been removed. Look, the style has been removed. The style attribute has been removed. I will reload it. Because whatever JavaScript we write here is temporary. It is only for till the time you don't refresh the page. So whatever JavaScript you write here. Manipulate the page. It is temporary. Google, Facebook, Microsoft. You can change any website to temporary in your browser. You can edit your things here. Now you can write document.design mode is equal to on. If you have done this, you can change any page. I will write any website of this world. If I write TechCrunch here. And I will write JavaScript here. And I will say I want document.design mode on. I have turned on the design mode. I will show you. I have run this. I have run document.design mode on. Now I can edit anything on this website. By pressing backspace. Okay, until and unless I am not redirecting. Look, I can change this. I can do anything. Content. That's why they say don't trust screenshots. And especially if you are a web developer. You should tell me this. Okay, and you will know 90% of people. But again, some things are very big. And it is important to tell them. So that's why you can do what you can do here. Where are the notes? You can use all these methods. Okay, then there are data attributes. Which you can add to custom attributes. Suppose I want to give an attribute in my box. In which I can store which element. For some reason, I want to store. Who made this element? It is a very weird attribute. But I want to do data created by is equal to. So I can write Harry like this. So I will say data created by is equal to Harry. So I have added a data attribute. And I have written data created by. And I have done is equal to Harry. So you can add this custom attribute. Without any error. You can store information in any element. Okay, so you can do this. And now if you want to access them here. So you can say. Key document dot query selector dot box. And you can say. Dot data set. Okay, and you see that I am created by Harry. Why I am telling you created by Harry? Because the properties of data dash. This is of any element. If I say data concept by is equal to. And I write Rohan here. And after that I will show you this again. So where created by Harry will come. Concept by Rohan will come. This data dash is ignored. I will tell you. After data dash, it is given as key value pair. Wherever you set any element dot data. So I have written all this in notes for you. And to be honest, I myself forget. Sometimes. I am telling you. After so much experience, I forget that. Data set is stored in this. I got to know by seeing. So I put in notes once. And made it so that you don't download. I am saying on your face. It is your loss. It is a big loss. It is a big loss. I was freely available these notes. But I am saying it myself. If there were trees, then you would have taken. It would have been useful to you. Okay, I am telling you this. Let's talk about insertion methods. Which was the topic of this video. Look, whenever you want to create an element. You can say. I will put a script tag here. Okay, script and I will write you. Let div is equal to document dot create element. So I can create a new element. I can say, create a div. Then I can say that the div. What do you do in that? Attribute the set. Put it in this. Put the class. I can put the class like this. And create it. I have set the attribute like this. Okay, what can I do now? I want to insert it in the container. So I will write document dot query selector. And I will say. Dot container. That is the first container with class. First element with class. Dot container. That is the first element of the container class. Which will be this. Now I will say what I want to do in this. I want to insert it. Okay, so I will write insert here. I am getting many methods. Which I have to insert here. Okay, I have explained here very well. But you can do it by doing inner HTML. Or you can do it by doing document dot body dot. So I will tell you a very simple method. Dot append. Okay, we have appended div by doing dot append. So now you see how your page looks like. So I will reload it. I have not put content in it by the way. So what can I do here? I can say div dot inner HTML is equal to I have been inserted. And I will put a bull tag to show you that this HTML is working. Okay, so I will write here. I have been inserted by Harry. Okay, and I wrote here like this. So you see here I have been inserted by Harry. Dot append. Whenever we use it. Then you will get to see the element in the end. In which you have done dot append. Okay, good. So this dot append is the simplest method to append. Okay, you can append directly in the document. Okay, you can append in the body. Means document dot body dot append. Which I have done here in the notes. Document dot body dot append div. So this will be appended. So dynamically you can generate the elements with JavaScript. So this is what you have to do when you get the data. Suppose you have the data somewhere. And you want to reload the page without the DOM. You can reload the page and then update the data. Then you can do this. So it is very useful. Append is a function. Pre-pend is a function. Before is a function. After is a function. Replace with a function. What will you do? You will replace this element with this node. Okay, so try out all these methods yourself. I will show you before and after quickly. So if I do dot before. Okay, if I do dot before and you show here HTML. So you see that this body. Before the container was in it. It will insert it. If I do dot after it will insert it. And if I do append it. It will insert it at the end. And if I do pre-pend it. It will insert it at the end. So try out yourself. If you have any questions. Write in the comments. How to tell you again in pre-pend. No, do it yourself. Do it yourself. You have all the code words. You have all the words. You can go to GitHub. You have the link in GitHub. Okay, access. I know it's getting cold. But if it's getting hot. Then do it. Anything is happening. Okay. Now you see here. Try out the other methods. Now there is another method. Insert-adjustment-html. We talked about the node. Okay. You have a node. You have made a node. Or you have brought elements from somewhere else. You can insert it. You can do whatever you want to do. But what if you have HTML. That is HTML string. And if you want to insert. Then how will you do it? There is a method. Insert-adjustment-html. Okay. I will show you an example. So what I told you. Creating a dynamically element. This is a very good thing to do. But I can say. Let-Count is equal to my container. Okay. I can say. Con-Dot-Insert-adjustment-html. I will insert-adjustment-html. And the same thing is required for element. You can use insert-adjustment-html. I am doing insert-adjustment-html here. Okay. And what will I do? If I begin before. Then HTML will be inserted immediately before element. After I will begin immediately. At the beginning. It will be inserted. Okay. If I end before. Then at the end. If I end after. Then after element. This is hidden in its name. Where it will be inserted. So if you try it out yourself. Then you will understand very easily. The first argument is this. And then the second is HTML string. I will show you. It will be easy for you. So as soon as I have put a double code. I will tell you where to insert from these four. After end. Okay. And what you want to insert? I am inserted. I am under the water. Here. Please help me. Please help me. Please help me. Here too much raining. Okay. So I wrote. I have written a string here. And I want to close the bolt tag here. Okay. I have closed the bolt tag here. So I have written this string here. It was very random. Now let's see where it will be inserted. So if I show you here. So what did he do? That after making this HTML element. After the container. Insert it. So after end. What will happen? That he will insert after that element. But if I want to do it after the beginning. So where will it be inserted? It will be inserted inside it. That is after it starts. After the beginning. After it starts. After. That is inside. Okay. After the beginning. And if I do it here. And if I have to put this again. For the solutions. If I do it before the beginning. Then I will insert it. Okay. Okay. Okay. If I do it before the beginning. So what will happen? Before it starts. Okay. Before it starts. Before the beginning. After the end. What will happen? After it. That is after the end. After that element. Okay. Now you can insert HTML. You can insert text. You can insert element. For HTML, insert, adjacent element. HTML function is there. For text, insert, adjacent text function is there. For element, insert, adjacent element function is there. Okay. For text, you will see from the notes. Look at it. It will not give you any understanding until you see it. Okay. After that there is a node removal. How is node removal done? You will remove dot here. So this node will leave the DOM. Okay. You can do this for anyone. If I tell here that my container. Or the first element of my dot box. Remove the dot there. Then it will go away. If I run it again. It will select the first element of class. Class is equal to box. I will remove dot and it will be removed See, the DOM is being updated You can watch the video if you haven't seen it I would like to talk about the class name and class list Because it is very important Suppose I have this container Suppose I have given a class in this, red And I have given a class in this, bggreen Suppose I have given a class in this, bggreen and red I am not writing their styles, I have given a class So if I say that my container I want all the classes So I will say that the dot container element And if I want, I can select it in other ways I have chosen the query selector method To select this element I could also say that document dot Get elements by class name Container And then, square bracket 0 This element would be selected in any way So this is my choice, how to select the element I have written this, I will say Give me its class list So when I say class list, I will get a list like this So you see These classes are present in it You can see that I got this class list But if I say Dot class name Then it will give me the class attribute That is equal to its class attribute It will give me the value of it It will give me the value of it So container red, bggreen I will get it like this I hope you have cleared this Class name and class list If you want, there are some methods here To add in the class list You can add dot class list And one class will be added You can remove it It is very useful So I will do it If I want to add it in the class list A class named Harry So you see here, Harry will be added in the class At the end If I want to remove the class named Harry Then I can use the dot remove function So this will do If I want to remove the red class Then what I will write here Dot remove red And you see here This red class is also removed If I want to insert it, then I will add dot Let me show you If I add dot add red Then the class name red will be added If I run it again and again I will keep running it So it will be added only once Multiple times, one class is not added Because it is already class It is used when we want I have an element Because it is sometimes rotated So I will make one class In which I will write animations of rotating And then I will toggle that class And another method comes with this Toggle Dot last list dot toggle It is a method Toggle means If it is open, then close it If I tell you to toggle the light switch If it is open, then you will close it If it is closed, then open it If there is a class in it, then remove it Then it will be closed So I will add a style So that I can clear my point It is making a little longer video But I have to clear the concept I will do color red I will do color red Now you see As soon as I toggle This red class Is gone from the container I will toggle again and red class is here So what can I do like this When I want When I want to red it Or any CSS can be added When I can remove it, then only using JavaScript So whatever CSS I want to use I will submit it in a class And I will toggle that class Do you understand? So we will do such projects You will see, then it will be clear It is going to be a very good project And all this will be used I am telling you, all this will be used So I have included toggle class in the notes Access the notes I will not say this again I have no use in this Download the notes in your computer And it will help you a lot Trust me, it will help you a lot So that was about all the functions That you should know After reading these notes When you will read chapter 8 Then you will be clear JavaScript will be in your thumb If you will access it Because you will forget it And I will say, keep a hard copy It helps you a lot You can open it in your phone Or in iPad But there is another thing about hard copy When you are making hard copies And you will see that this class was in this page number You will remember which page it was Which side it was I believe in this You should have hard copy important things With that said, if you have not yet Accessed this playlist, then do it With that, you can bookmark it Save it If you want to make me happy Then go to the video and do a review Of this course Will any person After making HTML, CSS, JavaScript and projects Can be a full stack developer Or not You can do a review here You still feel that this course is good If it is good, then do a review I have 5 stars in the comment section I will be happy with the heart That's all for this video Thank you so much for watching this video See you next time"
+}

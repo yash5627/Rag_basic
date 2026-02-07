@@ -1,0 +1,3043 @@
+{
+    "chunks": [
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 0.0,
+            "end": 5.44,
+            "text": " In today's video, I'm going to teach you how to do crud operations in MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 5.44,
+            "end": 11.32,
+            "text": " Crud operations in MongoDB, that is, it's very easy to create, read, update and delete."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 11.32,
+            "end": 14.16,
+            "text": " You get a lot of documentation from Cintx."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 14.16,
+            "end": 18.080000000000002,
+            "text": " Do like this video and do write a sigma patch in the comment section."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 18.080000000000002,
+            "end": 19.6,
+            "text": " Let's go in the computer screen."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 19.6,
+            "end": 21.400000000000002,
+            "text": " Let's roll the intro."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 21.4,
+            "end": 33.6,
+            "text": " Guys, today we are going to learn how to do crud operations about MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 33.6,
+            "end": 36.28,
+            "text": " I'm going to make a video 95."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 36.28,
+            "end": 39.08,
+            "text": " This was video number 94."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 39.08,
+            "end": 41.16,
+            "text": " The last one I've learned is the basics of MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 41.16,
+            "end": 49.44,
+            "text": " Today, I'm going to tell you how to do crud operations in code and how to learn in MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 49.44,
+            "end": 52.559999999999995,
+            "text": " I'll open it with code."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 52.559999999999995,
+            "end": 56.04,
+            "text": " I've already told you about this extension."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 56.04,
+            "end": 63.199999999999996,
+            "text": " I've connected it to localhost colon 27017 because it's the MongoDB instance of my local computer."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 63.199999999999996,
+            "end": 65.44,
+            "text": " I'll click on Create New Playground."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 65.44,
+            "end": 71.2,
+            "text": " I can save it or create a new file here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 71.2,
+            "end": 76.4,
+            "text": " I can say crud.mongodb.js."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 76.4,
+            "end": 84.92,
+            "text": " If I make anything from .mongodb.js, it will start running as a MongoDB Playground script."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 84.92,
+            "end": 94.0,
+            "text": " If I write use and I write cruddb, I've created a database called cruddb."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 94.0,
+            "end": 100.68,
+            "text": " If I run it and give it confirmation, it says switch to db."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 100.68,
+            "end": 103.44,
+            "text": " It made a cruddb and switched it on."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 103.44,
+            "end": 105.44,
+            "text": " How do I do crud operations?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 105.48,
+            "end": 111.88,
+            "text": " First of all, what I want to tell you and you may not know is that you don't have to remember anything."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 111.88,
+            "end": 116.52,
+            "text": " How do you create a database in MongoDB?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 116.52,
+            "end": 120.56,
+            "text": " You'll get it here in MongoDB documentation."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 120.56,
+            "end": 123.84,
+            "text": " How is MongoDB created in MongoDB?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 123.84,
+            "end": 125.6,
+            "text": " You'll get all this here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 125.6,
+            "end": 128.24,
+            "text": " But let me tell you that I've remembered something from my experience."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 128.24,
+            "end": 130.96,
+            "text": " So, I've made a cruddb here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 131.12,
+            "end": 137.12,
+            "text": " If I do console.log and I run the script,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 137.12,
+            "end": 140.12,
+            "text": " I just want to show you that this is the output."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 140.12,
+            "end": 142.12,
+            "text": " You can see cruddb here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 142.12,
+            "end": 144.12,
+            "text": " So, my db is also using cruddb."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 144.12,
+            "end": 148.12,
+            "text": " I can say db.db.db.jpg"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 148.12,
+            "end": 151.36,
+            "text": " What can I do to create a new collection here?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 151.36,
+            "end": 157.20000000000002,
+            "text": " I can say create collection and I can say that make a collection called courses."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 157.2,
+            "end": 163.2,
+            "text": " As soon as I run it, you'll see that it's okay."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 163.2,
+            "end": 167.2,
+            "text": " The courses name collection is ready."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 167.2,
+            "end": 169.2,
+            "text": " You can see it here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 169.2,
+            "end": 173.2,
+            "text": " So, cruddb has a course name collection in which there is no document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 173.2,
+            "end": 177.2,
+            "text": " To insert the document, we'll move the script forward."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 177.2,
+            "end": 179.2,
+            "text": " We'll say db."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 179.2,
+            "end": 182.2,
+            "text": " I'll tell you that courses."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 182.2,
+            "end": 185.2,
+            "text": " The db that we're using, which is our cruddb,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 185.2,
+            "end": 188.2,
+            "text": " There is a collection called courses."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 188.2,
+            "end": 192.2,
+            "text": " And what we want to do is insert the document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 192.2,
+            "end": 194.2,
+            "text": " Now, I can insert one here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 194.2,
+            "end": 197.2,
+            "text": " I want to insert one document here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 197.2,
+            "end": 204.2,
+            "text": " And I want to say that the name is Harry's Web Dev."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 204.2,
+            "end": 207.2,
+            "text": " Okay, free course."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 207.2,
+            "end": 211.2,
+            "text": " And the price of this is zero."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 211.2,
+            "end": 213.2,
+            "text": " Because it's free course."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 213.2,
+            "end": 217.2,
+            "text": " Then, Assignments will be made."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 217.2,
+            "end": 221.2,
+            "text": " There are 12 assignments."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 221.2,
+            "end": 223.2,
+            "text": " Projects are in this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 223.2,
+            "end": 227.2,
+            "text": " Projects are 45."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 227.2,
+            "end": 230.2,
+            "text": " So, I have written a code to insert."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 230.2,
+            "end": 234.2,
+            "text": " But as soon as I run it, you can disable it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 234.2,
+            "end": 236.2,
+            "text": " But I don't want to disable it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 236.2,
+            "end": 240.2,
+            "text": " It's always good that you see the queries running in your database."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 240.2,
+            "end": 248.2,
+            "text": " The document is now in the cruddb."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 248.2,
+            "end": 250.2,
+            "text": " And you can see this document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 250.2,
+            "end": 252.2,
+            "text": " This is the ID of the document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 252.2,
+            "end": 254.2,
+            "text": " Every document has a unique ID."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 254.2,
+            "end": 256.2,
+            "text": " A new ID is given."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 256.2,
+            "end": 258.2,
+            "text": " You'll understand this while doing it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 258.2,
+            "end": 260.2,
+            "text": " I can add more."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 260.2,
+            "end": 262.2,
+            "text": " And I'll run this script again."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 262.2,
+            "end": 264.2,
+            "text": " This will insert another document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 264.2,
+            "end": 266.2,
+            "text": " Now, the document will be 2."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 266.2,
+            "end": 268.2,
+            "text": " I'll refresh it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 268.2,
+            "end": 270.2,
+            "text": " As you saw."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 270.2,
+            "end": 274.2,
+            "text": " So, what happens when you get the documents?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 274.2,
+            "end": 279.2,
+            "text": " So, how can you create a collection?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 279.2,
+            "end": 283.2,
+            "text": " And how can you insert a document?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 283.2,
+            "end": 285.2,
+            "text": " There is one more thing."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 285.2,
+            "end": 288.2,
+            "text": " You can insert a document insert from the insert menu."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 288.2,
+            "end": 290.2,
+            "text": " You can also say something like"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 290.2,
+            "end": 294.2,
+            "text": " db.courses.insertmany"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 294.2,
+            "end": 298.2,
+            "text": " And you can add an array of objects."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 298.2,
+            "end": 300.2,
+            "text": " And I'll copy it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 300.2,
+            "end": 302.2,
+            "text": " Or I'll say chatgbt."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 302.2,
+            "end": 309.2,
+            "text": " I'll paste the old problem here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 309.2,
+            "end": 314.2,
+            "text": " I'll create 10 such dummy documents for me."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 314.2,
+            "end": 316.2,
+            "text": " And I'll enter."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 316.2,
+            "end": 318.2,
+            "text": " And it will make 10 more dummy documents for me."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 318.2,
+            "end": 320.2,
+            "text": " And it started making."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 320.2,
+            "end": 322.2,
+            "text": " So, all these courses are being made."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 322.2,
+            "end": 324.2,
+            "text": " Assignments are randomly made."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 324.2,
+            "end": 326.2,
+            "text": " So, you can use chatgbt like this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 326.2,
+            "end": 328.2,
+            "text": " Let me do one thing."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 328.2,
+            "end": 330.2,
+            "text": " Generate it once."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 330.2,
+            "end": 332.2,
+            "text": " And I'll copy it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 332.2,
+            "end": 336.2,
+            "text": " And I'll insert the array of objects."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 336.2,
+            "end": 338.2,
+            "text": " I'll paste the array block."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 338.2,
+            "end": 340.2,
+            "text": " I'll paste it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 340.2,
+            "end": 342.2,
+            "text": " And I'll run it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 342.2,
+            "end": 344.2,
+            "text": " I'll open the MongoDB Compus."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 344.2,
+            "end": 346.2,
+            "text": " I'll right click here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 346.2,
+            "end": 348.2,
+            "text": " If I refresh."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 348.2,
+            "end": 350.2,
+            "text": " In fact, I'll click here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 350.2,
+            "end": 354.2,
+            "text": " I've created a current db."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 354.2,
+            "end": 356.2,
+            "text": " There are two documents in the current db."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 356.2,
+            "end": 358.2,
+            "text": " You can refresh it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 358.2,
+            "end": 360.2,
+            "text": " I'll refresh it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 360.2,
+            "end": 362.2,
+            "text": " But as soon as I run the script,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 362.2,
+            "end": 364.2,
+            "text": " you'll see that I'll insert many things."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 364.2,
+            "end": 366.2,
+            "text": " And all these will be inserted into my database."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 366.2,
+            "end": 370.2,
+            "text": " So, you see all these documents are inserted."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 370.2,
+            "end": 372.2,
+            "text": " The price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 372.2,
+            "end": 374.2,
+            "text": " Assignment is 15."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 374.2,
+            "end": 376.2,
+            "text": " So, the price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 376.2,
+            "end": 378.2,
+            "text": " I don't know why."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 378.2,
+            "end": 380.2,
+            "text": " I don't know why."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 380.2,
+            "end": 382.2,
+            "text": " I don't know why."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 382.2,
+            "end": 384.2,
+            "text": " But it's okay."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 384.2,
+            "end": 386.2,
+            "text": " Now, we'll close this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 386.2,
+            "end": 388.2,
+            "text": " And here, we saw insert many."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 388.2,
+            "end": 390.2,
+            "text": " You can collapse it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 390.2,
+            "end": 392.2,
+            "text": " Just so you can see the code."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 392.2,
+            "end": 394.2,
+            "text": " So, how do we create the collection?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 394.2,
+            "end": 396.2,
+            "text": " We saw insertion."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 396.2,
+            "end": 398.2,
+            "text": " How do we insert the document?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 398.2,
+            "end": 400.2,
+            "text": " We created a new document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 400.2,
+            "end": 402.2,
+            "text": " We put it in the database."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 402.2,
+            "end": 404.2,
+            "text": " And then read."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 404.2,
+            "end": 406.2,
+            "text": " You want to find."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 406.2,
+            "end": 408.2,
+            "text": " I want to say that"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 408.2,
+            "end": 410.2,
+            "text": " give me those courses"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 410.2,
+            "end": 412.2,
+            "text": " in which"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 412.2,
+            "end": 414.2,
+            "text": " the price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 414.2,
+            "end": 416.2,
+            "text": " Give me those courses in which the price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 416.2,
+            "end": 418.2,
+            "text": " So, if I write here"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 418.2,
+            "end": 420.2,
+            "text": " let A is equal to"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 420.2,
+            "end": 422.2,
+            "text": " after office, I say console.log A."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 422.2,
+            "end": 424.2,
+            "text": " And if I run it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 424.2,
+            "end": 426.2,
+            "text": " You'll see here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 426.2,
+            "end": 428.2,
+            "text": " I'll use it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 428.2,
+            "end": 430.2,
+            "text": " You'll see in console,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 430.2,
+            "end": 432.2,
+            "text": " all those documents are here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 432.2,
+            "end": 434.2,
+            "text": " Which"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 434.2,
+            "end": 436.2,
+            "text": " the price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 436.2,
+            "end": 438.2,
+            "text": " So, here we have"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 438.2,
+            "end": 440.2,
+            "text": " the free course."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 440.2,
+            "end": 442.2,
+            "text": " And here we have this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 442.2,
+            "end": 444.2,
+            "text": " After writing A,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 444.2,
+            "end": 446.2,
+            "text": " I'll return the course."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 446.2,
+            "end": 448.2,
+            "text": " So, in console.log A."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 448.2,
+            "end": 450.2,
+            "text": " If I write A.count,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 450.2,
+            "end": 452.2,
+            "text": " it'll tell me how many documents are there."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 452.2,
+            "end": 454.2,
+            "text": " So, if I write yes,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 454.2,
+            "end": 456.2,
+            "text": " it'll tell me 46 documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 456.2,
+            "end": 458.2,
+            "text": " I've inserted many times."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 458.2,
+            "end": 460.2,
+            "text": " So, 46 documents are there."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 460.2,
+            "end": 462.2,
+            "text": " There are many duplicates."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 462.2,
+            "end": 464.2,
+            "text": " If I give the whole result,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 464.2,
+            "end": 466.2,
+            "text": " I can say A.2 array."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 466.2,
+            "end": 468.2,
+            "text": " By the way,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 468.2,
+            "end": 470.2,
+            "text": " the insert menu is going on."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 470.2,
+            "end": 472.2,
+            "text": " The documents are increasing."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 472.2,
+            "end": 474.2,
+            "text": " But that's fine. The more I run it,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 474.2,
+            "end": 476.2,
+            "text": " the more it will insert me."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 476.2,
+            "end": 478.2,
+            "text": " And you can see here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 478.2,
+            "end": 480.2,
+            "text": " It gave me all the documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 480.2,
+            "end": 482.2,
+            "text": " So, you can use .2 array to return all the documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 482.2,
+            "end": 484.2,
+            "text": " But this script"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 484.2,
+            "end": 486.2,
+            "text": " I'm just using it as a temporary script."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 486.2,
+            "end": 488.2,
+            "text": " We'll connect it with Express."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 488.2,
+            "end": 490.2,
+            "text": " I'll tell you how to"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 490.2,
+            "end": 492.2,
+            "text": " connect MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 492.2,
+            "end": 494.2,
+            "text": " So, this is our"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 494.2,
+            "end": 496.2,
+            "text": " read. And it also has"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 496.2,
+            "end": 498.2,
+            "text": " Find1."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 498.2,
+            "end": 500.2,
+            "text": " I'll tell you how to do this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 500.2,
+            "end": 502.2,
+            "text": " I'll copy it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 502.2,
+            "end": 504.2,
+            "text": " And I'll tell you how to do Find1."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 504.2,
+            "end": 506.2,
+            "text": " I'll call it B."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 506.2,
+            "end": 508.2,
+            "text": " Because we don't have a lot of variable names."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 508.2,
+            "end": 510.2,
+            "text": " If I call it Find1,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 510.2,
+            "end": 512.2,
+            "text": " the first search result"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 512.2,
+            "end": 514.2,
+            "text": " will give me with price 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 514.2,
+            "end": 516.2,
+            "text": " So, only one document will come."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 516.2,
+            "end": 518.2,
+            "text": " And I don't have to give 2 array like this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 518.2,
+            "end": 520.2,
+            "text": " I'll have to give 2 array only in Cursor."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 520.2,
+            "end": 522.2,
+            "text": " When there will be multiple results."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 522.2,
+            "end": 524.2,
+            "text": " Here, it will return me this document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 524.2,
+            "end": 526.2,
+            "text": " So, this is how we read."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 526.2,
+            "end": 528.2,
+            "text": " So, how we created"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 528.2,
+            "end": 530.2,
+            "text": " and how we read."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 530.2,
+            "end": 532.2,
+            "text": " Now, I'll go to Update and Delete."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 532.2,
+            "end": 534.2,
+            "text": " Now, how we update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 534.2,
+            "end": 536.2,
+            "text": " So, I'll do one thing."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 536.2,
+            "end": 538.2,
+            "text": " I'll write here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 538.2,
+            "end": 540.2,
+            "text": " First,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 540.2,
+            "end": 542.2,
+            "text": " I'll write here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 542.2,
+            "end": 544.2,
+            "text": " CredOperations. It's better to organize it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 544.2,
+            "end": 546.2,
+            "text": " Because I want you to"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 546.2,
+            "end": 548.2,
+            "text": " use it as notes."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 548.2,
+            "end": 550.2,
+            "text": " So, I've written here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 550.2,
+            "end": 552.2,
+            "text": " Now, I'll tell you the update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 552.2,
+            "end": 554.2,
+            "text": " Suppose, I want to update a document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 554.2,
+            "end": 556.2,
+            "text": " Or I want to update all those documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 556.2,
+            "end": 558.2,
+            "text": " whose price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 558.2,
+            "end": 560.2,
+            "text": " I suddenly realized that if I don't have any money"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 560.2,
+            "end": 562.2,
+            "text": " from price 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 562.2,
+            "end": 564.2,
+            "text": " Then why don't I update the price."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 564.2,
+            "end": 566.2,
+            "text": " So, I can either update or I can't update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 566.2,
+            "end": 568.2,
+            "text": " So, I can say db.courses.update"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 568.2,
+            "end": 570.2,
+            "text": " And here, if I write update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 570.2,
+            "end": 572.2,
+            "text": " I'll write update many."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 572.2,
+            "end": 574.2,
+            "text": " And I'll write update one."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 574.2,
+            "end": 576.2,
+            "text": " That an existing document"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 576.2,
+            "end": 578.2,
+            "text": " or documents in a collection"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 578.2,
+            "end": 580.2,
+            "text": " can be modified."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 580.2,
+            "end": 582.2,
+            "text": " You can read more about it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 582.2,
+            "end": 584.2,
+            "text": " If you think,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 584.2,
+            "end": 586.2,
+            "text": " I don't know what it is."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 586.2,
+            "end": 588.2,
+            "text": " Now, I want to tell you that the update method"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 588.2,
+            "end": 590.2,
+            "text": " is deprecated."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 590.2,
+            "end": 592.2,
+            "text": " You can use update one, update many."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 592.2,
+            "end": 594.2,
+            "text": " Now, I'll tell you by using this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 594.2,
+            "end": 596.2,
+            "text": " So, if I say"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 596.2,
+            "end": 598.2,
+            "text": " db.courses.update one"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 598.2,
+            "end": 600.2,
+            "text": " And I'll say that the first"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 600.2,
+            "end": 602.2,
+            "text": " document, the first argument"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 602.2,
+            "end": 604.2,
+            "text": " is selector."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 604.2,
+            "end": 606.2,
+            "text": " If I say that the price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 606.2,
+            "end": 608.2,
+            "text": " Update it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 608.2,
+            "end": 610.2,
+            "text": " If I go to its documentation."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 610.2,
+            "end": 612.2,
+            "text": " I never recommend you to remember."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 612.2,
+            "end": 614.2,
+            "text": " The first argument is the filter."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 614.2,
+            "end": 616.2,
+            "text": " The second is the update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 616.2,
+            "end": 618.2,
+            "text": " What can you do?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 618.2,
+            "end": 620.2,
+            "text": " I'll find the example."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 620.2,
+            "end": 622.2,
+            "text": " If they write."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 622.2,
+            "end": 624.2,
+            "text": " You can say, this document"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 624.2,
+            "end": 626.2,
+            "text": " I want to update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 626.2,
+            "end": 628.2,
+            "text": " And what do you want to update?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 628.2,
+            "end": 630.2,
+            "text": " I'll tell you."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 630.2,
+            "end": 632.2,
+            "text": " If the price is 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 632.2,
+            "end": 634.2,
+            "text": " Update it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 634.2,
+            "end": 636.2,
+            "text": " And what to do there?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 636.2,
+            "end": 638.2,
+            "text": " 100 the price."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 638.2,
+            "end": 640.2,
+            "text": " If I run it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 640.2,
+            "end": 642.2,
+            "text": " You'll see that"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 642.2,
+            "end": 644.2,
+            "text": " the output is coming here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 644.2,
+            "end": 646.2,
+            "text": " I'll comment it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 646.2,
+            "end": 648.2,
+            "text": " I should comment all these out."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 648.2,
+            "end": 650.2,
+            "text": " Or else it will be inserted."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 650.2,
+            "end": 652.2,
+            "text": " When I run the script."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 652.2,
+            "end": 654.2,
+            "text": " By the way, I made separate script."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 654.2,
+            "end": 656.2,
+            "text": " I didn't want to make it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 656.2,
+            "end": 658.2,
+            "text": " I'm running it again."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 658.2,
+            "end": 660.2,
+            "text": " The argument requires atomic operators."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 660.2,
+            "end": 662.2,
+            "text": " And this error is coming."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 662.2,
+            "end": 664.2,
+            "text": " Because I have to use the atomic operator set."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 664.2,
+            "end": 666.2,
+            "text": " I'll have to do it this way."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 666.2,
+            "end": 668.2,
+            "text": " Set the price as."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 668.2,
+            "end": 670.2,
+            "text": " I'll make it an object."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 670.2,
+            "end": 672.2,
+            "text": " Set the price as 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 672.2,
+            "end": 674.2,
+            "text": " If I run it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 674.2,
+            "end": 676.2,
+            "text": " He said,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 676.2,
+            "end": 678.2,
+            "text": " We have acknowledged"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 678.2,
+            "end": 680.2,
+            "text": " the inserted id."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 680.2,
+            "end": 682.2,
+            "text": " Null, matched count 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 682.2,
+            "end": 684.2,
+            "text": " Modified count 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 684.2,
+            "end": 686.2,
+            "text": " He did or not."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 686.2,
+            "end": 688.2,
+            "text": " It seems that he didn't modify."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 688.2,
+            "end": 690.2,
+            "text": " He didn't modify the price."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 690.2,
+            "end": 692.2,
+            "text": " I said,"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 692.2,
+            "end": 694.2,
+            "text": " I don't want to do the courses."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 694.2,
+            "end": 696.2,
+            "text": " It was my mistake."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 696.2,
+            "end": 698.2,
+            "text": " And he'll do it now."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 698.2,
+            "end": 700.2,
+            "text": " I'll tell you that one match is done."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 700.2,
+            "end": 702.2,
+            "text": " I'll reload it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 702.2,
+            "end": 704.2,
+            "text": " If I reload it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 704.2,
+            "end": 706.2,
+            "text": " You can change it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 706.2,
+            "end": 708.2,
+            "text": " In a very similar fashion."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 708.2,
+            "end": 710.2,
+            "text": " You can't update it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 710.2,
+            "end": 712.2,
+            "text": " If I do it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 712.2,
+            "end": 714.2,
+            "text": " What will happen?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 714.2,
+            "end": 716.2,
+            "text": " I'll hover it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 716.2,
+            "end": 718.2,
+            "text": " Maybe I got the documentation."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 718.2,
+            "end": 720.2,
+            "text": " Or I'll see the update menu."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 720.2,
+            "end": 722.2,
+            "text": " From here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 722.2,
+            "end": 724.2,
+            "text": " And it's always better to go to"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 724.2,
+            "end": 726.2,
+            "text": " Documentation."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 726.2,
+            "end": 728.2,
+            "text": " What's the benefit of that?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 728.2,
+            "end": 730.2,
+            "text": " You get updated syntax."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 730.2,
+            "end": 732.2,
+            "text": " Here is the filter and update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 732.2,
+            "end": 734.2,
+            "text": " And here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 734.2,
+            "end": 736.2,
+            "text": " When you put the filter and update."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 736.2,
+            "end": 738.2,
+            "text": " If I put it the same way."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 738.2,
+            "end": 740.2,
+            "text": " This time it's not a document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 740.2,
+            "end": 742.2,
+            "text": " It will price for all the documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 742.2,
+            "end": 744.2,
+            "text": " I want to do it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 744.2,
+            "end": 746.2,
+            "text": " I'll run it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 746.2,
+            "end": 748.2,
+            "text": " I'll do it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 748.2,
+            "end": 750.2,
+            "text": " First the price will be 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 750.2,
+            "end": 752.2,
+            "text": " Then it will be 1000."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 752.2,
+            "end": 754.2,
+            "text": " That means it should be 1000."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 754.2,
+            "end": 756.2,
+            "text": " When I refresh."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 756.2,
+            "end": 758.2,
+            "text": " And it's 1000."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 758.2,
+            "end": 760.2,
+            "text": " Like you did."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 760.2,
+            "end": 762.2,
+            "text": " I made a mistake."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 762.2,
+            "end": 764.2,
+            "text": " I didn't update the courses."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 764.2,
+            "end": 766.2,
+            "text": " I selected the price 0."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 766.2,
+            "end": 768.2,
+            "text": " And I made 1000."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 768.2,
+            "end": 770.2,
+            "text": " What will happen?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 770.2,
+            "end": 772.2,
+            "text": " It's 1000."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 772.2,
+            "end": 774.2,
+            "text": " Where it was 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 774.2,
+            "end": 776.2,
+            "text": " It's 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 776.2,
+            "end": 778.2,
+            "text": " So this update has made multiple documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 778.2,
+            "end": 780.2,
+            "text": " Like this."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 780.2,
+            "end": 782.2,
+            "text": " Delete."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 782.2,
+            "end": 784.2,
+            "text": " What can I do in delete documents?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 784.2,
+            "end": 786.2,
+            "text": " Delete."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 786.2,
+            "end": 788.2,
+            "text": " Delete 1 and delete many."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 788.2,
+            "end": 790.2,
+            "text": " I want to delete one document."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 790.2,
+            "end": 792.2,
+            "text": " I want to say."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 792.2,
+            "end": 794.2,
+            "text": " Where the price is 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 794.2,
+            "end": 796.2,
+            "text": " Where the price is 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 796.2,
+            "end": 798.2,
+            "text": " And I'll run it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 798.2,
+            "end": 800.2,
+            "text": " So it's not defined."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 800.2,
+            "end": 802.2,
+            "text": " What happened?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 802.2,
+            "end": 804.2,
+            "text": " Let me see."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 804.2,
+            "end": 806.2,
+            "text": " I'll run it again."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 806.2,
+            "end": 808.2,
+            "text": " So this is the 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 808.2,
+            "end": 810.2,
+            "text": " The price is 100."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 810.2,
+            "end": 812.2,
+            "text": " What's going on?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 812.2,
+            "end": 814.2,
+            "text": " Let me check."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 814.2,
+            "end": 816.2,
+            "text": " Delete it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 816.2,
+            "end": 818.2,
+            "text": " I'll write the course again."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 818.2,
+            "end": 820.2,
+            "text": " I'll write the course again."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 820.2,
+            "end": 822.2,
+            "text": " And delete it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 822.2,
+            "end": 824.2,
+            "text": " If I show you."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 824.2,
+            "end": 826.2,
+            "text": " The document is deleted."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 826.2,
+            "end": 828.2,
+            "text": " I'll run it again."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 828.2,
+            "end": 830.2,
+            "text": " Ok."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 830.2,
+            "end": 832.2,
+            "text": " And delete it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 832.2,
+            "end": 834.2,
+            "text": " If I run it again."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 834.2,
+            "end": 836.2,
+            "text": " It won't get anything."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 836.2,
+            "end": 838.2,
+            "text": " So delete it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 838.2,
+            "end": 840.2,
+            "text": " What will we do after this?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 840.2,
+            "end": 842.2,
+            "text": " I want to delete 1000."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 842.2,
+            "end": 844.2,
+            "text": " So I'll run it as many times as I want."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 844.2,
+            "end": 846.2,
+            "text": " I'll delete as many times as I want."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 846.2,
+            "end": 848.2,
+            "text": " But who will do this?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 848.2,
+            "end": 850.2,
+            "text": " How about I delete all documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 850.2,
+            "end": 852.2,
+            "text": " Select it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 852.2,
+            "end": 854.2,
+            "text": " I'll delete it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 854.2,
+            "end": 856.2,
+            "text": " And here you can see how many documents are there."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 856.2,
+            "end": 858.2,
+            "text": " 86 documents."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 858.2,
+            "end": 860.2,
+            "text": " The price of all is 1000."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 860.2,
+            "end": 862.2,
+            "text": " And as soon as I run it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 862.2,
+            "end": 864.2,
+            "text": " It's clean."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 864.2,
+            "end": 866.2,
+            "text": " The entire 86 documents are gone."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 866.2,
+            "end": 868.2,
+            "text": " Unless the price of someone else is not there."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 868.2,
+            "end": 870.2,
+            "text": " The document won't be here."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 870.2,
+            "end": 872.2,
+            "text": " The price of all documents is gone."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 872.2,
+            "end": 874.2,
+            "text": " So this was delete 1 and delete many."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 874.2,
+            "end": 876.2,
+            "text": " In most of the cases."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 876.2,
+            "end": 878.2,
+            "text": " You must be using these operators."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 878.2,
+            "end": 880.2,
+            "text": " And sometimes you have to use"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 880.2,
+            "end": 882.2,
+            "text": " some special operators."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 882.2,
+            "end": 884.2,
+            "text": " For example, MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 884.2,
+            "end": 886.2,
+            "text": " I'll do one thing."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 886.2,
+            "end": 888.2,
+            "text": " I've closed the browser."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 888.2,
+            "end": 890.2,
+            "text": " MongoDB operators."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 890.2,
+            "end": 892.2,
+            "text": " And why are these operators important?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 892.2,
+            "end": 894.2,
+            "text": " Because they are used."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 894.2,
+            "end": 896.2,
+            "text": " So here you can see"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 896.2,
+            "end": 898.2,
+            "text": " Query and projection operators."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 898.2,
+            "end": 900.2,
+            "text": " So what are query and projection operators?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 900.2,
+            "end": 902.2,
+            "text": " Which is dollar EQ."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 902.2,
+            "end": 904.2,
+            "text": " What does it do? It matches"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 904.2,
+            "end": 906.2,
+            "text": " values that are equal to a specified value."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 906.2,
+            "end": 908.2,
+            "text": " How do we use it?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 908.2,
+            "end": 910.2,
+            "text": " It's equal to greater than or greater than equal to"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 910.2,
+            "end": 912.2,
+            "text": " if someone says that there is no value."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 912.2,
+            "end": 914.2,
+            "text": " Then what is LT?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 914.2,
+            "end": 916.2,
+            "text": " What is less than equal to?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 916.2,
+            "end": 918.2,
+            "text": " What is not equal to?"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 918.2,
+            "end": 920.2,
+            "text": " Now see how you will use dollar EQ."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 920.2,
+            "end": 922.2,
+            "text": " Suppose you want to select the price."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 922.2,
+            "end": 924.2,
+            "text": " Where the price is not equal to"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 924.2,
+            "end": 926.2,
+            "text": " let us say 5."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 926.2,
+            "end": 928.2,
+            "text": " So you will say the price."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 928.2,
+            "end": 930.2,
+            "text": " And you will say dollar N"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 930.2,
+            "end": 932.2,
+            "text": " E means not equal to."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 932.2,
+            "end": 934.2,
+            "text": " Matches all values that are not equal to a specified value."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 934.2,
+            "end": 936.2,
+            "text": " And whatever value you write."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 936.2,
+            "end": 938.2,
+            "text": " Suppose you write 5."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 938.2,
+            "end": 940.2,
+            "text": " Then all the documents will be selected."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 940.2,
+            "end": 942.2,
+            "text": " So try it yourself."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 942.2,
+            "end": 944.2,
+            "text": " And here there are many examples."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 944.2,
+            "end": 946.2,
+            "text": " I want you to run these examples."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 946.2,
+            "end": 948.2,
+            "text": " And look at it yourself."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 948.2,
+            "end": 950.2,
+            "text": " You will do all these query and projection operators yourself."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 950.2,
+            "end": 952.2,
+            "text": " I don't know."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 952.2,
+            "end": 954.2,
+            "text": " Because you will have to do it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 954.2,
+            "end": 956.2,
+            "text": " And you will come when you do it yourself."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 956.2,
+            "end": 958.2,
+            "text": " So don't say that you don't know"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 958.2,
+            "end": 960.2,
+            "text": " the query and projection operators by doing one."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 960.2,
+            "end": 962.2,
+            "text": " I want all of you to do it yourself."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 962.2,
+            "end": 964.2,
+            "text": " Because we will spend time making projects."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 964.2,
+            "end": 966.2,
+            "text": " I don't want to tell you this by doing spoon fitting."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 966.2,
+            "end": 968.2,
+            "text": " And here there are logical operators."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 968.2,
+            "end": 970.2,
+            "text": " Element operator."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 970.2,
+            "end": 972.2,
+            "text": " You can do it by doing it."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 972.2,
+            "end": 974.2,
+            "text": " You don't need to remember."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 974.2,
+            "end": 976.2,
+            "text": " You should know that this happens."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 976.2,
+            "end": 978.2,
+            "text": " And when you get the number to use in the project."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 978.2,
+            "end": 980.2,
+            "text": " You can do it yourself."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 980.2,
+            "end": 982.2,
+            "text": " This is my claim from you."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 982.2,
+            "end": 984.2,
+            "text": " So keep this in mind."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 984.2,
+            "end": 986.2,
+            "text": " And things will be great for you."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 986.2,
+            "end": 988.2,
+            "text": " I hope you enjoyed watching this video."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 988.2,
+            "end": 990.2,
+            "text": " I don't want this Sigma course"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 990.2,
+            "end": 992.2,
+            "text": " to be MongoDB extensive course."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 992.2,
+            "end": 994.2,
+            "text": " Because I want to build something good."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 994.2,
+            "end": 996.2,
+            "text": " Build good projects."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 996.2,
+            "end": 998.2,
+            "text": " And I will make you at least"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 998.2,
+            "end": 1000.2,
+            "text": " make good projects."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1000.2,
+            "end": 1002.2,
+            "text": " So I hope you enjoyed"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1002.2,
+            "end": 1004.2,
+            "text": " learning MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1004.2,
+            "end": 1006.2,
+            "text": " We are going to do a lot of spice up"
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1006.2,
+            "end": 1008.2,
+            "text": " things in the videos of MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1008.2,
+            "end": 1010.2,
+            "text": " Because we will use express MongoDB."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1010.2,
+            "end": 1012.2,
+            "text": " So for the upcoming videos."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1012.2,
+            "end": 1014.2,
+            "text": " Stay tuned for this video."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1014.2,
+            "end": 1016.2,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1016.2,
+            "end": 1018.2,
+            "text": " And I will see you next time."
+        },
+        {
+            "title": "CRUD",
+            "Number": "10",
+            "start": 1024.2,
+            "end": 1026.2,
+            "text": " Bye."
+        }
+    ],
+    "text": " In today's video, I'm going to teach you how to do crud operations in MongoDB. Crud operations in MongoDB, that is, it's very easy to create, read, update and delete. You get a lot of documentation from Cintx. Do like this video and do write a sigma patch in the comment section. Let's go in the computer screen. Let's roll the intro. Guys, today we are going to learn how to do crud operations about MongoDB. I'm going to make a video 95. This was video number 94. The last one I've learned is the basics of MongoDB. Today, I'm going to tell you how to do crud operations in code and how to learn in MongoDB. I'll open it with code. I've already told you about this extension. I've connected it to localhost colon 27017 because it's the MongoDB instance of my local computer. I'll click on Create New Playground. I can save it or create a new file here. I can say crud.mongodb.js. If I make anything from .mongodb.js, it will start running as a MongoDB Playground script. If I write use and I write cruddb, I've created a database called cruddb. If I run it and give it confirmation, it says switch to db. It made a cruddb and switched it on. How do I do crud operations? First of all, what I want to tell you and you may not know is that you don't have to remember anything. How do you create a database in MongoDB? You'll get it here in MongoDB documentation. How is MongoDB created in MongoDB? You'll get all this here. But let me tell you that I've remembered something from my experience. So, I've made a cruddb here. If I do console.log and I run the script, I just want to show you that this is the output. You can see cruddb here. So, my db is also using cruddb. I can say db.db.db.jpg What can I do to create a new collection here? I can say create collection and I can say that make a collection called courses. As soon as I run it, you'll see that it's okay. The courses name collection is ready. You can see it here. So, cruddb has a course name collection in which there is no document. To insert the document, we'll move the script forward. We'll say db. I'll tell you that courses. The db that we're using, which is our cruddb, There is a collection called courses. And what we want to do is insert the document. Now, I can insert one here. I want to insert one document here. And I want to say that the name is Harry's Web Dev. Okay, free course. And the price of this is zero. Because it's free course. Then, Assignments will be made. There are 12 assignments. Projects are in this. Projects are 45. So, I have written a code to insert. But as soon as I run it, you can disable it. But I don't want to disable it. It's always good that you see the queries running in your database. The document is now in the cruddb. And you can see this document. This is the ID of the document. Every document has a unique ID. A new ID is given. You'll understand this while doing it. I can add more. And I'll run this script again. This will insert another document. Now, the document will be 2. I'll refresh it. As you saw. So, what happens when you get the documents? So, how can you create a collection? And how can you insert a document? There is one more thing. You can insert a document insert from the insert menu. You can also say something like db.courses.insertmany And you can add an array of objects. And I'll copy it. Or I'll say chatgbt. I'll paste the old problem here. I'll create 10 such dummy documents for me. And I'll enter. And it will make 10 more dummy documents for me. And it started making. So, all these courses are being made. Assignments are randomly made. So, you can use chatgbt like this. Let me do one thing. Generate it once. And I'll copy it. And I'll insert the array of objects. I'll paste the array block. I'll paste it. And I'll run it. I'll open the MongoDB Compus. I'll right click here. If I refresh. In fact, I'll click here. I've created a current db. There are two documents in the current db. You can refresh it. I'll refresh it. But as soon as I run the script, you'll see that I'll insert many things. And all these will be inserted into my database. So, you see all these documents are inserted. The price is 0. Assignment is 15. So, the price is 0. I don't know why. I don't know why. I don't know why. But it's okay. Now, we'll close this. And here, we saw insert many. You can collapse it. Just so you can see the code. So, how do we create the collection? We saw insertion. How do we insert the document? We created a new document. We put it in the database. And then read. You want to find. I want to say that give me those courses in which the price is 0. Give me those courses in which the price is 0. So, if I write here let A is equal to after office, I say console.log A. And if I run it. You'll see here. I'll use it. You'll see in console, all those documents are here. Which the price is 0. So, here we have the free course. And here we have this. After writing A, I'll return the course. So, in console.log A. If I write A.count, it'll tell me how many documents are there. So, if I write yes, it'll tell me 46 documents. I've inserted many times. So, 46 documents are there. There are many duplicates. If I give the whole result, I can say A.2 array. By the way, the insert menu is going on. The documents are increasing. But that's fine. The more I run it, the more it will insert me. And you can see here. It gave me all the documents. So, you can use .2 array to return all the documents. But this script I'm just using it as a temporary script. We'll connect it with Express. I'll tell you how to connect MongoDB. So, this is our read. And it also has Find1. I'll tell you how to do this. I'll copy it. And I'll tell you how to do Find1. I'll call it B. Because we don't have a lot of variable names. If I call it Find1, the first search result will give me with price 0. So, only one document will come. And I don't have to give 2 array like this. I'll have to give 2 array only in Cursor. When there will be multiple results. Here, it will return me this document. So, this is how we read. So, how we created and how we read. Now, I'll go to Update and Delete. Now, how we update. So, I'll do one thing. I'll write here. First, I'll write here. CredOperations. It's better to organize it. Because I want you to use it as notes. So, I've written here. Now, I'll tell you the update. Suppose, I want to update a document. Or I want to update all those documents. whose price is 0. I suddenly realized that if I don't have any money from price 0. Then why don't I update the price. So, I can either update or I can't update. So, I can say db.courses.update And here, if I write update. I'll write update many. And I'll write update one. That an existing document or documents in a collection can be modified. You can read more about it. If you think, I don't know what it is. Now, I want to tell you that the update method is deprecated. You can use update one, update many. Now, I'll tell you by using this. So, if I say db.courses.update one And I'll say that the first document, the first argument is selector. If I say that the price is 0. Update it. If I go to its documentation. I never recommend you to remember. The first argument is the filter. The second is the update. What can you do? I'll find the example. If they write. You can say, this document I want to update. And what do you want to update? I'll tell you. If the price is 0. Update it. And what to do there? 100 the price. If I run it. You'll see that the output is coming here. I'll comment it. I should comment all these out. Or else it will be inserted. When I run the script. By the way, I made separate script. I didn't want to make it. I'm running it again. The argument requires atomic operators. And this error is coming. Because I have to use the atomic operator set. I'll have to do it this way. Set the price as. I'll make it an object. Set the price as 100. If I run it. He said, We have acknowledged the inserted id. Null, matched count 0. Modified count 0. He did or not. It seems that he didn't modify. He didn't modify the price. I said, I don't want to do the courses. It was my mistake. And he'll do it now. I'll tell you that one match is done. I'll reload it. If I reload it. You can change it. In a very similar fashion. You can't update it. If I do it. What will happen? I'll hover it. Maybe I got the documentation. Or I'll see the update menu. From here. And it's always better to go to Documentation. What's the benefit of that? You get updated syntax. Here is the filter and update. And here. When you put the filter and update. If I put it the same way. This time it's not a document. It will price for all the documents. I want to do it. I'll run it. I'll do it. First the price will be 100. Then it will be 1000. That means it should be 1000. When I refresh. And it's 1000. Like you did. I made a mistake. I didn't update the courses. I selected the price 0. And I made 1000. What will happen? It's 1000. Where it was 100. It's 100. So this update has made multiple documents. Like this. Delete. What can I do in delete documents? Delete. Delete 1 and delete many. I want to delete one document. I want to say. Where the price is 100. Where the price is 100. And I'll run it. So it's not defined. What happened? Let me see. I'll run it again. So this is the 100. The price is 100. What's going on? Let me check. Delete it. I'll write the course again. I'll write the course again. And delete it. If I show you. The document is deleted. I'll run it again. Ok. And delete it. If I run it again. It won't get anything. So delete it. What will we do after this? I want to delete 1000. So I'll run it as many times as I want. I'll delete as many times as I want. But who will do this? How about I delete all documents. Select it. I'll delete it. And here you can see how many documents are there. 86 documents. The price of all is 1000. And as soon as I run it. It's clean. The entire 86 documents are gone. Unless the price of someone else is not there. The document won't be here. The price of all documents is gone. So this was delete 1 and delete many. In most of the cases. You must be using these operators. And sometimes you have to use some special operators. For example, MongoDB. I'll do one thing. I've closed the browser. MongoDB operators. And why are these operators important? Because they are used. So here you can see Query and projection operators. So what are query and projection operators? Which is dollar EQ. What does it do? It matches values that are equal to a specified value. How do we use it? It's equal to greater than or greater than equal to if someone says that there is no value. Then what is LT? What is less than equal to? What is not equal to? Now see how you will use dollar EQ. Suppose you want to select the price. Where the price is not equal to let us say 5. So you will say the price. And you will say dollar N E means not equal to. Matches all values that are not equal to a specified value. And whatever value you write. Suppose you write 5. Then all the documents will be selected. So try it yourself. And here there are many examples. I want you to run these examples. And look at it yourself. You will do all these query and projection operators yourself. I don't know. Because you will have to do it. And you will come when you do it yourself. So don't say that you don't know the query and projection operators by doing one. I want all of you to do it yourself. Because we will spend time making projects. I don't want to tell you this by doing spoon fitting. And here there are logical operators. Element operator. You can do it by doing it. You don't need to remember. You should know that this happens. And when you get the number to use in the project. You can do it yourself. This is my claim from you. So keep this in mind. And things will be great for you. I hope you enjoyed watching this video. I don't want this Sigma course to be MongoDB extensive course. Because I want to build something good. Build good projects. And I will make you at least make good projects. So I hope you enjoyed learning MongoDB. We are going to do a lot of spice up things in the videos of MongoDB. Because we will use express MongoDB. So for the upcoming videos. Stay tuned for this video. Thank you so much for watching this video. And I will see you next time. Bye."
+}

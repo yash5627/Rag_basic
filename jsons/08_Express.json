@@ -1,0 +1,3946 @@
+{
+    "chunks": [
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 0.0,
+            "end": 7.28,
+            "text": " In this video, we will see how to handle Post Request, Delete Request and Put Request from Express."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 7.28,
+            "end": 8.96,
+            "text": " We will see the concept of Chaining."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 8.96,
+            "end": 13.32,
+            "text": " And then we will see how to serve static files in Express."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 13.32,
+            "end": 17.44,
+            "text": " Like this video and write down your thoughts in the comments section."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 17.44,
+            "end": 18.92,
+            "text": " Let's go to the computer screen."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 18.92,
+            "end": 20.92,
+            "text": " Let's roll the intro."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 20.92,
+            "end": 33.56,
+            "text": " So guys, in this video, we are going to see Post and Other Request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 33.56,
+            "end": 35.72,
+            "text": " So here, first of all, I will make Main.js."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 35.72,
+            "end": 39.6,
+            "text": " As I have already told you how to make Main.js."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 39.6,
+            "end": 43.36,
+            "text": " To take the Express app, we go to Express.js documentation."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 43.36,
+            "end": 45.36,
+            "text": " To take a minimal application."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 45.36,
+            "end": 49.160000000000004,
+            "text": " We go to the Getting Started and put the basic application of Hello World."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 49.16,
+            "end": 56.68,
+            "text": " I have already told you that if you want to take a Get request, you can go to Get and write down whatever you will write in the app."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 56.68,
+            "end": 61.72,
+            "text": " And what you have to do after writing the Node, write the Node.js."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 61.72,
+            "end": 62.72,
+            "text": " And what happened?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 62.72,
+            "end": 66.56,
+            "text": " It is not because I have not written the Node.js because I have not written the NPM Minutes."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 66.56,
+            "end": 69.16,
+            "text": " Hey, initialize the NPM Project."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 69.16,
+            "end": 70.75999999999999,
+            "text": " NPM Minutes minus Y."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 70.75999999999999,
+            "end": 71.56,
+            "text": " What is the hurry?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 71.56,
+            "end": 72.96,
+            "text": " This is basically what I am saying."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 72.96,
+            "end": 76.88,
+            "text": " And I am saying that NPM I express at the rate 4."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 76.88,
+            "end": 80.47999999999999,
+            "text": " So that the version 4 is installed, how will the work go?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 80.47999999999999,
+            "end": 82.28,
+            "text": " Let the Node modules be a folder."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 82.28,
+            "end": 86.28,
+            "text": " And the first thing I have put in today's agenda is Post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 86.28,
+            "end": 89.88,
+            "text": " And we will handle the other requests in this way."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 89.88,
+            "end": 92.08,
+            "text": " So getting requests is very easy."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 92.08,
+            "end": 94.28,
+            "text": " You start your Express app."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 94.28,
+            "end": 95.88,
+            "text": " In fact, let's do it with Nodemon."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 95.88,
+            "end": 97.88,
+            "text": " When Nodemon has been installed."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 97.88,
+            "end": 101.08,
+            "text": " Why should we do it with Nodemon?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 101.08,
+            "end": 105.08,
+            "text": " And if we do localhost colon 3000, Hello World has come here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 105.08,
+            "end": 109.67999999999999,
+            "text": " The benefit of Nodemon is that if we do Hello World 2, the server will restart automatically."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 109.67999999999999,
+            "end": 112.67999999999999,
+            "text": " And this is a very good thing that the server starts."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 112.67999999999999,
+            "end": 117.48,
+            "text": " Now I want to tell you that if I want to do a post request, what is this post request?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 117.48,
+            "end": 120.48,
+            "text": " I told you that there are many requests."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 120.48,
+            "end": 123.48,
+            "text": " There is get, post, put, delete."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 123.48,
+            "end": 128.48,
+            "text": " And the work of this kind of request is that the get request is to do a basic request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 128.48,
+            "end": 132.48,
+            "text": " When you write in the browser, google.com or I have written this too."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 132.88,
+            "end": 138.88,
+            "text": " On the website of Express.js, whenever I write and enter, this is a basic get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 138.88,
+            "end": 139.88,
+            "text": " This is called get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 139.88,
+            "end": 142.88,
+            "text": " The browser uses the request by default."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 142.88,
+            "end": 143.88,
+            "text": " That is a get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 143.88,
+            "end": 148.88,
+            "text": " Now the thing is that sometimes we have to send passwords, sensitive information."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 148.88,
+            "end": 150.88,
+            "text": " Like I have to log in on Facebook."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 150.88,
+            "end": 151.88,
+            "text": " The email is password."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 151.88,
+            "end": 153.88,
+            "text": " Both these things will go to the server."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 153.88,
+            "end": 156.88,
+            "text": " And when these two things will go to the server, then it will not log in."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 156.88,
+            "end": 160.88,
+            "text": " So because these two things will log in on the server."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 161.28,
+            "end": 163.28,
+            "text": " I have to send sensitive information."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 163.28,
+            "end": 165.28,
+            "text": " I cannot afford to put it in the URL."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 165.28,
+            "end": 171.28,
+            "text": " So if you say, put the question mark, username is equal to this and password is equal to this."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 171.28,
+            "end": 174.28,
+            "text": " No, it will log in to the server."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 174.28,
+            "end": 178.28,
+            "text": " And because it will log in to the server, I don't want anyone to see the server logs."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 178.28,
+            "end": 180.28,
+            "text": " Why would I want anyone to see the server logs?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 180.28,
+            "end": 182.28,
+            "text": " I don't want this at all."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 182.28,
+            "end": 185.28,
+            "text": " So that's why we use the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 185.28,
+            "end": 187.28,
+            "text": " There is a limit in get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 187.28,
+            "end": 190.28,
+            "text": " If I search here, get request limit."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 190.68,
+            "end": 194.68,
+            "text": " Here the character limit is 8192 bytes."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 194.68,
+            "end": 197.68,
+            "text": " I guess it is a limit of get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 197.68,
+            "end": 202.68,
+            "text": " And that limit can be passed very quickly if you put a lot of data in the URL."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 202.68,
+            "end": 207.68,
+            "text": " So that's why get request is very less for our queries to send to the server."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 207.68,
+            "end": 210.68,
+            "text": " The small query of the character is used to send them to the server."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 210.68,
+            "end": 215.68,
+            "text": " There is sensitive information, files or any kind of data which is very much."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 216.08,
+            "end": 223.08,
+            "text": " Like the content page, the entire HTML of the blog, the content of the blog,"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 223.08,
+            "end": 225.08,
+            "text": " you have to send it to the server."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 225.08,
+            "end": 227.08,
+            "text": " So you will send it to the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 227.08,
+            "end": 229.08,
+            "text": " So can this server handle the post request?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 229.08,
+            "end": 231.08,
+            "text": " Get, we saw."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 231.08,
+            "end": 233.08,
+            "text": " Yes, it can do it very easily."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 233.08,
+            "end": 235.08,
+            "text": " And we just have to do it."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 235.08,
+            "end": 237.08,
+            "text": " I will come here and write app.post."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 237.08,
+            "end": 239.08,
+            "text": " Something like this."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 239.08,
+            "end": 241.08,
+            "text": " And here I will write hello word post."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 241.08,
+            "end": 243.08,
+            "text": " And I will put a console log."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 243.48000000000002,
+            "end": 248.48000000000002,
+            "text": " Look, the difference between res.send and console log is that when we write console log,"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 248.48000000000002,
+            "end": 250.48000000000002,
+            "text": " then what happens?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 250.48000000000002,
+            "end": 252.48000000000002,
+            "text": " I write hey it's get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 252.48000000000002,
+            "end": 259.48,
+            "text": " And when we send res.send, basically what you get to see the output here is"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 259.48,
+            "end": 261.48,
+            "text": " hello word 2 comes here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 261.48,
+            "end": 265.48,
+            "text": " But in my server console, which is in my server, I take it and keep it here as a new tab."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 265.48,
+            "end": 267.48,
+            "text": " By the way, you can do this if you don't know."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 267.48,
+            "end": 269.48,
+            "text": " You can open a server as a new tab."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 269.48,
+            "end": 271.48,
+            "text": " Now look here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 271.88,
+            "end": 273.88,
+            "text": " First, I wrote console.log."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 273.88,
+            "end": 275.88,
+            "text": " Hey it's a get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 275.88,
+            "end": 277.88,
+            "text": " And here I will write console.log."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 277.88,
+            "end": 279.88,
+            "text": " Hey it's a post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 279.88,
+            "end": 281.88,
+            "text": " And if I document the format, the spacing becomes better."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 281.88,
+            "end": 283.88,
+            "text": " And nothing more happens."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 283.88,
+            "end": 285.88,
+            "text": " The code looks a little beautiful."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 285.88,
+            "end": 287.88,
+            "text": " So if I put the get request here, I will refresh it again."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 287.88,
+            "end": 289.88,
+            "text": " So look here, it's a get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 289.88,
+            "end": 291.88,
+            "text": " I want to hit post request on the server."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 291.88,
+            "end": 293.88,
+            "text": " And I want to test it."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 293.88,
+            "end": 295.88,
+            "text": " Is it working or not?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 295.88,
+            "end": 297.88,
+            "text": " It's not working."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 297.88,
+            "end": 299.88,
+            "text": " To hit the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 300.28,
+            "end": 306.28,
+            "text": " To hit the post request, I will write app.use.express.static."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 306.28,
+            "end": 308.28,
+            "text": " I will write something like this and put it in public."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 308.28,
+            "end": 314.28,
+            "text": " So we saw in the last video that if you want to serve a public folder,"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 314.28,
+            "end": 316.28,
+            "text": " you can write in public."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 316.28,
+            "end": 318.28,
+            "text": " I will make my page.html."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 318.28,
+            "end": 320.28,
+            "text": " And what should I do here?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 320.28,
+            "end": 322.28,
+            "text": " I will write the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 322.28,
+            "end": 324.28,
+            "text": " I am just testing the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 324.28,
+            "end": 326.28,
+            "text": " I have made an API."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 326.28,
+            "end": 328.28,
+            "text": " And I want to make a post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 328.67999999999995,
+            "end": 330.67999999999995,
+            "text": " I want to check if the post request is working or not."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 330.67999999999995,
+            "end": 332.67999999999995,
+            "text": " I want to check."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 332.67999999999995,
+            "end": 334.67999999999995,
+            "text": " Get request can be checked with a browser."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 334.67999999999995,
+            "end": 336.67999999999995,
+            "text": " How will we do the post?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 336.67999999999995,
+            "end": 338.67999999999995,
+            "text": " What will we do?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 338.67999999999995,
+            "end": 340.67999999999995,
+            "text": " We will put a script here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 340.67999999999995,
+            "end": 342.67999999999995,
+            "text": " And we will write in the script."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 342.67999999999995,
+            "end": 344.67999999999995,
+            "text": " A async function."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 344.67999999999995,
+            "end": 346.67999999999995,
+            "text": " TestPost."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 346.67999999999995,
+            "end": 348.67999999999995,
+            "text": " And what will this function do?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 348.67999999999995,
+            "end": 350.67999999999995,
+            "text": " We will call it first."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 350.67999999999995,
+            "end": 352.67999999999995,
+            "text": " TestPost."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 352.67999999999995,
+            "end": 354.67999999999995,
+            "text": " And in this function, we will simply write"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 354.67999999999995,
+            "end": 356.67999999999995,
+            "text": " LetA is equal to"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 357.08,
+            "end": 359.08,
+            "text": " patch."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 359.08,
+            "end": 361.08,
+            "text": " And what will we write here?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 361.08,
+            "end": 363.08,
+            "text": " Slash."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 363.08,
+            "end": 365.08,
+            "text": " After slash, we will write"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 365.08,
+            "end": 367.08,
+            "text": " mypage.html."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 367.08,
+            "end": 369.08,
+            "text": " And what will we do in this?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 369.08,
+            "end": 371.08,
+            "text": " We will give the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 371.08,
+            "end": 373.08,
+            "text": " And here we will write"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 373.08,
+            "end": 375.08,
+            "text": " method is equal to"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 375.08,
+            "end": 377.08,
+            "text": " method colon"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 377.08,
+            "end": 379.08,
+            "text": " in double quotes."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 379.08,
+            "end": 381.08,
+            "text": " P.O.S.T. Post."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 381.08,
+            "end": 383.08,
+            "text": " So I am basically saying that I will hit the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 383.08,
+            "end": 385.08,
+            "text": " And after this, I will write"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 385.47999999999996,
+            "end": 387.47999999999996,
+            "text": " b is equal to await."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 387.47999999999996,
+            "end": 389.47999999999996,
+            "text": " And I will write a.text."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 389.47999999999996,
+            "end": 391.47999999999996,
+            "text": " Because the data is not coming, I will not write a.json."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 391.47999999999996,
+            "end": 393.47999999999996,
+            "text": " And an await will also come here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 393.47999999999996,
+            "end": 395.47999999999996,
+            "text": " And if you are looking like an alien."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 395.47999999999996,
+            "end": 397.47999999999996,
+            "text": " If you are looking like what are you doing?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 397.47999999999996,
+            "end": 399.47999999999996,
+            "text": " Where will I get this information?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 399.47999999999996,
+            "end": 401.47999999999996,
+            "text": " So go and access the sigma's play list."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 401.47999999999996,
+            "end": 403.47999999999996,
+            "text": " And watch from the beginning."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 403.47999999999996,
+            "end": 405.47999999999996,
+            "text": " If it doesn't come, then it is very good."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 405.47999999999996,
+            "end": 407.47999999999996,
+            "text": " Move ahead."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 407.47999999999996,
+            "end": 409.47999999999996,
+            "text": " Now see what I will do here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 409.47999999999996,
+            "end": 411.47999999999996,
+            "text": " To see mypage.html."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 411.47999999999996,
+            "end": 413.47999999999996,
+            "text": " I will go here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 413.88,
+            "end": 415.88,
+            "text": " And what is mypage.html doing?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 415.88,
+            "end": 417.88,
+            "text": " Testing the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 417.88,
+            "end": 419.88,
+            "text": " And if I show you the console."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 419.88,
+            "end": 421.88,
+            "text": " If you see the console."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 421.88,
+            "end": 423.88,
+            "text": " It says here that"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 423.88,
+            "end": 425.88,
+            "text": " server responded with a status of"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 425.88,
+            "end": 427.88,
+            "text": " 4.04"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 427.88,
+            "end": 429.88,
+            "text": " Actually I will hit the post request on slash."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 429.88,
+            "end": 431.88,
+            "text": " Because we are handling the slash"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 431.88,
+            "end": 433.88,
+            "text": " on the slash end point."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 433.88,
+            "end": 435.88,
+            "text": " And I will reload the page."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 435.88,
+            "end": 437.88,
+            "text": " And I just want you to see it."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 437.88,
+            "end": 439.88,
+            "text": " I hope you can see it."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 439.88,
+            "end": 441.88,
+            "text": " My console is looking good."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 442.28,
+            "end": 444.28,
+            "text": " And the console is looking good."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 444.28,
+            "end": 446.28,
+            "text": " So the console is looking good."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 446.28,
+            "end": 448.28,
+            "text": " So the console is looking good."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 448.28,
+            "end": 450.28,
+            "text": " So the console is looking good."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 450.28,
+            "end": 452.28,
+            "text": " So the console is looking good."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 452.28,
+            "end": 454.28,
+            "text": " And here it is."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 454.28,
+            "end": 456.28,
+            "text": " It is a post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 456.28,
+            "end": 458.28,
+            "text": " So we made a HTML page here."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 458.28,
+            "end": 460.28,
+            "text": " Why did we make it?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 460.28,
+            "end": 462.28,
+            "text": " Because I wanted to test the post request"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 462.28,
+            "end": 464.28,
+            "text": " on the slash end point."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 464.28,
+            "end": 466.28,
+            "text": " And I passed it and showed the data."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 466.28,
+            "end": 468.28,
+            "text": " But tell me one thing."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 468.28,
+            "end": 470.28,
+            "text": " To test the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 470.67999999999995,
+            "end": 472.67999999999995,
+            "text": " I will have to make a whole HTML page."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 472.67999999999995,
+            "end": 474.67999999999995,
+            "text": " Is there any easy way to test the post request?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 474.67999999999995,
+            "end": 476.67999999999995,
+            "text": " I mean you should understand something."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 476.67999999999995,
+            "end": 478.67999999999995,
+            "text": " I want to give my client"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 478.67999999999995,
+            "end": 480.67999999999995,
+            "text": " APIs."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 480.67999999999995,
+            "end": 482.67999999999995,
+            "text": " My client said that make APIs."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 482.67999999999995,
+            "end": 484.67999999999995,
+            "text": " I don't know."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 484.67999999999995,
+            "end": 486.67999999999995,
+            "text": " I am saying make APIs."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 486.67999999999995,
+            "end": 488.67999999999995,
+            "text": " How will I test?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 488.67999999999995,
+            "end": 490.67999999999995,
+            "text": " And if I am testing like this."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 490.67999999999995,
+            "end": 492.67999999999995,
+            "text": " This doesn't look like"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 492.67999999999995,
+            "end": 494.67999999999995,
+            "text": " the best way."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 494.67999999999995,
+            "end": 496.67999999999995,
+            "text": " This is definitely not the best way."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 496.67999999999995,
+            "end": 498.67999999999995,
+            "text": " So what will I do?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 499.08,
+            "end": 501.08,
+            "text": " I will make my life easier."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 501.08,
+            "end": 503.08,
+            "text": " I will test all the APIs easily."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 503.08,
+            "end": 505.08,
+            "text": " I won't make one or two."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 505.08,
+            "end": 507.08,
+            "text": " I won't make all the APIs."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 507.08,
+            "end": 509.08,
+            "text": " And I will test them in the browser."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 509.08,
+            "end": 511.08,
+            "text": " No. We will install the postman."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 511.08,
+            "end": 513.08,
+            "text": " But wait."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 513.08,
+            "end": 515.08,
+            "text": " Be patient."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 515.08,
+            "end": 517.08,
+            "text": " We will see other things."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 517.08,
+            "end": 519.08,
+            "text": " After that we will install the postman."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 519.08,
+            "end": 521.08,
+            "text": " So whatever I wanted to tell you."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 521.08,
+            "end": 523.08,
+            "text": " You didn't understand."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 523.08,
+            "end": 525.08,
+            "text": " We can handle the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 525.08,
+            "end": 527.08,
+            "text": " Can we handle the put request?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 527.48,
+            "end": 529.48,
+            "text": " What is the put request?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 529.48,
+            "end": 531.48,
+            "text": " It is used to update the request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 531.48,
+            "end": 533.48,
+            "text": " At one end we can make the put request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 533.48,
+            "end": 535.48,
+            "text": " Put."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 535.48,
+            "end": 537.48,
+            "text": " Similarly you can"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 537.48,
+            "end": 539.48,
+            "text": " test the delete request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 539.48,
+            "end": 541.48,
+            "text": " You can test the delete request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 541.48,
+            "end": 543.48,
+            "text": " If I write the pod put."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 543.48,
+            "end": 545.48,
+            "text": " What should be here?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 545.48,
+            "end": 547.48,
+            "text": " Hello word put."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 547.48,
+            "end": 549.48,
+            "text": " Let's test."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 549.48,
+            "end": 551.48,
+            "text": " Hello word put."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 551.48,
+            "end": 553.48,
+            "text": " It means put request is working."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 553.48,
+            "end": 555.48,
+            "text": " It is a put request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 555.88,
+            "end": 557.88,
+            "text": " So the put request function is working."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 557.88,
+            "end": 559.88,
+            "text": " And it will work with the delete."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 559.88,
+            "end": 561.88,
+            "text": " You can test it."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 561.88,
+            "end": 563.88,
+            "text": " So do it."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 563.88,
+            "end": 565.88,
+            "text": " Don't trust me."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 565.88,
+            "end": 567.88,
+            "text": " So you made different methods."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 567.88,
+            "end": 569.88,
+            "text": " You said you can handle the post request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 569.88,
+            "end": 571.88,
+            "text": " You can handle the put request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 571.88,
+            "end": 573.88,
+            "text": " You can make the delete request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 573.88,
+            "end": 575.88,
+            "text": " Now you can change the method."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 575.88,
+            "end": 577.88,
+            "text": " You can change the method."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 577.88,
+            "end": 579.88,
+            "text": " You can do the same with the endpoints."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 579.88,
+            "end": 581.88,
+            "text": " You can do the same with the endpoints."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 581.88,
+            "end": 583.88,
+            "text": " You can do the same with the endpoints."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 583.88,
+            "end": 585.88,
+            "text": " You can do the same with the endpoints."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 585.88,
+            "end": 587.88,
+            "text": " It will look better."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 587.88,
+            "end": 589.88,
+            "text": " Maybe you know"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 589.88,
+            "end": 591.88,
+            "text": " people who don't want different methods."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 591.88,
+            "end": 593.88,
+            "text": " But do the same with the endpoints."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 593.88,
+            "end": 595.88,
+            "text": " It will work."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 595.88,
+            "end": 597.88,
+            "text": " So basically we are saying app.get"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 599.88,
+            "end": 601.88,
+            "text": " And on slash we are handling the get request."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 601.88,
+            "end": 603.88,
+            "text": " Then we are saying app.Post."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 603.88,
+            "end": 605.88,
+            "text": " So this syntax works."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 605.88,
+            "end": 607.88,
+            "text": " I want to tell you this."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 607.88,
+            "end": 609.88,
+            "text": " So the syntax that I have written."
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 609.88,
+            "end": 611.88,
+            "text": " App.Get.Slash"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 611.88,
+            "end": 615.88,
+            "text": " if you want to do it separately, you can do it in app.put"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 615.88,
+            "end": 619.88,
+            "text": " this is not a big thing but you should know"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 619.88,
+            "end": 623.88,
+            "text": " if you have seen the syntax, you should know what is going on"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 623.88,
+            "end": 627.88,
+            "text": " so you can test it like this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 627.88,
+            "end": 631.88,
+            "text": " now you can change the chaining of request"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 631.88,
+            "end": 635.88,
+            "text": " now you have to start HTML files"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 635.88,
+            "end": 639.88,
+            "text": " whatever project you make, whatever it is"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 639.88,
+            "end": 643.88,
+            "text": " you can make it as a real-world project"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 643.88,
+            "end": 647.88,
+            "text": " no one will ask you to make an API or test it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 647.88,
+            "end": 651.88,
+            "text": " no, they will ask you to make a blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 651.88,
+            "end": 655.88,
+            "text": " so you have to do HTML serve"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 655.88,
+            "end": 659.88,
+            "text": " so you can make a template"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 659.88,
+            "end": 663.88,
+            "text": " to organize things"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 663.88,
+            "end": 667.88,
+            "text": " now I will add index.html"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 667.88,
+            "end": 671.88,
+            "text": " save it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 671.88,
+            "end": 675.88,
+            "text": " document it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 675.88,
+            "end": 679.88,
+            "text": " I can send it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 679.88,
+            "end": 683.88,
+            "text": " app.get"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 683.88,
+            "end": 687.88,
+            "text": " and I will write it as slash"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 687.88,
+            "end": 691.88,
+            "text": " and I will make an endpoint of slash index"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 691.88,
+            "end": 695.88,
+            "text": " and I will just paste it like this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 695.88,
+            "end": 699.88,
+            "text": " and I will go to slash index"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 699.88,
+            "end": 703.88,
+            "text": " so I should write it as hits index"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 703.88,
+            "end": 707.88,
+            "text": " so it is common sense"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 707.88,
+            "end": 711.88,
+            "text": " so I should write hello word index"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 711.88,
+            "end": 715.88,
+            "text": " so I will write it as hits index"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 715.88,
+            "end": 719.88,
+            "text": " so index.html"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 719.88,
+            "end": 723.88,
+            "text": " not index.html"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 723.88,
+            "end": 727.88,
+            "text": " so you can see it is going on"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 727.88,
+            "end": 731.88,
+            "text": " but I don't want hello word index here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 731.88,
+            "end": 735.88,
+            "text": " I want this HTML page to be rendered"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 735.88,
+            "end": 739.88,
+            "text": " I will use a bolt tag"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 739.88,
+            "end": 743.88,
+            "text": " I want to render a proper HTML page"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 743.88,
+            "end": 747.88,
+            "text": " so if I want to render a proper HTML page"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 747.88,
+            "end": 751.88,
+            "text": " I will use send file name"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 751.88,
+            "end": 755.88,
+            "text": " so I will write it as templates"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 755.88,
+            "end": 759.88,
+            "text": " and I will write it as slash"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 759.88,
+            "end": 763.88,
+            "text": " so send file name"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 763.88,
+            "end": 767.88,
+            "text": " and you will see what will happen"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 767.88,
+            "end": 771.88,
+            "text": " I will reload it as soon as I will get it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 771.88,
+            "end": 775.88,
+            "text": " you will see why I got it wrong"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 775.88,
+            "end": 779.88,
+            "text": " you will see why I got it wrong"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 779.88,
+            "end": 783.88,
+            "text": " so you will see the template folder"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 783.88,
+            "end": 787.88,
+            "text": " where is the template folder"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 787.88,
+            "end": 791.88,
+            "text": " where is the express folder"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 791.88,
+            "end": 795.88,
+            "text": " so you will have to specify"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 795.88,
+            "end": 799.88,
+            "text": " where is it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 799.88,
+            "end": 803.88,
+            "text": " so if you are reading the error, you can specify root"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 803.88,
+            "end": 807.88,
+            "text": " so I will write root"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 807.88,
+            "end": 811.88,
+            "text": " so when I will do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 811.88,
+            "end": 815.88,
+            "text": " I will write no such file or directory"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 815.88,
+            "end": 819.88,
+            "text": " I wrote templates"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 819.88,
+            "end": 823.88,
+            "text": " I made a mistake with the wrong spelling"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 823.88,
+            "end": 827.88,
+            "text": " so I will reload it and it is getting served"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 827.88,
+            "end": 831.88,
+            "text": " so you can use res.send file"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 831.88,
+            "end": 835.88,
+            "text": " text if you want to write res.send"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 835.88,
+            "end": 839.88,
+            "text": " so I have seen all the methods"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 839.88,
+            "end": 841.88,
+            "text": " but for the sake of easy"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 841.88,
+            "end": 845.88,
+            "text": " I have taken a screenshot from the documentation"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 845.88,
+            "end": 849.88,
+            "text": " and now you can use res.download, res.end, resend, resend"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 849.88,
+            "end": 853.88,
+            "text": " you can use this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 853.88,
+            "end": 857.88,
+            "text": " source code will be available on the GitHub"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 857.88,
+            "end": 861.88,
+            "text": " so you can easily get it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 861.88,
+            "end": 865.88,
+            "text": " so you can use res.json"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 865.88,
+            "end": 869.88,
+            "text": " I will copy this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 869.88,
+            "end": 873.88,
+            "text": " and paste it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 873.88,
+            "end": 877.88,
+            "text": " and I want to say that"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 877.88,
+            "end": 881.88,
+            "text": " the slash api is json return"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 881.88,
+            "end": 885.88,
+            "text": " so I can say res.json and here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 885.88,
+            "end": 889.88,
+            "text": " a1, b2, c3, d4"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 889.88,
+            "end": 893.88,
+            "text": " so you can do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 893.88,
+            "end": 897.88,
+            "text": " and I will do format document"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 897.88,
+            "end": 901.88,
+            "text": " and I will go to slash api"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 901.88,
+            "end": 905.88,
+            "text": " and I will show you something"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 905.88,
+            "end": 909.88,
+            "text": " I have installed an extension called json formatter"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 909.88,
+            "end": 913.88,
+            "text": " so what it is showing me is"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 913.88,
+            "end": 917.88,
+            "text": " it is showing you 4 items"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 917.88,
+            "end": 921.88,
+            "text": " so I can write name here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 921.88,
+            "end": 925.88,
+            "text": " and here I can write name here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 925.88,
+            "end": 929.88,
+            "text": " and here I can write name here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 929.88,
+            "end": 933.88,
+            "text": " so this is how it will look like"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 933.88,
+            "end": 937.88,
+            "text": " so you can do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 937.88,
+            "end": 941.88,
+            "text": " so you can send json like this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 941.88,
+            "end": 945.88,
+            "text": " and you can download file in express"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 945.88,
+            "end": 949.88,
+            "text": " so you can do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 949.88,
+            "end": 953.88,
+            "text": " you can do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 953.88,
+            "end": 957.88,
+            "text": " so you can do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 957.88,
+            "end": 961.88,
+            "text": " so you can do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 961.88,
+            "end": 965.88,
+            "text": " and here it is showing you"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 965.88,
+            "end": 969.88,
+            "text": " so this is the topic of this video"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 969.88,
+            "end": 973.88,
+            "text": " and I will show you this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 973.88,
+            "end": 976.88,
+            "text": " I guarantee you that it will be available in the middle of air"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 976.88,
+            "end": 980.88,
+            "text": " So if I come back to the agenda, we will see this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 980.88,
+            "end": 983.88,
+            "text": " Installing Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 983.88,
+            "end": 986.88,
+            "text": " Look, Postman is a software"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 986.88,
+            "end": 989.88,
+            "text": " You can simply go to Google and write Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 989.88,
+            "end": 993.88,
+            "text": " There are many extensions, people say that Postman is an alternative"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 993.88,
+            "end": 997.88,
+            "text": " Even I used to use a extension called ThunderCline"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 997.88,
+            "end": 1000.88,
+            "text": " But actually, what is Postman?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1000.88,
+            "end": 1003.88,
+            "text": " You can also use any other extension"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1003.88,
+            "end": 1006.88,
+            "text": " Postman is an industry grade thing"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1006.88,
+            "end": 1009.88,
+            "text": " You will go anywhere, you will be caught by Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1009.88,
+            "end": 1012.88,
+            "text": " And you will have to work on Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1012.88,
+            "end": 1015.88,
+            "text": " If you are using their company Postman, you will not be able to do anything"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1015.88,
+            "end": 1018.88,
+            "text": " So you will have to use Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1018.88,
+            "end": 1022.88,
+            "text": " So go here and sign up, sign in, log in to the account"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1022.88,
+            "end": 1025.88,
+            "text": " and come back here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1025.88,
+            "end": 1028.88,
+            "text": " Click on the download desktop app"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1028.88,
+            "end": 1031.88,
+            "text": " I have downloaded 64-bit in Windows"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1031.88,
+            "end": 1034.88,
+            "text": " If you are in Mac, Linux, then install it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1034.88,
+            "end": 1037.88,
+            "text": " You can see that"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1037.88,
+            "end": 1040.88,
+            "text": " Now after this, install it like a game"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1040.88,
+            "end": 1043.88,
+            "text": " I have already downloaded it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1043.88,
+            "end": 1046.88,
+            "text": " So install it like a game, not like GTA"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1046.88,
+            "end": 1049.88,
+            "text": " People never say that game is not installed"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1049.88,
+            "end": 1052.88,
+            "text": " People say that Postman is not working"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1052.88,
+            "end": 1055.88,
+            "text": " And you have to authorise it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1055.88,
+            "end": 1058.88,
+            "text": " And after this, you can create a new workspace"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1058.88,
+            "end": 1061.88,
+            "text": " You can also create a new request"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1061.88,
+            "end": 1064.88,
+            "text": " What will I do here?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1064.88,
+            "end": 1067.88,
+            "text": " I already have a new workspace"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1067.88,
+            "end": 1070.88,
+            "text": " You can create a new workspace"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1070.88,
+            "end": 1073.88,
+            "text": " You can also create a new workspace"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1073.88,
+            "end": 1076.88,
+            "text": " I am creating a blank workspace"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1076.88,
+            "end": 1079.88,
+            "text": " In the name of Sigma Web Development Express"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1079.88,
+            "end": 1082.88,
+            "text": " Now it is saying to explore the template"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1082.88,
+            "end": 1085.88,
+            "text": " What do you want to do?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1085.88,
+            "end": 1088.88,
+            "text": " What do you want?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1088.88,
+            "end": 1091.88,
+            "text": " I will say to create a blank workspace"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1091.88,
+            "end": 1094.88,
+            "text": " I will do it myself"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1094.88,
+            "end": 1097.88,
+            "text": " I have created a name"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1097.88,
+            "end": 1100.88,
+            "text": " Sigma Web Development Express"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1100.88,
+            "end": 1103.88,
+            "text": " I will write here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1103.88,
+            "end": 1106.88,
+            "text": " This extension"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1106.88,
+            "end": 1109.88,
+            "text": " This extension is for Sigma"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1109.88,
+            "end": 1112.88,
+            "text": " Sigma Web Development Express"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1112.88,
+            "end": 1115.88,
+            "text": " Now who can access? Only my team can access"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1115.88,
+            "end": 1117.88,
+            "text": " Why should I give it to the public?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1117.88,
+            "end": 1120.88,
+            "text": " Click on Create"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1120.88,
+            "end": 1123.88,
+            "text": " And your workspace will be created"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1123.88,
+            "end": 1126.88,
+            "text": " Which means you can click on Go to Workspace"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1126.88,
+            "end": 1129.88,
+            "text": " And your workspace will be created"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1129.88,
+            "end": 1132.88,
+            "text": " The UI of this workspace keeps changing"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1132.88,
+            "end": 1135.88,
+            "text": " You will get a lot of help"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1135.88,
+            "end": 1138.88,
+            "text": " When you click on localhost"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1141.88,
+            "end": 1144.88,
+            "text": " And click on Get request"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1144.88,
+            "end": 1147.88,
+            "text": " Then you will get Hello World 2"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1147.88,
+            "end": 1150.88,
+            "text": " Because I have handled the Get request"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1150.88,
+            "end": 1153.88,
+            "text": " That it will send Hello World 2 in text"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1153.88,
+            "end": 1156.88,
+            "text": " If I send it to 21"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1156.88,
+            "end": 1159.88,
+            "text": " Then it will give me 21"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1159.88,
+            "end": 1162.88,
+            "text": " So what is the use of doing this?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1162.88,
+            "end": 1165.88,
+            "text": " You can do it in a browser"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1165.88,
+            "end": 1168.88,
+            "text": " You can't do it in a URL"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1168.88,
+            "end": 1171.88,
+            "text": " Now what to do here?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1171.88,
+            "end": 1174.88,
+            "text": " Click on Save"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1174.88,
+            "end": 1177.88,
+            "text": " Now what happens in the workspace?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1177.88,
+            "end": 1180.88,
+            "text": " I have created a home"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1180.88,
+            "end": 1183.88,
+            "text": " I will add the home APIs"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1183.88,
+            "end": 1186.88,
+            "text": " I will add the slash endpoints"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1186.88,
+            "end": 1189.88,
+            "text": " And I will click on Create"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1189.88,
+            "end": 1192.88,
+            "text": " Now I can change the name of this request"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1192.88,
+            "end": 1195.88,
+            "text": " I am saying Get Home"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1195.88,
+            "end": 1198.88,
+            "text": " I can duplicate it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1198.88,
+            "end": 1201.88,
+            "text": " And rename it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1201.88,
+            "end": 1204.88,
+            "text": " And I can say Post Home"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1204.88,
+            "end": 1207.88,
+            "text": " I will send it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1207.88,
+            "end": 1210.88,
+            "text": " I have sent it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1210.88,
+            "end": 1213.88,
+            "text": " So I can save it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1213.88,
+            "end": 1216.88,
+            "text": " Now I have stopped posting"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1216.88,
+            "end": 1219.88,
+            "text": " I have not started posting"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1219.88,
+            "end": 1222.88,
+            "text": " I have started posting again"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1222.88,
+            "end": 1225.88,
+            "text": " I can resume my work"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1225.88,
+            "end": 1228.88,
+            "text": " I can test the APIs"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1228.88,
+            "end": 1231.88,
+            "text": " I have made a request"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1231.88,
+            "end": 1234.88,
+            "text": " I will duplicate it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1234.88,
+            "end": 1237.88,
+            "text": " You can also press the control E"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1237.88,
+            "end": 1240.88,
+            "text": " And you can say API Home"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1240.88,
+            "end": 1243.88,
+            "text": " If I try Post request on API"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1243.88,
+            "end": 1247.88,
+            "text": " I will get a JSON"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1247.88,
+            "end": 1250.88,
+            "text": " I can click on Pretty"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1250.88,
+            "end": 1253.88,
+            "text": " And I can create a raw"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1253.88,
+            "end": 1256.88,
+            "text": " So I will click on Pretty"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1256.88,
+            "end": 1259.88,
+            "text": " And I can create a JSON for Metra extension"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1259.88,
+            "end": 1262.88,
+            "text": " I can do it directly"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1262.88,
+            "end": 1265.88,
+            "text": " So this is a good benefit"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1265.88,
+            "end": 1268.88,
+            "text": " The benefit of working in Postman is that it is an industry standard"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1268.88,
+            "end": 1271.88,
+            "text": " Now what happens? You have written all the APIs for Home"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1271.88,
+            "end": 1274.88,
+            "text": " You have written for About"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1274.88,
+            "end": 1277.88,
+            "text": " Now you want to give it to a friend"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1277.88,
+            "end": 1280.88,
+            "text": " So what will you do? You will export your collection"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1280.88,
+            "end": 1283.88,
+            "text": " You will click here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1283.88,
+            "end": 1286.88,
+            "text": " You have to click on Export"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1286.88,
+            "end": 1289.88,
+            "text": " And you will export this collection"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1289.88,
+            "end": 1292.88,
+            "text": " So this will export this collection"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1292.88,
+            "end": 1295.88,
+            "text": " So what will happen? You can give it to your friend"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1295.88,
+            "end": 1298.88,
+            "text": " When you give it to a friend"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1298.88,
+            "end": 1301.88,
+            "text": " You will get all the requests"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1301.88,
+            "end": 1304.88,
+            "text": " Now what is here?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1304.88,
+            "end": 1307.88,
+            "text": " You can make a folder in Home"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1307.88,
+            "end": 1310.88,
+            "text": " You can make many collections"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1310.88,
+            "end": 1313.88,
+            "text": " And you can share it with your friends"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1313.88,
+            "end": 1316.88,
+            "text": " So this is the benefit of using Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1316.88,
+            "end": 1319.88,
+            "text": " There are many features in Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1319.88,
+            "end": 1322.88,
+            "text": " I just want to tell you that we have our APIs"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1322.88,
+            "end": 1325.88,
+            "text": " We have tested it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1325.88,
+            "end": 1328.88,
+            "text": " So I will fill it in the folder"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1328.88,
+            "end": 1331.88,
+            "text": " I will add data and authorization"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1331.88,
+            "end": 1334.88,
+            "text": " So I will not have to fill all the data"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1334.88,
+            "end": 1337.88,
+            "text": " So this is very important"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1337.88,
+            "end": 1340.88,
+            "text": " When you are making a big project"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1340.88,
+            "end": 1343.88,
+            "text": " So I understood the use of Postman"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1343.88,
+            "end": 1346.88,
+            "text": " Now I will tell you about Express Router"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1346.88,
+            "end": 1349.88,
+            "text": " Express Router is"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1349.88,
+            "end": 1352.88,
+            "text": " It helps you organize things"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1352.88,
+            "end": 1355.88,
+            "text": " It helps you organize things"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1355.88,
+            "end": 1358.88,
+            "text": " It helps you organize things"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1358.88,
+            "end": 1361.88,
+            "text": " It is not organized"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1361.88,
+            "end": 1364.88,
+            "text": " Now I will show you something"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1364.88,
+            "end": 1367.88,
+            "text": " This file is already congested"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1367.88,
+            "end": 1370.88,
+            "text": " You want to add a block in existing website"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1370.88,
+            "end": 1373.88,
+            "text": " You want to add a block"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1373.88,
+            "end": 1376.88,
+            "text": " Because you want to add a block"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1376.88,
+            "end": 1379.88,
+            "text": " You will have to make a slash block endpoint"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1379.88,
+            "end": 1382.88,
+            "text": " Slash block slash block"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1382.88,
+            "end": 1385.88,
+            "text": " Slash block slash about"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1385.88,
+            "end": 1388.88,
+            "text": " If you add all the endpoints here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1388.88,
+            "end": 1391.88,
+            "text": " Your file will be upgraded"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1391.88,
+            "end": 1394.88,
+            "text": " What you will do? You can use Routes"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1394.88,
+            "end": 1397.88,
+            "text": " You will make a folder in the name of Routes"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1397.88,
+            "end": 1400.88,
+            "text": " And you will say block.js"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1400.88,
+            "end": 1403.88,
+            "text": " I will handle all the routes of block"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1403.88,
+            "end": 1406.88,
+            "text": " And the example of this is given in documentation"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1406.88,
+            "end": 1409.88,
+            "text": " Documentation says"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1409.88,
+            "end": 1412.88,
+            "text": " Make a route file"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1412.88,
+            "end": 1415.88,
+            "text": " And export it to module.exports"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1415.88,
+            "end": 1418.88,
+            "text": " By the way, I am removing this middleware"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1418.88,
+            "end": 1421.88,
+            "text": " I will tell you in the next video about middleware"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1421.88,
+            "end": 1424.88,
+            "text": " But here you see that I made a home route"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1424.88,
+            "end": 1426.88,
+            "text": " And made an about route"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1426.88,
+            "end": 1429.88,
+            "text": " And I want to make another route"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1429.88,
+            "end": 1432.88,
+            "text": " And that will be block post"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1432.88,
+            "end": 1435.88,
+            "text": " And I will write here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1435.88,
+            "end": 1438.88,
+            "text": " And I will write here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1438.88,
+            "end": 1441.88,
+            "text": " And I will write here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1441.88,
+            "end": 1444.88,
+            "text": " And after doing this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1444.88,
+            "end": 1447.88,
+            "text": " I will write about blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1447.88,
+            "end": 1450.88,
+            "text": " And I will write here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1450.88,
+            "end": 1453.88,
+            "text": " I forgot the syntax"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1453.88,
+            "end": 1456.88,
+            "text": " So I will copy and paste"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1456.88,
+            "end": 1459.88,
+            "text": " And I will paste here"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1459.88,
+            "end": 1462.88,
+            "text": " And here they have made a birds"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1462.88,
+            "end": 1465.88,
+            "text": " And I will do the blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1465.88,
+            "end": 1468.88,
+            "text": " My blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1468.88,
+            "end": 1471.88,
+            "text": " Is being handled by the blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1471.88,
+            "end": 1474.88,
+            "text": " What does this mean?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1474.88,
+            "end": 1477.88,
+            "text": " I will tell you"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1477.88,
+            "end": 1480.88,
+            "text": " Routes slash block"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1480.88,
+            "end": 1483.88,
+            "text": " So I am saying that any endpoints starting from the blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1483.88,
+            "end": 1486.88,
+            "text": " Will handle this file"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1486.88,
+            "end": 1489.88,
+            "text": " Similarly, I can say that the routes related to slash shop"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1489.88,
+            "end": 1492.88,
+            "text": " Will handle another file"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1492.88,
+            "end": 1495.88,
+            "text": " So I can do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1495.88,
+            "end": 1498.88,
+            "text": " If I go to the slash blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1498.88,
+            "end": 1501.88,
+            "text": " This route will handle"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1501.88,
+            "end": 1504.88,
+            "text": " If I go to the slash blog slash about"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1504.88,
+            "end": 1507.88,
+            "text": " This will handle"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1507.88,
+            "end": 1510.88,
+            "text": " Because the endpoints starting from the slash blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1510.88,
+            "end": 1513.88,
+            "text": " Are handling this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1513.88,
+            "end": 1516.88,
+            "text": " Let's see if it will work"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1516.88,
+            "end": 1519.88,
+            "text": " So if I write slash blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1519.88,
+            "end": 1522.88,
+            "text": " I will write birds on it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1522.88,
+            "end": 1525.88,
+            "text": " I will block it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1525.88,
+            "end": 1528.88,
+            "text": " And I will refresh it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1528.88,
+            "end": 1531.88,
+            "text": " So it will go to the blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1531.88,
+            "end": 1534.88,
+            "text": " If I write slash blog slash intro to the neighbor"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1534.88,
+            "end": 1537.88,
+            "text": " I think it is a blog post"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1537.88,
+            "end": 1540.88,
+            "text": " I made it in the name of blog post"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1540.88,
+            "end": 1543.88,
+            "text": " It is called POST"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1543.88,
+            "end": 1546.88,
+            "text": " And I will write slash blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1546.88,
+            "end": 1549.88,
+            "text": " Because it is a blog post"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1549.88,
+            "end": 1552.88,
+            "text": " So the endpoints starting from the slash blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1552.88,
+            "end": 1555.88,
+            "text": " Who handled it?"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1555.88,
+            "end": 1558.88,
+            "text": " And what is the benefit of separating files"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1558.88,
+            "end": 1561.88,
+            "text": " Organization"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1561.88,
+            "end": 1564.88,
+            "text": " So it means that it can work independently on blog.js"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1564.88,
+            "end": 1567.88,
+            "text": " Or it is not spread anywhere"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1567.88,
+            "end": 1570.88,
+            "text": " It is not spread in the code"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1570.88,
+            "end": 1573.88,
+            "text": " Or it is not spread in the code"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1573.88,
+            "end": 1576.88,
+            "text": " So let's organize it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1576.88,
+            "end": 1579.88,
+            "text": " So we have a blog"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1579.88,
+            "end": 1582.88,
+            "text": " I want to make another route"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1582.88,
+            "end": 1585.88,
+            "text": " I want to make a set of routes"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1585.88,
+            "end": 1588.88,
+            "text": " And I want to say that the shop"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1588.88,
+            "end": 1591.88,
+            "text": " Will handle it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1591.88,
+            "end": 1594.88,
+            "text": " I will write the shop"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1594.88,
+            "end": 1597.88,
+            "text": " And I will do this"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1597.88,
+            "end": 1600.88,
+            "text": " I will make a set of routes"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1600.88,
+            "end": 1603.88,
+            "text": " And I will copy the content"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1603.88,
+            "end": 1606.88,
+            "text": " And I will make a route"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1606.88,
+            "end": 1609.88,
+            "text": " Slash shop slash about shop"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1609.88,
+            "end": 1612.88,
+            "text": " And I will write shop homepage"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1612.88,
+            "end": 1615.88,
+            "text": " So what will happen if I go to the slash shop"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1615.88,
+            "end": 1618.88,
+            "text": " So what will happen"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1618.88,
+            "end": 1621.88,
+            "text": " That you will get the shop homepage"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1621.88,
+            "end": 1624.88,
+            "text": " And you can handle different routes"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1624.88,
+            "end": 1627.88,
+            "text": " So you will understand what happens"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1627.88,
+            "end": 1630.88,
+            "text": " So I will put all the source code on the GitHub"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1630.88,
+            "end": 1633.88,
+            "text": " And if you are not accessing the playlist"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1633.88,
+            "end": 1636.88,
+            "text": " Then do access it"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1636.88,
+            "end": 1639.88,
+            "text": " If you want to know when the video is uploaded"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1639.88,
+            "end": 1642.88,
+            "text": " Then do check the bookmark"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1642.88,
+            "end": 1645.88,
+            "text": " Because if I put the video"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1645.88,
+            "end": 1648.88,
+            "text": " Then you will get it in the playlist"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1648.88,
+            "end": 1651.88,
+            "text": " Thank you so much for watching this video"
+        },
+        {
+            "title": "Express",
+            "Number": "8",
+            "start": 1651.88,
+            "end": 1653.88,
+            "text": " Next time"
+        }
+    ],
+    "text": " In this video, we will see how to handle Post Request, Delete Request and Put Request from Express. We will see the concept of Chaining. And then we will see how to serve static files in Express. Like this video and write down your thoughts in the comments section. Let's go to the computer screen. Let's roll the intro. So guys, in this video, we are going to see Post and Other Request. So here, first of all, I will make Main.js. As I have already told you how to make Main.js. To take the Express app, we go to Express.js documentation. To take a minimal application. We go to the Getting Started and put the basic application of Hello World. I have already told you that if you want to take a Get request, you can go to Get and write down whatever you will write in the app. And what you have to do after writing the Node, write the Node.js. And what happened? It is not because I have not written the Node.js because I have not written the NPM Minutes. Hey, initialize the NPM Project. NPM Minutes minus Y. What is the hurry? This is basically what I am saying. And I am saying that NPM I express at the rate 4. So that the version 4 is installed, how will the work go? Let the Node modules be a folder. And the first thing I have put in today's agenda is Post request. And we will handle the other requests in this way. So getting requests is very easy. You start your Express app. In fact, let's do it with Nodemon. When Nodemon has been installed. Why should we do it with Nodemon? And if we do localhost colon 3000, Hello World has come here. The benefit of Nodemon is that if we do Hello World 2, the server will restart automatically. And this is a very good thing that the server starts. Now I want to tell you that if I want to do a post request, what is this post request? I told you that there are many requests. There is get, post, put, delete. And the work of this kind of request is that the get request is to do a basic request. When you write in the browser, google.com or I have written this too. On the website of Express.js, whenever I write and enter, this is a basic get request. This is called get request. The browser uses the request by default. That is a get request. Now the thing is that sometimes we have to send passwords, sensitive information. Like I have to log in on Facebook. The email is password. Both these things will go to the server. And when these two things will go to the server, then it will not log in. So because these two things will log in on the server. I have to send sensitive information. I cannot afford to put it in the URL. So if you say, put the question mark, username is equal to this and password is equal to this. No, it will log in to the server. And because it will log in to the server, I don't want anyone to see the server logs. Why would I want anyone to see the server logs? I don't want this at all. So that's why we use the post request. There is a limit in get request. If I search here, get request limit. Here the character limit is 8192 bytes. I guess it is a limit of get request. And that limit can be passed very quickly if you put a lot of data in the URL. So that's why get request is very less for our queries to send to the server. The small query of the character is used to send them to the server. There is sensitive information, files or any kind of data which is very much. Like the content page, the entire HTML of the blog, the content of the blog, you have to send it to the server. So you will send it to the post request. So can this server handle the post request? Get, we saw. Yes, it can do it very easily. And we just have to do it. I will come here and write app.post. Something like this. And here I will write hello word post. And I will put a console log. Look, the difference between res.send and console log is that when we write console log, then what happens? I write hey it's get request. And when we send res.send, basically what you get to see the output here is hello word 2 comes here. But in my server console, which is in my server, I take it and keep it here as a new tab. By the way, you can do this if you don't know. You can open a server as a new tab. Now look here. First, I wrote console.log. Hey it's a get request. And here I will write console.log. Hey it's a post request. And if I document the format, the spacing becomes better. And nothing more happens. The code looks a little beautiful. So if I put the get request here, I will refresh it again. So look here, it's a get request. I want to hit post request on the server. And I want to test it. Is it working or not? It's not working. To hit the post request. To hit the post request, I will write app.use.express.static. I will write something like this and put it in public. So we saw in the last video that if you want to serve a public folder, you can write in public. I will make my page.html. And what should I do here? I will write the post request. I am just testing the post request. I have made an API. And I want to make a post request. I want to check if the post request is working or not. I want to check. Get request can be checked with a browser. How will we do the post? What will we do? We will put a script here. And we will write in the script. A async function. TestPost. And what will this function do? We will call it first. TestPost. And in this function, we will simply write LetA is equal to patch. And what will we write here? Slash. After slash, we will write mypage.html. And what will we do in this? We will give the post request. And here we will write method is equal to method colon in double quotes. P.O.S.T. Post. So I am basically saying that I will hit the post request. And after this, I will write b is equal to await. And I will write a.text. Because the data is not coming, I will not write a.json. And an await will also come here. And if you are looking like an alien. If you are looking like what are you doing? Where will I get this information? So go and access the sigma's play list. And watch from the beginning. If it doesn't come, then it is very good. Move ahead. Now see what I will do here. To see mypage.html. I will go here. And what is mypage.html doing? Testing the post request. And if I show you the console. If you see the console. It says here that server responded with a status of 4.04 Actually I will hit the post request on slash. Because we are handling the slash on the slash end point. And I will reload the page. And I just want you to see it. I hope you can see it. My console is looking good. And the console is looking good. So the console is looking good. So the console is looking good. So the console is looking good. So the console is looking good. And here it is. It is a post request. So we made a HTML page here. Why did we make it? Because I wanted to test the post request on the slash end point. And I passed it and showed the data. But tell me one thing. To test the post request. I will have to make a whole HTML page. Is there any easy way to test the post request? I mean you should understand something. I want to give my client APIs. My client said that make APIs. I don't know. I am saying make APIs. How will I test? And if I am testing like this. This doesn't look like the best way. This is definitely not the best way. So what will I do? I will make my life easier. I will test all the APIs easily. I won't make one or two. I won't make all the APIs. And I will test them in the browser. No. We will install the postman. But wait. Be patient. We will see other things. After that we will install the postman. So whatever I wanted to tell you. You didn't understand. We can handle the post request. Can we handle the put request? What is the put request? It is used to update the request. At one end we can make the put request. Put. Similarly you can test the delete request. You can test the delete request. If I write the pod put. What should be here? Hello word put. Let's test. Hello word put. It means put request is working. It is a put request. So the put request function is working. And it will work with the delete. You can test it. So do it. Don't trust me. So you made different methods. You said you can handle the post request. You can handle the put request. You can make the delete request. Now you can change the method. You can change the method. You can do the same with the endpoints. You can do the same with the endpoints. You can do the same with the endpoints. You can do the same with the endpoints. It will look better. Maybe you know people who don't want different methods. But do the same with the endpoints. It will work. So basically we are saying app.get And on slash we are handling the get request. Then we are saying app.Post. So this syntax works. I want to tell you this. So the syntax that I have written. App.Get.Slash if you want to do it separately, you can do it in app.put this is not a big thing but you should know if you have seen the syntax, you should know what is going on so you can test it like this now you can change the chaining of request now you have to start HTML files whatever project you make, whatever it is you can make it as a real-world project no one will ask you to make an API or test it no, they will ask you to make a blog so you have to do HTML serve so you can make a template to organize things now I will add index.html save it document it I can send it app.get and I will write it as slash and I will make an endpoint of slash index and I will just paste it like this and I will go to slash index so I should write it as hits index so it is common sense so I should write hello word index so I will write it as hits index so index.html not index.html so you can see it is going on but I don't want hello word index here I want this HTML page to be rendered I will use a bolt tag I want to render a proper HTML page so if I want to render a proper HTML page I will use send file name so I will write it as templates and I will write it as slash so send file name and you will see what will happen I will reload it as soon as I will get it you will see why I got it wrong you will see why I got it wrong so you will see the template folder where is the template folder where is the express folder so you will have to specify where is it so if you are reading the error, you can specify root so I will write root so when I will do this I will write no such file or directory I wrote templates I made a mistake with the wrong spelling so I will reload it and it is getting served so you can use res.send file text if you want to write res.send so I have seen all the methods but for the sake of easy I have taken a screenshot from the documentation and now you can use res.download, res.end, resend, resend you can use this source code will be available on the GitHub so you can easily get it so you can use res.json I will copy this and paste it and I want to say that the slash api is json return so I can say res.json and here a1, b2, c3, d4 so you can do this and I will do format document and I will go to slash api and I will show you something I have installed an extension called json formatter so what it is showing me is it is showing you 4 items so I can write name here and here I can write name here and here I can write name here so this is how it will look like so you can do this so you can send json like this and you can download file in express so you can do this you can do this so you can do this so you can do this and here it is showing you so this is the topic of this video and I will show you this I guarantee you that it will be available in the middle of air So if I come back to the agenda, we will see this Installing Postman Look, Postman is a software You can simply go to Google and write Postman There are many extensions, people say that Postman is an alternative Even I used to use a extension called ThunderCline But actually, what is Postman? You can also use any other extension Postman is an industry grade thing You will go anywhere, you will be caught by Postman And you will have to work on Postman If you are using their company Postman, you will not be able to do anything So you will have to use Postman So go here and sign up, sign in, log in to the account and come back here Click on the download desktop app I have downloaded 64-bit in Windows If you are in Mac, Linux, then install it You can see that Now after this, install it like a game I have already downloaded it So install it like a game, not like GTA People never say that game is not installed People say that Postman is not working And you have to authorise it And after this, you can create a new workspace You can also create a new request What will I do here? I already have a new workspace You can create a new workspace You can also create a new workspace I am creating a blank workspace In the name of Sigma Web Development Express Now it is saying to explore the template What do you want to do? What do you want? I will say to create a blank workspace I will do it myself I have created a name Sigma Web Development Express I will write here This extension This extension is for Sigma Sigma Web Development Express Now who can access? Only my team can access Why should I give it to the public? Click on Create And your workspace will be created Which means you can click on Go to Workspace And your workspace will be created The UI of this workspace keeps changing You will get a lot of help When you click on localhost And click on Get request Then you will get Hello World 2 Because I have handled the Get request That it will send Hello World 2 in text If I send it to 21 Then it will give me 21 So what is the use of doing this? You can do it in a browser You can't do it in a URL Now what to do here? Click on Save Now what happens in the workspace? I have created a home I will add the home APIs I will add the slash endpoints And I will click on Create Now I can change the name of this request I am saying Get Home I can duplicate it And rename it And I can say Post Home I will send it I have sent it So I can save it Now I have stopped posting I have not started posting I have started posting again I can resume my work I can test the APIs I have made a request I will duplicate it You can also press the control E And you can say API Home If I try Post request on API I will get a JSON I can click on Pretty And I can create a raw So I will click on Pretty And I can create a JSON for Metra extension I can do it directly So this is a good benefit The benefit of working in Postman is that it is an industry standard Now what happens? You have written all the APIs for Home You have written for About Now you want to give it to a friend So what will you do? You will export your collection You will click here You have to click on Export And you will export this collection So this will export this collection So what will happen? You can give it to your friend When you give it to a friend You will get all the requests Now what is here? You can make a folder in Home You can make many collections And you can share it with your friends So this is the benefit of using Postman There are many features in Postman I just want to tell you that we have our APIs We have tested it So I will fill it in the folder I will add data and authorization So I will not have to fill all the data So this is very important When you are making a big project So I understood the use of Postman Now I will tell you about Express Router Express Router is It helps you organize things It helps you organize things It helps you organize things It is not organized Now I will show you something This file is already congested You want to add a block in existing website You want to add a block Because you want to add a block You will have to make a slash block endpoint Slash block slash block Slash block slash about If you add all the endpoints here Your file will be upgraded What you will do? You can use Routes You will make a folder in the name of Routes And you will say block.js I will handle all the routes of block And the example of this is given in documentation Documentation says Make a route file And export it to module.exports By the way, I am removing this middleware I will tell you in the next video about middleware But here you see that I made a home route And made an about route And I want to make another route And that will be block post And I will write here And I will write here And I will write here And after doing this I will write about blog And I will write here I forgot the syntax So I will copy and paste And I will paste here And here they have made a birds And I will do the blog My blog Is being handled by the blog What does this mean? I will tell you Routes slash block So I am saying that any endpoints starting from the blog Will handle this file Similarly, I can say that the routes related to slash shop Will handle another file So I can do this If I go to the slash blog This route will handle If I go to the slash blog slash about This will handle Because the endpoints starting from the slash blog Are handling this Let's see if it will work So if I write slash blog I will write birds on it I will block it And I will refresh it So it will go to the blog If I write slash blog slash intro to the neighbor I think it is a blog post I made it in the name of blog post It is called POST And I will write slash blog Because it is a blog post So the endpoints starting from the slash blog Who handled it? And what is the benefit of separating files Organization So it means that it can work independently on blog.js Or it is not spread anywhere It is not spread in the code Or it is not spread in the code So let's organize it So we have a blog I want to make another route I want to make a set of routes And I want to say that the shop Will handle it I will write the shop And I will do this I will make a set of routes And I will copy the content And I will make a route Slash shop slash about shop And I will write shop homepage So what will happen if I go to the slash shop So what will happen That you will get the shop homepage And you can handle different routes So you will understand what happens So I will put all the source code on the GitHub And if you are not accessing the playlist Then do access it If you want to know when the video is uploaded Then do check the bookmark Because if I put the video Then you will get it in the playlist Thank you so much for watching this video Next time"
+}

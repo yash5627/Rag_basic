@@ -1,0 +1,4051 @@
+{
+    "chunks": [
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 0.0,
+            "end": 6.0,
+            "text": " In today's video, I will tell you how you can work with classes and objects in JavaScript."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 6.0,
+            "end": 9.0,
+            "text": " We are going to see object oriented programming very closely."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 9.0,
+            "end": 12.0,
+            "text": " What are the classes? What is the constructor?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 12.0,
+            "end": 15.0,
+            "text": " How will we use it? How will we use it? I will tell you all."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 15.0,
+            "end": 16.0,
+            "text": " Like this video."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 16.0,
+            "end": 19.0,
+            "text": " In the comments section below, do write JavaScript too."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 19.0,
+            "end": 22.0,
+            "text": " Let's go to the computer screen. Let's roll the intro."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 31.0,
+            "end": 33.0,
+            "text": " So guys, I am here in the computer screen."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 33.0,
+            "end": 36.0,
+            "text": " Today, I will tell you about object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 36.0,
+            "end": 42.0,
+            "text": " You will not be using the JavaScript project at the beginner level."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 42.0,
+            "end": 44.0,
+            "text": " What a great start to object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 44.0,
+            "end": 47.0,
+            "text": " But when you will go towards complex JavaScript,"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 47.0,
+            "end": 51.0,
+            "text": " I will tell you that you need to read the object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 51.0,
+            "end": 55.0,
+            "text": " That is why we are reading this topic because we are going to be a Sigma developer."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 55.0,
+            "end": 59.0,
+            "text": " So here you can see what object oriented programming is."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 59.0,
+            "end": 62.0,
+            "text": " Why do we think of object oriented programming as money?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 62.0,
+            "end": 65.0,
+            "text": " Let me tell you that object oriented programming is nothing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 65.0,
+            "end": 68.0,
+            "text": " You can achieve the work with object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 68.0,
+            "end": 70.0,
+            "text": " You can also achieve it with functional programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 70.0,
+            "end": 74.0,
+            "text": " The difference is that whenever you do object oriented programming,"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 74.0,
+            "end": 78.0,
+            "text": " you make real-world objects with real-world templates."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 78.0,
+            "end": 80.0,
+            "text": " What does that mean?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 80.0,
+            "end": 85.0,
+            "text": " Suppose you go to the bank and fill your form to open your account."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 85.0,
+            "end": 93.0,
+            "text": " If someone comes to your account, they will write their name, address, phone number, etc."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 93.0,
+            "end": 95.0,
+            "text": " If someone comes to your account, they will also give you the same information."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 95.0,
+            "end": 98.0,
+            "text": " So, they make a template which is called form."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 98.0,
+            "end": 102.0,
+            "text": " After filling the template, the template is filled by Ramesh."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 102.0,
+            "end": 106.0,
+            "text": " So, Ramesh's form is the form of Rohan."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 106.0,
+            "end": 107.0,
+            "text": " This is the object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 107.0,
+            "end": 109.0,
+            "text": " Class is a blueprint."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 109.0,
+            "end": 112.0,
+            "text": " The template of which object is the template."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 112.0,
+            "end": 114.0,
+            "text": " You can consider the form as a class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 114.0,
+            "end": 117.0,
+            "text": " You can consider the form as an object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 117.0,
+            "end": 119.0,
+            "text": " What is a class? Why is it needed?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 119.0,
+            "end": 122.0,
+            "text": " Suppose I make an object in JavaScript."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 122.0,
+            "end": 126.0,
+            "text": " Suppose I say let OBJ is equal to 2."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 126.0,
+            "end": 128.0,
+            "text": " After that, I write A is 1."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 128.0,
+            "end": 130.0,
+            "text": " And B is my Harry."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 130.0,
+            "end": 132.0,
+            "text": " This is a very simple object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 132.0,
+            "end": 134.0,
+            "text": " And I will do console.log."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 134.0,
+            "end": 139.0,
+            "text": " If I show you the preview, you will see the way it is inspected."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 139.0,
+            "end": 141.0,
+            "text": " I will show you the preview."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 141.0,
+            "end": 144.0,
+            "text": " And you will see the object is looking like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 144.0,
+            "end": 145.0,
+            "text": " A1, B, Harry."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 145.0,
+            "end": 147.0,
+            "text": " Now, you are seeing this prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 147.0,
+            "end": 148.0,
+            "text": " This prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 148.0,
+            "end": 151.0,
+            "text": " There are some functions which can be called."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 151.0,
+            "end": 153.0,
+            "text": " Which are not its own."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 153.0,
+            "end": 155.0,
+            "text": " They have been added to it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 155.0,
+            "end": 156.0,
+            "text": " What does that mean?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 156.0,
+            "end": 159.0,
+            "text": " Suppose I want to run some function on this object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 159.0,
+            "end": 161.0,
+            "text": " It is not its own property."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 161.0,
+            "end": 163.0,
+            "text": " It is its prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 163.0,
+            "end": 165.0,
+            "text": " Why is the prototype made?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 165.0,
+            "end": 167.0,
+            "text": " JavaScript objects have a special property called prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 167.0,
+            "end": 170.0,
+            "text": " That is null and references another object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 170.0,
+            "end": 173.0,
+            "text": " JavaScript's prototype is another object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 173.0,
+            "end": 175.0,
+            "text": " If you open it, you can see an object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 175.0,
+            "end": 177.0,
+            "text": " There are some functions in it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 177.0,
+            "end": 181.0,
+            "text": " And there are many things which we can use."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 181.0,
+            "end": 185.0,
+            "text": " Basically, the cool thing is that if you write here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 185.0,
+            "end": 186.0,
+            "text": " OBJ.A."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 186.0,
+            "end": 188.0,
+            "text": " I wrote OBJ.A is 1."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 188.0,
+            "end": 193.0,
+            "text": " But if I write OBJ.C in OBJ."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 193.0,
+            "end": 195.0,
+            "text": " Because it was not in C."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 195.0,
+            "end": 197.0,
+            "text": " But there is a chance that it could be in C's prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 197.0,
+            "end": 199.0,
+            "text": " So why do we make the prototype?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 199.0,
+            "end": 203.0,
+            "text": " We make the prototype so that we can do prototypal inheritance."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 203.0,
+            "end": 206.0,
+            "text": " What is this prototypal inheritance?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 206.0,
+            "end": 208.0,
+            "text": " Now, you can see this example."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 208.0,
+            "end": 210.0,
+            "text": " Here, I have made an animal name object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 210.0,
+            "end": 212.0,
+            "text": " In which there is an object called eatStru."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 212.0,
+            "end": 214.0,
+            "text": " After this, I have made an object called rabbit."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 214.0,
+            "end": 216.0,
+            "text": " In which there is a property called jumpStru."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 216.0,
+            "end": 218.0,
+            "text": " Animal eats, rabbit jumps."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 218.0,
+            "end": 219.0,
+            "text": " But rabbit is an animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 219.0,
+            "end": 221.0,
+            "text": " Because rabbit is an animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 221.0,
+            "end": 222.0,
+            "text": " I want to associate it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 222.0,
+            "end": 225.0,
+            "text": " And I want to make eats available in rabbit."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 225.0,
+            "end": 229.0,
+            "text": " I don't want to copy and make eats in rabbit."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 229.0,
+            "end": 231.0,
+            "text": " Maybe I should write some function of eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 231.0,
+            "end": 234.0,
+            "text": " Maybe I should write something specific in eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 234.0,
+            "end": 236.0,
+            "text": " Which I want to put on these two."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 236.0,
+            "end": 239.0,
+            "text": " Or I should put on all of them."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 239.0,
+            "end": 241.0,
+            "text": " So to do this, I have to do that."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 241.0,
+            "end": 243.0,
+            "text": " I will have to change all the objects."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 243.0,
+            "end": 245.0,
+            "text": " If I make different eats in all of them."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 245.0,
+            "end": 249.0,
+            "text": " But you can set the prototype in JavaScript."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 249.0,
+            "end": 252.0,
+            "text": " When we talk about object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 252.0,
+            "end": 255.0,
+            "text": " For example, if you assume that it is not object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 255.0,
+            "end": 259.0,
+            "text": " Then you can see that we can set the prototype by doing"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 259.0,
+            "end": 261.0,
+            "text": " rabbit.better."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 261.0,
+            "end": 264.0,
+            "text": " I will introduce you to rabbit object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 264.0,
+            "end": 267.0,
+            "text": " If I write rabbit here, you can see that it has jumpStru."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 267.0,
+            "end": 270.0,
+            "text": " But if you come to its prototype, you can see that it is eatStru."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 270.0,
+            "end": 273.0,
+            "text": " Which means that I can say rabbit.eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 273.0,
+            "end": 276.0,
+            "text": " And it will be true and not defined."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 276.0,
+            "end": 280.0,
+            "text": " So this is the true of rabbit.eats because of its prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 280.0,
+            "end": 281.0,
+            "text": " So what is prototype?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 281.0,
+            "end": 283.0,
+            "text": " Some additional properties are of an object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 283.0,
+            "end": 285.0,
+            "text": " So the properties of an object are there."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 285.0,
+            "end": 287.0,
+            "text": " But there is a prototype too."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 287.0,
+            "end": 291.0,
+            "text": " And this prototype helps to add some additional properties."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 291.0,
+            "end": 294.0,
+            "text": " But it is not enough when we want to make real world objects"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 294.0,
+            "end": 295.0,
+            "text": " through a template."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 295.0,
+            "end": 297.0,
+            "text": " We need proper object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 297.0,
+            "end": 300.0,
+            "text": " Which is done in JavaScript by class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 300.0,
+            "end": 301.0,
+            "text": " We can write a class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 301.0,
+            "end": 303.0,
+            "text": " We can't just run the work with prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 303.0,
+            "end": 306.0,
+            "text": " So what I will do here is, I will comment out all this"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 306.0,
+            "end": 308.0,
+            "text": " from here to here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 308.0,
+            "end": 310.0,
+            "text": " I just told you to explain this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 310.0,
+            "end": 312.0,
+            "text": " I will make a proper class here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 312.0,
+            "end": 315.0,
+            "text": " I know that this class is called Animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 315.0,
+            "end": 318.0,
+            "text": " And I want to write a code in it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 318.0,
+            "end": 321.0,
+            "text": " That I can make any animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 321.0,
+            "end": 323.0,
+            "text": " So I will write here first."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 323.0,
+            "end": 324.0,
+            "text": " Constructor."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 324.0,
+            "end": 326.0,
+            "text": " What is this constructor?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 326.0,
+            "end": 327.0,
+            "text": " What will this constructor do?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 327.0,
+            "end": 330.0,
+            "text": " That it will always run whenever I will make an object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " I will write object is created."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " Now if you are thinking that we are not getting any idea."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " Look, prototype is nothing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 336.0,
+            "end": 339.0,
+            "text": " If I want to add some other properties in an object,"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 339.0,
+            "end": 341.0,
+            "text": " that is the way to add prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 341.0,
+            "end": 342.0,
+            "text": " You understood this much."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 342.0,
+            "end": 344.0,
+            "text": " But you can't just use this prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 344.0,
+            "end": 346.0,
+            "text": " If we want to implement a proper object oriented programming"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 346.0,
+            "end": 350.0,
+            "text": " which is a method of programming,"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 350.0,
+            "end": 355.0,
+            "text": " then we will have to use proper classes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 355.0,
+            "end": 357.0,
+            "text": " Which is done in JavaScript."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 357.0,
+            "end": 358.0,
+            "text": " And we are still seeing that."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 358.0,
+            "end": 360.0,
+            "text": " Prototype was just this much."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 360.0,
+            "end": 361.0,
+            "text": " Now look at the class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 361.0,
+            "end": 363.0,
+            "text": " I have just written this much."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 363.0,
+            "end": 365.0,
+            "text": " And I will make some functions here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 365.0,
+            "end": 367.0,
+            "text": " I will say it is an EATSIC function."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 367.0,
+            "end": 370.0,
+            "text": " And here, I will write it like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " I am eating."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 372.0,
+            "end": 377.0,
+            "text": " And here I will copy it and make a function called jumps."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 377.0,
+            "end": 380.0,
+            "text": " And here I will write another one."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 380.0,
+            "end": 382.0,
+            "text": " And I will be jumping."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 382.0,
+            "end": 383.0,
+            "text": " So I can do this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 383.0,
+            "end": 387.0,
+            "text": " And I can say that let is equal to new animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 387.0,
+            "end": 388.0,
+            "text": " And console.log."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 388.0,
+            "end": 390.0,
+            "text": " If I did something like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 390.0,
+            "end": 394.0,
+            "text": " Then you can see that here an animal object is created."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 394.0,
+            "end": 396.0,
+            "text": " Look, the object is created here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 396.0,
+            "end": 398.0,
+            "text": " Animal object is created."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 398.0,
+            "end": 401.0,
+            "text": " But it is not enough to create only animal object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 401.0,
+            "end": 406.0,
+            "text": " We want some properties to be set in animal object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 406.0,
+            "end": 408.0,
+            "text": " So we will set that too."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 408.0,
+            "end": 412.0,
+            "text": " But I want to show you that I can run A dot."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 412.0,
+            "end": 416.0,
+            "text": " And A dot run is not a function."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 416.0,
+            "end": 417.0,
+            "text": " I probably didn't make a run."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 417.0,
+            "end": 418.0,
+            "text": " I made an EATS."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 418.0,
+            "end": 420.0,
+            "text": " So I will do EATS."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 420.0,
+            "end": 421.0,
+            "text": " So look, I am eating."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 421.0,
+            "end": 423.0,
+            "text": " And I will do jumps."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 423.0,
+            "end": 424.0,
+            "text": " So I am jumping."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 424.0,
+            "end": 428.0,
+            "text": " But if I do something else than mistake."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 428.0,
+            "end": 429.0,
+            "text": " Like A dot run."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 429.0,
+            "end": 430.0,
+            "text": " So it is not a function."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 430.0,
+            "end": 432.0,
+            "text": " So here you will get an option."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 432.0,
+            "end": 433.0,
+            "text": " What did I say?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 433.0,
+            "end": 435.0,
+            "text": " I don't know what this is."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 435.0,
+            "end": 436.0,
+            "text": " This is our HIN."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 436.0,
+            "end": 438.0,
+            "text": " Now what we will do here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 438.0,
+            "end": 441.0,
+            "text": " I made A is equal to animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 441.0,
+            "end": 446.0,
+            "text": " Now I will show you how we can pass the constructor."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 446.0,
+            "end": 450.0,
+            "text": " Now if I want to set the name of the constructor."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 450.0,
+            "end": 452.0,
+            "text": " I will do something like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 452.0,
+            "end": 454.0,
+            "text": " That name will be set here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 454.0,
+            "end": 457.0,
+            "text": " So I want to name an animal here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 457.0,
+            "end": 459.0,
+            "text": " And I want to name it bunny."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 459.0,
+            "end": 460.0,
+            "text": " So what will I do here?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " I will take argument in constructor."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 462.0,
+            "end": 465.0,
+            "text": " And I will write this dot name is equal to name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 465.0,
+            "end": 467.0,
+            "text": " What does this keyword do?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 467.0,
+            "end": 472.0,
+            "text": " This is a way for us to create properties in an object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 472.0,
+            "end": 474.0,
+            "text": " Or that object which is being created."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 474.0,
+            "end": 476.0,
+            "text": " What does this mean?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 476.0,
+            "end": 477.0,
+            "text": " What is said?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 477.0,
+            "end": 480.0,
+            "text": " See what happens is that when you write here new animal bunny."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 480.0,
+            "end": 482.0,
+            "text": " Then bunny will go as name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 482.0,
+            "end": 484.0,
+            "text": " And when I write this dot name is equal to name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 484.0,
+            "end": 486.0,
+            "text": " That is this dot name is equal to bunny."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 486.0,
+            "end": 487.0,
+            "text": " So what will happen?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 487.0,
+            "end": 488.0,
+            "text": " That this A is being made."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 488.0,
+            "end": 490.0,
+            "text": " It will be named as dot name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 490.0,
+            "end": 491.0,
+            "text": " I will show you here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 491.0,
+            "end": 493.0,
+            "text": " If I do A dot name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 493.0,
+            "end": 494.0,
+            "text": " Then see bunny is coming here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 494.0,
+            "end": 498.0,
+            "text": " So I can set many properties like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 498.0,
+            "end": 499.0,
+            "text": " It is a very simple thing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 499.0,
+            "end": 501.0,
+            "text": " You don't have to worry at all."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 501.0,
+            "end": 505.0,
+            "text": " And I will tell you that this will be more useful than this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 505.0,
+            "end": 507.0,
+            "text": " I want to make a new animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 507.0,
+            "end": 509.0,
+            "text": " I want to say class lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 509.0,
+            "end": 512.0,
+            "text": " And I want lion roar."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 512.0,
+            "end": 513.0,
+            "text": " And he will do many things."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 513.0,
+            "end": 515.0,
+            "text": " But he will do all things."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 515.0,
+            "end": 518.0,
+            "text": " Which is like an animal eats and jumps."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 518.0,
+            "end": 519.0,
+            "text": " So instead of..."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 519.0,
+            "end": 521.0,
+            "text": " I have a way to copy this code."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 521.0,
+            "end": 523.0,
+            "text": " And put it in lion again."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 523.0,
+            "end": 525.0,
+            "text": " And then take some more additional code in lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 525.0,
+            "end": 526.0,
+            "text": " Listen to me again."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 526.0,
+            "end": 527.0,
+            "text": " I have one way."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 527.0,
+            "end": 529.0,
+            "text": " I have a way to make lion class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 529.0,
+            "end": 531.0,
+            "text": " Like I have made an animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 531.0,
+            "end": 532.0,
+            "text": " Write this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 532.0,
+            "end": 535.0,
+            "text": " And I want to add more things with this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 535.0,
+            "end": 536.0,
+            "text": " But I won't do that."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 536.0,
+            "end": 538.0,
+            "text": " I will do the word of Extent."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 538.0,
+            "end": 541.0,
+            "text": " And I will write Extent's Animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 541.0,
+            "end": 542.0,
+            "text": " What will happen with this?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 542.0,
+            "end": 545.0,
+            "text": " That lion will automatically do all the things in the animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 545.0,
+            "end": 546.0,
+            "text": " All this will happen."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 546.0,
+            "end": 550.0,
+            "text": " But now I can make lion a fresh method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 550.0,
+            "end": 552.0,
+            "text": " What can I do here?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 552.0,
+            "end": 553.0,
+            "text": " I write here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 553.0,
+            "end": 556.0,
+            "text": " Let L is equal to new lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 556.0,
+            "end": 558.0,
+            "text": " And I write here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 558.0,
+            "end": 560.0,
+            "text": " Say, lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 560.0,
+            "end": 564.0,
+            "text": " And I can lock console.L."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 564.0,
+            "end": 566.0,
+            "text": " If I just leave it like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 566.0,
+            "end": 568.0,
+            "text": " And I will see this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 568.0,
+            "end": 569.0,
+            "text": " This is exactly what it is doing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 569.0,
+            "end": 571.0,
+            "text": " This is the prototype of the animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 571.0,
+            "end": 572.0,
+            "text": " You can see here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 572.0,
+            "end": 575.0,
+            "text": " This inheritance in JavaScript."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 575.0,
+            "end": 577.0,
+            "text": " It has happened using prototypes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 577.0,
+            "end": 578.0,
+            "text": " Now you see in this prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 578.0,
+            "end": 580.0,
+            "text": " There is a constructor method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 580.0,
+            "end": 582.0,
+            "text": " And here the prototype of this lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 582.0,
+            "end": 583.0,
+            "text": " It is the animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 583.0,
+            "end": 584.0,
+            "text": " Everything has come here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 584.0,
+            "end": 586.0,
+            "text": " So you have seen this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 586.0,
+            "end": 588.0,
+            "text": " Now what we will do?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 588.0,
+            "end": 590.0,
+            "text": " The constructor in the lion will change."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 590.0,
+            "end": 591.0,
+            "text": " No."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 591.0,
+            "end": 593.0,
+            "text": " The constructor of lion should be good."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 593.0,
+            "end": 595.0,
+            "text": " One should be neem."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 595.0,
+            "end": 597.0,
+            "text": " And the object is created."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 597.0,
+            "end": 599.0,
+            "text": " And he is a lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 599.0,
+            "end": 600.0,
+            "text": " This should be the way it is."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 600.0,
+            "end": 601.0,
+            "text": " But if I leave it like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 601.0,
+            "end": 603.0,
+            "text": " I will get to see this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 603.0,
+            "end": 606.0,
+            "text": " And it will be that I will have to call the supercode."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 606.0,
+            "end": 608.0,
+            "text": " Now I will show you what this means."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 608.0,
+            "end": 609.0,
+            "text": " This is telling me."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 609.0,
+            "end": 611.0,
+            "text": " You have made a new class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 611.0,
+            "end": 613.0,
+            "text": " And you said that I extend the animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 613.0,
+            "end": 615.0,
+            "text": " But you will have to call the constructor of the animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 615.0,
+            "end": 617.0,
+            "text": " Using the super keyword."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 617.0,
+            "end": 619.0,
+            "text": " Before using this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 619.0,
+            "end": 621.0,
+            "text": " So what I will do here?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 621.0,
+            "end": 623.0,
+            "text": " I will write something like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 623.0,
+            "end": 625.0,
+            "text": " And when I write super here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 625.0,
+            "end": 626.0,
+            "text": " Then what will happen?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 626.0,
+            "end": 627.0,
+            "text": " The constructor will go."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 627.0,
+            "end": 628.0,
+            "text": " And when this will go."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 628.0,
+            "end": 629.0,
+            "text": " After that."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 629.0,
+            "end": 631.0,
+            "text": " I can set this dot name here again."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 631.0,
+            "end": 633.0,
+            "text": " And I don't need to do it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 633.0,
+            "end": 634.0,
+            "text": " Because here you can see."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 634.0,
+            "end": 636.0,
+            "text": " This dot name is already set."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 636.0,
+            "end": 637.0,
+            "text": " So if I see here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 637.0,
+            "end": 638.0,
+            "text": " Everything is fine."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 638.0,
+            "end": 639.0,
+            "text": " One minute."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 639.0,
+            "end": 640.0,
+            "text": " The name is undefined."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 640.0,
+            "end": 641.0,
+            "text": " Let me see what happened."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 641.0,
+            "end": 643.0,
+            "text": " I have called lion and lion here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 643.0,
+            "end": 645.0,
+            "text": " And the lion has called as name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 645.0,
+            "end": 647.0,
+            "text": " So I will have to call super."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 647.0,
+            "end": 649.0,
+            "text": " Because here this name will go here again."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 649.0,
+            "end": 651.0,
+            "text": " And finally this dot name will be here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 651.0,
+            "end": 653.0,
+            "text": " So you can see here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 653.0,
+            "end": 655.0,
+            "text": " The name will be lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 655.0,
+            "end": 657.0,
+            "text": " So by combining object coordinate programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 657.0,
+            "end": 658.0,
+            "text": " This is what happens."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 658.0,
+            "end": 659.0,
+            "text": " I have told you the constructor method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 659.0,
+            "end": 661.0,
+            "text": " I have told you the inheritance."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 661.0,
+            "end": 663.0,
+            "text": " Which is the word of the extends."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 663.0,
+            "end": 665.0,
+            "text": " And you can read the notes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 665.0,
+            "end": 667.0,
+            "text": " What is the method overriding?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 667.0,
+            "end": 669.0,
+            "text": " The method overriding is simply."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 669.0,
+            "end": 672.0,
+            "text": " If I want to change the eats method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 672.0,
+            "end": 674.0,
+            "text": " And I am saying here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 674.0,
+            "end": 675.0,
+            "text": " I am eating."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 675.0,
+            "end": 677.0,
+            "text": " And I am writing road."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 677.0,
+            "end": 680.0,
+            "text": " So if I run the lion eats method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 680.0,
+            "end": 682.0,
+            "text": " I will show you here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 682.0,
+            "end": 684.0,
+            "text": " If I will do L dot eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 684.0,
+            "end": 686.0,
+            "text": " If I will do L dot eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 686.0,
+            "end": 688.0,
+            "text": " So you can see I am eating and I am crying."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 688.0,
+            "end": 690.0,
+            "text": " But if I do A dot eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 690.0,
+            "end": 692.0,
+            "text": " Then I will come here and eat."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 692.0,
+            "end": 693.0,
+            "text": " So why did this happen?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 693.0,
+            "end": 695.0,
+            "text": " Because I have overrided the lion method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 695.0,
+            "end": 697.0,
+            "text": " This is called method overriding."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 697.0,
+            "end": 699.0,
+            "text": " I have done it in a way that you can understand."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 699.0,
+            "end": 700.0,
+            "text": " Let's replace a file."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 700.0,
+            "end": 703.0,
+            "text": " Like we have changed this method in the folder."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 703.0,
+            "end": 704.0,
+            "text": " This was here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 704.0,
+            "end": 705.0,
+            "text": " This is here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 705.0,
+            "end": 707.0,
+            "text": " This is the only thing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 707.0,
+            "end": 709.0,
+            "text": " What is super keyword?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 709.0,
+            "end": 711.0,
+            "text": " If you are running a super class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 711.0,
+            "end": 713.0,
+            "text": " You can use super keyword."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 713.0,
+            "end": 715.0,
+            "text": " When we override a method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 715.0,
+            "end": 717.0,
+            "text": " We don't want the method of the previous class to go in vain."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 717.0,
+            "end": 719.0,
+            "text": " We can execute it using super keyword."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 719.0,
+            "end": 721.0,
+            "text": " So what happens here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 721.0,
+            "end": 723.0,
+            "text": " If I run super dot."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 723.0,
+            "end": 725.0,
+            "text": " I can run the super class method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 725.0,
+            "end": 727.0,
+            "text": " If I run super like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 727.0,
+            "end": 729.0,
+            "text": " And write dot eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 729.0,
+            "end": 731.0,
+            "text": " I will run the super class eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 731.0,
+            "end": 733.0,
+            "text": " Whenever I am writing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 733.0,
+            "end": 735.0,
+            "text": " Super keyword unexpected here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 735.0,
+            "end": 737.0,
+            "text": " Let me see what is wrong."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 737.0,
+            "end": 739.0,
+            "text": " Actually, I don't want to call super."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 739.0,
+            "end": 741.0,
+            "text": " Super keyword is super dot eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 741.0,
+            "end": 743.0,
+            "text": " Like I have written in the notes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 743.0,
+            "end": 744.0,
+            "text": " Super dot run."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 744.0,
+            "end": 745.0,
+            "text": " I will write super dot eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 745.0,
+            "end": 746.0,
+            "text": " Now see everything is going well."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 746.0,
+            "end": 747.0,
+            "text": " If I write L dot eats."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 747.0,
+            "end": 749.0,
+            "text": " Then both are running."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 749.0,
+            "end": 750.0,
+            "text": " So this is the method of this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 750.0,
+            "end": 752.0,
+            "text": " This is the method of super class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 752.0,
+            "end": 754.0,
+            "text": " So by combining the tools."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 754.0,
+            "end": 756.0,
+            "text": " You will practice the object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 756.0,
+            "end": 758.0,
+            "text": " So your work will be done."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 758.0,
+            "end": 760.0,
+            "text": " I have told you the same thing in the overriding constructor."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 760.0,
+            "end": 762.0,
+            "text": " Which I have told you."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 762.0,
+            "end": 764.0,
+            "text": " Then there are static methods."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 764.0,
+            "end": 766.0,
+            "text": " What are static methods?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 766.0,
+            "end": 768.0,
+            "text": " They are used to implement functions that belong to a class as a whole."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 768.0,
+            "end": 770.0,
+            "text": " And not to any particular object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 770.0,
+            "end": 772.0,
+            "text": " So what will happen if I make a static method."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 772.0,
+            "end": 774.0,
+            "text": " I can call it from the class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 774.0,
+            "end": 776.0,
+            "text": " Now again, do you want to use it?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 776.0,
+            "end": 778.0,
+            "text": " Do you want to use getters and setters?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 778.0,
+            "end": 780.0,
+            "text": " If you want to make JavaScript projects."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 780.0,
+            "end": 782.0,
+            "text": " Maybe if you are writing a library."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 782.0,
+            "end": 784.0,
+            "text": " You are writing a lot of code."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 784.0,
+            "end": 786.0,
+            "text": " Which needs to be managed."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 786.0,
+            "end": 788.0,
+            "text": " Then yes, we will use all these things."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 788.0,
+            "end": 790.0,
+            "text": " Otherwise if we are making a website."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 790.0,
+            "end": 791.0,
+            "text": " Let me tell you."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 791.0,
+            "end": 794.0,
+            "text": " In most of the websites which I have delivered to my clients."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 794.0,
+            "end": 796.0,
+            "text": " I have not used object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 796.0,
+            "end": 798.0,
+            "text": " This is a fact."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 798.0,
+            "end": 799.0,
+            "text": " This is a fact."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 799.0,
+            "end": 801.0,
+            "text": " Now many people can say that you don't do it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 801.0,
+            "end": 802.0,
+            "text": " You should do it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 802.0,
+            "end": 805.0,
+            "text": " I am very happy with the way I write my code."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 805.0,
+            "end": 808.0,
+            "text": " And I am sure that the code I am writing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 808.0,
+            "end": 812.0,
+            "text": " Is at least at the quality that I want."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 812.0,
+            "end": 814.0,
+            "text": " So my work."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 814.0,
+            "end": 816.0,
+            "text": " My client's work."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 816.0,
+            "end": 818.0,
+            "text": " Code runs for years."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 818.0,
+            "end": 819.0,
+            "text": " No problem."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 819.0,
+            "end": 820.0,
+            "text": " The project is successful."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 820.0,
+            "end": 823.0,
+            "text": " So why should I put complicated files in my project?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 823.0,
+            "end": 825.0,
+            "text": " That is how I think."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 825.0,
+            "end": 828.0,
+            "text": " But sometimes it happens that you need to understand the classes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 828.0,
+            "end": 830.0,
+            "text": " So you should understand."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 830.0,
+            "end": 832.0,
+            "text": " And I made my understanding of the whole class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 832.0,
+            "end": 833.0,
+            "text": " And the object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 833.0,
+            "end": 834.0,
+            "text": " Getters, etc."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 834.0,
+            "end": 835.0,
+            "text": " All these things."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 835.0,
+            "end": 837.0,
+            "text": " When I initially learned JavaScript."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 837.0,
+            "end": 839.0,
+            "text": " I am just telling you the fact."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 839.0,
+            "end": 840.0,
+            "text": " I was not going to tell you."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 840.0,
+            "end": 842.0,
+            "text": " I thought I would not do anything if I didn't do this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 842.0,
+            "end": 844.0,
+            "text": " But let me tell you the fact."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 844.0,
+            "end": 846.0,
+            "text": " That this will be used very less."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 846.0,
+            "end": 847.0,
+            "text": " But when it will be."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 847.0,
+            "end": 848.0,
+            "text": " Then you will have to do it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 848.0,
+            "end": 849.0,
+            "text": " You should use it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 849.0,
+            "end": 851.0,
+            "text": " Or else you will be out of the project."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 851.0,
+            "end": 852.0,
+            "text": " Remember this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 852.0,
+            "end": 855.0,
+            "text": " So all these JavaScript concepts."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 855.0,
+            "end": 856.0,
+            "text": " I have told you."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 856.0,
+            "end": 858.0,
+            "text": " The concept of object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 858.0,
+            "end": 859.0,
+            "text": " You should read it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 859.0,
+            "end": 861.0,
+            "text": " And implement it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 861.0,
+            "end": 863.0,
+            "text": " What is getter and setter?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 863.0,
+            "end": 865.0,
+            "text": " Classes include getters and setters."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 865.0,
+            "end": 867.0,
+            "text": " To get and set the computed properties."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 867.0,
+            "end": 868.0,
+            "text": " What is this?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 868.0,
+            "end": 873.0,
+            "text": " It is simply that you can use get and set."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 873.0,
+            "end": 874.0,
+            "text": " So just to save some time."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 874.0,
+            "end": 875.0,
+            "text": " I have a code here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 875.0,
+            "end": 876.0,
+            "text": " Getter setter.js."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 876.0,
+            "end": 877.0,
+            "text": " That is."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 877.0,
+            "end": 878.0,
+            "text": " Gs.js."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 878.0,
+            "end": 880.0,
+            "text": " Which I am going to plug in here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 880.0,
+            "end": 882.0,
+            "text": " Plugging in my script."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 882.0,
+            "end": 883.0,
+            "text": " Plugging in Gs.js."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 883.0,
+            "end": 884.0,
+            "text": " Plugging in Gs.js."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 884.0,
+            "end": 886.0,
+            "text": " So here I have made a class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 886.0,
+            "end": 887.0,
+            "text": " And I said."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 887.0,
+            "end": 888.0,
+            "text": " What will the constructor do?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 888.0,
+            "end": 889.0,
+            "text": " He will set his name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 889.0,
+            "end": 891.0,
+            "text": " Then I have made a get name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 891.0,
+            "end": 896.0,
+            "text": " I have made a function called getname."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 896.0,
+            "end": 899.0,
+            "text": " And here I have made a set name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 899.0,
+            "end": 901.0,
+            "text": " Here I have actually written wrong."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 901.0,
+            "end": 903.0,
+            "text": " I need to connect these nodes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 903.0,
+            "end": 906.0,
+            "text": " I should have used brackets after the get name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 906.0,
+            "end": 908.0,
+            "text": " Which I have done a little bit wrong here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 908.0,
+            "end": 910.0,
+            "text": " Now you see here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 910.0,
+            "end": 912.0,
+            "text": " This implementation."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 912.0,
+            "end": 913.0,
+            "text": " What have we done in this?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 913.0,
+            "end": 916.0,
+            "text": " We have said that let user is equal to new john."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 916.0,
+            "end": 917.0,
+            "text": " I will do the work."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 917.0,
+            "end": 920.0,
+            "text": " I will do console.log."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 920.0,
+            "end": 922.0,
+            "text": " I don't want to use alert."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 922.0,
+            "end": 925.0,
+            "text": " I am going to log on console."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 925.0,
+            "end": 927.0,
+            "text": " Alerts are a little annoying sometimes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 927.0,
+            "end": 929.0,
+            "text": " You see I refresh it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 929.0,
+            "end": 931.0,
+            "text": " So you see john came."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 931.0,
+            "end": 932.0,
+            "text": " Name is too short."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 932.0,
+            "end": 933.0,
+            "text": " What happened?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 933.0,
+            "end": 934.0,
+            "text": " We made a new user."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 934.0,
+            "end": 935.0,
+            "text": " And when we made a new user."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 935.0,
+            "end": 937.0,
+            "text": " What happened is that we said user.name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 937.0,
+            "end": 941.0,
+            "text": " When I try to get the user.name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 941.0,
+            "end": 942.0,
+            "text": " So what will happen?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 942.0,
+            "end": 944.0,
+            "text": " This function will run."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 944.0,
+            "end": 945.0,
+            "text": " Why will this function run?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 945.0,
+            "end": 951.0,
+            "text": " This function will run because we are using this to get the name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 951.0,
+            "end": 953.0,
+            "text": " So here I have done the get name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 953.0,
+            "end": 955.0,
+            "text": " This.unders has got the name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 955.0,
+            "end": 958.0,
+            "text": " This means that you will get the same thing."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 958.0,
+            "end": 959.0,
+            "text": " That is, you will get the john."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 959.0,
+            "end": 960.0,
+            "text": " There is nothing big."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 960.0,
+            "end": 962.0,
+            "text": " After this, what have we done?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 962.0,
+            "end": 965.0,
+            "text": " Whenever we are setting the name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 965.0,
+            "end": 968.0,
+            "text": " When you write user is equal to new user."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 968.0,
+            "end": 971.0,
+            "text": " Whenever we are setting the property of existing object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 971.0,
+            "end": 973.0,
+            "text": " Or if I just do this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 973.0,
+            "end": 977.0,
+            "text": " User.name is equal to this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 977.0,
+            "end": 978.0,
+            "text": " So what will happen here?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 978.0,
+            "end": 979.0,
+            "text": " This will run."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 979.0,
+            "end": 982.0,
+            "text": " And after running this, it will say name is too short."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 982.0,
+            "end": 984.0,
+            "text": " Or if I do something like this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 984.0,
+            "end": 985.0,
+            "text": " Harry."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 985.0,
+            "end": 988.0,
+            "text": " And then after this, console.log user."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 988.0,
+            "end": 989.0,
+            "text": " So this function will run."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 989.0,
+            "end": 991.0,
+            "text": " Which will set the name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 991.0,
+            "end": 993.0,
+            "text": " And because it will set the name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 993.0,
+            "end": 996.0,
+            "text": " So you see this user is getting to see."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 996.0,
+            "end": 998.0,
+            "text": " So here I have named the user."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 998.0,
+            "end": 1000.0,
+            "text": " If I just name the user.name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1000.0,
+            "end": 1002.0,
+            "text": " Then I will get the user's name."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1002.0,
+            "end": 1004.0,
+            "text": " And that's about get us and set us."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1004.0,
+            "end": 1005.0,
+            "text": " One thing you are just seeing in the notes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1005.0,
+            "end": 1006.0,
+            "text": " I have written a little wrong."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1006.0,
+            "end": 1009.0,
+            "text": " I will fix it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1009.0,
+            "end": 1012.0,
+            "text": " But again, you guys see this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1012.0,
+            "end": 1016.0,
+            "text": " You understand that this is wrong."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1016.0,
+            "end": 1018.0,
+            "text": " After getting name, you will get the bracket."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1018.0,
+            "end": 1019.0,
+            "text": " I wrote this wrong."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1019.0,
+            "end": 1021.0,
+            "text": " If you want to make projects."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1021.0,
+            "end": 1022.0,
+            "text": " You have less time."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1022.0,
+            "end": 1024.0,
+            "text": " I want to give you an advice."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1024.0,
+            "end": 1027.0,
+            "text": " And this advice will be a little controversial."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1027.0,
+            "end": 1029.0,
+            "text": " But why are you not saying to learn."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1029.0,
+            "end": 1031.0,
+            "text": " I will say learn the prototype."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1031.0,
+            "end": 1033.0,
+            "text": " Class constructor."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1033.0,
+            "end": 1035.0,
+            "text": " And write the code of the getter setter."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1035.0,
+            "end": 1036.0,
+            "text": " Learn the extent."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1036.0,
+            "end": 1038.0,
+            "text": " And the static keyword."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1038.0,
+            "end": 1040.0,
+            "text": " You should know what is for the interview."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1040.0,
+            "end": 1042.0,
+            "text": " And what is the super keyword."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1042.0,
+            "end": 1044.0,
+            "text": " You have to call the constructor."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1044.0,
+            "end": 1046.0,
+            "text": " If you are overwriting the constructor of the derived class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1046.0,
+            "end": 1049.0,
+            "text": " Rest I would say that right code, right code, right code."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1049.0,
+            "end": 1050.0,
+            "text": " Everything will be done."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1050.0,
+            "end": 1051.0,
+            "text": " You will understand."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1051.0,
+            "end": 1053.0,
+            "text": " Rest I have given a practice set."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1053.0,
+            "end": 1054.0,
+            "text": " You guys solve it."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1054.0,
+            "end": 1056.0,
+            "text": " Now I want to tell you an instance of operator."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1056.0,
+            "end": 1057.0,
+            "text": " What does it do?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1057.0,
+            "end": 1060.0,
+            "text": " Suppose I made a class called user."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1060.0,
+            "end": 1061.0,
+            "text": " I will do this again."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1061.0,
+            "end": 1063.0,
+            "text": " I plug this script.js."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1063.0,
+            "end": 1065.0,
+            "text": " What did I do here?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1065.0,
+            "end": 1067.0,
+            "text": " I made a class called lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1067.0,
+            "end": 1069.0,
+            "text": " Which I made with animals."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1069.0,
+            "end": 1070.0,
+            "text": " Now what can I do?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1070.0,
+            "end": 1072.0,
+            "text": " This is the animal object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1072.0,
+            "end": 1074.0,
+            "text": " This is the lion object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1074.0,
+            "end": 1076.0,
+            "text": " Now what can I do?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1076.0,
+            "end": 1078.0,
+            "text": " I can ask."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1078.0,
+            "end": 1080.0,
+            "text": " What is L?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1080.0,
+            "end": 1082.0,
+            "text": " Instance of."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1082.0,
+            "end": 1083.0,
+            "text": " Oops."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1083.0,
+            "end": 1085.0,
+            "text": " Instance."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1085.0,
+            "end": 1087.0,
+            "text": " Off."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1087.0,
+            "end": 1089.0,
+            "text": " Instance."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1089.0,
+            "end": 1091.0,
+            "text": " And I will tap this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1091.0,
+            "end": 1093.0,
+            "text": " Instance of lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1093.0,
+            "end": 1094.0,
+            "text": " So it will tell me."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1094.0,
+            "end": 1096.0,
+            "text": " Yes, it is the object of L lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1096.0,
+            "end": 1098.0,
+            "text": " So the object comes here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1098.0,
+            "end": 1099.0,
+            "text": " The name of the class comes here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1099.0,
+            "end": 1101.0,
+            "text": " Does this object come from this class?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1101.0,
+            "end": 1102.0,
+            "text": " It is simple."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1102.0,
+            "end": 1104.0,
+            "text": " Now there is a very interesting thing here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1104.0,
+            "end": 1106.0,
+            "text": " When you write L instance of animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1106.0,
+            "end": 1107.0,
+            "text": " Now I am asking."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1107.0,
+            "end": 1108.0,
+            "text": " Is it made from an animal?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1108.0,
+            "end": 1109.0,
+            "text": " Yes."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1109.0,
+            "end": 1110.0,
+            "text": " But it is made from lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1110.0,
+            "end": 1111.0,
+            "text": " It is not made from an animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1111.0,
+            "end": 1113.0,
+            "text": " But it is made from lion animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1113.0,
+            "end": 1115.0,
+            "text": " So we made the lion class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1115.0,
+            "end": 1117.0,
+            "text": " This is true."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1117.0,
+            "end": 1118.0,
+            "text": " You should know this."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1118.0,
+            "end": 1119.0,
+            "text": " And this is catch."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1119.0,
+            "end": 1123.0,
+            "text": " So here you write object instance of class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1123.0,
+            "end": 1125.0,
+            "text": " It returns true if object belongs to the class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1125.0,
+            "end": 1127.0,
+            "text": " Or any other class inheriting property."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1127.0,
+            "end": 1129.0,
+            "text": " That is parent class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1129.0,
+            "end": 1130.0,
+            "text": " It will be true."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1130.0,
+            "end": 1133.0,
+            "text": " But here surprisingly."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1133.0,
+            "end": 1134.0,
+            "text": " I will write."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1134.0,
+            "end": 1136.0,
+            "text": " Is the A instance of lion?"
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1136.0,
+            "end": 1137.0,
+            "text": " No."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1137.0,
+            "end": 1138.0,
+            "text": " A is not an instance of lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1138.0,
+            "end": 1139.0,
+            "text": " Lion is made later."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1139.0,
+            "end": 1140.0,
+            "text": " Okay."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1140.0,
+            "end": 1141.0,
+            "text": " Lion class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1141.0,
+            "end": 1143.0,
+            "text": " It is made from animal."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1143.0,
+            "end": 1145.0,
+            "text": " And it is made from lion object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1145.0,
+            "end": 1147.0,
+            "text": " But A is directly animal object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1147.0,
+            "end": 1149.0,
+            "text": " Lion is not in the picture."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1149.0,
+            "end": 1151.0,
+            "text": " A is animal object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1151.0,
+            "end": 1153.0,
+            "text": " And class animal is written here."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1153.0,
+            "end": 1155.0,
+            "text": " And A is animal object."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1155.0,
+            "end": 1158.0,
+            "text": " So this thing will return false."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1158.0,
+            "end": 1159.0,
+            "text": " A instance of lion."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1159.0,
+            "end": 1161.0,
+            "text": " So this instance of operator sometimes comes to work."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1161.0,
+            "end": 1167.0,
+            "text": " To find out if any class has made any object or not."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1167.0,
+            "end": 1171.0,
+            "text": " So if an object belongs to a class or any other class."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1171.0,
+            "end": 1173.0,
+            "text": " Then we will know."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1173.0,
+            "end": 1174.0,
+            "text": " Okay."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1174.0,
+            "end": 1176.0,
+            "text": " That was about object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1176.0,
+            "end": 1178.0,
+            "text": " And again I will tell you."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1178.0,
+            "end": 1181.0,
+            "text": " Until you write the code of object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1181.0,
+            "end": 1183.0,
+            "text": " You will not understand."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1183.0,
+            "end": 1186.0,
+            "text": " You will have to practice."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1186.0,
+            "end": 1188.0,
+            "text": " You will have to write the code yourself."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1188.0,
+            "end": 1190.0,
+            "text": " You will not understand this only by watching the video."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1190.0,
+            "end": 1192.0,
+            "text": " But the things I have told you in this video."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1192.0,
+            "end": 1196.0,
+            "text": " I would say this video is the best video to learn object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1196.0,
+            "end": 1200.0,
+            "text": " So you can watch this video to understand object oriented programming."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1200.0,
+            "end": 1203.0,
+            "text": " And I will say that I have not told you much."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1203.0,
+            "end": 1205.0,
+            "text": " Because you are confused."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1205.0,
+            "end": 1206.0,
+            "text": " So with that said."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1206.0,
+            "end": 1207.0,
+            "text": " In the upcoming videos."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1207.0,
+            "end": 1208.0,
+            "text": " A lot of things to do."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1208.0,
+            "end": 1210.0,
+            "text": " A very awesome project is on the way."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1210.0,
+            "end": 1212.0,
+            "text": " Let me tell you."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1212.0,
+            "end": 1213.0,
+            "text": " And you can wait for that."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1213.0,
+            "end": 1214.0,
+            "text": " You will enjoy it too."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1214.0,
+            "end": 1216.0,
+            "text": " That is all for now."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1216.0,
+            "end": 1218.0,
+            "text": " Thank you so much guys for watching this video."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1218.0,
+            "end": 1220.0,
+            "text": " And I will see you next time."
+        },
+        {
+            "title": "OOpsInJS",
+            "Number": "5",
+            "start": 1226.0,
+            "end": 1228.0,
+            "text": " Bye."
+        }
+    ],
+    "text": " In today's video, I will tell you how you can work with classes and objects in JavaScript. We are going to see object oriented programming very closely. What are the classes? What is the constructor? How will we use it? How will we use it? I will tell you all. Like this video. In the comments section below, do write JavaScript too. Let's go to the computer screen. Let's roll the intro. So guys, I am here in the computer screen. Today, I will tell you about object oriented programming. You will not be using the JavaScript project at the beginner level. What a great start to object oriented programming. But when you will go towards complex JavaScript, I will tell you that you need to read the object oriented programming. That is why we are reading this topic because we are going to be a Sigma developer. So here you can see what object oriented programming is. Why do we think of object oriented programming as money? Let me tell you that object oriented programming is nothing. You can achieve the work with object oriented programming. You can also achieve it with functional programming. The difference is that whenever you do object oriented programming, you make real-world objects with real-world templates. What does that mean? Suppose you go to the bank and fill your form to open your account. If someone comes to your account, they will write their name, address, phone number, etc. If someone comes to your account, they will also give you the same information. So, they make a template which is called form. After filling the template, the template is filled by Ramesh. So, Ramesh's form is the form of Rohan. This is the object. Class is a blueprint. The template of which object is the template. You can consider the form as a class. You can consider the form as an object. What is a class? Why is it needed? Suppose I make an object in JavaScript. Suppose I say let OBJ is equal to 2. After that, I write A is 1. And B is my Harry. This is a very simple object. And I will do console.log. If I show you the preview, you will see the way it is inspected. I will show you the preview. And you will see the object is looking like this. A1, B, Harry. Now, you are seeing this prototype. This prototype. There are some functions which can be called. Which are not its own. They have been added to it. What does that mean? Suppose I want to run some function on this object. It is not its own property. It is its prototype. Why is the prototype made? JavaScript objects have a special property called prototype. That is null and references another object. JavaScript's prototype is another object. If you open it, you can see an object. There are some functions in it. And there are many things which we can use. Basically, the cool thing is that if you write here. OBJ.A. I wrote OBJ.A is 1. But if I write OBJ.C in OBJ. Because it was not in C. But there is a chance that it could be in C's prototype. So why do we make the prototype? We make the prototype so that we can do prototypal inheritance. What is this prototypal inheritance? Now, you can see this example. Here, I have made an animal name object. In which there is an object called eatStru. After this, I have made an object called rabbit. In which there is a property called jumpStru. Animal eats, rabbit jumps. But rabbit is an animal. Because rabbit is an animal. I want to associate it. And I want to make eats available in rabbit. I don't want to copy and make eats in rabbit. Maybe I should write some function of eats. Maybe I should write something specific in eats. Which I want to put on these two. Or I should put on all of them. So to do this, I have to do that. I will have to change all the objects. If I make different eats in all of them. But you can set the prototype in JavaScript. When we talk about object oriented programming. For example, if you assume that it is not object oriented programming. Then you can see that we can set the prototype by doing rabbit.better. I will introduce you to rabbit object. If I write rabbit here, you can see that it has jumpStru. But if you come to its prototype, you can see that it is eatStru. Which means that I can say rabbit.eats. And it will be true and not defined. So this is the true of rabbit.eats because of its prototype. So what is prototype? Some additional properties are of an object. So the properties of an object are there. But there is a prototype too. And this prototype helps to add some additional properties. But it is not enough when we want to make real world objects through a template. We need proper object oriented programming. Which is done in JavaScript by class. We can write a class. We can't just run the work with prototype. So what I will do here is, I will comment out all this from here to here. I just told you to explain this. I will make a proper class here. I know that this class is called Animal. And I want to write a code in it. That I can make any animal. So I will write here first. Constructor. What is this constructor? What will this constructor do? That it will always run whenever I will make an object. I will write object is created. Now if you are thinking that we are not getting any idea. Look, prototype is nothing. If I want to add some other properties in an object, that is the way to add prototype. You understood this much. But you can't just use this prototype. If we want to implement a proper object oriented programming which is a method of programming, then we will have to use proper classes. Which is done in JavaScript. And we are still seeing that. Prototype was just this much. Now look at the class. I have just written this much. And I will make some functions here. I will say it is an EATSIC function. And here, I will write it like this. I am eating. And here I will copy it and make a function called jumps. And here I will write another one. And I will be jumping. So I can do this. And I can say that let is equal to new animal. And console.log. If I did something like this. Then you can see that here an animal object is created. Look, the object is created here. Animal object is created. But it is not enough to create only animal object. We want some properties to be set in animal object. So we will set that too. But I want to show you that I can run A dot. And A dot run is not a function. I probably didn't make a run. I made an EATS. So I will do EATS. So look, I am eating. And I will do jumps. So I am jumping. But if I do something else than mistake. Like A dot run. So it is not a function. So here you will get an option. What did I say? I don't know what this is. This is our HIN. Now what we will do here. I made A is equal to animal. Now I will show you how we can pass the constructor. Now if I want to set the name of the constructor. I will do something like this. That name will be set here. So I want to name an animal here. And I want to name it bunny. So what will I do here? I will take argument in constructor. And I will write this dot name is equal to name. What does this keyword do? This is a way for us to create properties in an object. Or that object which is being created. What does this mean? What is said? See what happens is that when you write here new animal bunny. Then bunny will go as name. And when I write this dot name is equal to name. That is this dot name is equal to bunny. So what will happen? That this A is being made. It will be named as dot name. I will show you here. If I do A dot name. Then see bunny is coming here. So I can set many properties like this. It is a very simple thing. You don't have to worry at all. And I will tell you that this will be more useful than this. I want to make a new animal. I want to say class lion. And I want lion roar. And he will do many things. But he will do all things. Which is like an animal eats and jumps. So instead of... I have a way to copy this code. And put it in lion again. And then take some more additional code in lion. Listen to me again. I have one way. I have a way to make lion class. Like I have made an animal. Write this. And I want to add more things with this. But I won't do that. I will do the word of Extent. And I will write Extent's Animal. What will happen with this? That lion will automatically do all the things in the animal. All this will happen. But now I can make lion a fresh method. What can I do here? I write here. Let L is equal to new lion. And I write here. Say, lion. And I can lock console.L. If I just leave it like this. And I will see this. This is exactly what it is doing. This is the prototype of the animal. You can see here. This inheritance in JavaScript. It has happened using prototypes. Now you see in this prototype. There is a constructor method. And here the prototype of this lion. It is the animal. Everything has come here. So you have seen this. Now what we will do? The constructor in the lion will change. No. The constructor of lion should be good. One should be neem. And the object is created. And he is a lion. This should be the way it is. But if I leave it like this. I will get to see this. And it will be that I will have to call the supercode. Now I will show you what this means. This is telling me. You have made a new class. And you said that I extend the animal. But you will have to call the constructor of the animal. Using the super keyword. Before using this. So what I will do here? I will write something like this. And when I write super here. Then what will happen? The constructor will go. And when this will go. After that. I can set this dot name here again. And I don't need to do it. Because here you can see. This dot name is already set. So if I see here. Everything is fine. One minute. The name is undefined. Let me see what happened. I have called lion and lion here. And the lion has called as name. So I will have to call super. Because here this name will go here again. And finally this dot name will be here. So you can see here. The name will be lion. So by combining object coordinate programming. This is what happens. I have told you the constructor method. I have told you the inheritance. Which is the word of the extends. And you can read the notes. What is the method overriding? The method overriding is simply. If I want to change the eats method. And I am saying here. I am eating. And I am writing road. So if I run the lion eats method. I will show you here. If I will do L dot eats. If I will do L dot eats. So you can see I am eating and I am crying. But if I do A dot eats. Then I will come here and eat. So why did this happen? Because I have overrided the lion method. This is called method overriding. I have done it in a way that you can understand. Let's replace a file. Like we have changed this method in the folder. This was here. This is here. This is the only thing. What is super keyword? If you are running a super class. You can use super keyword. When we override a method. We don't want the method of the previous class to go in vain. We can execute it using super keyword. So what happens here. If I run super dot. I can run the super class method. If I run super like this. And write dot eats. I will run the super class eats. Whenever I am writing. Super keyword unexpected here. Let me see what is wrong. Actually, I don't want to call super. Super keyword is super dot eats. Like I have written in the notes. Super dot run. I will write super dot eats. Now see everything is going well. If I write L dot eats. Then both are running. So this is the method of this. This is the method of super class. So by combining the tools. You will practice the object oriented programming. So your work will be done. I have told you the same thing in the overriding constructor. Which I have told you. Then there are static methods. What are static methods? They are used to implement functions that belong to a class as a whole. And not to any particular object. So what will happen if I make a static method. I can call it from the class. Now again, do you want to use it? Do you want to use getters and setters? If you want to make JavaScript projects. Maybe if you are writing a library. You are writing a lot of code. Which needs to be managed. Then yes, we will use all these things. Otherwise if we are making a website. Let me tell you. In most of the websites which I have delivered to my clients. I have not used object oriented programming. This is a fact. This is a fact. Now many people can say that you don't do it. You should do it. I am very happy with the way I write my code. And I am sure that the code I am writing. Is at least at the quality that I want. So my work. My client's work. Code runs for years. No problem. The project is successful. So why should I put complicated files in my project? That is how I think. But sometimes it happens that you need to understand the classes. So you should understand. And I made my understanding of the whole class. And the object. Getters, etc. All these things. When I initially learned JavaScript. I am just telling you the fact. I was not going to tell you. I thought I would not do anything if I didn't do this. But let me tell you the fact. That this will be used very less. But when it will be. Then you will have to do it. You should use it. Or else you will be out of the project. Remember this. So all these JavaScript concepts. I have told you. The concept of object oriented programming. You should read it. And implement it. What is getter and setter? Classes include getters and setters. To get and set the computed properties. What is this? It is simply that you can use get and set. So just to save some time. I have a code here. Getter setter.js. That is. Gs.js. Which I am going to plug in here. Plugging in my script. Plugging in Gs.js. Plugging in Gs.js. So here I have made a class. And I said. What will the constructor do? He will set his name. Then I have made a get name. I have made a function called getname. And here I have made a set name. Here I have actually written wrong. I need to connect these nodes. I should have used brackets after the get name. Which I have done a little bit wrong here. Now you see here. This implementation. What have we done in this? We have said that let user is equal to new john. I will do the work. I will do console.log. I don't want to use alert. I am going to log on console. Alerts are a little annoying sometimes. You see I refresh it. So you see john came. Name is too short. What happened? We made a new user. And when we made a new user. What happened is that we said user.name. When I try to get the user.name. So what will happen? This function will run. Why will this function run? This function will run because we are using this to get the name. So here I have done the get name. This.unders has got the name. This means that you will get the same thing. That is, you will get the john. There is nothing big. After this, what have we done? Whenever we are setting the name. When you write user is equal to new user. Whenever we are setting the property of existing object. Or if I just do this. User.name is equal to this. So what will happen here? This will run. And after running this, it will say name is too short. Or if I do something like this. Harry. And then after this, console.log user. So this function will run. Which will set the name. And because it will set the name. So you see this user is getting to see. So here I have named the user. If I just name the user.name. Then I will get the user's name. And that's about get us and set us. One thing you are just seeing in the notes. I have written a little wrong. I will fix it. But again, you guys see this. You understand that this is wrong. After getting name, you will get the bracket. I wrote this wrong. If you want to make projects. You have less time. I want to give you an advice. And this advice will be a little controversial. But why are you not saying to learn. I will say learn the prototype. Class constructor. And write the code of the getter setter. Learn the extent. And the static keyword. You should know what is for the interview. And what is the super keyword. You have to call the constructor. If you are overwriting the constructor of the derived class. Rest I would say that right code, right code, right code. Everything will be done. You will understand. Rest I have given a practice set. You guys solve it. Now I want to tell you an instance of operator. What does it do? Suppose I made a class called user. I will do this again. I plug this script.js. What did I do here? I made a class called lion. Which I made with animals. Now what can I do? This is the animal object. This is the lion object. Now what can I do? I can ask. What is L? Instance of. Oops. Instance. Off. Instance. And I will tap this. Instance of lion. So it will tell me. Yes, it is the object of L lion. So the object comes here. The name of the class comes here. Does this object come from this class? It is simple. Now there is a very interesting thing here. When you write L instance of animal. Now I am asking. Is it made from an animal? Yes. But it is made from lion. It is not made from an animal. But it is made from lion animal. So we made the lion class. This is true. You should know this. And this is catch. So here you write object instance of class. It returns true if object belongs to the class. Or any other class inheriting property. That is parent class. It will be true. But here surprisingly. I will write. Is the A instance of lion? No. A is not an instance of lion. Lion is made later. Okay. Lion class. It is made from animal. And it is made from lion object. But A is directly animal object. Lion is not in the picture. A is animal object. And class animal is written here. And A is animal object. So this thing will return false. A instance of lion. So this instance of operator sometimes comes to work. To find out if any class has made any object or not. So if an object belongs to a class or any other class. Then we will know. Okay. That was about object oriented programming. And again I will tell you. Until you write the code of object oriented programming. You will not understand. You will have to practice. You will have to write the code yourself. You will not understand this only by watching the video. But the things I have told you in this video. I would say this video is the best video to learn object oriented programming. So you can watch this video to understand object oriented programming. And I will say that I have not told you much. Because you are confused. So with that said. In the upcoming videos. A lot of things to do. A very awesome project is on the way. Let me tell you. And you can wait for that. You will enjoy it too. That is all for now. Thank you so much guys for watching this video. And I will see you next time. Bye."
+}

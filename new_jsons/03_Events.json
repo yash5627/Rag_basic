@@ -1,0 +1,2343 @@
+{
+    "chunks": [
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 0.0,
+            "end": 30.68,
+            "text": " In today's video, we will see the advantage of representing things in the tree-like structure through the Javascript Bomb and Document Object Model.  Do like this video and write a Javascript Tope in the comment section.  Let's go to the computer screen and let's roll the intro.  So guys, I have come to the computer screen.  And the first thing I am going to do here is to make a folder."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 30.68,
+            "end": 48.68,
+            "text": " This thing will be constant in this course.  No matter how much you go, don't show it by making a folder.  But I will make a folder here and then open it with code.  And here is an index.html and here is a boilerplate code.  I will put the script in it."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 48.68,
+            "end": 60.92,
+            "text": " And the script is here.  I am going to write the code this time.  And I am going to tell you that the title is Javascript Dom.  Now what is this Dom?  Dom stands for Document Object Model."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 60.92,
+            "end": 77.32000000000001,
+            "text": " Now what happens is, if I have written it in the name of Javascript Dom,  Now you guys see this.  In this page, we can see the content of the body.  The title of this page is, as you can see, Sigma Web Development Code.  This is the title of this course."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 77.32000000000001,
+            "end": 97.32000000000001,
+            "text": " Sorry for this page.  So you get the title, the meta tags, the body, all of this.  Now I will run this.  I will click here and show you the content.  And as soon as I write in the script that Document.title is equal to,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 97.32000000000001,
+            "end": 111.32,
+            "text": " I have written Document.title is equal to,  Harry is good, I have written.  So you will get what Harry is good title.  So basically as soon as I reload it,  The title will be this, which I have given."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 111.32,
+            "end": 128.84,
+            "text": " But as soon as this Javascript execute,  The title will be this.  Document Object Model is used so that you guys can map the entire HTML.  As a Document Tree.  Now if I write here, console.log.document.title,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 128.84,
+            "end": 140.32,
+            "text": " You will get to see the title.  And if I write here, document.body,  You will get to see the body of the page.  So if I reload it and show you guys here,  You will get to see the body of the page."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 140.32,
+            "end": 157.32,
+            "text": " Now you will get to see the things in this document.body.  If I put it in the body,  Div.container and put it in this.  Div.box and put this is a box.  So you will get to see this."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 157.32,
+            "end": 173.32,
+            "text": " So what is this?  In a tree like structure, you get the entire HTML when you write Document.body.  And this is used to change any element.  Or if I want to change any element,  I can change that text."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 173.32,
+            "end": 187.32,
+            "text": " So this is called Document Object Model.  Document.body.  I can say that if I want to change a particular element style,  I will say document.body.style.background is equal to green.  This will make my document color green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 187.32,
+            "end": 201.32,
+            "text": " So if I write here document.body.style.  And I will write background color.  The CSS properties that are given here,  The background color will be written like this.  The background dash color will not be written."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 201.32,
+            "end": 212.32,
+            "text": " And if I write green here,  Then it will put in an inline CSS.  So you will get to see this inline CSS.  So with the help of inline CSS,  The background color is given in green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 212.32,
+            "end": 225.32,
+            "text": " So you can inject the inline CSS.  So this is our Document Object Model.  Now it is called a BOM.  Now knowing about DOM and BOM,  You will not get any great power."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 225.32,
+            "end": 237.32,
+            "text": " But it is asked in the interview.  Document Object Model is the entire document's  Inner Object.  The object that you get all the content.  And the BOM is the Browser Object Model."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 237.32,
+            "end": 247.32,
+            "text": " Now apart from the document,  If you want to work with someone,  Then the browser provides some additional objects.  It is called BOM.  Like the location and the etcher are provided."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 247.32,
+            "end": 261.32,
+            "text": " So you can redirect it to another URL.  If I write Window Object,  Window is a Window Object.  Which contains your document.  And if I write Window.Document,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 261.32,
+            "end": 272.32,
+            "text": " Window.Document,  Then you get a document.  If you write Window.Document.Body,  Then you get a body.  Window is a global object."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 272.32,
+            "end": 283.32,
+            "text": " And you need to write Window.Document.Body.  So you can write Window.Document.Body.  Then your work will be done.  So Window Object comes in the DOM,  And JavaScript comes in the core."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 283.32,
+            "end": 294.32,
+            "text": " It is a global object.  You can write it without the window.document.  Now why are we reading about all these things?  I will tell you this quickly.  We are reading about all these things."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 294.32,
+            "end": 306.32,
+            "text": " So that we can target elements from the side of JavaScript.  Which we will see in the upcoming videos.  So how we will target elements.  Like I want this particular element,  This element on this page,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 306.32,
+            "end": 316.32,
+            "text": " The color of this element will be green.  So I can target this element.  In one thing, I want to tell you that  You can write in any browser.  As soon as you click on Inspect,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 316.32,
+            "end": 326.32,
+            "text": " So you see, I have selected this element.  So this element was selected.  Or if I want to select this particular element,  Or select this whole div.  So you see, it has equal to equal to $0."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 326.32,
+            "end": 336.32,
+            "text": " Now listen to this trick carefully.  It will be useful for your life.  I can use the $0 to refer this object.  So if I write $0 here,  So you see this element is coming."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 336.32,
+            "end": 346.32,
+            "text": " Which I have selected.  So whatever is selected,  It becomes $0.  Now if I write .style.backgroundColor  And I write equals to green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 346.32,
+            "end": 356.32,
+            "text": " So I can green its background color.  As you can see.  So what is $0?  The element you have selected,  It becomes $0."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 356.32,
+            "end": 366.32,
+            "text": " Which is also clicked here, it is $0.  Now if I want to make it $0,  I will inspect it correctly.  And the element I will click on here,  It becomes $0."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 366.32,
+            "end": 376.32,
+            "text": " The thumbnail section here is $0.  Here this container is $0.  So if I run $0.  Style.backgroundColor green,  So this will be green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 376.32,
+            "end": 386.32,
+            "text": " So $0 is in the browser.  So the browser gives you this kind of utility.  So that you can select a particular element.  And you can add styles in it.  So this is our document object model."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 386.32,
+            "end": 396.32,
+            "text": " Now I want to show you this image.  It will represent the elements well.  And you will understand what is exactly the DOM.  So in the document,  It is our HTML."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 396.32,
+            "end": 406.32,
+            "text": " Inside the body,  You can see that every element  Is a leaf node.  It is either a text.  Or it will be an empty element."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 406.32,
+            "end": 416.32,
+            "text": " So what you have to do here.  If you have to select any element,  You have to go through DOM.  It is possible that you want to search  From a particular node."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 416.32,
+            "end": 426.32,
+            "text": " I want to search for any  Diff in the body.  So functions are there.  If you want to select  A given class element"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 426.32,
+            "end": 436.32,
+            "text": " In the body, you can select multiple elements.  You can do that.  In all these things,  It provides facility to select.  And you can use any"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 436.32,
+            "end": 446.32,
+            "text": " Complex query  To select different elements.  You can use CSS selectors  Within JavaScript.  If you want to use multiple nodes"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 446.32,
+            "end": 456.32,
+            "text": " With a particular CSS selector.  So I hope  You have understood about DOM.  If you want to learn more about DOM  Then this is an MDN page."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 456.32,
+            "end": 466.32,
+            "text": " In which it is said that DOM  Represents a logical tree.  Every branch ends in a node.  And this is an object  Representation."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 466.32,
+            "end": 476.32,
+            "text": " Until we do it,  We will not understand it.  We will do it by searching  In the coming videos.  I will show you how"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 476.32,
+            "end": 486.32,
+            "text": " Elements are targeted.  I have shown a small example of you.  In the coming videos,  We will do more complex things.  You will understand how"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 486.32,
+            "end": 496.32,
+            "text": " To target different elements  With the help of JavaScript.  Maybe change their CSS.  Or remove them from DOM.  Or add them in DOM."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 496.32,
+            "end": 506.32,
+            "text": " I hope you liked the video.  And you are getting to learn things.  If you have not done the playlist,  Do it.  Thank you so much for watching this video."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 506.32,
+            "end": 508.32,
+            "text": " And I will see you next time."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 0.0,
+            "end": 20.0,
+            "text": " We have seen a lot of DOM manipulation in JavaScript.  In today's video, I will tell you how you can insert elements in JavaScript  and how you can remove elements from your DOM.  This is very useful when you want to make single page applications  or you want to reload a page without any work."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 20.0,
+            "end": 45.0,
+            "text": " Do like this video and write a sigma batch in the comment section.  Let's roll the intro in the computer screen.  I have come to the computer screen.  I will make video number 71 and shift it to a higher level  so that you don't even know when I made the index.html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 45.0,
+            "end": 63.0,
+            "text": " I will put the exclamation mark here and put the boilerplate template.  Today we are going to talk about some functions  which I have written in good terms in the notes.  You will know the benefits of giving notes in this video.  There are many functions here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 63.0,
+            "end": 83.0,
+            "text": " I have written them in the notes in the industry.  For example, I have a div here.  There is a container in which I have written the spelling wrong.  I will make a div dot box here.  I will make a div dot box."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 83.0,
+            "end": 103.0,
+            "text": " I have written a div dot box.  I will inspect it and write in the console  document dot query selector.  I will write document dot query selector.  I can also write document dot query selector."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 103.0,
+            "end": 120.0,
+            "text": " I will write document dot query selector.  The first box will come to me.  I will write document dot inner HTML.  I will get any HTML in it.  If I do this with the container, I will get the HTML in it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 120.0,
+            "end": 138.0,
+            "text": " I will zoom it a little.  You can see here that box  If I do it, I will get the inner HTML in the box.  You will get any HTML in it.  Then there is the inner text method."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 138.0,
+            "end": 158.0,
+            "text": " The text in the inner HTML is shown as text.  If I do this with the container, I will show you here.  You will see here that the text in the container is only VIE.  You will get this text.  If I put two boxes here, and then I say show the inner text,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 158.0,
+            "end": 174.0,
+            "text": " then you will get the text of both the boxes.  Sometimes we have to know the text of an element.  So we can use it.  Now I will show you how to use the rest of the methods.  So the inner HTML is done."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 174.0,
+            "end": 191.0,
+            "text": " I will tell you about outer HTML.  Outer HTML is in the property.  It is the inner HTML plus element itself.  If I do outer HTML,  then you will see what I got."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 191.0,
+            "end": 208.0,
+            "text": " I got the container myself.  The inner HTML is the container.  The inner HTML and outer HTML are different.  This was the inner HTML and this was the outer HTML.  Then we have the tag name or node name."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 208.0,
+            "end": 222.0,
+            "text": " I will tell you quickly.  If I want to tell you the tag name of this,  then you will tell me that it is a div.  The container is a div.  Sometimes you need to know in JavaScript which element is it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 222.0,
+            "end": 234.0,
+            "text": " There is a property by doing a node name.  If I write something like this,  the node name will also be div.  What is the difference between tag name and node name?  The tag name is applicable only for elements."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 234.0,
+            "end": 248.0,
+            "text": " The node name is applicable for any type of node.  Like the text node.  These things will be very clear after reading the nodes.  I have shown you the demo.  Then there is text content which provides access to the text inside the element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 248.0,
+            "end": 267.0,
+            "text": " Only text minus all the tags.  If you do the text content,  then you will get the text content inside the element.  I hope you have understood how these things work.  You can add an attribute in the div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 267.0,
+            "end": 279.0,
+            "text": " The name is hidden.  If you add a hidden element,  then the element will be hidden.  You can also add an element.hidden.  If I do this with the container,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 279.0,
+            "end": 291.0,
+            "text": " then I can add an attribute.hidden.  I can also add a attribute.  I will use boolean.hidden is also true.  This is also hidden.  What will you do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 291.0,
+            "end": 306.0,
+            "text": " You will add an attribute hidden inside the container.  This will hide the element.  I want to tell you one more thing.  I can change the inner HTML of any element.  I will say,"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 306.0,
+            "end": 316.0,
+            "text": " I am Harry.  I will reload the page.  So that the missing element comes back.  I will enter here.  The content of Hey I am Harry has changed."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 316.0,
+            "end": 332.0,
+            "text": " When I say document.querySelector.box.innerhtml  What will you do?  First element will select document.querySelector.  The element inside which the class box is located.  You should be clear about this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 332.0,
+            "end": 344.0,
+            "text": " I have changed the inner HTML of Hey I am Harry.  It can look a little boring.  I am telling you by using all these methods.  But it is written in the notes.  Don't worry about remembering."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 344.0,
+            "end": 356.0,
+            "text": " You can download the notes from here.  Download them.  Download them from codewitherry.com.  There are some methods of attributes.  Like element.lm is an element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 356.0,
+            "end": 369.0,
+            "text": " If I add a dot as an attribute.  And I want to check if this attribute is there.  It will tell me.  For example, if I ask if this box has attribute.  Is this attribute style?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 369.0,
+            "end": 379.0,
+            "text": " No, it is not.  But if I add a style attribute.  I mean, I say style is equal to display none.  I will not do display none.  Display flex."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 379.0,
+            "end": 394.0,
+            "text": " Since I will do none, it will hide.  If I do dot style, it will be true.  The box selected has a style attribute.  And if you want to get an attribute.  Then you will get an attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 394.0,
+            "end": 404.0,
+            "text": " Show me what style attribute is.  You will get this style.  And you will see the set attribute.  This is not style.  I want to do display inline."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 404.0,
+            "end": 412.0,
+            "text": " So you will get set attribute.  And you will get set attribute.  What should I do?  Display inline.  What should I do?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 412.0,
+            "end": 419.0,
+            "text": " Display inline.  And this will be set.  Display inline.  But the style of display inline is set.  There are some methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 419.0,
+            "end": 431.0,
+            "text": " You don't need to write.  But you should know.  Remove attribute.  And you will get all attributes.  People don't know that all attributes can be obtained."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 431.0,
+            "end": 443.0,
+            "text": " So knowing this will be a big thing for you.  Because if you know, if you don't know that something can happen.  You will find it very strange.  But I have felt it.  And until you feel it, you will not know."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 443.0,
+            "end": 456.0,
+            "text": " If you are doing anything.  You don't know that you can get all attributes.  You will never think about it.  But you are making a project.  You will think that you have told me about video number."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 456.0,
+            "end": 462.0,
+            "text": " So I will take notes.  I will look at notes.  I will look at notes.  How does it work?  This is very useful for you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 462.0,
+            "end": 472.0,
+            "text": " That's why I am telling you one by one.  Otherwise I would have said that you should read notes.  It is important to do it.  Now here I can remove any attribute.  I will write here R."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 472.0,
+            "end": 482.0,
+            "text": " And this will be shown in your VS code.  Tap it.  I will say remove the style.  I will say remove the style.  And this style has been removed."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 482.0,
+            "end": 492.0,
+            "text": " Look, the style has been removed.  The style attribute has been removed.  I will reload it.  Because whatever JavaScript we write here is temporary.  It is only for till the time you don't refresh the page."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 492.0,
+            "end": 501.0,
+            "text": " So whatever JavaScript you write here.  Manipulate the page.  It is temporary.  Google, Facebook, Microsoft.  You can change any website to temporary in your browser."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 501.0,
+            "end": 519.0,
+            "text": " You can edit your things here.  Now you can write document.design mode is equal to on.  If you have done this, you can change any page.  I will write any website of this world.  If I write TechCrunch here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 519.0,
+            "end": 529.0,
+            "text": " And I will write JavaScript here.  And I will say I want document.design mode on.  I have turned on the design mode.  I will show you.  I have run this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 529.0,
+            "end": 537.0,
+            "text": " I have run document.design mode on.  Now I can edit anything on this website.  By pressing backspace.  Okay, until and unless I am not redirecting.  Look, I can change this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 537.0,
+            "end": 544.0,
+            "text": " I can do anything.  Content.  That's why they say don't trust screenshots.  And especially if you are a web developer.  You should tell me this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 544.0,
+            "end": 556.0,
+            "text": " Okay, and you will know 90% of people.  But again, some things are very big.  And it is important to tell them.  So that's why you can do what you can do here.  Where are the notes?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 556.0,
+            "end": 568.0,
+            "text": " You can use all these methods.  Okay, then there are data attributes.  Which you can add to custom attributes.  Suppose I want to give an attribute in my box.  In which I can store which element."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 568.0,
+            "end": 580.0,
+            "text": " For some reason, I want to store.  Who made this element?  It is a very weird attribute.  But I want to do data created by is equal to.  So I can write Harry like this."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 580.0,
+            "end": 590.0,
+            "text": " So I will say data created by is equal to Harry.  So I have added a data attribute.  And I have written data created by.  And I have done is equal to Harry.  So you can add this custom attribute."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 590.0,
+            "end": 602.0,
+            "text": " Without any error.  You can store information in any element.  Okay, so you can do this.  And now if you want to access them here.  So you can say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 602.0,
+            "end": 613.0,
+            "text": " Key document dot query selector dot box.  And you can say.  Dot data set.  Okay, and you see that I am created by Harry.  Why I am telling you created by Harry?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 613.0,
+            "end": 627.0,
+            "text": " Because the properties of data dash.  This is of any element.  If I say data concept by is equal to.  And I write Rohan here.  And after that I will show you this again."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 627.0,
+            "end": 637.0,
+            "text": " So where created by Harry will come.  Concept by Rohan will come.  This data dash is ignored.  I will tell you.  After data dash, it is given as key value pair."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 637.0,
+            "end": 646.0,
+            "text": " Wherever you set any element dot data.  So I have written all this in notes for you.  And to be honest, I myself forget.  Sometimes.  I am telling you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 646.0,
+            "end": 655.0,
+            "text": " After so much experience, I forget that.  Data set is stored in this.  I got to know by seeing.  So I put in notes once.  And made it so that you don't download."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 655.0,
+            "end": 661.0,
+            "text": " I am saying on your face.  It is your loss.  It is a big loss.  It is a big loss.  I was freely available these notes."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 661.0,
+            "end": 669.0,
+            "text": " But I am saying it myself.  If there were trees, then you would have taken.  It would have been useful to you.  Okay, I am telling you this.  Let's talk about insertion methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 669.0,
+            "end": 680.0,
+            "text": " Which was the topic of this video.  Look, whenever you want to create an element.  You can say.  I will put a script tag here.  Okay, script and I will write you."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 680.0,
+            "end": 692.0,
+            "text": " Let div is equal to document dot create element.  So I can create a new element.  I can say, create a div.  Then I can say that the div.  What do you do in that?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 692.0,
+            "end": 699.0,
+            "text": " Attribute the set.  Put it in this.  Put the class.  I can put the class like this.  And create it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 700.0,
+            "end": 711.0,
+            "text": " I have set the attribute like this.  Okay, what can I do now?  I want to insert it in the container.  So I will write document dot query selector.  And I will say."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 711.0,
+            "end": 719.0,
+            "text": " Dot container.  That is the first container with class.  First element with class.  Dot container.  That is the first element of the container class."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 719.0,
+            "end": 728.0,
+            "text": " Which will be this.  Now I will say what I want to do in this.  I want to insert it.  Okay, so I will write insert here.  I am getting many methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 728.0,
+            "end": 744.0,
+            "text": " Which I have to insert here.  Okay, I have explained here very well.  But you can do it by doing inner HTML.  Or you can do it by doing document dot body dot.  So I will tell you a very simple method."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 744.0,
+            "end": 753.0,
+            "text": " Dot append.  Okay, we have appended div by doing dot append.  So now you see how your page looks like.  So I will reload it.  I have not put content in it by the way."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 753.0,
+            "end": 766.0,
+            "text": " So what can I do here?  I can say div dot inner HTML is equal to  I have been inserted.  And I will put a bull tag to show you that  this HTML is working."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 766.0,
+            "end": 776.0,
+            "text": " Okay, so I will write here.  I have been inserted by Harry.  Okay, and I wrote here like this.  So you see here I have been inserted by Harry.  Dot append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 776.0,
+            "end": 791.0,
+            "text": " Whenever we use it.  Then you will get to see the element in the end.  In which you have done dot append.  Okay, good.  So this dot append is the simplest method to append."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 791.0,
+            "end": 801.0,
+            "text": " Okay, you can append directly in the document.  Okay, you can append in the body.  Means document dot body dot append.  Which I have done here in the notes.  Document dot body dot append div."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 801.0,
+            "end": 812.0,
+            "text": " So this will be appended.  So dynamically you can generate the elements with JavaScript.  So this is what you have to do when you get the data.  Suppose you have the data somewhere.  And you want to reload the page without the DOM."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 812.0,
+            "end": 821.0,
+            "text": " You can reload the page and then update the data.  Then you can do this.  So it is very useful.  Append is a function.  Pre-pend is a function."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 821.0,
+            "end": 828.0,
+            "text": " Before is a function.  After is a function.  Replace with a function.  What will you do?  You will replace this element with this node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 828.0,
+            "end": 842.0,
+            "text": " Okay, so try out all these methods yourself.  I will show you before and after quickly.  So if I do dot before.  Okay, if I do dot before and you show here HTML.  So you see that this body."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 842.0,
+            "end": 851.0,
+            "text": " Before the container was in it.  It will insert it.  If I do dot after it will insert it.  And if I do append it.  It will insert it at the end."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 851.0,
+            "end": 858.0,
+            "text": " And if I do pre-pend it.  It will insert it at the end.  So try out yourself.  If you have any questions.  Write in the comments."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 858.0,
+            "end": 865.0,
+            "text": " How to tell you again in pre-pend.  No, do it yourself.  Do it yourself.  You have all the code words.  You have all the words."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 865.0,
+            "end": 873.0,
+            "text": " You can go to GitHub.  You have the link in GitHub.  Okay, access.  I know it's getting cold.  But if it's getting hot."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 873.0,
+            "end": 881.0,
+            "text": " Then do it.  Anything is happening.  Okay.  Now you see here.  Try out the other methods."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 881.0,
+            "end": 888.0,
+            "text": " Now there is another method.  Insert-adjustment-html.  We talked about the node.  Okay.  You have a node."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 888.0,
+            "end": 897.0,
+            "text": " You have made a node.  Or you have brought elements from somewhere else.  You can insert it.  You can do whatever you want to do.  But what if you have HTML."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 897.0,
+            "end": 904.0,
+            "text": " That is HTML string.  And if you want to insert.  Then how will you do it?  There is a method.  Insert-adjustment-html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 904.0,
+            "end": 912.0,
+            "text": " Okay.  I will show you an example.  So what I told you.  Creating a dynamically element.  This is a very good thing to do."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 912.0,
+            "end": 922.0,
+            "text": " But I can say.  Let-Count is equal to my container.  Okay.  I can say.  Con-Dot-Insert-adjustment-html."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 922.0,
+            "end": 936.0,
+            "text": " I will insert-adjustment-html.  And the same thing is required for element.  You can use insert-adjustment-html.  I am doing insert-adjustment-html here.  Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 936.0,
+            "end": 944.0,
+            "text": " And what will I do?  If I begin before.  Then HTML will be inserted immediately before element.  After I will begin immediately.  At the beginning."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 944.0,
+            "end": 949.0,
+            "text": " It will be inserted.  Okay.  If I end before.  Then at the end.  If I end after."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 949.0,
+            "end": 957.0,
+            "text": " Then after element.  This is hidden in its name.  Where it will be inserted.  So if you try it out yourself.  Then you will understand very easily."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 957.0,
+            "end": 967.0,
+            "text": " The first argument is this.  And then the second is HTML string.  I will show you.  It will be easy for you.  So as soon as I have put a double code."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 967.0,
+            "end": 976.0,
+            "text": " I will tell you where to insert from these four.  After end.  Okay.  And what you want to insert?  I am inserted."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 976.0,
+            "end": 984.0,
+            "text": " I am under the water.  Here.  Please help me.  Please help me.  Please help me."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 984.0,
+            "end": 995.0,
+            "text": " Here too much raining.  Okay.  So I wrote.  I have written a string here.  And I want to close the bolt tag here."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 995.0,
+            "end": 1003.0,
+            "text": " Okay.  I have closed the bolt tag here.  So I have written this string here.  It was very random.  Now let's see where it will be inserted."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1003.0,
+            "end": 1010.0,
+            "text": " So if I show you here.  So what did he do?  That after making this HTML element.  After the container.  Insert it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1010.0,
+            "end": 1019.0,
+            "text": " So after end.  What will happen?  That he will insert after that element.  But if I want to do it after the beginning.  So where will it be inserted?"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1019.0,
+            "end": 1024.0,
+            "text": " It will be inserted inside it.  That is after it starts.  After the beginning.  After it starts.  After."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1024.0,
+            "end": 1031.0,
+            "text": " That is inside.  Okay.  After the beginning.  And if I do it here.  And if I have to put this again."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1031.0,
+            "end": 1037.0,
+            "text": " For the solutions.  If I do it before the beginning.  Then I will insert it.  Okay.  Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1037.0,
+            "end": 1044.0,
+            "text": " Okay.  If I do it before the beginning.  So what will happen?  Before it starts.  Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1044.0,
+            "end": 1049.0,
+            "text": " Before it starts.  Before the beginning.  After the end.  What will happen?  After it."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1049.0,
+            "end": 1054.0,
+            "text": " That is after the end.  After that element.  Okay.  Now you can insert HTML.  You can insert text."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1054.0,
+            "end": 1066.0,
+            "text": " You can insert element.  For HTML, insert, adjacent element.  HTML function is there.  For text, insert, adjacent text function is there.  For element, insert, adjacent element function is there."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1066.0,
+            "end": 1074.0,
+            "text": " Okay.  For text, you will see from the notes.  Look at it.  It will not give you any understanding until you see it.  Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1074.0,
+            "end": 1082.0,
+            "text": " After that there is a node removal.  How is node removal done?  You will remove dot here.  So this node will leave the DOM.  Okay."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1082.0,
+            "end": 1090.0,
+            "text": " You can do this for anyone.  If I tell here that my container.  Or the first element of my dot box.  Remove the dot there.  Then it will go away."
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1090.0,
+            "end": 1100.0,
+            "text": " If I run it again.  It will select the first element of class.  Class is equal to box.  I will remove dot and it will be removed  See, the DOM is being updated"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1100.0,
+            "end": 1111.0,
+            "text": " You can watch the video if you haven't seen it  I would like to talk about the class name and class list  Because it is very important  Suppose I have this container  Suppose I have given a class in this, red"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1111.0,
+            "end": 1122.0,
+            "text": " And I have given a class in this, bggreen  Suppose I have given a class in this, bggreen and red  I am not writing their styles, I have given a class  So if I say that my container  I want all the classes"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1122.0,
+            "end": 1133.0,
+            "text": " So I will say that the dot container element  And if I want, I can select it in other ways  I have chosen the query selector method  To select this element  I could also say that document dot"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1133.0,
+            "end": 1143.0,
+            "text": " Get elements by class name  Container  And then, square bracket 0  This element would be selected in any way  So this is my choice, how to select the element"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1143.0,
+            "end": 1153.0,
+            "text": " I have written this, I will say  Give me its class list  So when I say class list, I will get a list like this  So you see  These classes are present in it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1153.0,
+            "end": 1165.0,
+            "text": " You can see that I got this class list  But if I say  Dot class name  Then it will give me the class attribute  That is equal to its class attribute"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1165.0,
+            "end": 1175.0,
+            "text": " It will give me the value of it  It will give me the value of it  So container red, bggreen  I will get it like this  I hope you have cleared this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1175.0,
+            "end": 1185.0,
+            "text": " Class name and class list  If you want, there are some methods here  To add in the class list  You can add dot class list  And one class will be added"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1185.0,
+            "end": 1195.0,
+            "text": " You can remove it  It is very useful  So I will do it  If I want to add it in the class list  A class named Harry"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1195.0,
+            "end": 1205.0,
+            "text": " So you see here, Harry will be added in the class  At the end  If I want to remove the class named Harry  Then I can use the dot remove function  So this will do"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1205.0,
+            "end": 1215.0,
+            "text": " If I want to remove the red class  Then what I will write here  Dot remove red  And you see here  This red class is also removed"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1215.0,
+            "end": 1225.0,
+            "text": " If I want to insert it, then I will add dot  Let me show you  If I add dot add red  Then the class name red will be added  If I run it again and again"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1225.0,
+            "end": 1235.0,
+            "text": " I will keep running it  So it will be added only once  Multiple times, one class is not added  Because it is already class  It is used when we want"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1235.0,
+            "end": 1245.0,
+            "text": " I have an element  Because it is sometimes rotated  So I will make one class  In which I will write animations of rotating  And then I will toggle that class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1245.0,
+            "end": 1255.0,
+            "text": " And another method comes with this  Toggle  Dot last list dot toggle  It is a method  Toggle means"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1255.0,
+            "end": 1265.0,
+            "text": " If it is open, then close it  If I tell you to toggle the light switch  If it is open, then you will close it  If it is closed, then open it  If there is a class in it, then remove it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1265.0,
+            "end": 1275.0,
+            "text": " Then it will be closed  So I will add a style  So that I can clear my point  It is making a little longer video  But I have to clear the concept"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1275.0,
+            "end": 1285.0,
+            "text": " I will do color red  I will do color red  Now you see  As soon as I toggle  This red class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1285.0,
+            "end": 1295.0,
+            "text": " Is gone from the container  I will toggle again and red class is here  So what can I do like this  When I want  When I want to red it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1295.0,
+            "end": 1305.0,
+            "text": " Or any CSS can be added  When I can remove it, then only using JavaScript  So whatever CSS I want to use  I will submit it in a class  And I will toggle that class"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1305.0,
+            "end": 1315.0,
+            "text": " Do you understand?  So we will do such projects  You will see, then it will be clear  It is going to be a very good project  And all this will be used"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1315.0,
+            "end": 1325.0,
+            "text": " I am telling you, all this will be used  So I have included toggle class in the notes  Access the notes  I will not say this again  I have no use in this"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1325.0,
+            "end": 1335.0,
+            "text": " Download the notes in your computer  And it will help you a lot  Trust me, it will help you a lot  So that was about all the functions  That you should know"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1335.0,
+            "end": 1345.0,
+            "text": " After reading these notes  When you will read chapter 8  Then you will be clear  JavaScript will be in your thumb  If you will access it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1345.0,
+            "end": 1355.0,
+            "text": " Because you will forget it  And I will say, keep a hard copy  It helps you a lot  You can open it in your phone  Or in iPad"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1355.0,
+            "end": 1365.0,
+            "text": " But there is another thing about hard copy  When you are making hard copies  And you will see that this class was in this page number  You will remember which page it was  Which side it was"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1365.0,
+            "end": 1375.0,
+            "text": " I believe in this  You should have hard copy important things  With that said, if you have not yet  Accessed this playlist, then do it  With that, you can bookmark it"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1375.0,
+            "end": 1385.0,
+            "text": " Save it  If you want to make me happy  Then go to the video and do a review  Of this course  Will any person"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1385.0,
+            "end": 1395.0,
+            "text": " After making HTML, CSS, JavaScript and projects  Can be a full stack developer  Or not  You can do a review here  You still feel that this course is good"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1395.0,
+            "end": 1405.0,
+            "text": " If it is good, then do a review  I have 5 stars in the comment section  I will be happy with the heart  That's all for this video  Thank you so much for watching this video"
+        },
+        {
+            "title": "DomManipunation",
+            "Number": "2 ",
+            "start": 1405.0,
+            "end": 1407.0,
+            "text": " See you next time"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 0.0,
+            "end": 17.16,
+            "text": " In this video, I will tell you about Javascript events.  Javascript has many events like you want to take the mouse inside any element  or you want to take it out of there.  You can click on any element, double click on it.  We will see about all these events in this video."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 17.16,
+            "end": 36.72,
+            "text": " Like this video and write down in the comments section  Javascript OP if you are enjoying Javascript.  Let's go to the computer screen.  Let's roll the intro.  Alright guys, I am here in my computer screen."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 36.72,
+            "end": 50.64,
+            "text": " I will make video 74 here.  And today we will talk about events.  And why events are very important.  And why you will want to use them so much.  Make an index.html and put boilerplate and put script colon src."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 50.64,
+            "end": 65.68,
+            "text": " I will waste some time.  And make script.js and I will tell you that we have some events  which we need.  I have told this very clearly in the notes.  That browser event is a signal."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 65.68,
+            "end": 79.04,
+            "text": " That something happened.  You can make custom events too.  But there are many events which you get to see built in in Javascript.  You can listen to events.  And there are different events which you can see from MDN."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 79.04,
+            "end": 92.0,
+            "text": " I will start here very fast.  I will make a button here.  I will make a container.  And I will make a box in the container.  I will make a box."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 92.0,
+            "end": 102.0,
+            "text": " I will write here.  And then I will write a button.  And here I will write.  Click me to change content.  Or I will write change content."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 102.0,
+            "end": 114.0,
+            "text": " Change content.  And here I will give this button an id.  In the name of btn.  What can I do?  I can say that btn is equal to document.getElements by id."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 114.96,
+            "end": 124.96000000000001,
+            "text": " And I will say btn.  Take the id of btn.  And I can keep the id of any button.  I can keep the id of btn.  That will be my choice."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 124.96000000000001,
+            "end": 136.96,
+            "text": " And I can say button.addEventListener  And the first argument of this is  Which event you want to listen to.  And the second argument is  The function which will run once you listen to the event."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 136.96,
+            "end": 147.92000000000002,
+            "text": " If you feel this is a little overwhelming.  I will explain that it is a function.  First I took the element here.  And I am saying that when you click on the button.  Then here I have written the name of this event."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 147.92000000000002,
+            "end": 157.92000000000002,
+            "text": " Click.  This event can be double clicked.  This event can be mouse over.  I mean I can take the mouse to that button.  And after that I will say that"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 157.92000000000002,
+            "end": 167.92000000000002,
+            "text": " As soon as you click on this.  What you do?  Change this content.  I will say document.  I can do anything on its click."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 167.92000000000002,
+            "end": 178.88,
+            "text": " I can put an alert.  I will put an alert.  I will click on this.  I have written this.  And as soon as I will run this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 178.88,
+            "end": 188.88,
+            "text": " And I will click on this.  And this is what I have written.  This means that the listener who clicks.  Is working.  And is working well."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 188.88,
+            "end": 200.88,
+            "text": " All right.  Now I want to show you that  I can do anything I want.  I can say document.getElement by class name.  And I will say"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 201.84,
+            "end": 211.84,
+            "text": " I will use query selector.  Whenever I have to select one element.  And I will say dot box.  Because it has a class box.  So this element will be selected."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 211.84,
+            "end": 225.84,
+            "text": " And I will say that the inner htm.  Do that.  This you were clicked.  Enjoy your click.  Okay."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 225.84,
+            "end": 235.84,
+            "text": " I have written this.  So what will happen?  The content of this will change.  I will show you.  I clicked this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 235.84,
+            "end": 245.84,
+            "text": " Enjoy your click.  I will reload.  I will click on change content again.  You see this.  Enjoy your click."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 245.84,
+            "end": 257.84000000000003,
+            "text": " So this way we can listen to the events.  If I write browser events.mdn.  Then I will have the reference of events.  And the reference of the event.  What will I tell you?"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 257.84,
+            "end": 267.84,
+            "text": " What will be the reference of the event?  What are the events?  There are many types of events related to mouse.  If I want to see all the events.  Then I will open these mouse events."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 267.84,
+            "end": 277.84,
+            "text": " Like this.  And here I got this page.  I will copy and paste this page.  So that you can easily get all the events.  Okay."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 277.84,
+            "end": 287.84,
+            "text": " And I will comment out.  And I will write here.  List of all mouse events.  So that you can get all the mouse events.  And you will get the list."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 287.84,
+            "end": 297.84,
+            "text": " I want you to click on double click.  You can read all these methods.  It is an event called dbl click.  Okay.  You can do anything."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 297.84,
+            "end": 307.84,
+            "text": " If I click double click.  You can search on the internet.  What kind of event is this?  So that I can listen to double click.  If it happens."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 307.84,
+            "end": 317.84,
+            "text": " You will know.  I will do the work here.  Index.html.  I will do the double click.  I did not do anything."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 317.84,
+            "end": 327.84,
+            "text": " I did nothing.  I did double click.  So that means I am listening to double click.  I can listen to double click.  Sometimes I want to make windows clone."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 327.84,
+            "end": 337.84,
+            "text": " So I can do double click.  And then I can listen to double click.  Then mouse down.  That means when you press the mouse button.  And then mouse leave."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 337.84,
+            "end": 347.84,
+            "text": " Fired when the pointer of a pointing device is moved out of an element.  That has a list.  That means mouse took the arrow.  Okay.  Mouse down means you pressed the button."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 347.84,
+            "end": 357.84,
+            "text": " As soon as you press it will be the same.  Mouse enter mouse leave.  That means you took it and removed it.  Okay.  What does mouse out mean?"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 357.84,
+            "end": 367.84,
+            "text": " That when you off the element to which the listener is attached.  Or off one of its children.  Or if you will get rid of it.  Okay.  So all these events need to be kept."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 367.84,
+            "end": 377.84,
+            "text": " To be honest.  What is the story of all these events?  No.  I don't want to lie.  You should not be kept."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 377.84,
+            "end": 387.84,
+            "text": " While doing work, it will come.  While doing trial and error, things will come.  I have definitely kept some things.  Like context menu.  With which the right click opens."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 387.84,
+            "end": 397.84,
+            "text": " So this event will open.  Means when you will do right click.  So if I go to context menu.  I will show you.  I will make another copy of this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 397.84,
+            "end": 407.84,
+            "text": " And I will say.  When context menu opens.  Then alert.  And say.  Right click please."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 407.84,
+            "end": 417.84,
+            "text": " Where I will write.  Don't right click.  Don't.  Hack us by right click please.  Okay. I know I did this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 417.84,
+            "end": 427.84,
+            "text": " So I will do right click as soon as I reload it.  I did right click.  I don't know why it didn't work.  Let me see why it didn't work.  I will do right click on this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 427.84,
+            "end": 437.84,
+            "text": " So don't hack us by right click please.  Okay.  So I will do right click.  Don't hack us by right click please.  Okay."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 437.84,
+            "end": 447.84,
+            "text": " So what will happen when you do right click.  This is what you are listening to.  So there are many events like this.  Keyboard events.  Keydown."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 447.84,
+            "end": 457.84,
+            "text": " Keyboard events.  Keydown.  Keypress.  Okay.  Fires."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 457.84,
+            "end": 467.84,
+            "text": " When that produces a character values press down.  Okay. Key up.  Okay.  Then this is mouse events.  Keyboard events."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 467.84,
+            "end": 477.84,
+            "text": " All events are enumerated on this page.  So you can see it.  Okay.  So you can see it.  Okay."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 477.84,
+            "end": 487.84,
+            "text": " So I will do right click.  Key down.  So what happens is that  I will do right click.  The second argument is event object."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 487.84,
+            "end": 499.84,
+            "text": " It is called event object.  And if I lock it and show you.  So you can see the event here.  It is printed.  I will inspect."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 499.84,
+            "end": 509.84,
+            "text": " And as soon as I press any button on keyboard.  I pressed G.  I pressed G.  Nothing happened.  So here I have to take my mouse here."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 509.84,
+            "end": 519.8399999999999,
+            "text": " Because I have put this event on this.  So if I press D.  I have clicked on it.  And after that I will press any button.  So see it is working."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 519.8399999999999,
+            "end": 529.8399999999999,
+            "text": " So I will reload.  And I will click on it.  And after that I will press something.  So here I can see it.  So what I have to do?"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 529.8399999999999,
+            "end": 539.84,
+            "text": " I want to work on this event for the rest of my life.  So I will put this on document.  So whenever I press key.  I will press H.  So this is what I am showing."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 539.84,
+            "end": 549.84,
+            "text": " And this key code is showing me.  So I can say that.  Print E.key.  Print E.key.  Print E.key."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 549.84,
+            "end": 559.84,
+            "text": " And you can see that I am pressing anything.  Here in the document.  So this is key code.  So what happens with key code?  If we want to take a key as a number."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 559.84,
+            "end": 569.84,
+            "text": " We can take it.  I want to make a game.  And I want Mario to come here.  So when I press up arrow.  So I have pressed up arrow."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 569.84,
+            "end": 579.84,
+            "text": " So what is arrow up?  It is key.  And what is key code?  Key code is 30K.  Now the key code has been cut."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 579.84,
+            "end": 589.84,
+            "text": " And this property has been deprecated.  Which means we don't have to use it.  We have to use the key code.  We don't have to use the key code.  So I will check which key is which."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 589.84,
+            "end": 599.84,
+            "text": " If I press arrow up.  And it becomes intuitive to see the code.  So you can use key code.  Keyboard events.  Document events."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 599.84,
+            "end": 609.84,
+            "text": " Then there are some form events.  Like when the form is submitted.  When the form is focused.  When the input is focused.  So you can check out all these events."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 609.84,
+            "end": 619.84,
+            "text": " So if I search for form events.  I hope I will get the form event.  I will search for focus.  Focus, focus in, focus out.  Focus, focus in, focus out."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 619.84,
+            "end": 629.84,
+            "text": " Focus, focus out.  So the event is focused.  Like if there is an input.  Then you will see this event.  Now the concept I am going to teach you."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 629.84,
+            "end": 639.84,
+            "text": " That is very important.  And for that I will make a whole file.  And it's name is  Event Bubbling.  What is this event bubbling?"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 639.84,
+            "end": 649.84,
+            "text": " It is asked in the interview.  Listen carefully.  So I will do the work.  That here I will write event bubbling.  And I want you to see"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 649.84,
+            "end": 659.84,
+            "text": " what I am doing here.  So that you can clearly see.  So what I will do is  here I will write  div.container."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 659.84,
+            "end": 669.84,
+            "text": " Okay.  I will make it.  And I will write it as container1.  I will do the work.  Div.container."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 669.84,
+            "end": 679.84,
+            "text": " Okay.  And div.  Child container.  Okay. After office I will write div.  And I will span it."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 679.84,
+            "end": 689.84,
+            "text": " Okay. I will span it.  And I will tell you why I am doing it.  To explain things.  I have span it.  Okay."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 689.84,
+            "end": 699.84,
+            "text": " And after this I will put a div.  Div.child.  Okay. And I will write it as a child.  And that's it.  Okay. I have done this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 699.84,
+            "end": 709.84,
+            "text": " Now you will understand this.  It is a very important concept.  I am saying it again and again.  Script.  S.R.C."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 709.84,
+            "end": 719.84,
+            "text": " Script.  And what I will do here.  I will say whenever someone click on child.  Then what should happen?  You"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 719.84,
+            "end": 729.84,
+            "text": " will put an alert that child is clicked.  Put something like this.  Okay.  So there is no big thing.  I will say document."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 729.84,
+            "end": 739.84,
+            "text": " Get element by  query selector.  And I will say dot child.  Dot  Add event listener."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 739.84,
+            "end": 749.84,
+            "text": " I will copy the code.  I will copy it.  And I will say click  on it.  Dot add event listener."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 749.84,
+            "end": 759.84,
+            "text": " I am writing a single liner.  I will say click on it.  Then what should I do?  I will write child was clicked.  Child was clicked."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 759.84,
+            "end": 769.84,
+            "text": " Okay. And I will document it.  So child was clicked.  I wrote it here.  What I will do after this? I will put one more event listener.  And this time I am going to put this event listener on child container."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 769.84,
+            "end": 779.84,
+            "text": " I will say child container.  I will write child container was clicked.  I will do the same thing.  On which container?  On which container?"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 779.84,
+            "end": 789.84,
+            "text": " And  I will say container was clicked.  Okay. Simple thing.  And I will click on it.  I will click on it."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 789.84,
+            "end": 799.84,
+            "text": " And I will click on it.  I will not click on the context menu.  I will click on it.  The first argument is click.  Add event listener."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 799.84,
+            "end": 809.84,
+            "text": " I will do the word wrap off.  I have put an event listener.  Child was clicked.  Child container was clicked.  Child container was clicked."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 809.84,
+            "end": 819.84,
+            "text": " Child was clicked.  When I click on child.  Then automatically this event will be bubble.  This means  JavaScript says"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 819.84,
+            "end": 829.84,
+            "text": " You clicked on child.  If you are living in UP  Then you live automatically in India.  You live automatically in Asia.  And if you live in this world"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 829.84,
+            "end": 839.84,
+            "text": " Then the answer is yes.  JavaScript says  If you click on child  Then technically you clicked on child container.  Because child container was clicked."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 839.84,
+            "end": 849.84,
+            "text": " And technically you clicked on container.  Because container is complete.  It is complete.  It is complete.  So technically you clicked on container."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 849.84,
+            "end": 859.84,
+            "text": " That is why event bubble up.  It is called event bubbling.  It means  It means that  The click event was on it."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 859.84,
+            "end": 869.84,
+            "text": " But it was on it.  Then you clicked on the body.  You clicked on HTML.  I will show you.  I will give some styling on this child."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 869.84,
+            "end": 879.84,
+            "text": " I will give styling.  I will say that the dot child  Click on it.  Alice blue and I  Border"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 879.84,
+            "end": 889.84,
+            "text": " 2 pixels  I will give padding 34 pixels  I will give margin 34 pixels  And if I run it  I clicked child."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 889.84,
+            "end": 899.84,
+            "text": " If I click on child then child was clicked.  I will show you.  Child container was clicked.  Okay.  Container was clicked."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 899.84,
+            "end": 909.84,
+            "text": " But I clicked on child.  So that you can see where child is.  cursor pointer  Okay.  So if I click on child then child was clicked."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 909.84,
+            "end": 919.84,
+            "text": " Okay.  Child container was clicked.  Container was clicked.  If I work outside it.  I give padding everywhere."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 919.84,
+            "end": 929.84,
+            "text": " I give child container too.  Child.child container  Child.child container  I will give background here.  I will give some other."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 929.84,
+            "end": 939.84,
+            "text": " I will give it.  I will give margin padding here.  I will do same thing  In container too.  I will say that I will do it in container too."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 939.84,
+            "end": 949.84,
+            "text": " This time I will change color.  I will do something else.  I will give color.  I will give it 1414.  I gave margin padding."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 949.84,
+            "end": 959.84,
+            "text": " So 1414.  And we will do 1414.  Okay.  Now you can see  Here"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 959.84,
+            "end": 969.84,
+            "text": " This is our  Child container.  I have put a span.  I will do it.  Because span is an inline element."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 969.84,
+            "end": 979.84,
+            "text": " I will section it.  It will be a little easier.  This is child.  This is parent.  So if I click here."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 979.84,
+            "end": 989.84,
+            "text": " I am child.  Child container was clicked.  Container was clicked.  Okay.  I have put these three events."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 989.84,
+            "end": 999.84,
+            "text": " By the way, if you are thinking why the body was clicked.  Because three events are listed.  All the confusion I am giving before your question.  Okay.  Now you ask me, I don't want this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 999.84,
+            "end": 1009.84,
+            "text": " I click on child container.  Why is it happening?  I don't want bubbling.  JavaScript says we will do body pool bubbling.  Technically, things are better."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1009.84,
+            "end": 1019.84,
+            "text": " Look, you clicked on it.  You did it on it.  It is okay. But I don't want it.  Please forgive me.  JavaScript says you don't want it."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1019.84,
+            "end": 1029.8400000000001,
+            "text": " Stop the propagation.  What do you mean?  Stop the propagation.  I will tell you what happens.  I told you that if you are using any event listener."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1029.8400000000001,
+            "end": 1039.8400000000001,
+            "text": " You can take an event object.  And you can play with that event.  You can play with that event.  So you say E.stop propagation.  E.stop propagation."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1039.8400000000001,
+            "end": 1049.84,
+            "text": " And what will this method do?  It will stop the propagation.  That means there will be no bubbling.  This behavior will not be shown.  So you see,"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1049.84,
+            "end": 1059.84,
+            "text": " when I click  on this child.  Only child will see it.  I will comment on it.  I have stopped the propagation on child."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1059.84,
+            "end": 1069.84,
+            "text": " If I click on child, child was clicked.  That's it.  The propagation stopped.  The event was not propagated.  It was not like that."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1069.84,
+            "end": 1079.84,
+            "text": " I have also fired on child.  No.  It will not be like that.  It was only on child.  Because I have stopped the propagation."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1079.84,
+            "end": 1089.84,
+            "text": " I said handle the event on child.  It is equal.  I don't want the propagation from it.  Okay.  So this is."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1089.84,
+            "end": 1099.84,
+            "text": " I am a child.  It is very good.  But if I click on it outside.  Child container was clicked.  It was not a problem."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1099.84,
+            "end": 1109.84,
+            "text": " I will stop the propagation here.  So this event.  All the elements above.  There will be no fire on it.  That's why it says."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1109.84,
+            "end": 1119.84,
+            "text": " Stop the event bubbling.  The question is asked in interviews.  What is event bubbling?  If you listen to any event on any element.  The listener will be activated."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1119.84,
+            "end": 1129.84,
+            "text": " But his parent will also be activated.  Because you are clicking on any element.  So technically you are  clicking on his parent.  If you are dancing in room number 4."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1129.84,
+            "end": 1139.84,
+            "text": " Then you are dancing in your house.  You are dancing in your city.  And you are dancing in your  state.  You are dancing in this world."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1139.84,
+            "end": 1149.84,
+            "text": " You are dancing in this world.  You are dancing in solar system.  So technically you are.  Your event has been propagated.  Someone will ask."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1149.84,
+            "end": 1159.84,
+            "text": " If you see an alien.  He will say he is dancing on earth.  He is dancing on earth.  So he says.  Event bubbling."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1159.84,
+            "end": 1169.84,
+            "text": " If you want to say.  You are dancing in this room.  You don't want people to say.  You are dancing in this world.  You stop the propagation."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1169.84,
+            "end": 1179.84,
+            "text": " I am not dancing in this house.  I am dancing in this state.  So this is how you stop the event propagation.  I hope you understood.  And I hope you enjoyed."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1179.84,
+            "end": 1189.84,
+            "text": " Understanding this concept.  Understanding this concept.  I have written everything in notes.  The way we add the event listener.  We can remove the event listener."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1189.84,
+            "end": 1199.84,
+            "text": " Like.  Add event listener is used to assign multiple handlers to an event.  Along with that.  Remove event listener.  You."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1199.84,
+            "end": 1209.84,
+            "text": " See the same function.  See the same function object.  Remove event listener.  You can make a variable.  You can say."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1209.84,
+            "end": 1219.84,
+            "text": " You can add an event listener.  You can add an event listener.  And if you want to remove.  You can use the same variable.  You can remove it."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1219.84,
+            "end": 1229.84,
+            "text": " Event listener will be removed.  I have already told you about the event object.  Event.type.  Event.current.target.  Event.client.x."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1229.84,
+            "end": 1239.84,
+            "text": " Client.y.  In the case of your coordinate cursor.  In the case of mouse event.  By the way.  Event.exe event."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1239.84,
+            "end": 1249.84,
+            "text": " Sorry.  Event.key.  So you can print the event.  And inspect the object yourself.  So if I have to."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1249.84,
+            "end": 1259.84,
+            "text": " See what happened.  The event was printed.  And if you want.  What is in this event.  You can see."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1259.84,
+            "end": 1269.84,
+            "text": " What is in this event.  You can see.  It is all true.  It is all false.  If you press Alt."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1269.84,
+            "end": 1279.84,
+            "text": " Then Alt is false.  If you press Alt.  Then it is true.  If you want.  You can see."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1279.84,
+            "end": 1289.84,
+            "text": " Press D.  You can do all these things.  It is very simple and straightforward.  And I have written it with more beauty.  There are practice sets."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1289.84,
+            "end": 1299.84,
+            "text": " Which you can solve.  But I have covered everything.  Now you can handle events through HTML attribute.  Like you can write onclick is equal to this.  And run a JavaScript function like this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1299.84,
+            "end": 1309.84,
+            "text": " Or you can do this.  Element.onclick is equal to this.  Function invoked.  You have seen in these notes.  And you have to do this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1309.84,
+            "end": 1319.84,
+            "text": " But the traditional method is this.  Mostly used method is this.  What will you do.  You will use an element.addEventListener.  You will write the name of the event."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1319.84,
+            "end": 1329.84,
+            "text": " And you will put the function.  Run this function.  If this event is fire.  Ok.  Good."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1329.84,
+            "end": 1339.84,
+            "text": " So here we have talked about all these things.  Now one thing left.  I want to tell you.  SetTimeout.  I want to cover that in this video."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1339.84,
+            "end": 1349.84,
+            "text": " I don't want to make more videos with this.  Because this is very straightforward.  If I want something to happen.  Ok.  I will do it again and again."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1349.84,
+            "end": 1359.84,
+            "text": " I will do it in this page.  I want one thing to happen repeatedly.  Every 2 seconds.  So I can use SetInterval.  SetInterval is a function."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1359.84,
+            "end": 1369.84,
+            "text": " Which takes a function.  Which takes a function and takes time.  How long it takes.  In millisecond.  So if I write 3000 here."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1369.84,
+            "end": 1379.84,
+            "text": " So it means.  In every 3 seconds.  You will get to see.  Whatever is happening in this.  So I will say."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1379.84,
+            "end": 1389.84,
+            "text": " In every 3 seconds.  Change the color of the child container.  Ok. Child container.  Dot style.  Dot background."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1389.84,
+            "end": 1399.84,
+            "text": " Is equal to up.  Red color.  Ok.  In every 3 seconds.  I want to generate a random color."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1399.84,
+            "end": 1409.84,
+            "text": " Ok. So what can I do.  I will do something.  Like this.  Because I don't want to do this again and again.  In 72."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1409.84,
+            "end": 1419.84,
+            "text": " I made a random color generator.  Ok. So I will open with code.  And this was our random color generator.  I will delete this.  Because I did the solution."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1419.84,
+            "end": 1429.84,
+            "text": " I will copy the getRandomColor function.  Ok.  And I will take it in my script.  Ok.  Because I don't want to take too much time."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1429.84,
+            "end": 1439.84,
+            "text": " I will document the format.  And what I will do here.  I will get random color.  Ok. Simple.  I will get a random color in every 3 seconds."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1439.84,
+            "end": 1449.84,
+            "text": " So if I show you a page.  Look at the page.  It changes its color in every 3 seconds.  If you want to do this.  You can do this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1449.84,
+            "end": 1459.84,
+            "text": " Simply.  You can do this in 3 seconds.  It changes in every 1 second.  Look.  It changes in every 1 second."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1459.84,
+            "end": 1469.84,
+            "text": " Ok. So what will the interval do.  You can do this.  Repeat this.  Repeat this.  If you want to run some set of code in every second."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1469.84,
+            "end": 1479.84,
+            "text": " You can do this.  Ok.  Then there is a clear interval.  If I say let A is equal to this.  Console.logA"
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1479.84,
+            "end": 1489.84,
+            "text": " So what will it give me.  I will reload it.  What will it give me.  Oops.  I want to inspect. I want to open the console."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1489.84,
+            "end": 1499.84,
+            "text": " I will say clear interval.  Clear interval.  I will say 1.  So what will happen.  I will enter."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1499.84,
+            "end": 1509.84,
+            "text": " So this interval is clear.  You can use this number.  You can use this number.  And the set interval.  That will stop."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1509.84,
+            "end": 1519.84,
+            "text": " Ok.  Now I will tell you the same thing.  I will tell you the same thing.  I will make a copy of it.  I will make a copy of it."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1519.84,
+            "end": 1529.84,
+            "text": " Because the syntax is exactly the same.  Yes.  Set timeout.  Set timeout only runs once after a certain period of time.  So you see here."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1529.84,
+            "end": 1539.84,
+            "text": " I said 5 seconds later.  Change the color after 1 second.  So I will reload it.  Change the color after 1 second.  Just once."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1539.84,
+            "end": 1549.84,
+            "text": " If I want something to work after a second.  I can use set timeout.  So A is equal to I have set timeout.  So you see here.  After setting timeout."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1549.84,
+            "end": 1559.84,
+            "text": " After 1 second.  The color changed.  And I can clear the set timeout.  I want you to know that after 5 seconds.  The color changes."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1559.84,
+            "end": 1569.84,
+            "text": " I will reload it.  You count 5 seconds.  The color will change after 5 seconds.  After 5 seconds.  I will reload it."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1569.84,
+            "end": 1579.84,
+            "text": " And I want to know what I have done.  I don't want to change the color.  I will write timeout.  I will keep this as a copy.  Before this."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1579.84,
+            "end": 1589.84,
+            "text": " If I have run clear timeout.  Then it is clear.  I have changed my mind.  I will not change the color after 5 seconds.  So after 5 seconds."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1589.84,
+            "end": 1599.84,
+            "text": " This function will not run.  Because I have done clear timeout.  So to cancel the set interval.  We use clear interval.  To cancel the set timeout."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1599.84,
+            "end": 1609.84,
+            "text": " We use clear timeout.  This is simple.  I hope you understood.  We have covered a lot with red set.  It is important to access the notes."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1609.84,
+            "end": 1619.84,
+            "text": " Because this is what you will remember.  All the things you have done in the Sigma course.  Then MDN reference is also there.  You are giving it in your house.  For 400 rupees a month."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1619.84,
+            "end": 1629.84,
+            "text": " Tell me in the comment section.  I hope you understand.  How important it is to download the notes.  And you understand all the concepts.  You are doing one thing."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1629.84,
+            "end": 1639.84,
+            "text": " You have to review the course.  Give me 5 stars.  I am not giving you any compulsion.  If you do it will be nice.  The new people who are joining the course."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1639.84,
+            "end": 1649.84,
+            "text": " It will be very helpful.  They will know whether to do the course or not.  That's all for now.  Thank you so much for watching this video.  And I will see you next time."
+        },
+        {
+            "title": "Events",
+            "Number": "3",
+            "start": 1659.84,
+            "end": 1669.84,
+            "text": " Subscribe to our channel."
+        }
+    ],
+    "text": " In this video, I will tell you about Javascript events. Javascript has many events like you want to take the mouse inside any element or you want to take it out of there. You can click on any element, double click on it. We will see about all these events in this video. Like this video and write down in the comments section Javascript OP if you are enjoying Javascript. Let's go to the computer screen. Let's roll the intro. Alright guys, I am here in my computer screen. I will make video 74 here. And today we will talk about events. And why events are very important. And why you will want to use them so much. Make an index.html and put boilerplate and put script colon src. I will waste some time. And make script.js and I will tell you that we have some events which we need. I have told this very clearly in the notes. That browser event is a signal. That something happened. You can make custom events too. But there are many events which you get to see built in in Javascript. You can listen to events. And there are different events which you can see from MDN. I will start here very fast. I will make a button here. I will make a container. And I will make a box in the container. I will make a box. I will write here. And then I will write a button. And here I will write. Click me to change content. Or I will write change content. Change content. And here I will give this button an id. In the name of btn. What can I do? I can say that btn is equal to document.getElements by id. And I will say btn. Take the id of btn. And I can keep the id of any button. I can keep the id of btn. That will be my choice. And I can say button.addEventListener And the first argument of this is Which event you want to listen to. And the second argument is The function which will run once you listen to the event. If you feel this is a little overwhelming. I will explain that it is a function. First I took the element here. And I am saying that when you click on the button. Then here I have written the name of this event. Click. This event can be double clicked. This event can be mouse over. I mean I can take the mouse to that button. And after that I will say that As soon as you click on this. What you do? Change this content. I will say document. I can do anything on its click. I can put an alert. I will put an alert. I will click on this. I have written this. And as soon as I will run this. And I will click on this. And this is what I have written. This means that the listener who clicks. Is working. And is working well. All right. Now I want to show you that I can do anything I want. I can say document.getElement by class name. And I will say I will use query selector. Whenever I have to select one element. And I will say dot box. Because it has a class box. So this element will be selected. And I will say that the inner htm. Do that. This you were clicked. Enjoy your click. Okay. I have written this. So what will happen? The content of this will change. I will show you. I clicked this. Enjoy your click. I will reload. I will click on change content again. You see this. Enjoy your click. So this way we can listen to the events. If I write browser events.mdn. Then I will have the reference of events. And the reference of the event. What will I tell you? What will be the reference of the event? What are the events? There are many types of events related to mouse. If I want to see all the events. Then I will open these mouse events. Like this. And here I got this page. I will copy and paste this page. So that you can easily get all the events. Okay. And I will comment out. And I will write here. List of all mouse events. So that you can get all the mouse events. And you will get the list. I want you to click on double click. You can read all these methods. It is an event called dbl click. Okay. You can do anything. If I click double click. You can search on the internet. What kind of event is this? So that I can listen to double click. If it happens. You will know. I will do the work here. Index.html. I will do the double click. I did not do anything. I did nothing. I did double click. So that means I am listening to double click. I can listen to double click. Sometimes I want to make windows clone. So I can do double click. And then I can listen to double click. Then mouse down. That means when you press the mouse button. And then mouse leave. Fired when the pointer of a pointing device is moved out of an element. That has a list. That means mouse took the arrow. Okay. Mouse down means you pressed the button. As soon as you press it will be the same. Mouse enter mouse leave. That means you took it and removed it. Okay. What does mouse out mean? That when you off the element to which the listener is attached. Or off one of its children. Or if you will get rid of it. Okay. So all these events need to be kept. To be honest. What is the story of all these events? No. I don't want to lie. You should not be kept. While doing work, it will come. While doing trial and error, things will come. I have definitely kept some things. Like context menu. With which the right click opens. So this event will open. Means when you will do right click. So if I go to context menu. I will show you. I will make another copy of this. And I will say. When context menu opens. Then alert. And say. Right click please. Where I will write. Don't right click. Don't. Hack us by right click please. Okay. I know I did this. So I will do right click as soon as I reload it. I did right click. I don't know why it didn't work. Let me see why it didn't work. I will do right click on this. So don't hack us by right click please. Okay. So I will do right click. Don't hack us by right click please. Okay. So what will happen when you do right click. This is what you are listening to. So there are many events like this. Keyboard events. Keydown. Keyboard events. Keydown. Keypress. Okay. Fires. When that produces a character values press down. Okay. Key up. Okay. Then this is mouse events. Keyboard events. All events are enumerated on this page. So you can see it. Okay. So you can see it. Okay. So I will do right click. Key down. So what happens is that I will do right click. The second argument is event object. It is called event object. And if I lock it and show you. So you can see the event here. It is printed. I will inspect. And as soon as I press any button on keyboard. I pressed G. I pressed G. Nothing happened. So here I have to take my mouse here. Because I have put this event on this. So if I press D. I have clicked on it. And after that I will press any button. So see it is working. So I will reload. And I will click on it. And after that I will press something. So here I can see it. So what I have to do? I want to work on this event for the rest of my life. So I will put this on document. So whenever I press key. I will press H. So this is what I am showing. And this key code is showing me. So I can say that. Print E.key. Print E.key. Print E.key. And you can see that I am pressing anything. Here in the document. So this is key code. So what happens with key code? If we want to take a key as a number. We can take it. I want to make a game. And I want Mario to come here. So when I press up arrow. So I have pressed up arrow. So what is arrow up? It is key. And what is key code? Key code is 30K. Now the key code has been cut. And this property has been deprecated. Which means we don't have to use it. We have to use the key code. We don't have to use the key code. So I will check which key is which. If I press arrow up. And it becomes intuitive to see the code. So you can use key code. Keyboard events. Document events. Then there are some form events. Like when the form is submitted. When the form is focused. When the input is focused. So you can check out all these events. So if I search for form events. I hope I will get the form event. I will search for focus. Focus, focus in, focus out. Focus, focus in, focus out. Focus, focus out. So the event is focused. Like if there is an input. Then you will see this event. Now the concept I am going to teach you. That is very important. And for that I will make a whole file. And it's name is Event Bubbling. What is this event bubbling? It is asked in the interview. Listen carefully. So I will do the work. That here I will write event bubbling. And I want you to see what I am doing here. So that you can clearly see. So what I will do is here I will write div.container. Okay. I will make it. And I will write it as container1. I will do the work. Div.container. Okay. And div. Child container. Okay. After office I will write div. And I will span it. Okay. I will span it. And I will tell you why I am doing it. To explain things. I have span it. Okay. And after this I will put a div. Div.child. Okay. And I will write it as a child. And that's it. Okay. I have done this. Now you will understand this. It is a very important concept. I am saying it again and again. Script. S.R.C. Script. And what I will do here. I will say whenever someone click on child. Then what should happen? You will put an alert that child is clicked. Put something like this. Okay. So there is no big thing. I will say document. Get element by query selector. And I will say dot child. Dot Add event listener. I will copy the code. I will copy it. And I will say click on it. Dot add event listener. I am writing a single liner. I will say click on it. Then what should I do? I will write child was clicked. Child was clicked. Okay. And I will document it. So child was clicked. I wrote it here. What I will do after this? I will put one more event listener. And this time I am going to put this event listener on child container. I will say child container. I will write child container was clicked. I will do the same thing. On which container? On which container? And I will say container was clicked. Okay. Simple thing. And I will click on it. I will click on it. And I will click on it. I will not click on the context menu. I will click on it. The first argument is click. Add event listener. I will do the word wrap off. I have put an event listener. Child was clicked. Child container was clicked. Child container was clicked. Child was clicked. When I click on child. Then automatically this event will be bubble. This means JavaScript says You clicked on child. If you are living in UP Then you live automatically in India. You live automatically in Asia. And if you live in this world Then the answer is yes. JavaScript says If you click on child Then technically you clicked on child container. Because child container was clicked. And technically you clicked on container. Because container is complete. It is complete. It is complete. So technically you clicked on container. That is why event bubble up. It is called event bubbling. It means It means that The click event was on it. But it was on it. Then you clicked on the body. You clicked on HTML. I will show you. I will give some styling on this child. I will give styling. I will say that the dot child Click on it. Alice blue and I Border 2 pixels I will give padding 34 pixels I will give margin 34 pixels And if I run it I clicked child. If I click on child then child was clicked. I will show you. Child container was clicked. Okay. Container was clicked. But I clicked on child. So that you can see where child is. cursor pointer Okay. So if I click on child then child was clicked. Okay. Child container was clicked. Container was clicked. If I work outside it. I give padding everywhere. I give child container too. Child.child container Child.child container I will give background here. I will give some other. I will give it. I will give margin padding here. I will do same thing In container too. I will say that I will do it in container too. This time I will change color. I will do something else. I will give color. I will give it 1414. I gave margin padding. So 1414. And we will do 1414. Okay. Now you can see Here This is our Child container. I have put a span. I will do it. Because span is an inline element. I will section it. It will be a little easier. This is child. This is parent. So if I click here. I am child. Child container was clicked. Container was clicked. Okay. I have put these three events. By the way, if you are thinking why the body was clicked. Because three events are listed. All the confusion I am giving before your question. Okay. Now you ask me, I don't want this. I click on child container. Why is it happening? I don't want bubbling. JavaScript says we will do body pool bubbling. Technically, things are better. Look, you clicked on it. You did it on it. It is okay. But I don't want it. Please forgive me. JavaScript says you don't want it. Stop the propagation. What do you mean? Stop the propagation. I will tell you what happens. I told you that if you are using any event listener. You can take an event object. And you can play with that event. You can play with that event. So you say E.stop propagation. E.stop propagation. And what will this method do? It will stop the propagation. That means there will be no bubbling. This behavior will not be shown. So you see, when I click on this child. Only child will see it. I will comment on it. I have stopped the propagation on child. If I click on child, child was clicked. That's it. The propagation stopped. The event was not propagated. It was not like that. I have also fired on child. No. It will not be like that. It was only on child. Because I have stopped the propagation. I said handle the event on child. It is equal. I don't want the propagation from it. Okay. So this is. I am a child. It is very good. But if I click on it outside. Child container was clicked. It was not a problem. I will stop the propagation here. So this event. All the elements above. There will be no fire on it. That's why it says. Stop the event bubbling. The question is asked in interviews. What is event bubbling? If you listen to any event on any element. The listener will be activated. But his parent will also be activated. Because you are clicking on any element. So technically you are clicking on his parent. If you are dancing in room number 4. Then you are dancing in your house. You are dancing in your city. And you are dancing in your state. You are dancing in this world. You are dancing in this world. You are dancing in solar system. So technically you are. Your event has been propagated. Someone will ask. If you see an alien. He will say he is dancing on earth. He is dancing on earth. So he says. Event bubbling. If you want to say. You are dancing in this room. You don't want people to say. You are dancing in this world. You stop the propagation. I am not dancing in this house. I am dancing in this state. So this is how you stop the event propagation. I hope you understood. And I hope you enjoyed. Understanding this concept. Understanding this concept. I have written everything in notes. The way we add the event listener. We can remove the event listener. Like. Add event listener is used to assign multiple handlers to an event. Along with that. Remove event listener. You. See the same function. See the same function object. Remove event listener. You can make a variable. You can say. You can add an event listener. You can add an event listener. And if you want to remove. You can use the same variable. You can remove it. Event listener will be removed. I have already told you about the event object. Event.type. Event.current.target. Event.client.x. Client.y. In the case of your coordinate cursor. In the case of mouse event. By the way. Event.exe event. Sorry. Event.key. So you can print the event. And inspect the object yourself. So if I have to. See what happened. The event was printed. And if you want. What is in this event. You can see. What is in this event. You can see. It is all true. It is all false. If you press Alt. Then Alt is false. If you press Alt. Then it is true. If you want. You can see. Press D. You can do all these things. It is very simple and straightforward. And I have written it with more beauty. There are practice sets. Which you can solve. But I have covered everything. Now you can handle events through HTML attribute. Like you can write onclick is equal to this. And run a JavaScript function like this. Or you can do this. Element.onclick is equal to this. Function invoked. You have seen in these notes. And you have to do this. But the traditional method is this. Mostly used method is this. What will you do. You will use an element.addEventListener. You will write the name of the event. And you will put the function. Run this function. If this event is fire. Ok. Good. So here we have talked about all these things. Now one thing left. I want to tell you. SetTimeout. I want to cover that in this video. I don't want to make more videos with this. Because this is very straightforward. If I want something to happen. Ok. I will do it again and again. I will do it in this page. I want one thing to happen repeatedly. Every 2 seconds. So I can use SetInterval. SetInterval is a function. Which takes a function. Which takes a function and takes time. How long it takes. In millisecond. So if I write 3000 here. So it means. In every 3 seconds. You will get to see. Whatever is happening in this. So I will say. In every 3 seconds. Change the color of the child container. Ok. Child container. Dot style. Dot background. Is equal to up. Red color. Ok. In every 3 seconds. I want to generate a random color. Ok. So what can I do. I will do something. Like this. Because I don't want to do this again and again. In 72. I made a random color generator. Ok. So I will open with code. And this was our random color generator. I will delete this. Because I did the solution. I will copy the getRandomColor function. Ok. And I will take it in my script. Ok. Because I don't want to take too much time. I will document the format. And what I will do here. I will get random color. Ok. Simple. I will get a random color in every 3 seconds. So if I show you a page. Look at the page. It changes its color in every 3 seconds. If you want to do this. You can do this. Simply. You can do this in 3 seconds. It changes in every 1 second. Look. It changes in every 1 second. Ok. So what will the interval do. You can do this. Repeat this. Repeat this. If you want to run some set of code in every second. You can do this. Ok. Then there is a clear interval. If I say let A is equal to this. Console.logA So what will it give me. I will reload it. What will it give me. Oops. I want to inspect. I want to open the console. I will say clear interval. Clear interval. I will say 1. So what will happen. I will enter. So this interval is clear. You can use this number. You can use this number. And the set interval. That will stop. Ok. Now I will tell you the same thing. I will tell you the same thing. I will make a copy of it. I will make a copy of it. Because the syntax is exactly the same. Yes. Set timeout. Set timeout only runs once after a certain period of time. So you see here. I said 5 seconds later. Change the color after 1 second. So I will reload it. Change the color after 1 second. Just once. If I want something to work after a second. I can use set timeout. So A is equal to I have set timeout. So you see here. After setting timeout. After 1 second. The color changed. And I can clear the set timeout. I want you to know that after 5 seconds. The color changes. I will reload it. You count 5 seconds. The color will change after 5 seconds. After 5 seconds. I will reload it. And I want to know what I have done. I don't want to change the color. I will write timeout. I will keep this as a copy. Before this. If I have run clear timeout. Then it is clear. I have changed my mind. I will not change the color after 5 seconds. So after 5 seconds. This function will not run. Because I have done clear timeout. So to cancel the set interval. We use clear interval. To cancel the set timeout. We use clear timeout. This is simple. I hope you understood. We have covered a lot with red set. It is important to access the notes. Because this is what you will remember. All the things you have done in the Sigma course. Then MDN reference is also there. You are giving it in your house. For 400 rupees a month. Tell me in the comment section. I hope you understand. How important it is to download the notes. And you understand all the concepts. You are doing one thing. You have to review the course. Give me 5 stars. I am not giving you any compulsion. If you do it will be nice. The new people who are joining the course. It will be very helpful. They will know whether to do the course or not. That's all for now. Thank you so much for watching this video. And I will see you next time. Subscribe to our channel."
+}

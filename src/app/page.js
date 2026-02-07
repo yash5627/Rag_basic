@@ -1,65 +1,186 @@
-import Image from "next/image";
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
+  const [linkType, setLinkType] = useState("playlist"); // "playlist" or "video"
+  const [link, setLink] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!link.trim()) {
+      alert("Please enter a valid link");
+      return;
+    }
+
+    setIsSubmitting(true);
+    
+    // TODO: Connect to backend API
+    // For now, just show a message
+    setTimeout(() => {
+      alert(`Processing ${linkType === "playlist" ? "playlist" : "video"} link...\n\nLink: ${link}\n\n(Backend integration pending)`);
+      setIsSubmitting(false);
+    }, 1000);
+  };
+
+  const isValidUrl = (string) => {
+    try {
+      new URL(string);
+      return true;
+    } catch (_) {
+      return false;
+    }
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
+    <div className="min-h-[85vh] flex flex-col items-center justify-center  px-6 py-12">
+      <div className="max-w-4xl w-full">
+        {/* Hero Section */}
+        <div className="text-center mb-12">
+          <h1 className="text-5xl md:text-6xl font-bold text-gray-200 mb-6">
+            Transform Video Content Into
+            <span className="block text-blue-500 mt-2">Searchable Knowledge</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+            Submit your YouTube playlist or video link to process and index content 
+            with AI-powered precision. Enable intelligent search capabilities across 
+            your video library with accurate timestamp retrieval.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        {/* Link Input Card */}
+        <div className="bg-gray-800/60 backdrop-blur-sm rounded-2xl p-8 md:p-10 border border-gray-700 shadow-2xl mb-8">
+          {/* Link Type Selector */}
+          <div className="flex gap-4 mb-8 justify-center">
+            <button
+              onClick={() => setLinkType("playlist")}
+              className={`px-8 py-3 rounded-lg font-semibold transition-all duration-300 ${
+                linkType === "playlist"
+                  ? "bg-blue-600 text-white shadow-lg shadow-blue-600/50"
+                  : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+              }`}
+            >
+              Playlist
+            </button>
+            <button
+              onClick={() => setLinkType("video")}
+              className={`px-8 py-3 rounded-lg font-semibold transition-all duration-300 ${
+                linkType === "video"
+                  ? "bg-blue-600 text-white shadow-lg shadow-blue-600/50"
+                  : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+              }`}
+            >
+              Single Video
+            </button>
+          </div>
+
+          {/* Form */}
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div>
+              <label className="block text-gray-300 mb-3 text-sm font-medium uppercase tracking-wide">
+                {linkType === "playlist" ? "YouTube Playlist URL" : "YouTube Video URL"}
+              </label>
+              <div className="flex gap-3">
+                <div className="flex-1 relative">
+                  <input
+                    type="url"
+                    value={link}
+                    onChange={(e) => setLink(e.target.value)}
+                    placeholder={
+                      linkType === "playlist"
+                        ? "https://www.youtube.com/playlist?list=..."
+                        : "https://www.youtube.com/watch?v=..."
+                    }
+                    className="w-full px-5 py-4 rounded-lg border-2 border-gray-600 bg-gray-900/50 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all"
+                    required
+                  />
+                  {link && isValidUrl(link) && (
+                    <div className="absolute right-3 top-1/2 -translate-y-1/2">
+                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  )}
+                </div>
+                <button
+                  type="submit"
+                  disabled={isSubmitting || !link.trim()}
+                  className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 disabled:bg-gray-600 disabled:cursor-not-allowed transition-all duration-300 shadow-lg shadow-blue-600/30 hover:shadow-blue-600/50 flex items-center gap-2 min-w-35 justify-center"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      Processing...
+                    </>
+                  ) : (
+                    "Process"
+                  )}
+                </button>
+              </div>
+              <p className="mt-2 text-sm text-gray-500">
+                {linkType === "playlist"
+                  ? "Enter a valid YouTube playlist URL to process all videos in the collection"
+                  : "Enter a valid YouTube video URL to begin processing"}
+              </p>
+            </div>
+          </form>
         </div>
-      </main>
+
+        {/* Features Grid */}
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
+          <div className="bg-gray-800/40 rounded-lg p-6 border  border-gray-700 hover:border-blue-500/50 transition-all duration-300 ">
+            <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
+              <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-200 mb-2">High Performance</h3>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Efficient processing and indexing of video content with optimized algorithms for rapid results
+            </p>
+          </div>
+          <div className="bg-gray-800/40 rounded-lg p-6 border  border-gray-700 hover:border-blue-500/50 transition-all duration-300">
+            <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
+              <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-200 mb-2">Precise Search</h3>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Accurate timestamp identification for targeted content retrieval within video segments
+            </p>
+          </div>
+          <div className="bg-gray-800/40 rounded-lg p-6 border  border-gray-700 hover:border-blue-500/50 transition-all duration-300">
+            <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
+              <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-200 mb-2">AI-Powered Intelligence</h3>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Advanced RAG technology enabling semantic understanding and intelligent content analysis
+            </p>
+          </div>
+        </div>
+
+        {/* CTA Section */}
+        <div className="text-center">
+          <p className="text-gray-400 mb-4">
+            Already have processed content available?
+          </p>
+          <Link
+            href="/search"
+            className="inline-block px-6 py-3  bg-gray-700 text-gray-200 rounded-lg font-semibold hover:bg-gray-600 transition-all duration-300"
+          >
+            Access Search Interface
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

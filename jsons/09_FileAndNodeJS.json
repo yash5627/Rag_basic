@@ -1,0 +1,3260 @@
+{
+    "chunks": [
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 0.0,
+            "end": 5.0,
+            "text": " In today's video, I will tell you how to work with files and FS modules in JavaScript."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 5.0,
+            "end": 10.6,
+            "text": " We will look at paths, files, how to work with NodeJS modules."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 10.6,
+            "end": 12.8,
+            "text": " We will see all these details in this video."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 12.8,
+            "end": 17.1,
+            "text": " Please like this video and write JavaScript in the comment section."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 17.1,
+            "end": 20.2,
+            "text": " Let's roll the intro in the computer screen."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 20.2,
+            "end": 33.6,
+            "text": " The topic of today's video is FS module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 33.6,
+            "end": 42.2,
+            "text": " How can you read files and use promises to read files?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 42.2,
+            "end": 45.800000000000004,
+            "text": " Here is a practical demonstration."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 45.800000000000004,
+            "end": 54.800000000000004,
+            "text": " I will write npm-y."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 54.800000000000004,
+            "end": 59.0,
+            "text": " I am not using any package for npm-y."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 59.0,
+            "end": 62.400000000000006,
+            "text": " Always go to initialize a NodeJS project."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 62.400000000000006,
+            "end": 66.0,
+            "text": " I will write import FS."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 66.0,
+            "end": 78.6,
+            "text": " I will write const FS is equal to require FS."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 78.6,
+            "end": 80.6,
+            "text": " I will show you one thing."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 80.6,
+            "end": 84.6,
+            "text": " If I write console.log FS, then FS module will be printed."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 84.6,
+            "end": 87.6,
+            "text": " All functions are different."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 87.6,
+            "end": 91.6,
+            "text": " Print file, file sync, access, access sync, chonc, sync."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 91.6,
+            "end": 93.6,
+            "text": " There are many functions here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 93.6,
+            "end": 95.6,
+            "text": " I will tell you some functions of the work."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 95.6,
+            "end": 99.6,
+            "text": " If you need anything else, you can do it yourself."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 99.6,
+            "end": 102.6,
+            "text": " All functions are not possible."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 102.6,
+            "end": 107.6,
+            "text": " I will write FS."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 107.6,
+            "end": 113.6,
+            "text": " I will write write file sync."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 113.6,
+            "end": 115.6,
+            "text": " I will write write file sync."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 115.6,
+            "end": 118.6,
+            "text": " I will write a file named Harry.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 118.6,
+            "end": 120.6,
+            "text": " I will write Harry is a good boy."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 120.6,
+            "end": 127.6,
+            "text": " I will write console.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 127.6,
+            "end": 133.6,
+            "text": " I will write console.log and ending."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 133.6,
+            "end": 135.6,
+            "text": " I will write two things."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 135.6,
+            "end": 137.6,
+            "text": " I will run the ending."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 137.6,
+            "end": 139.6,
+            "text": " I will write starting and ending."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 139.6,
+            "end": 141.6,
+            "text": " The same thing happened."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 141.6,
+            "end": 143.6,
+            "text": " The file write will be done."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 143.6,
+            "end": 145.6,
+            "text": " This will be run first."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 145.6,
+            "end": 148.6,
+            "text": " After that, you will write FS.write file sync."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 148.6,
+            "end": 150.6,
+            "text": " This will be run."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 150.6,
+            "end": 154.6,
+            "text": " Once your file is run, it will be run only after that."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 154.6,
+            "end": 157.6,
+            "text": " You will write the blocking code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 157.6,
+            "end": 160.6,
+            "text": " The main thread of the file will be blocked."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 160.6,
+            "end": 164.6,
+            "text": " After that, the file will be run."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 164.6,
+            "end": 167.6,
+            "text": " After that, the content will be processed in the program."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 167.6,
+            "end": 170.6,
+            "text": " But this approach is not good."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 170.6,
+            "end": 172.6,
+            "text": " JavaScript is running on asynchronous approach."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 172.6,
+            "end": 175.6,
+            "text": " I want the writing operation to start."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 175.6,
+            "end": 178.6,
+            "text": " As soon as it is done, something happens."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 178.6,
+            "end": 180.6,
+            "text": " FS.write."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 180.6,
+            "end": 182.6,
+            "text": " How is FS.write different?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 182.6,
+            "end": 185.6,
+            "text": " I will write Harry.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 185.6,
+            "end": 188.6,
+            "text": " I will write content."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 188.6,
+            "end": 190.6,
+            "text": " Harry is a good boy."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 190.6,
+            "end": 192.6,
+            "text": " After that, I will write a callback."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 192.6,
+            "end": 196.6,
+            "text": " I will write a callback and the callback function will run."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 196.6,
+            "end": 199.6,
+            "text": " console.log will run."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 199.6,
+            "end": 201.6,
+            "text": " The start will be done."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 201.6,
+            "end": 203.6,
+            "text": " The schedule will be done."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 203.6,
+            "end": 205.6,
+            "text": " The console will run."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 205.6,
+            "end": 207.6,
+            "text": " But the ending will run."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 207.6,
+            "end": 210.6,
+            "text": " I have given some errors."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 210.6,
+            "end": 213.6,
+            "text": " I will see what is the issue."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 213.6,
+            "end": 215.6,
+            "text": " I will remove the console.log FS."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 215.6,
+            "end": 217.6,
+            "text": " I can't see the console."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 217.6,
+            "end": 220.6,
+            "text": " I will make a new tab for the terminal."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 220.6,
+            "end": 222.6,
+            "text": " So that I can see the error."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 222.6,
+            "end": 224.6,
+            "text": " I can see the error."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 224.6,
+            "end": 226.6,
+            "text": " This is the starting."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 226.6,
+            "end": 228.6,
+            "text": " And a new error is here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 228.6,
+            "end": 230.6,
+            "text": " I will see what is the error."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 230.6,
+            "end": 232.6,
+            "text": " This is my print."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 232.6,
+            "end": 234.6,
+            "text": " And then invalid arg type."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 234.6,
+            "end": 237.6,
+            "text": " FS.write file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 237.6,
+            "end": 239.6,
+            "text": " This is not right."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 239.6,
+            "end": 241.6,
+            "text": " My bad."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 241.6,
+            "end": 243.6,
+            "text": " The ending is done."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 243.6,
+            "end": 245.6,
+            "text": " This is the first one."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 245.6,
+            "end": 247.6,
+            "text": " This is not done."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 247.6,
+            "end": 249.6,
+            "text": " This is scheduled."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 249.6,
+            "end": 251.6,
+            "text": " The operation of write is completed."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 251.6,
+            "end": 253.6,
+            "text": " It is very fast."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 253.6,
+            "end": 255.6,
+            "text": " It is less than milliseconds."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 255.6,
+            "end": 257.6,
+            "text": " But we don't see it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 257.6,
+            "end": 259.6,
+            "text": " The program is very fast."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 259.6,
+            "end": 261.6,
+            "text": " This is the start."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 261.6,
+            "end": 263.6,
+            "text": " This is the schedule."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 263.6,
+            "end": 265.6,
+            "text": " And once you have completed the write operation."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 265.6,
+            "end": 267.6,
+            "text": " You will see the end."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 267.6,
+            "end": 269.6,
+            "text": " This is your file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 269.6,
+            "end": 271.6,
+            "text": " I will write the tool here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 271.6,
+            "end": 273.6,
+            "text": " I will run."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 273.6,
+            "end": 275.6,
+            "text": " You will get to see the tool in the Heri 2.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 275.6,
+            "end": 277.6,
+            "text": " You will get to see the tool in the Heri 2.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 277.6,
+            "end": 279.6,
+            "text": " You can write like this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 279.6,
+            "end": 281.6,
+            "text": " Which one to use?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 281.6,
+            "end": 283.6,
+            "text": " Right file sync or right file use?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 283.6,
+            "end": 285.6,
+            "text": " Right file use."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 285.6,
+            "end": 288.6,
+            "text": " Because right file sync will create that problem."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 288.6,
+            "end": 291.6,
+            "text": " Now I want to write this file once."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 291.6,
+            "end": 293.6,
+            "text": " When it is right."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 293.6,
+            "end": 295.6,
+            "text": " I will read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 295.6,
+            "end": 297.6,
+            "text": " I will write fs.write file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 297.6,
+            "end": 299.6,
+            "text": " I will write fs.read file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 299.6,
+            "end": 301.6,
+            "text": " I will write fs.read file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 301.6,
+            "end": 303.6,
+            "text": " I will write Heri 2.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 303.6,
+            "end": 305.6,
+            "text": " I will write Heri 2.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 305.6,
+            "end": 307.6,
+            "text": " After that the second argument."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 307.6,
+            "end": 309.6,
+            "text": " After that the second argument."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 309.6,
+            "end": 311.6,
+            "text": " It is a callback."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 311.6,
+            "end": 313.6,
+            "text": " There will be two things in callback."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 313.6,
+            "end": 315.6,
+            "text": " Error and data."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 315.6,
+            "end": 317.6,
+            "text": " Here I will write console.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 317.6,
+            "end": 319.6,
+            "text": " Here I will write console.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 319.6,
+            "end": 321.6,
+            "text": " Here I will write Error and data."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 321.6,
+            "end": 323.6,
+            "text": " If I write it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 323.6,
+            "end": 325.6,
+            "text": " First it is starting, then ending, then done."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 325.6,
+            "end": 327.6,
+            "text": " Then error was null."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 327.6,
+            "end": 329.6,
+            "text": " Then error was null."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 329.6,
+            "end": 331.6,
+            "text": " But what is written on the data?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 331.6,
+            "end": 333.6,
+            "text": " Buffer. How can I read it?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 333.6,
+            "end": 335.6,
+            "text": " What you have to do to read it?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 335.6,
+            "end": 337.6,
+            "text": " You have to do data.log.log.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 337.6,
+            "end": 339.6,
+            "text": " If you want to convert it to string."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 339.6,
+            "end": 341.6,
+            "text": " Now I will write this code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 341.6,
+            "end": 343.6,
+            "text": " Now you think I am doing this with many files."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 343.6,
+            "end": 345.6,
+            "text": " I said I will write one file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 345.6,
+            "end": 347.6,
+            "text": " Then I will read another one."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 347.6,
+            "end": 349.6,
+            "text": " Then I will write one more."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 349.6,
+            "end": 351.6,
+            "text": " Then I will read one more."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 351.6,
+            "end": 353.6,
+            "text": " Then I will write one more."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 353.6,
+            "end": 355.6,
+            "text": " Then the code will go down."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 355.6,
+            "end": 357.6,
+            "text": " And this is called callback."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 357.6,
+            "end": 359.6,
+            "text": " The first practical example of callback."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 359.6,
+            "end": 361.6,
+            "text": " In our Sigma web development series."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 361.6,
+            "end": 363.6,
+            "text": " So what is it?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 363.6,
+            "end": 365.6,
+            "text": " I want to write another file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 365.6,
+            "end": 367.6,
+            "text": " I want to do it in some kind of operation."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 367.6,
+            "end": 369.6,
+            "text": " What direction is the code going?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 369.6,
+            "end": 371.6,
+            "text": " Now see it is going in this direction."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 371.6,
+            "end": 373.6,
+            "text": " And I continue this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 373.6,
+            "end": 375.6,
+            "text": " I do one thing. I do not spoil the main code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 375.6,
+            "end": 377.6,
+            "text": " I will make a callback hell."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 377.6,
+            "end": 379.6,
+            "text": " I think I did this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 379.6,
+            "end": 381.6,
+            "text": " Now I will do this again."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 381.6,
+            "end": 383.6,
+            "text": " I want to do this again."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 383.6,
+            "end": 385.6,
+            "text": " So what will I do?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 385.6,
+            "end": 387.6,
+            "text": " I will copy it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 387.6,
+            "end": 389.6,
+            "text": " I want to do this again."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 389.6,
+            "end": 391.6,
+            "text": " Then I want to do this again."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 391.6,
+            "end": 393.6,
+            "text": " Do you know what is this code?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 393.6,
+            "end": 395.6,
+            "text": " Do you know what is this code?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 395.6,
+            "end": 397.6,
+            "text": " Where will you keep reading it?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 397.6,
+            "end": 399.6,
+            "text": " Then it goes down."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 399.6,
+            "end": 401.6,
+            "text": " Then it goes down."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 401.6,
+            "end": 403.6,
+            "text": " Then it goes down."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 403.6,
+            "end": 405.6,
+            "text": " This is not good. This is hell."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 405.6,
+            "end": 407.6,
+            "text": " That is why we stop this callback hell."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 407.6,
+            "end": 409.6,
+            "text": " And now we will see the promises."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 409.6,
+            "end": 411.6,
+            "text": " See there are many other functions in it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 411.6,
+            "end": 413.6,
+            "text": " You can use fs.append file and append file sync."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 413.6,
+            "end": 415.6,
+            "text": " It is very similar."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 415.6,
+            "end": 417.6,
+            "text": " I will not tell you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 417.6,
+            "end": 419.6,
+            "text": " I will tell you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 419.6,
+            "end": 421.6,
+            "text": " I will do ed.data."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 421.6,
+            "end": 423.6,
+            "text": " And here I will do console.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 423.6,
+            "end": 425.6,
+            "text": " d.to string."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 425.6,
+            "end": 427.6,
+            "text": " And I will show you what to append."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 427.6,
+            "end": 429.6,
+            "text": " So here is one thing."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 429.6,
+            "end": 431.6,
+            "text": " The syntax of this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 431.6,
+            "end": 433.6,
+            "text": " The first argument is path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 433.6,
+            "end": 435.6,
+            "text": " Then there is data."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 435.6,
+            "end": 437.6,
+            "text": " And then there is callback."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 437.6,
+            "end": 439.6,
+            "text": " What do you want to append?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 439.6,
+            "end": 441.6,
+            "text": " I want to append this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 441.6,
+            "end": 443.6,
+            "text": " I want to do Harry Robo."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 443.6,
+            "end": 445.6,
+            "text": " And I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 445.6,
+            "end": 447.6,
+            "text": " So what is this saying?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 447.6,
+            "end": 449.6,
+            "text": " Cannot read properties of undefined two string."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 449.6,
+            "end": 451.6,
+            "text": " I have done some things."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 451.6,
+            "end": 453.6,
+            "text": " I will see what is the problem here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 453.6,
+            "end": 455.6,
+            "text": " Error.data.console.log.d.to string."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 455.6,
+            "end": 457.6,
+            "text": " What happened?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 457.6,
+            "end": 459.6,
+            "text": " Will it be append?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 459.6,
+            "end": 461.6,
+            "text": " So the append file didn't work here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 461.6,
+            "end": 463.6,
+            "text": " Why didn't it work?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 463.6,
+            "end": 465.6,
+            "text": " It is because of the append data."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 465.6,
+            "end": 467.6,
+            "text": " The first argument was path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 467.6,
+            "end": 469.6,
+            "text": " The second argument was data."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 469.6,
+            "end": 471.6,
+            "text": " The third argument was callback."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 471.6,
+            "end": 473.6,
+            "text": " So this was callback function."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 473.6,
+            "end": 475.6,
+            "text": " So I will do ed.data."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 475.6,
+            "end": 477.6,
+            "text": " I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 477.6,
+            "end": 479.6,
+            "text": " And I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 479.6,
+            "end": 481.6,
+            "text": " So null.hary is a good boy."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 481.6,
+            "end": 483.6,
+            "text": " I have undefined."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 483.6,
+            "end": 485.6,
+            "text": " I have done it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 485.6,
+            "end": 487.6,
+            "text": " I have done it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 487.6,
+            "end": 489.6,
+            "text": " So I will do it in Harry.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 489.6,
+            "end": 491.6,
+            "text": " So it will be here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 491.6,
+            "end": 493.6,
+            "text": " And I will run it as many times as I can."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 493.6,
+            "end": 495.6,
+            "text": " I will append it as many times as I can."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 495.6,
+            "end": 497.6,
+            "text": " So do it yourself."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 497.6,
+            "end": 499.6,
+            "text": " If it is confusing, do it yourself."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 499.6,
+            "end": 501.6,
+            "text": " You will not understand it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 501.6,
+            "end": 503.6,
+            "text": " Write code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 503.6,
+            "end": 505.6,
+            "text": " Take it from the guarantee."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 505.6,
+            "end": 507.6,
+            "text": " I don't want you to watch videos."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 507.6,
+            "end": 509.6,
+            "text": " I want you to write code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 509.6,
+            "end": 511.6,
+            "text": " Make something."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 511.6,
+            "end": 513.6,
+            "text": " Then you will be successful."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 513.6,
+            "end": 515.6,
+            "text": " You did the Sigma Web Development course."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 515.6,
+            "end": 517.6,
+            "text": " You wrote it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 517.6,
+            "end": 519.6,
+            "text": " You made the projects."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 519.6,
+            "end": 521.6,
+            "text": " You made it yourself."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 521.6,
+            "end": 523.6,
+            "text": " We also made it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 523.6,
+            "end": 525.6,
+            "text": " So I want that."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 525.6,
+            "end": 527.6,
+            "text": " So this was our FS module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 527.6,
+            "end": 529.6,
+            "text": " But"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 529.6,
+            "end": 531.6,
+            "text": " to save from callback health."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 531.6,
+            "end": 533.6,
+            "text": " FS has given a new module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 533.6,
+            "end": 535.6,
+            "text": " Which uses promises."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 535.6,
+            "end": 537.6,
+            "text": " Do I need the required syntax in FS?"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 537.6,
+            "end": 539.6,
+            "text": " No."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 539.6,
+            "end": 541.6,
+            "text": " I can type it in package.json."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 541.6,
+            "end": 543.6,
+            "text": " I can type it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 543.6,
+            "end": 545.6,
+            "text": " I can also type it in common."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 545.6,
+            "end": 547.6,
+            "text": " I can also type it in common."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 547.6,
+            "end": 549.6,
+            "text": " I can also type it in common."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 549.6,
+            "end": 551.6,
+            "text": " But I can also type it in common."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 551.6,
+            "end": 553.6,
+            "text": " For now."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 553.6,
+            "end": 555.6,
+            "text": " And I am going to make a common."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 555.6,
+            "end": 557.6,
+            "text": " I will write it in common."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 557.6,
+            "end": 559.6,
+            "text": " I will import FS."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 559.6,
+            "end": 561.6,
+            "text": " And I will write it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 561.6,
+            "end": 563.6,
+            "text": " From FS"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 563.6,
+            "end": 565.6,
+            "text": " So here I have imported"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 565.6,
+            "end": 567.6,
+            "text": " FS from FS promises."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 567.6,
+            "end": 569.6,
+            "text": " And I can use FS promises."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 569.6,
+            "end": 571.6,
+            "text": " I can use FS."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 571.6,
+            "end": 573.6,
+            "text": " FS.create"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 573.6,
+            "end": 575.6,
+            "text": " FS.read file"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 575.6,
+            "end": 577.6,
+            "text": " And I will read file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 577.6,
+            "end": 579.6,
+            "text": " So I have to do Harry.txt here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 579.6,
+            "end": 581.6,
+            "text": " And I will tell you one more thing."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 581.6,
+            "end": 583.6,
+            "text": " I can directly await here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 583.6,
+            "end": 585.6,
+            "text": " Because I am in the module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 585.6,
+            "end": 587.6,
+            "text": " Because this is a module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 587.6,
+            "end": 589.6,
+            "text": " I can wait in this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 589.6,
+            "end": 591.6,
+            "text": " I don't need to be in async function."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 591.6,
+            "end": 593.6,
+            "text": " So if I write here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 593.6,
+            "end": 595.6,
+            "text": " console.log a.to string."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 595.6,
+            "end": 597.6,
+            "text": " So you see."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 597.6,
+            "end": 599.6,
+            "text": " What will happen? Harry is a good boy."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 599.6,
+            "end": 601.6,
+            "text": " I can write it in the same way."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 601.6,
+            "end": 603.6,
+            "text": " I can say here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 603.6,
+            "end": 605.6,
+            "text": " Let b is equal to"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 605.6,
+            "end": 607.6,
+            "text": " await FS.read file"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 607.6,
+            "end": 609.6,
+            "text": " And I can say."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 609.6,
+            "end": 611.6,
+            "text": " Write it in Harry.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 611.6,
+            "end": 613.6,
+            "text": " This is amazing"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 613.6,
+            "end": 615.6,
+            "text": " promise."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 615.6,
+            "end": 617.6,
+            "text": " I want to give backslash here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 617.6,
+            "end": 619.6,
+            "text": " I want to give backslash here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 619.6,
+            "end": 621.6,
+            "text": " I want to give a lot of spaces."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 621.6,
+            "end": 623.6,
+            "text": " So I can give it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 623.6,
+            "end": 625.6,
+            "text": " I didn't do it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 625.6,
+            "end": 627.6,
+            "text": " I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 627.6,
+            "end": 629.6,
+            "text": " When I run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 629.6,
+            "end": 631.6,
+            "text": " It didn't return anything."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 631.6,
+            "end": 633.6,
+            "text": " But if I show you the file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 633.6,
+            "end": 635.6,
+            "text": " This is amazing promise."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 635.6,
+            "end": 637.6,
+            "text": " I have read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 637.6,
+            "end": 639.6,
+            "text": " The content was displayed."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 639.6,
+            "end": 641.6,
+            "text": " The content was displayed."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 641.6,
+            "end": 643.6,
+            "text": " Then it wrote the content."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 643.6,
+            "end": 645.6,
+            "text": " I want to append it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 645.6,
+            "end": 647.6,
+            "text": " I want to do it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 647.6,
+            "end": 649.6,
+            "text": " I didn't want to spoil the content."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 649.6,
+            "end": 651.6,
+            "text": " So I can use the append code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 651.6,
+            "end": 653.6,
+            "text": " If I write here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 653.6,
+            "end": 655.6,
+            "text": " Harry is amazing."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 655.6,
+            "end": 657.6,
+            "text": " Nice boy."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 657.6,
+            "end": 659.6,
+            "text": " Ok."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 659.6,
+            "end": 661.6,
+            "text": " After doing this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 661.6,
+            "end": 663.6,
+            "text": " I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 663.6,
+            "end": 665.6,
+            "text": " You see."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 665.6,
+            "end": 667.6,
+            "text": " This is amazing."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 667.6,
+            "end": 669.6,
+            "text": " I will run this code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 669.6,
+            "end": 671.6,
+            "text": " It will append as many times as I want."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 671.6,
+            "end": 673.6,
+            "text": " You see."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 673.6,
+            "end": 675.6,
+            "text": " I can append as many times as I want."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 675.6,
+            "end": 677.6,
+            "text": " By using the append code."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 677.6,
+            "end": 679.6,
+            "text": " Do you have any written."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 679.6,
+            "end": 681.6,
+            "text": " All these functions."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 681.6,
+            "end": 683.6,
+            "text": " No."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 683.6,
+            "end": 685.6,
+            "text": " I have given a lot of information."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 685.6,
+            "end": 687.6,
+            "text": " I have given about the path module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 687.6,
+            "end": 689.6,
+            "text": " I have given about file FS."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 689.6,
+            "end": 691.6,
+            "text": " You can read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 691.6,
+            "end": 693.6,
+            "text": " But documentation is given a lot."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 693.6,
+            "end": 695.6,
+            "text": " Sometimes you will get bored."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 695.6,
+            "end": 697.6,
+            "text": " You won't understand."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 697.6,
+            "end": 699.6,
+            "text": " So watching the video is very important."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 699.6,
+            "end": 701.6,
+            "text": " So by combining."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 701.6,
+            "end": 703.6,
+            "text": " You are just going to learn."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 703.6,
+            "end": 705.6,
+            "text": " And you will be useful."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 705.6,
+            "end": 707.6,
+            "text": " Now one more thing."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 707.6,
+            "end": 709.6,
+            "text": " About path.js."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 709.6,
+            "end": 711.6,
+            "text": " I want to tell you about path.js."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 711.6,
+            "end": 713.6,
+            "text": " I want to tell you about it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 713.6,
+            "end": 715.6,
+            "text": " If I write import path from"
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 715.6,
+            "end": 717.6,
+            "text": " path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 717.6,
+            "end": 719.6,
+            "text": " And if I write console.log path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 719.6,
+            "end": 721.6,
+            "text": " And run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 721.6,
+            "end": 723.6,
+            "text": " You see."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 723.6,
+            "end": 725.6,
+            "text": " The functions in the path module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 725.6,
+            "end": 727.6,
+            "text": " You will get to see."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 727.6,
+            "end": 729.6,
+            "text": " Part.resolve."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 729.6,
+            "end": 731.6,
+            "text": " Normalize."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 731.6,
+            "end": 733.6,
+            "text": " It is absolute."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 733.6,
+            "end": 735.6,
+            "text": " It is joint."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 735.6,
+            "end": 737.6,
+            "text": " It is DIR."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 737.6,
+            "end": 739.6,
+            "text": " It is base name."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 739.6,
+            "end": 741.6,
+            "text": " I have told about FS module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 741.6,
+            "end": 743.6,
+            "text": " I have told about FS promise."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 743.6,
+            "end": 745.6,
+            "text": " It is not necessary to use FS promise."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 745.6,
+            "end": 747.6,
+            "text": " You can use it in common."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 747.6,
+            "end": 749.6,
+            "text": " Like this."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 749.6,
+            "end": 751.6,
+            "text": " You can say."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 751.6,
+            "end": 753.6,
+            "text": " Which FS is equal to require."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 753.6,
+            "end": 755.6,
+            "text": " FS promises."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 755.6,
+            "end": 757.6,
+            "text": " You can import it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 757.6,
+            "end": 759.6,
+            "text": " There is no problem."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 759.6,
+            "end": 761.6,
+            "text": " There is no such foundation."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 761.6,
+            "end": 763.6,
+            "text": " You can use it as you like."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 763.6,
+            "end": 765.6,
+            "text": " But I will tell you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 765.6,
+            "end": 767.6,
+            "text": " How to use path module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 767.6,
+            "end": 769.6,
+            "text": " I have a new path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 769.6,
+            "end": 771.6,
+            "text": " I copy this path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 771.6,
+            "end": 773.6,
+            "text": " I copy it from here to here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 773.6,
+            "end": 775.6,
+            "text": " This path is in my computer."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 775.6,
+            "end": 777.6,
+            "text": " I say."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 777.6,
+            "end": 779.6,
+            "text": " My path is equal to."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 779.6,
+            "end": 781.6,
+            "text": " I have told you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 781.6,
+            "end": 783.6,
+            "text": " This is my path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 783.6,
+            "end": 785.6,
+            "text": " Now what I want to do."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 785.6,
+            "end": 787.6,
+            "text": " Because I am making this string."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 787.6,
+            "end": 789.6,
+            "text": " I will have to use double slash."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 789.6,
+            "end": 791.6,
+            "text": " Otherwise it will be called escape sequence."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 791.6,
+            "end": 793.6,
+            "text": " So I will have to make this path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 793.6,
+            "end": 795.6,
+            "text": " Now I will tell you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 795.6,
+            "end": 797.6,
+            "text": " I will tell you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 797.6,
+            "end": 799.6,
+            "text": " Console.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 799.6,
+            "end": 801.6,
+            "text": " Path.txt name."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 801.6,
+            "end": 803.6,
+            "text": " My path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 803.6,
+            "end": 805.6,
+            "text": " I want to say."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 805.6,
+            "end": 807.6,
+            "text": " Harry.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 807.6,
+            "end": 809.6,
+            "text": " I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 809.6,
+            "end": 811.6,
+            "text": " My path is not defined."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 811.6,
+            "end": 813.6,
+            "text": " What is wrong."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 813.6,
+            "end": 815.6,
+            "text": " My path is not defined."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 815.6,
+            "end": 817.6,
+            "text": " Because I have to use let."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 817.6,
+            "end": 819.6,
+            "text": " Let."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 819.6,
+            "end": 821.6,
+            "text": " You can see."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 821.6,
+            "end": 823.6,
+            "text": " What he did."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 823.6,
+            "end": 825.6,
+            "text": " He said."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 825.6,
+            "end": 827.6,
+            "text": " The file you are working with."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 827.6,
+            "end": 829.6,
+            "text": " extension.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 829.6,
+            "end": 831.6,
+            "text": " Now you can do many other things."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 831.6,
+            "end": 833.6,
+            "text": " You can do path.dername."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 833.6,
+            "end": 835.6,
+            "text": " I will show you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 835.6,
+            "end": 837.6,
+            "text": " Console.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 837.6,
+            "end": 839.6,
+            "text": " Path.dername."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 839.6,
+            "end": 841.6,
+            "text": " Path.dername."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 841.6,
+            "end": 843.6,
+            "text": " When you do path.dername."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 843.6,
+            "end": 845.6,
+            "text": " You have to run this function."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 845.6,
+            "end": 847.6,
+            "text": " And you have to put path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 847.6,
+            "end": 849.6,
+            "text": " I write."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 849.6,
+            "end": 851.6,
+            "text": " My path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 851.6,
+            "end": 853.6,
+            "text": " I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 853.6,
+            "end": 855.6,
+            "text": " Path.dername."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 855.6,
+            "end": 857.6,
+            "text": " I have to write."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 857.6,
+            "end": 859.6,
+            "text": " Path.dername."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 859.6,
+            "end": 861.6,
+            "text": " I want to name this file."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 861.6,
+            "end": 863.6,
+            "text": " I can write its base name."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 863.6,
+            "end": 865.6,
+            "text": " Base name is a function."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 865.6,
+            "end": 867.6,
+            "text": " I can write it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 867.6,
+            "end": 869.6,
+            "text": " And this will tell me."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 869.6,
+            "end": 871.6,
+            "text": " extension."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 871.6,
+            "end": 873.6,
+            "text": " You can write it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 873.6,
+            "end": 875.6,
+            "text": " You can write it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 875.6,
+            "end": 877.6,
+            "text": " What is its base name."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 877.6,
+            "end": 879.6,
+            "text": " It will tell you its name."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 879.6,
+            "end": 881.6,
+            "text": " What all can be done."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 881.6,
+            "end": 883.6,
+            "text": " I will tell you one more thing."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 883.6,
+            "end": 885.6,
+            "text": " Console.log."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 885.6,
+            "end": 887.6,
+            "text": " Path.join."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 887.6,
+            "end": 889.6,
+            "text": " You want to join."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 889.6,
+            "end": 891.6,
+            "text": " C."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 891.6,
+            "end": 893.6,
+            "text": " You have written C."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 893.6,
+            "end": 895.6,
+            "text": " C."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 895.6,
+            "end": 897.6,
+            "text": " You want to do programs."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 897.6,
+            "end": 899.6,
+            "text": " You have used this format."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 899.6,
+            "end": 901.6,
+            "text": " Backslash."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 901.6,
+            "end": 903.6,
+            "text": " And you want to go in."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 903.6,
+            "end": 905.6,
+            "text": " Harry.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 905.6,
+            "end": 907.6,
+            "text": " You have written this path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 907.6,
+            "end": 909.6,
+            "text": " By using backward slash."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 909.6,
+            "end": 911.6,
+            "text": " This path is written."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 911.6,
+            "end": 913.6,
+            "text": " By using backward slash."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 913.6,
+            "end": 915.6,
+            "text": " But the path module will understand what you want."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 915.6,
+            "end": 917.6,
+            "text": " You want to join it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 917.6,
+            "end": 919.6,
+            "text": " It will give you."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 919.6,
+            "end": 921.6,
+            "text": " Programs."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 921.6,
+            "end": 923.6,
+            "text": " And as soon as I will run it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 923.6,
+            "end": 925.6,
+            "text": " See what it did."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 925.6,
+            "end": 927.6,
+            "text": " C.programs.honey.txt."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 927.6,
+            "end": 929.6,
+            "text": " I have shown it according to my operating system."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 929.6,
+            "end": 931.6,
+            "text": " So I can use this path directly."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 931.6,
+            "end": 933.6,
+            "text": " So this package."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 933.6,
+            "end": 935.6,
+            "text": " Sometimes you get into a small problem."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 935.6,
+            "end": 937.6,
+            "text": " And you will have to write custom logic."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 937.6,
+            "end": 939.6,
+            "text": " With the help of strings."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 939.6,
+            "end": 941.6,
+            "text": " So it can be in the morning."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 941.6,
+            "end": 943.6,
+            "text": " And if it is in the morning."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 943.6,
+            "end": 945.6,
+            "text": " Then it can be in the next morning."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 945.6,
+            "end": 947.6,
+            "text": " So many people comment."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 947.6,
+            "end": 949.6,
+            "text": " If it is in the morning."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 949.6,
+            "end": 951.6,
+            "text": " So what will happen."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 951.6,
+            "end": 953.6,
+            "text": " This package will solve many problems."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 953.6,
+            "end": 955.6,
+            "text": " You can use this kind of functions."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 955.6,
+            "end": 957.6,
+            "text": " And your work will be very easy."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 957.6,
+            "end": 959.6,
+            "text": " So that was about FS module."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 959.6,
+            "end": 961.6,
+            "text": " That was about FS promises."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 961.6,
+            "end": 963.6,
+            "text": " And that was about path."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 963.6,
+            "end": 965.6,
+            "text": " I hope you all enjoyed."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 965.6,
+            "end": 967.6,
+            "text": " Thank you so much guys for watching this video."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 967.6,
+            "end": 969.6,
+            "text": " If you haven't done the playlist."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 969.6,
+            "end": 971.6,
+            "text": " And for."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 971.6,
+            "end": 973.6,
+            "text": " Extended documentation."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 973.6,
+            "end": 977.6,
+            "text": " You can go to the FS documentation."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 977.6,
+            "end": 979.6,
+            "text": " Although I don't want you to read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 979.6,
+            "end": 981.6,
+            "text": " Don't read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 981.6,
+            "end": 983.6,
+            "text": " Make projects."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 983.6,
+            "end": 985.6,
+            "text": " Learn as much as I have taught."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 985.6,
+            "end": 987.6,
+            "text": " If you want to know about a function."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 987.6,
+            "end": 989.6,
+            "text": " How is it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 989.6,
+            "end": 991.6,
+            "text": " Its raw letter is open here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 991.6,
+            "end": 993.6,
+            "text": " You can read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 993.6,
+            "end": 995.6,
+            "text": " I am not saying that you should read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 995.6,
+            "end": 997.6,
+            "text": " You can read it."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 997.6,
+            "end": 999.6,
+            "text": " Even I go to documentation."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 999.6,
+            "end": 1001.6,
+            "text": " If I want to know about a function."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1001.6,
+            "end": 1003.6,
+            "text": " But its not ideal for a beginner."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1003.6,
+            "end": 1005.6,
+            "text": " You are reading from the beginning."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1005.6,
+            "end": 1007.6,
+            "text": " You are not getting the know-doodle."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1007.6,
+            "end": 1009.6,
+            "text": " And you are reading from here."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1009.6,
+            "end": 1011.6,
+            "text": " Same port, open, close."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1011.6,
+            "end": 1013.6,
+            "text": " No."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1013.6,
+            "end": 1015.6,
+            "text": " And at the same time."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1015.6,
+            "end": 1017.6,
+            "text": " Documentation trash is also wrong."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1017.6,
+            "end": 1019.6,
+            "text": " Both are wrong."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1019.6,
+            "end": 1021.6,
+            "text": " If you reach an advanced level."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1021.6,
+            "end": 1023.6,
+            "text": " Documentation will start making sense."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1023.6,
+            "end": 1025.6,
+            "text": " With that said."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1025.6,
+            "end": 1027.6,
+            "text": " Thank you so much guys for watching this video."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1027.6,
+            "end": 1029.6,
+            "text": " And I will see you next time."
+        },
+        {
+            "title": "FileAndNodeJS",
+            "Number": "9",
+            "start": 1049.6,
+            "end": 1051.6,
+            "text": " Thank you."
+        }
+    ],
+    "text": " In today's video, I will tell you how to work with files and FS modules in JavaScript. We will look at paths, files, how to work with NodeJS modules. We will see all these details in this video. Please like this video and write JavaScript in the comment section. Let's roll the intro in the computer screen. The topic of today's video is FS module. How can you read files and use promises to read files? Here is a practical demonstration. I will write npm-y. I am not using any package for npm-y. Always go to initialize a NodeJS project. I will write import FS. I will write const FS is equal to require FS. I will show you one thing. If I write console.log FS, then FS module will be printed. All functions are different. Print file, file sync, access, access sync, chonc, sync. There are many functions here. I will tell you some functions of the work. If you need anything else, you can do it yourself. All functions are not possible. I will write FS. I will write write file sync. I will write write file sync. I will write a file named Harry.txt. I will write Harry is a good boy. I will write console.log. I will write console.log and ending. I will write two things. I will run the ending. I will write starting and ending. The same thing happened. The file write will be done. This will be run first. After that, you will write FS.write file sync. This will be run. Once your file is run, it will be run only after that. You will write the blocking code. The main thread of the file will be blocked. After that, the file will be run. After that, the content will be processed in the program. But this approach is not good. JavaScript is running on asynchronous approach. I want the writing operation to start. As soon as it is done, something happens. FS.write. How is FS.write different? I will write Harry.txt. I will write content. Harry is a good boy. After that, I will write a callback. I will write a callback and the callback function will run. console.log will run. The start will be done. The schedule will be done. The console will run. But the ending will run. I have given some errors. I will see what is the issue. I will remove the console.log FS. I can't see the console. I will make a new tab for the terminal. So that I can see the error. I can see the error. This is the starting. And a new error is here. I will see what is the error. This is my print. And then invalid arg type. FS.write file. This is not right. My bad. The ending is done. This is the first one. This is not done. This is scheduled. The operation of write is completed. It is very fast. It is less than milliseconds. But we don't see it. The program is very fast. This is the start. This is the schedule. And once you have completed the write operation. You will see the end. This is your file. I will write the tool here. I will run. You will get to see the tool in the Heri 2.txt. You will get to see the tool in the Heri 2.txt. You can write like this. Which one to use? Right file sync or right file use? Right file use. Because right file sync will create that problem. Now I want to write this file once. When it is right. I will read it. I will write fs.write file. I will write fs.read file. I will write fs.read file. I will write Heri 2.txt. I will write Heri 2.txt. After that the second argument. After that the second argument. It is a callback. There will be two things in callback. Error and data. Here I will write console.log. Here I will write console.log. Here I will write Error and data. If I write it. First it is starting, then ending, then done. Then error was null. Then error was null. But what is written on the data? Buffer. How can I read it? What you have to do to read it? You have to do data.log.log.log. If you want to convert it to string. Now I will write this code. Now you think I am doing this with many files. I said I will write one file. Then I will read another one. Then I will write one more. Then I will read one more. Then I will write one more. Then the code will go down. And this is called callback. The first practical example of callback. In our Sigma web development series. So what is it? I want to write another file. I want to do it in some kind of operation. What direction is the code going? Now see it is going in this direction. And I continue this. I do one thing. I do not spoil the main code. I will make a callback hell. I think I did this. Now I will do this again. I want to do this again. So what will I do? I will copy it. I want to do this again. Then I want to do this again. Do you know what is this code? Do you know what is this code? Where will you keep reading it? Then it goes down. Then it goes down. Then it goes down. This is not good. This is hell. That is why we stop this callback hell. And now we will see the promises. See there are many other functions in it. You can use fs.append file and append file sync. It is very similar. I will not tell you. I will tell you. I will do ed.data. And here I will do console.log. d.to string. And I will show you what to append. So here is one thing. The syntax of this. The first argument is path. Then there is data. And then there is callback. What do you want to append? I want to append this. I want to do Harry Robo. And I will run it. So what is this saying? Cannot read properties of undefined two string. I have done some things. I will see what is the problem here. Error.data.console.log.d.to string. What happened? Will it be append? So the append file didn't work here. Why didn't it work? It is because of the append data. The first argument was path. The second argument was data. The third argument was callback. So this was callback function. So I will do ed.data. I will run it. And I will run it. So null.hary is a good boy. I have undefined. I have done it. I have done it. So I will do it in Harry.txt. So it will be here. And I will run it as many times as I can. I will append it as many times as I can. So do it yourself. If it is confusing, do it yourself. You will not understand it. Write code. Take it from the guarantee. I don't want you to watch videos. I want you to write code. Make something. Then you will be successful. You did the Sigma Web Development course. You wrote it. You made the projects. You made it yourself. We also made it. So I want that. So this was our FS module. But to save from callback health. FS has given a new module. Which uses promises. Do I need the required syntax in FS? No. I can type it in package.json. I can type it. I can also type it in common. I can also type it in common. I can also type it in common. But I can also type it in common. For now. And I am going to make a common. I will write it in common. I will import FS. And I will write it. From FS So here I have imported FS from FS promises. And I can use FS promises. I can use FS. FS.create FS.read file And I will read file. So I have to do Harry.txt here. And I will tell you one more thing. I can directly await here. Because I am in the module. Because this is a module. I can wait in this. I don't need to be in async function. So if I write here. console.log a.to string. So you see. What will happen? Harry is a good boy. I can write it in the same way. I can say here. Let b is equal to await FS.read file And I can say. Write it in Harry.txt. This is amazing promise. I want to give backslash here. I want to give backslash here. I want to give a lot of spaces. So I can give it. I didn't do it. I will run it. When I run it. It didn't return anything. But if I show you the file. This is amazing promise. I have read it. The content was displayed. The content was displayed. Then it wrote the content. I want to append it. I want to do it. I didn't want to spoil the content. So I can use the append code. If I write here. Harry is amazing. Nice boy. Ok. After doing this. I will run it. You see. This is amazing. I will run this code. It will append as many times as I want. You see. I can append as many times as I want. By using the append code. Do you have any written. All these functions. No. I have given a lot of information. I have given about the path module. I have given about file FS. You can read it. But documentation is given a lot. Sometimes you will get bored. You won't understand. So watching the video is very important. So by combining. You are just going to learn. And you will be useful. Now one more thing. About path.js. I want to tell you about path.js. I want to tell you about it. If I write import path from path. And if I write console.log path. And run it. You see. The functions in the path module. You will get to see. Part.resolve. Normalize. It is absolute. It is joint. It is DIR. It is base name. I have told about FS module. I have told about FS promise. It is not necessary to use FS promise. You can use it in common. Like this. You can say. Which FS is equal to require. FS promises. You can import it. There is no problem. There is no such foundation. You can use it as you like. But I will tell you. How to use path module. I have a new path. I copy this path. I copy it from here to here. This path is in my computer. I say. My path is equal to. I have told you. This is my path. Now what I want to do. Because I am making this string. I will have to use double slash. Otherwise it will be called escape sequence. So I will have to make this path. Now I will tell you. I will tell you. Console.log. Path.txt name. My path. I want to say. Harry.txt. I will run it. My path is not defined. What is wrong. My path is not defined. Because I have to use let. Let. You can see. What he did. He said. The file you are working with. extension.txt. Now you can do many other things. You can do path.dername. I will show you. Console.log. Path.dername. Path.dername. When you do path.dername. You have to run this function. And you have to put path. I write. My path. I will run it. Path.dername. I have to write. Path.dername. I want to name this file. I can write its base name. Base name is a function. I can write it. And this will tell me. extension. You can write it. You can write it. What is its base name. It will tell you its name. What all can be done. I will tell you one more thing. Console.log. Path.join. You want to join. C. You have written C. C. You want to do programs. You have used this format. Backslash. And you want to go in. Harry.txt. You have written this path. By using backward slash. This path is written. By using backward slash. But the path module will understand what you want. You want to join it. It will give you. Programs. And as soon as I will run it. See what it did. C.programs.honey.txt. I have shown it according to my operating system. So I can use this path directly. So this package. Sometimes you get into a small problem. And you will have to write custom logic. With the help of strings. So it can be in the morning. And if it is in the morning. Then it can be in the next morning. So many people comment. If it is in the morning. So what will happen. This package will solve many problems. You can use this kind of functions. And your work will be very easy. So that was about FS module. That was about FS promises. And that was about path. I hope you all enjoyed. Thank you so much guys for watching this video. If you haven't done the playlist. And for. Extended documentation. You can go to the FS documentation. Although I don't want you to read it. Don't read it. Make projects. Learn as much as I have taught. If you want to know about a function. How is it. Its raw letter is open here. You can read it. I am not saying that you should read it. You can read it. Even I go to documentation. If I want to know about a function. But its not ideal for a beginner. You are reading from the beginning. You are not getting the know-doodle. And you are reading from here. Same port, open, close. No. And at the same time. Documentation trash is also wrong. Both are wrong. If you reach an advanced level. Documentation will start making sense. With that said. Thank you so much guys for watching this video. And I will see you next time. Thank you."
+}

@@ -1,0 +1,299 @@
+{
+    "chunks": [
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 0.0,
+            "end": 30.68,
+            "text": " In today's video, we will see the advantage of representing things in the tree-like structure through the Javascript Bomb and Document Object Model.  Do like this video and write a Javascript Tope in the comment section.  Let's go to the computer screen and let's roll the intro.  So guys, I have come to the computer screen.  And the first thing I am going to do here is to make a folder."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 30.68,
+            "end": 48.68,
+            "text": " This thing will be constant in this course.  No matter how much you go, don't show it by making a folder.  But I will make a folder here and then open it with code.  And here is an index.html and here is a boilerplate code.  I will put the script in it."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 48.68,
+            "end": 60.92,
+            "text": " And the script is here.  I am going to write the code this time.  And I am going to tell you that the title is Javascript Dom.  Now what is this Dom?  Dom stands for Document Object Model."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 60.92,
+            "end": 77.32000000000001,
+            "text": " Now what happens is, if I have written it in the name of Javascript Dom,  Now you guys see this.  In this page, we can see the content of the body.  The title of this page is, as you can see, Sigma Web Development Code.  This is the title of this course."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 77.32000000000001,
+            "end": 97.32000000000001,
+            "text": " Sorry for this page.  So you get the title, the meta tags, the body, all of this.  Now I will run this.  I will click here and show you the content.  And as soon as I write in the script that Document.title is equal to,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 97.32000000000001,
+            "end": 111.32,
+            "text": " I have written Document.title is equal to,  Harry is good, I have written.  So you will get what Harry is good title.  So basically as soon as I reload it,  The title will be this, which I have given."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 111.32,
+            "end": 128.84,
+            "text": " But as soon as this Javascript execute,  The title will be this.  Document Object Model is used so that you guys can map the entire HTML.  As a Document Tree.  Now if I write here, console.log.document.title,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 128.84,
+            "end": 140.32,
+            "text": " You will get to see the title.  And if I write here, document.body,  You will get to see the body of the page.  So if I reload it and show you guys here,  You will get to see the body of the page."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 140.32,
+            "end": 157.32,
+            "text": " Now you will get to see the things in this document.body.  If I put it in the body,  Div.container and put it in this.  Div.box and put this is a box.  So you will get to see this."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 157.32,
+            "end": 173.32,
+            "text": " So what is this?  In a tree like structure, you get the entire HTML when you write Document.body.  And this is used to change any element.  Or if I want to change any element,  I can change that text."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 173.32,
+            "end": 187.32,
+            "text": " So this is called Document Object Model.  Document.body.  I can say that if I want to change a particular element style,  I will say document.body.style.background is equal to green.  This will make my document color green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 187.32,
+            "end": 201.32,
+            "text": " So if I write here document.body.style.  And I will write background color.  The CSS properties that are given here,  The background color will be written like this.  The background dash color will not be written."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 201.32,
+            "end": 212.32,
+            "text": " And if I write green here,  Then it will put in an inline CSS.  So you will get to see this inline CSS.  So with the help of inline CSS,  The background color is given in green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 212.32,
+            "end": 225.32,
+            "text": " So you can inject the inline CSS.  So this is our Document Object Model.  Now it is called a BOM.  Now knowing about DOM and BOM,  You will not get any great power."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 225.32,
+            "end": 237.32,
+            "text": " But it is asked in the interview.  Document Object Model is the entire document's  Inner Object.  The object that you get all the content.  And the BOM is the Browser Object Model."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 237.32,
+            "end": 247.32,
+            "text": " Now apart from the document,  If you want to work with someone,  Then the browser provides some additional objects.  It is called BOM.  Like the location and the etcher are provided."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 247.32,
+            "end": 261.32,
+            "text": " So you can redirect it to another URL.  If I write Window Object,  Window is a Window Object.  Which contains your document.  And if I write Window.Document,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 261.32,
+            "end": 272.32,
+            "text": " Window.Document,  Then you get a document.  If you write Window.Document.Body,  Then you get a body.  Window is a global object."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 272.32,
+            "end": 283.32,
+            "text": " And you need to write Window.Document.Body.  So you can write Window.Document.Body.  Then your work will be done.  So Window Object comes in the DOM,  And JavaScript comes in the core."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 283.32,
+            "end": 294.32,
+            "text": " It is a global object.  You can write it without the window.document.  Now why are we reading about all these things?  I will tell you this quickly.  We are reading about all these things."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 294.32,
+            "end": 306.32,
+            "text": " So that we can target elements from the side of JavaScript.  Which we will see in the upcoming videos.  So how we will target elements.  Like I want this particular element,  This element on this page,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 306.32,
+            "end": 316.32,
+            "text": " The color of this element will be green.  So I can target this element.  In one thing, I want to tell you that  You can write in any browser.  As soon as you click on Inspect,"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 316.32,
+            "end": 326.32,
+            "text": " So you see, I have selected this element.  So this element was selected.  Or if I want to select this particular element,  Or select this whole div.  So you see, it has equal to equal to $0."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 326.32,
+            "end": 336.32,
+            "text": " Now listen to this trick carefully.  It will be useful for your life.  I can use the $0 to refer this object.  So if I write $0 here,  So you see this element is coming."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 336.32,
+            "end": 346.32,
+            "text": " Which I have selected.  So whatever is selected,  It becomes $0.  Now if I write .style.backgroundColor  And I write equals to green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 346.32,
+            "end": 356.32,
+            "text": " So I can green its background color.  As you can see.  So what is $0?  The element you have selected,  It becomes $0."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 356.32,
+            "end": 366.32,
+            "text": " Which is also clicked here, it is $0.  Now if I want to make it $0,  I will inspect it correctly.  And the element I will click on here,  It becomes $0."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 366.32,
+            "end": 376.32,
+            "text": " The thumbnail section here is $0.  Here this container is $0.  So if I run $0.  Style.backgroundColor green,  So this will be green."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 376.32,
+            "end": 386.32,
+            "text": " So $0 is in the browser.  So the browser gives you this kind of utility.  So that you can select a particular element.  And you can add styles in it.  So this is our document object model."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 386.32,
+            "end": 396.32,
+            "text": " Now I want to show you this image.  It will represent the elements well.  And you will understand what is exactly the DOM.  So in the document,  It is our HTML."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 396.32,
+            "end": 406.32,
+            "text": " Inside the body,  You can see that every element  Is a leaf node.  It is either a text.  Or it will be an empty element."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 406.32,
+            "end": 416.32,
+            "text": " So what you have to do here.  If you have to select any element,  You have to go through DOM.  It is possible that you want to search  From a particular node."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 416.32,
+            "end": 426.32,
+            "text": " I want to search for any  Diff in the body.  So functions are there.  If you want to select  A given class element"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 426.32,
+            "end": 436.32,
+            "text": " In the body, you can select multiple elements.  You can do that.  In all these things,  It provides facility to select.  And you can use any"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 436.32,
+            "end": 446.32,
+            "text": " Complex query  To select different elements.  You can use CSS selectors  Within JavaScript.  If you want to use multiple nodes"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 446.32,
+            "end": 456.32,
+            "text": " With a particular CSS selector.  So I hope  You have understood about DOM.  If you want to learn more about DOM  Then this is an MDN page."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 456.32,
+            "end": 466.32,
+            "text": " In which it is said that DOM  Represents a logical tree.  Every branch ends in a node.  And this is an object  Representation."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 466.32,
+            "end": 476.32,
+            "text": " Until we do it,  We will not understand it.  We will do it by searching  In the coming videos.  I will show you how"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 476.32,
+            "end": 486.32,
+            "text": " Elements are targeted.  I have shown a small example of you.  In the coming videos,  We will do more complex things.  You will understand how"
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 486.32,
+            "end": 496.32,
+            "text": " To target different elements  With the help of JavaScript.  Maybe change their CSS.  Or remove them from DOM.  Or add them in DOM."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 496.32,
+            "end": 506.32,
+            "text": " I hope you liked the video.  And you are getting to learn things.  If you have not done the playlist,  Do it.  Thank you so much for watching this video."
+        },
+        {
+            "title": "Dom",
+            "Number": "1",
+            "start": 506.32,
+            "end": 508.32,
+            "text": " And I will see you next time."
+        }
+    ],
+    "text": " In today's video, we will see the advantage of representing things in the tree-like structure through the Javascript Bomb and Document Object Model. Do like this video and write a Javascript Tope in the comment section. Let's go to the computer screen and let's roll the intro. So guys, I have come to the computer screen. And the first thing I am going to do here is to make a folder. This thing will be constant in this course. No matter how much you go, don't show it by making a folder. But I will make a folder here and then open it with code. And here is an index.html and here is a boilerplate code. I will put the script in it. And the script is here. I am going to write the code this time. And I am going to tell you that the title is Javascript Dom. Now what is this Dom? Dom stands for Document Object Model. Now what happens is, if I have written it in the name of Javascript Dom, Now you guys see this. In this page, we can see the content of the body. The title of this page is, as you can see, Sigma Web Development Code. This is the title of this course. Sorry for this page. So you get the title, the meta tags, the body, all of this. Now I will run this. I will click here and show you the content. And as soon as I write in the script that Document.title is equal to, I have written Document.title is equal to, Harry is good, I have written. So you will get what Harry is good title. So basically as soon as I reload it, The title will be this, which I have given. But as soon as this Javascript execute, The title will be this. Document Object Model is used so that you guys can map the entire HTML. As a Document Tree. Now if I write here, console.log.document.title, You will get to see the title. And if I write here, document.body, You will get to see the body of the page. So if I reload it and show you guys here, You will get to see the body of the page. Now you will get to see the things in this document.body. If I put it in the body, Div.container and put it in this. Div.box and put this is a box. So you will get to see this. So what is this? In a tree like structure, you get the entire HTML when you write Document.body. And this is used to change any element. Or if I want to change any element, I can change that text. So this is called Document Object Model. Document.body. I can say that if I want to change a particular element style, I will say document.body.style.background is equal to green. This will make my document color green. So if I write here document.body.style. And I will write background color. The CSS properties that are given here, The background color will be written like this. The background dash color will not be written. And if I write green here, Then it will put in an inline CSS. So you will get to see this inline CSS. So with the help of inline CSS, The background color is given in green. So you can inject the inline CSS. So this is our Document Object Model. Now it is called a BOM. Now knowing about DOM and BOM, You will not get any great power. But it is asked in the interview. Document Object Model is the entire document's Inner Object. The object that you get all the content. And the BOM is the Browser Object Model. Now apart from the document, If you want to work with someone, Then the browser provides some additional objects. It is called BOM. Like the location and the etcher are provided. So you can redirect it to another URL. If I write Window Object, Window is a Window Object. Which contains your document. And if I write Window.Document, Window.Document, Then you get a document. If you write Window.Document.Body, Then you get a body. Window is a global object. And you need to write Window.Document.Body. So you can write Window.Document.Body. Then your work will be done. So Window Object comes in the DOM, And JavaScript comes in the core. It is a global object. You can write it without the window.document. Now why are we reading about all these things? I will tell you this quickly. We are reading about all these things. So that we can target elements from the side of JavaScript. Which we will see in the upcoming videos. So how we will target elements. Like I want this particular element, This element on this page, The color of this element will be green. So I can target this element. In one thing, I want to tell you that You can write in any browser. As soon as you click on Inspect, So you see, I have selected this element. So this element was selected. Or if I want to select this particular element, Or select this whole div. So you see, it has equal to equal to $0. Now listen to this trick carefully. It will be useful for your life. I can use the $0 to refer this object. So if I write $0 here, So you see this element is coming. Which I have selected. So whatever is selected, It becomes $0. Now if I write .style.backgroundColor And I write equals to green. So I can green its background color. As you can see. So what is $0? The element you have selected, It becomes $0. Which is also clicked here, it is $0. Now if I want to make it $0, I will inspect it correctly. And the element I will click on here, It becomes $0. The thumbnail section here is $0. Here this container is $0. So if I run $0. Style.backgroundColor green, So this will be green. So $0 is in the browser. So the browser gives you this kind of utility. So that you can select a particular element. And you can add styles in it. So this is our document object model. Now I want to show you this image. It will represent the elements well. And you will understand what is exactly the DOM. So in the document, It is our HTML. Inside the body, You can see that every element Is a leaf node. It is either a text. Or it will be an empty element. So what you have to do here. If you have to select any element, You have to go through DOM. It is possible that you want to search From a particular node. I want to search for any Diff in the body. So functions are there. If you want to select A given class element In the body, you can select multiple elements. You can do that. In all these things, It provides facility to select. And you can use any Complex query To select different elements. You can use CSS selectors Within JavaScript. If you want to use multiple nodes With a particular CSS selector. So I hope You have understood about DOM. If you want to learn more about DOM Then this is an MDN page. In which it is said that DOM Represents a logical tree. Every branch ends in a node. And this is an object Representation. Until we do it, We will not understand it. We will do it by searching In the coming videos. I will show you how Elements are targeted. I have shown a small example of you. In the coming videos, We will do more complex things. You will understand how To target different elements With the help of JavaScript. Maybe change their CSS. Or remove them from DOM. Or add them in DOM. I hope you liked the video. And you are getting to learn things. If you have not done the playlist, Do it. Thank you so much for watching this video. And I will see you next time."
+}

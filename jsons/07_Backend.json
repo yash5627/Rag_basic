@@ -1,0 +1,3085 @@
+{
+    "chunks": [
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 0.0,
+            "end": 8.52,
+            "text": " We saw HTML, CSS, JavaScript for the client side, now we will see how to use JavaScript in the back end."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 8.52,
+            "end": 12.84,
+            "text": " Along with that, I will tell you the basics of Node.js and NPM."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 12.84,
+            "end": 16.56,
+            "text": " How to set up a new project, how to use Node.js and NPM."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 16.56,
+            "end": 18.6,
+            "text": " You will learn all these things."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 18.6,
+            "end": 22.52,
+            "text": " Like this video and do write JavaScript in the comment section."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 22.52,
+            "end": 25.6,
+            "text": " Let's go to the computer screen. Let's roll the intro."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 30.0,
+            "end": 38.96,
+            "text": " So guys, this project to Spotify is called Video84."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 38.96,
+            "end": 41.76,
+            "text": " Let me rename it to Video84."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 41.76,
+            "end": 44.88,
+            "text": " Now we will make the video 85."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 44.88,
+            "end": 46.92,
+            "text": " So let's make the video 85 folder."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 46.92,
+            "end": 49.760000000000005,
+            "text": " And today's video is on Node.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 49.760000000000005,
+            "end": 52.56,
+            "text": " And we will understand it very easily."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 52.56,
+            "end": 55.84,
+            "text": " And there are many new things that you will like."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 55.84,
+            "end": 57.72,
+            "text": " I will tell you what is basically."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 57.72,
+            "end": 59.44,
+            "text": " So far, we have learned all the JavaScript."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 59.44,
+            "end": 61.64,
+            "text": " We have learned the front end JavaScript."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 61.64,
+            "end": 64.08,
+            "text": " That is, we have used the script tag."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 64.08,
+            "end": 69.52,
+            "text": " Now what I am going to tell you about JavaScript, we will use the backend JavaScript."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 69.52,
+            "end": 71.76,
+            "text": " That is, JavaScript for the backend."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 71.76,
+            "end": 74.24,
+            "text": " And for that, we will install Node.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 74.24,
+            "end": 79.4,
+            "text": " If you have not installed Node.js, which I had actually done at the beginning of the course."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 79.4,
+            "end": 81.64,
+            "text": " So you click on the download button."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 81.64,
+            "end": 84.52,
+            "text": " I am on Windows, so I will download the Windows installer."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 84.52,
+            "end": 87.6,
+            "text": " And one thing you have to keep in mind, if you are in a 32-bit system,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 87.64,
+            "end": 89.36,
+            "text": " and you have installed 64-bit,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 89.36,
+            "end": 92.47999999999999,
+            "text": " you have installed 32-bit in a 64-bit system."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 92.47999999999999,
+            "end": 94.91999999999999,
+            "text": " It will be difficult."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 94.91999999999999,
+            "end": 96.88,
+            "text": " So if you are in a 64-bit system,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 96.88,
+            "end": 99.96,
+            "text": " what you simply do is write about PC here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 99.96,
+            "end": 103.16,
+            "text": " Here you write system information."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 103.16,
+            "end": 105.0,
+            "text": " And as soon as you write system information,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 105.0,
+            "end": 107.24,
+            "text": " it tells you everything about your computer."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 107.24,
+            "end": 109.88,
+            "text": " And this is 64-bit, 32-bit, it also tells you."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 109.88,
+            "end": 111.0,
+            "text": " So here in the system type,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 111.0,
+            "end": 113.32,
+            "text": " you are showing 64-based PC here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 113.32,
+            "end": 116.52,
+            "text": " So this is because I was told that it is 64-bit."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 116.56,
+            "end": 118.39999999999999,
+            "text": " So I will download 64-bit Node.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 118.39999999999999,
+            "end": 121.44,
+            "text": " This will look quite small, but it is very important."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 121.44,
+            "end": 123.72,
+            "text": " After that, run the installer here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 123.72,
+            "end": 125.96,
+            "text": " If you have installed it, then there is no problem."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 125.96,
+            "end": 127.47999999999999,
+            "text": " But I have already installed it here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 127.47999999999999,
+            "end": 129.64,
+            "text": " You can change it if you want."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 129.64,
+            "end": 131.0,
+            "text": " You can click on the next next."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 131.0,
+            "end": 131.84,
+            "text": " And it will be updated."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 131.84,
+            "end": 134.16,
+            "text": " So install any updated version."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 134.16,
+            "end": 135.72,
+            "text": " Because I am also in the updated version."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 135.72,
+            "end": 137.64,
+            "text": " Now you will go to the terminal."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 137.64,
+            "end": 140.84,
+            "text": " Or you can remove the terminal from here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 140.84,
+            "end": 145.12,
+            "text": " You will click on Shift and open VS Code with Code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 145.32,
+            "end": 147.84,
+            "text": " You can remove the terminal from here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 147.84,
+            "end": 152.4,
+            "text": " And you can write Node-minus version here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 152.4,
+            "end": 154.64000000000001,
+            "text": " And look, 20.10 is coming."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 154.64000000000001,
+            "end": 157.56,
+            "text": " You will write npm-minus version."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 157.56,
+            "end": 159.28,
+            "text": " So the version of npm is coming."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 159.28,
+            "end": 161.76,
+            "text": " By the way, in the coming time, these versions will change."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 161.76,
+            "end": 163.16,
+            "text": " The versions change very quickly."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 163.16,
+            "end": 164.32,
+            "text": " There is no problem."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 164.32,
+            "end": 167.16,
+            "text": " The concept I am telling you in this video,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 167.16,
+            "end": 169.56,
+            "text": " there is a good chance that it will not change in the near future."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 169.56,
+            "end": 171.24,
+            "text": " So listen carefully."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 171.24,
+            "end": 173.76,
+            "text": " Whenever we make a back-end project,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 173.79999999999998,
+            "end": 175.95999999999998,
+            "text": " then we use Node.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 175.95999999999998,
+            "end": 179.32,
+            "text": " Suppose I make a file called server.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 179.32,
+            "end": 183.64,
+            "text": " And here I write console.loghelloword."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 183.64,
+            "end": 184.16,
+            "text": " Okay."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 184.16,
+            "end": 186.12,
+            "text": " And after doing this, I run it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 186.12,
+            "end": 189.32,
+            "text": " Or I simply write here node server.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 189.32,
+            "end": 192.6,
+            "text": " And I will tap the S-Dubb and it will complete automatically in Windows."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 192.6,
+            "end": 194.68,
+            "text": " If you don't know, it will be entered."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 194.68,
+            "end": 198.16,
+            "text": " After entering, look here, hello-word is here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 198.16,
+            "end": 202.28,
+            "text": " This method is very good to run a JS file in your computer."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 202.28,
+            "end": 203.35999999999999,
+            "text": " Now the difference here is,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 203.4,
+            "end": 206.4,
+            "text": " first we used to do HTML, CSS with JavaScript."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 206.4,
+            "end": 210.56,
+            "text": " And there we used the script tag and run JavaScript in the browser."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 210.56,
+            "end": 212.04000000000002,
+            "text": " Things have changed here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 212.04000000000002,
+            "end": 215.16000000000003,
+            "text": " We are doing it in the back-end because of JavaScript."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 215.16000000000003,
+            "end": 219.96,
+            "text": " That's why we are running server.js in the computer."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 219.96,
+            "end": 223.04000000000002,
+            "text": " Now you understand how the back-end of the flow works."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 223.04000000000002,
+            "end": 226.32000000000002,
+            "text": " Your back-end server will not be visible to your clients."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 226.32000000000002,
+            "end": 228.36,
+            "text": " This is the code that will not be visible to your clients."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 228.36,
+            "end": 230.64000000000001,
+            "text": " And this is the code where I will connect it to the database."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 230.64000000000001,
+            "end": 231.96,
+            "text": " Password."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 231.96,
+            "end": 233.32000000000002,
+            "text": " Authentication."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 233.48,
+            "end": 236.07999999999998,
+            "text": " And I will do something like this with it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 236.07999999999998,
+            "end": 240.4,
+            "text": " Which I want to integrate like my business logic in my application."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 240.4,
+            "end": 244.2,
+            "text": " For example, consider that this is the code of this website in Node.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 244.2,
+            "end": 246.32,
+            "text": " What will happen when I click on LTS?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 246.32,
+            "end": 249.44,
+            "text": " The server will get a request that the user clicks on LTS."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 249.44,
+            "end": 252.64,
+            "text": " And we can do this through HAPI."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 252.64,
+            "end": 255.07999999999998,
+            "text": " We can say that click is equal to LTS."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 255.07999999999998,
+            "end": 257.0,
+            "text": " Endpoint is equal to slash LTS."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 257.0,
+            "end": 259.24,
+            "text": " Now what will the server do and send?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 259.24,
+            "end": 260.28,
+            "text": " This is on the server."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 260.28,
+            "end": 262.32,
+            "text": " We write the logic of the server here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 262.44,
+            "end": 267.15999999999997,
+            "text": " So I just want to tell you that whatever code you are writing here,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 267.15999999999997,
+            "end": 268.59999999999997,
+            "text": " it will not be visible to your clients."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 268.59999999999997,
+            "end": 271.84,
+            "text": " Now this is a very good way to run the file through Node.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 271.84,
+            "end": 278.08,
+            "text": " But whenever we talk about a back-end, a classic code that we want to maintain,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 278.08,
+            "end": 281.32,
+            "text": " a classic code that we want to work in the long term,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 281.32,
+            "end": 284.28,
+            "text": " we initialize it as an NPM project."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 284.28,
+            "end": 287.0,
+            "text": " And for that we write NPM in it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 287.0,
+            "end": 289.48,
+            "text": " And we will write NPM in it right here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 289.48,
+            "end": 291.92,
+            "text": " And if we enter it, it will ask me some questions."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 292.0,
+            "end": 293.32,
+            "text": " Tell me the name of the package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 293.32,
+            "end": 294.64000000000004,
+            "text": " Tell me the name of this project."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 294.64000000000004,
+            "end": 296.84000000000003,
+            "text": " Suppose I am making a Spotify clone."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 296.84000000000003,
+            "end": 298.92,
+            "text": " Let us assume that I am making a Spotify clone."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 298.92,
+            "end": 299.92,
+            "text": " I will say Spotify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 299.92,
+            "end": 300.76,
+            "text": " Tell me the version."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 300.76,
+            "end": 303.72,
+            "text": " I want to do 1.0.0 in the by default."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 303.72,
+            "end": 308.16,
+            "text": " This is a Spotify clone for my app."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 308.16,
+            "end": 309.24,
+            "text": " I will write here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 309.24,
+            "end": 310.0,
+            "text": " I will enter."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 310.0,
+            "end": 311.88,
+            "text": " The entry point is server.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 311.88,
+            "end": 313.44,
+            "text": " So I will keep server.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 313.44,
+            "end": 314.44,
+            "text": " What is the test command?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 314.44,
+            "end": 315.28000000000003,
+            "text": " I will skip it now."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 315.28000000000003,
+            "end": 316.96000000000004,
+            "text": " I will skip the git repository."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 316.96000000000004,
+            "end": 318.24,
+            "text": " What are the keywords?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 318.24,
+            "end": 320.04,
+            "text": " Maybe Spotify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 320.96000000000004,
+            "end": 321.96000000000004,
+            "text": " Music."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 322.68,
+            "end": 323.88,
+            "text": " Author is Harry."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 323.88,
+            "end": 324.68,
+            "text": " What is the license?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 324.68,
+            "end": 325.68,
+            "text": " I will skip blank for now."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 325.68,
+            "end": 327.16,
+            "text": " All this information is fine."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 327.16,
+            "end": 328.16,
+            "text": " You see once."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 328.16,
+            "end": 329.16,
+            "text": " Yes."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 330.08000000000004,
+            "end": 330.68,
+            "text": " And what will happen?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 330.68,
+            "end": 332.48,
+            "text": " It will become package.json."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 332.48,
+            "end": 333.8,
+            "text": " Now what happens if we do this?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 333.8,
+            "end": 337.12,
+            "text": " We get the advantage that we have this folder."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 337.12,
+            "end": 339.12,
+            "text": " It has become an NPM project."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 339.12,
+            "end": 342.76,
+            "text": " And what we will do with this NPM project is"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 342.76,
+            "end": 346.20000000000005,
+            "text": " that we can install some packages in it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 346.20000000000005,
+            "end": 348.96000000000004,
+            "text": " We have initialized it as a single entity."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 348.96,
+            "end": 350.44,
+            "text": " Now I will tell you what does it mean."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 350.44,
+            "end": 351.28,
+            "text": " Don't get confused."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 351.28,
+            "end": 353.12,
+            "text": " I will tell you what it means."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 353.12,
+            "end": 356.35999999999996,
+            "text": " Now I can say NPM install."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 356.35999999999996,
+            "end": 358.15999999999997,
+            "text": " And I can install anything here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 358.15999999999997,
+            "end": 360.12,
+            "text": " For example, I can install a package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 360.12,
+            "end": 362.12,
+            "text": " Whose name is."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 362.12,
+            "end": 363.24,
+            "text": " I will google here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 363.24,
+            "end": 368.96,
+            "text": " Package NPM package NPM package for time."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 368.96,
+            "end": 370.96,
+            "text": " Suppose it is a time formatting package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 370.96,
+            "end": 372.2,
+            "text": " It is a data time."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 372.2,
+            "end": 372.96,
+            "text": " It is time.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 372.96,
+            "end": 374.52,
+            "text": " Suppose I want to install time.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 374.52,
+            "end": 375.12,
+            "text": " For example,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 375.12,
+            "end": 376.79999999999995,
+            "text": " Or I want to install data time."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 376.8,
+            "end": 380.56,
+            "text": " Or I want to install a package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 380.56,
+            "end": 384.48,
+            "text": " Suppose I write slugify name."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 384.48,
+            "end": 385.32,
+            "text": " Slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 385.32,
+            "end": 387.32,
+            "text": " Slugify name is a package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 387.32,
+            "end": 389.8,
+            "text": " Which tells you slugs related functions."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 389.8,
+            "end": 390.40000000000003,
+            "text": " So what will I do?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 390.40000000000003,
+            "end": 392.8,
+            "text": " Here I can write NPM i slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 392.8,
+            "end": 394.36,
+            "text": " You can also write NPM install."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 394.36,
+            "end": 396.84000000000003,
+            "text": " NPM i can also write NPM i shortcut."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 396.84000000000003,
+            "end": 399.28000000000003,
+            "text": " So I will write NPM install slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 399.28000000000003,
+            "end": 400.96000000000004,
+            "text": " I will enter slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 400.96000000000004,
+            "end": 402.44,
+            "text": " And you will see here it will become a folder."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 402.44,
+            "end": 403.28000000000003,
+            "text": " It is called node.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 403.28000000000003,
+            "end": 403.72,
+            "text": " Sorry."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 403.72,
+            "end": 404.88,
+            "text": " It is called node module."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 404.88,
+            "end": 408.15999999999997,
+            "text": " And the folder of node module will hold all my packages."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 408.15999999999997,
+            "end": 411.48,
+            "text": " Sometimes packages have different dependencies."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 411.48,
+            "end": 413.2,
+            "text": " So it holds that too."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 413.2,
+            "end": 414.88,
+            "text": " So I have understood the pack."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 414.88,
+            "end": 416.4,
+            "text": " We installed NPM."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 416.4,
+            "end": 419.76,
+            "text": " So that we can manage packages like this."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 419.76,
+            "end": 421.12,
+            "text": " We will install NPM."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 421.12,
+            "end": 424.4,
+            "text": " The code that someone else has written in the package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 424.4,
+            "end": 425.44,
+            "text": " We have brought it here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 425.44,
+            "end": 428.28,
+            "text": " And we can use it in this app."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 428.28,
+            "end": 429.48,
+            "text": " What is node.js?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 429.48,
+            "end": 430.84,
+            "text": " Node.js is nothing."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 430.84,
+            "end": 432.48,
+            "text": " JavaScript's v8 engine."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 432.48,
+            "end": 434.28,
+            "text": " Chrome's v8 engine."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 434.35999999999996,
+            "end": 436.59999999999997,
+            "text": " It was first uploaded on Google Chrome."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 436.59999999999997,
+            "end": 438.67999999999995,
+            "text": " Which was uploaded on browsers."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 438.67999999999995,
+            "end": 442.2,
+            "text": " We have put it in a C++ program."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 442.2,
+            "end": 444.59999999999997,
+            "text": " The person named Randall has put it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 444.59999999999997,
+            "end": 450.67999999999995,
+            "text": " And we basically made it so that we can write our back end programs."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 450.67999999999995,
+            "end": 454.84,
+            "text": " That means the powers to process JavaScript in the browser."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 454.84,
+            "end": 460.64,
+            "text": " By using it, we can write our back end programs."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 460.64,
+            "end": 464.0,
+            "text": " Or we can write our standalone programs in JS."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 464.04,
+            "end": 470.08,
+            "text": " When JS started becoming so popular, people asked why we should use JavaScript for all these things."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 470.08,
+            "end": 472.0,
+            "text": " Why should we use the web?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 472.0,
+            "end": 477.16,
+            "text": " When JavaScript can be used for even more functions."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 477.16,
+            "end": 482.28,
+            "text": " For example, we can use JavaScript to list folders in a folder."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 482.28,
+            "end": 484.56,
+            "text": " We can use it to copy files."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 484.56,
+            "end": 486.32,
+            "text": " We can do a lot of things in a server."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 486.32,
+            "end": 491.32,
+            "text": " So when we want to run JavaScript in a back end language, that is, in a server,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 491.32,
+            "end": 494.04,
+            "text": " we will use Node.js and NPM."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 494.04,
+            "end": 495.8,
+            "text": " Why will we use NPM?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 495.8,
+            "end": 498.88,
+            "text": " Whenever we have made a Node.js package,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 498.88,
+            "end": 505.4,
+            "text": " we will install NPM in it and install some packages in Node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 505.4,
+            "end": 508.12,
+            "text": " And when we want to do this, we can do it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 508.12,
+            "end": 509.96,
+            "text": " Because NPM is installed in our computer."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 509.96,
+            "end": 511.71999999999997,
+            "text": " NPM installs slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 511.71999999999997,
+            "end": 517.84,
+            "text": " Slugify package will come in this project, which is our NPM project as Node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 517.84,
+            "end": 520.84,
+            "text": " And its information will go in package.json."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 520.88,
+            "end": 526.12,
+            "text": " So double click on package.json and you will see what dependencies are."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 526.12,
+            "end": 528.84,
+            "text": " You can see the slugify of dependencies."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 528.84,
+            "end": 531.12,
+            "text": " Suppose someone has deleted Node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 531.12,
+            "end": 534.5600000000001,
+            "text": " Now what happens is that when I push on the grid or give this code to someone,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 534.5600000000001,
+            "end": 536.44,
+            "text": " then I will not give Node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 536.44,
+            "end": 538.32,
+            "text": " So I will delete Node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 538.32,
+            "end": 540.96,
+            "text": " I have deleted it by pressing delete."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 540.96,
+            "end": 545.0,
+            "text": " And you see, the Node modules have gone away from here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 545.0,
+            "end": 547.2800000000001,
+            "text": " I can recreate Node modules again."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 547.28,
+            "end": 549.28,
+            "text": " So I will install NPM install."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 549.28,
+            "end": 550.4,
+            "text": " Just NPM install."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 550.4,
+            "end": 551.16,
+            "text": " Nothing is in package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 551.16,
+            "end": 551.92,
+            "text": " So what will it do?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 551.92,
+            "end": 553.4399999999999,
+            "text": " It will go in package.json."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 553.4399999999999,
+            "end": 556.92,
+            "text": " You will see which packages will be installed again."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 556.92,
+            "end": 559.48,
+            "text": " So there are many codes in Node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 559.48,
+            "end": 562.1999999999999,
+            "text": " Node modules of complex projects are very big."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 562.1999999999999,
+            "end": 564.36,
+            "text": " Node modules also have a meme."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 564.36,
+            "end": 565.8,
+            "text": " If I show you one or two."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 565.8,
+            "end": 567.76,
+            "text": " Because there are so many codes in it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 567.76,
+            "end": 570.48,
+            "text": " There are so many files."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 570.48,
+            "end": 572.48,
+            "text": " If I show you the memes of Node modules,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 572.48,
+            "end": 574.08,
+            "text": " then you will see the heaviest object in the universe."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 574.08,
+            "end": 578.48,
+            "text": " Sun, Neuron, Neutron Star, Black Hole Node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 578.48,
+            "end": 580.28,
+            "text": " Node modules have gone completely over the frame."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 580.28,
+            "end": 584.4,
+            "text": " So there are many things here that you can see on the net."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 584.4,
+            "end": 587.04,
+            "text": " And you can understand that you should learn some memes."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 587.04,
+            "end": 589.44,
+            "text": " I like memes coding."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 589.44,
+            "end": 596.84,
+            "text": " So the thing is that you can use Node.js to back and parent JavaScript."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 596.84,
+            "end": 599.0,
+            "text": " How did you feel?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 599.04,
+            "end": 601.04,
+            "text": " I didn't get the understanding yet."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 601.04,
+            "end": 602.52,
+            "text": " Please let me know in the comment section."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 602.52,
+            "end": 603.84,
+            "text": " I won't go too complex."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 603.84,
+            "end": 605.84,
+            "text": " And you can use it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 605.84,
+            "end": 607.84,
+            "text": " I will copy this code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 607.84,
+            "end": 611.12,
+            "text": " And I will come back to my server.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 611.12,
+            "end": 613.52,
+            "text": " And slugify is equal to request."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 613.52,
+            "end": 617.52,
+            "text": " I said that I am using slugify as slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 617.52,
+            "end": 619.52,
+            "text": " Then I will write slugify some string."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 619.52,
+            "end": 623.32,
+            "text": " And after that, if you prefer something other than dash and separator."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 623.32,
+            "end": 625.8,
+            "text": " You can underscore here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 625.8,
+            "end": 627.8,
+            "text": " So what does slugify do?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 627.8,
+            "end": 629.8,
+            "text": " It converts a string to a slug."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 629.8,
+            "end": 631.8,
+            "text": " I will take it as a variable."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 631.8,
+            "end": 633.8,
+            "text": " Let A is equal to A."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 633.8,
+            "end": 635.8,
+            "text": " And I will do console.log."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 635.8,
+            "end": 637.8,
+            "text": " And here I will do B is equal to A."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 637.8,
+            "end": 639.8,
+            "text": " Const B is equal to A."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 639.8,
+            "end": 641.8,
+            "text": " I don't do led."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 641.8,
+            "end": 643.8,
+            "text": " So slugify is a package that makes a string as a slug."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 643.8,
+            "end": 645.8,
+            "text": " If you don't know what slug is,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 645.8,
+            "end": 647.8,
+            "text": " then the thing that you see in the URL is slug."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 647.8,
+            "end": 649.8,
+            "text": " It can't have spaces."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 649.8,
+            "end": 651.8,
+            "text": " So what will it do?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 651.8,
+            "end": 653.8,
+            "text": " It will remove spaces."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 653.8,
+            "end": 655.8,
+            "text": " And if you want to do it in the URL,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 655.8,
+            "end": 657.8,
+            "text": " then I will run it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 657.8,
+            "end": 659.8,
+            "text": " It will do some dash string."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 659.8,
+            "end": 661.8,
+            "text": " If you want to underscore,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 661.8,
+            "end": 663.8,
+            "text": " then underscore."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 663.8,
+            "end": 665.8,
+            "text": " If I add some special characters here,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 665.8,
+            "end": 667.8,
+            "text": " then it won't be allowed in the URL."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 667.8,
+            "end": 669.8,
+            "text": " So what will it do?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 669.8,
+            "end": 671.8,
+            "text": " It made it like this."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 671.8,
+            "end": 673.8,
+            "text": " Such that it is a valid slug."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 673.8,
+            "end": 675.8,
+            "text": " So whenever we make a blog or an application,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 675.8,
+            "end": 677.8,
+            "text": " then we use such packages."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 677.8,
+            "end": 679.8,
+            "text": " So we don't have to write this code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 679.8,
+            "end": 681.8,
+            "text": " It is a logic written in slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 681.8,
+            "end": 683.8,
+            "text": " If you go to the files of slugify,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 683.8,
+            "end": 685.8,
+            "text": " then you will see that it is written in such a logic."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 685.8,
+            "end": 687.8,
+            "text": " But we don't have to write this logic."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 687.8,
+            "end": 689.8,
+            "text": " Because in slugify package,"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 689.8,
+            "end": 691.8,
+            "text": " someone already made a function for us."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 691.8,
+            "end": 693.8,
+            "text": " So we use slugify."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 693.8,
+            "end": 695.8,
+            "text": " So we used this package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 695.8,
+            "end": 697.8,
+            "text": " And our work is done."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 697.8,
+            "end": 699.8,
+            "text": " So I hope you know what is the note?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 699.8,
+            "end": 701.8,
+            "text": " I hope you know what is NPM?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 701.8,
+            "end": 703.8,
+            "text": " Note package manager."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 703.8,
+            "end": 705.8,
+            "text": " Through which you can install"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 705.8,
+            "end": 707.8,
+            "text": " your own packages."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 707.8,
+            "end": 709.8,
+            "text": " Okay."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 709.8,
+            "end": 711.8,
+            "text": " So this is the logic."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 711.8,
+            "end": 713.8,
+            "text": " One more thing is that"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 713.8,
+            "end": 715.8,
+            "text": " you don't write JavaScript on the front end."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 715.8,
+            "end": 717.8,
+            "text": " Remember, you don't need a script tag."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 717.8,
+            "end": 719.8,
+            "text": " This is a standalone JavaScript."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 719.8,
+            "end": 721.8,
+            "text": " We will run it on our computer."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 721.8,
+            "end": 723.8,
+            "text": " And in the coming time, we will run it on our server."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 723.8,
+            "end": 725.8,
+            "text": " So I want to introduce you to a resource here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 725.8,
+            "end": 727.8,
+            "text": " And that is"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 727.8,
+            "end": 729.8,
+            "text": " Node.js.org"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 729.8,
+            "end": 731.8,
+            "text": " Tutorials."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 731.8,
+            "end": 733.8,
+            "text": " I will show you in a minute."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 733.8,
+            "end": 735.8,
+            "text": " Node.js.org"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 735.8,
+            "end": 737.8,
+            "text": " So Node.js has a lot of good tutorials."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 737.8,
+            "end": 739.8,
+            "text": " So here is an example."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 739.8,
+            "end": 741.8,
+            "text": " When you copy the Node application"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 741.8,
+            "end": 743.8,
+            "text": " and I will do one thing."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 743.8,
+            "end": 745.8,
+            "text": " I will let this function"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 745.8,
+            "end": 747.8,
+            "text": " be the file level."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 747.8,
+            "end": 749.8,
+            "text": " I will make one more."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 749.8,
+            "end": 751.8,
+            "text": " And I will make it in the name of"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 751.8,
+            "end": 753.8,
+            "text": " myserver.js."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 753.8,
+            "end": 755.8,
+            "text": " So if I write here"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 755.8,
+            "end": 757.8,
+            "text": " Node.myserver.js"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 757.8,
+            "end": 759.8,
+            "text": " So look, a server is running."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 759.8,
+            "end": 761.8,
+            "text": " And I will open this server."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 761.8,
+            "end": 763.8,
+            "text": " If I click here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 763.8,
+            "end": 765.8,
+            "text": " Now how it works?"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 765.8,
+            "end": 767.8,
+            "text": " So here is a code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 767.8,
+            "end": 769.8,
+            "text": " We imported Node.http"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 769.8,
+            "end": 771.8,
+            "text": " We said, hostname is"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 771.8,
+            "end": 773.8,
+            "text": " port is server is equal to"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 773.8,
+            "end": 775.8,
+            "text": "http.createServer."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 775.8,
+            "end": 777.8,
+            "text": " It is a method which we got from this package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 777.8,
+            "end": 779.8,
+            "text": " Who made this method? I don't know."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 779.8,
+            "end": 781.8,
+            "text": " I just came to use."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 781.8,
+            "end": 783.8,
+            "text": " So I can use."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 783.8,
+            "end": 785.8,
+            "text": " That's why I imported the package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 785.8,
+            "end": 787.8,
+            "text": " I didn't write it. I just imported the package."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 787.8,
+            "end": 789.8,
+            "text": " So the meaning of the package is"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 789.8,
+            "end": 791.8,
+            "text": " a black box."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 791.8,
+            "end": 793.8,
+            "text": " Like you use your computer and you know what is happening in it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 793.8,
+            "end": 795.8,
+            "text": " Don't write the comment."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 795.8,
+            "end": 797.8,
+            "text": " I don't know what is happening in the phone."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 797.8,
+            "end": 799.8,
+            "text": " How the display works."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 799.8,
+            "end": 801.8,
+            "text": " How the circuit works."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 801.8,
+            "end": 803.8,
+            "text": " I don't know."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 803.8,
+            "end": 805.8,
+            "text": " Just like here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 805.8,
+            "end": 807.8,
+            "text": " We don't know what is happening in the phone."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 807.8,
+            "end": 809.8,
+            "text": " Just like that. We don't know how the"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 809.8,
+            "end": 811.8,
+            "text": " create server works."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 811.8,
+            "end": 813.8,
+            "text": " We just know that we will give a function"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 813.8,
+            "end": 815.8,
+            "text": " to create server."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 815.8,
+            "end": 817.8,
+            "text": " We will give a request, response."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 817.8,
+            "end": 819.8,
+            "text": " And after that we can give the rest.status code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 819.8,
+            "end": 821.8,
+            "text": " We can set the header."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 821.8,
+            "end": 823.8,
+            "text": " We can give the content."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 823.8,
+            "end": 825.8,
+            "text": " And finally we can close it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 825.8,
+            "end": 827.8,
+            "text": " We can start the server."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 827.8,
+            "end": 829.8,
+            "text": " The server is listening on port 3000."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 829.8,
+            "end": 831.8,
+            "text": " And the host name is this."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 831.8,
+            "end": 833.8,
+            "text": " It is running on localhost."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 833.8,
+            "end": 835.8,
+            "text": " And it is writing on the console for our information."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 835.8,
+            "end": 837.8,
+            "text": " And when we go to this website."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 837.8,
+            "end": 839.8,
+            "text": " We are getting this server."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 839.8,
+            "end": 841.8,
+            "text": " So we can serve the files."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 841.8,
+            "end": 843.8,
+            "text": " There are many things."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 843.8,
+            "end": 845.8,
+            "text": " In fact, there is a package called express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 845.8,
+            "end": 847.8,
+            "text": " Which we can install by NPMI express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 847.8,
+            "end": 849.8,
+            "text": " If you will write"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 849.8,
+            "end": 851.8,
+            "text": " the express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 851.8,
+            "end": 853.8,
+            "text": " So the"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 853.8,
+            "end": 855.8,
+            "text": " NPM install express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 855.8,
+            "end": 857.8,
+            "text": " When you will do this."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 857.8,
+            "end": 859.8,
+            "text": " NPM install express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 859.8,
+            "end": 861.8,
+            "text": " I will control C."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 861.8,
+            "end": 863.8,
+            "text": " And as soon as you install NPM"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 863.8,
+            "end": 865.8,
+            "text": " you can see that express is installed."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 865.8,
+            "end": 867.8,
+            "text": " And see what is installed here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 867.8,
+            "end": 869.8,
+            "text": " Express needs"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 869.8,
+            "end": 871.8,
+            "text": " many things."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 871.8,
+            "end": 873.8,
+            "text": " That is why express has installed"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 873.8,
+            "end": 875.8,
+            "text": " so many dependencies."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 875.8,
+            "end": 877.8,
+            "text": " You will see package.json."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 877.8,
+            "end": 879.8,
+            "text": " Express has come."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 879.8,
+            "end": 881.8,
+            "text": " And express has come here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 881.8,
+            "end": 883.8,
+            "text": " Because of this."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 883.8,
+            "end": 885.8,
+            "text": " If I delete node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 885.8,
+            "end": 887.8,
+            "text": " I will delete node modules."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 887.8,
+            "end": 889.8,
+            "text": " And write NPM I."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 889.8,
+            "end": 891.8,
+            "text": " It is not necessary to write NPM install."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 891.8,
+            "end": 893.8,
+            "text": " I can write NPM I only."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 893.8,
+            "end": 895.8,
+            "text": " And as soon as I write NPM I."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 895.8,
+            "end": 897.8,
+            "text": " I will write folder access denied."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 897.8,
+            "end": 899.8,
+            "text": " I will give it access."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 899.8,
+            "end": 901.8,
+            "text": " Delete permanently."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 901.8,
+            "end": 903.8,
+            "text": " Now I will write NPM I."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 903.8,
+            "end": 905.8,
+            "text": " And this will become folder again."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 905.8,
+            "end": 907.8,
+            "text": " And all the packages will come."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 907.8,
+            "end": 909.8,
+            "text": " Express needs it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 909.8,
+            "end": 911.8,
+            "text": " So this is the basic node.js"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 911.8,
+            "end": 913.8,
+            "text": " project setup."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 913.8,
+            "end": 915.8,
+            "text": " I don't want to go into detail in this video."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 915.8,
+            "end": 917.8,
+            "text": " Because in the coming videos we will do all this."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 917.8,
+            "end": 919.8,
+            "text": " But express is used."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 919.8,
+            "end": 921.8,
+            "text": " Majorly."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 921.8,
+            "end": 923.8,
+            "text": " To make back end applications."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 923.8,
+            "end": 925.8,
+            "text": " Okay."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 925.8,
+            "end": 927.8,
+            "text": " In the coming time react, next.js"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 927.8,
+            "end": 929.8,
+            "text": " When you will learn."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 929.8,
+            "end": 931.8,
+            "text": " You will know that in the"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 931.8,
+            "end": 933.8,
+            "text": " react, next.js framework."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 933.8,
+            "end": 935.8,
+            "text": " You can take back end."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 935.8,
+            "end": 937.8,
+            "text": " Like you can use jango back end."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 937.8,
+            "end": 939.8,
+            "text": " With react. Next.js if you are using"
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 939.8,
+            "end": 941.8,
+            "text": " then back end is yours."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 941.8,
+            "end": 943.8,
+            "text": " So learn express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 943.8,
+            "end": 945.8,
+            "text": " You will learn it easily."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 945.8,
+            "end": 947.8,
+            "text": " Because javascript back end is there."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 947.8,
+            "end": 949.8,
+            "text": " Let me tell you."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 949.8,
+            "end": 951.8,
+            "text": " Just like in next.js you will write code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 951.8,
+            "end": 953.8,
+            "text": " And the code you will write in express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 953.8,
+            "end": 955.8,
+            "text": " It will be very similar. Middleware concept."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 955.8,
+            "end": 957.8,
+            "text": " There are many things."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 957.8,
+            "end": 959.8,
+            "text": " They will be the same."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 959.8,
+            "end": 961.8,
+            "text": " I hope you understood."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 961.8,
+            "end": 963.8,
+            "text": " I will give you the source code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 963.8,
+            "end": 965.8,
+            "text": " Although I didn't write much source code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 965.8,
+            "end": 967.8,
+            "text": " Now I will just increase it as much as you want."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 967.8,
+            "end": 969.8,
+            "text": " To learn express."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 969.8,
+            "end": 971.8,
+            "text": " To make back end applications."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 971.8,
+            "end": 973.8,
+            "text": " And I won't go into much detail."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 973.8,
+            "end": 975.8,
+            "text": " Like tutorial is going on."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 975.8,
+            "end": 977.8,
+            "text": " It goes into a lot of detail."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 977.8,
+            "end": 979.8,
+            "text": " And it tells you many things."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 979.8,
+            "end": 981.8,
+            "text": " Basically we have set the header."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 981.8,
+            "end": 983.8,
+            "text": " Set status code."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 983.8,
+            "end": 985.8,
+            "text": " And what content we have to give."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 985.8,
+            "end": 987.8,
+            "text": " We have set that. In that set."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 987.8,
+            "end": 989.8,
+            "text": " Many things are told here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 989.8,
+            "end": 991.8,
+            "text": " You can read it."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 991.8,
+            "end": 993.8,
+            "text": " I will give you the link."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 993.8,
+            "end": 995.8,
+            "text": " I will put the link here."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 995.8,
+            "end": 997.8,
+            "text": " I will write further reading."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 999.8,
+            "end": 1001.8,
+            "text": " But how is the course going on."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1001.8,
+            "end": 1003.8,
+            "text": " Do tell me in the comment section."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1003.8,
+            "end": 1005.8,
+            "text": " And with that."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1005.8,
+            "end": 1007.8,
+            "text": " Go to the first video."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1007.8,
+            "end": 1009.8,
+            "text": " And give me a review."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1009.8,
+            "end": 1011.8,
+            "text": " How did you like the course."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1011.8,
+            "end": 1013.8,
+            "text": " If you liked the course."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1013.8,
+            "end": 1015.8,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1015.8,
+            "end": 1017.8,
+            "text": " And I will see you next time."
+        },
+        {
+            "title": "Backend",
+            "Number": "7",
+            "start": 1019.8,
+            "end": 1021.8,
+            "text": " Bye."
+        }
+    ],
+    "text": " We saw HTML, CSS, JavaScript for the client side, now we will see how to use JavaScript in the back end. Along with that, I will tell you the basics of Node.js and NPM. How to set up a new project, how to use Node.js and NPM. You will learn all these things. Like this video and do write JavaScript in the comment section. Let's go to the computer screen. Let's roll the intro. So guys, this project to Spotify is called Video84. Let me rename it to Video84. Now we will make the video 85. So let's make the video 85 folder. And today's video is on Node.js. And we will understand it very easily. And there are many new things that you will like. I will tell you what is basically. So far, we have learned all the JavaScript. We have learned the front end JavaScript. That is, we have used the script tag. Now what I am going to tell you about JavaScript, we will use the backend JavaScript. That is, JavaScript for the backend. And for that, we will install Node.js. If you have not installed Node.js, which I had actually done at the beginning of the course. So you click on the download button. I am on Windows, so I will download the Windows installer. And one thing you have to keep in mind, if you are in a 32-bit system, and you have installed 64-bit, you have installed 32-bit in a 64-bit system. It will be difficult. So if you are in a 64-bit system, what you simply do is write about PC here. Here you write system information. And as soon as you write system information, it tells you everything about your computer. And this is 64-bit, 32-bit, it also tells you. So here in the system type, you are showing 64-based PC here. So this is because I was told that it is 64-bit. So I will download 64-bit Node.js. This will look quite small, but it is very important. After that, run the installer here. If you have installed it, then there is no problem. But I have already installed it here. You can change it if you want. You can click on the next next. And it will be updated. So install any updated version. Because I am also in the updated version. Now you will go to the terminal. Or you can remove the terminal from here. You will click on Shift and open VS Code with Code. You can remove the terminal from here. And you can write Node-minus version here. And look, 20.10 is coming. You will write npm-minus version. So the version of npm is coming. By the way, in the coming time, these versions will change. The versions change very quickly. There is no problem. The concept I am telling you in this video, there is a good chance that it will not change in the near future. So listen carefully. Whenever we make a back-end project, then we use Node.js. Suppose I make a file called server.js. And here I write console.loghelloword. Okay. And after doing this, I run it. Or I simply write here node server.js. And I will tap the S-Dubb and it will complete automatically in Windows. If you don't know, it will be entered. After entering, look here, hello-word is here. This method is very good to run a JS file in your computer. Now the difference here is, first we used to do HTML, CSS with JavaScript. And there we used the script tag and run JavaScript in the browser. Things have changed here. We are doing it in the back-end because of JavaScript. That's why we are running server.js in the computer. Now you understand how the back-end of the flow works. Your back-end server will not be visible to your clients. This is the code that will not be visible to your clients. And this is the code where I will connect it to the database. Password. Authentication. And I will do something like this with it. Which I want to integrate like my business logic in my application. For example, consider that this is the code of this website in Node.js. What will happen when I click on LTS? The server will get a request that the user clicks on LTS. And we can do this through HAPI. We can say that click is equal to LTS. Endpoint is equal to slash LTS. Now what will the server do and send? This is on the server. We write the logic of the server here. So I just want to tell you that whatever code you are writing here, it will not be visible to your clients. Now this is a very good way to run the file through Node.js. But whenever we talk about a back-end, a classic code that we want to maintain, a classic code that we want to work in the long term, we initialize it as an NPM project. And for that we write NPM in it. And we will write NPM in it right here. And if we enter it, it will ask me some questions. Tell me the name of the package. Tell me the name of this project. Suppose I am making a Spotify clone. Let us assume that I am making a Spotify clone. I will say Spotify. Tell me the version. I want to do 1.0.0 in the by default. This is a Spotify clone for my app. I will write here. I will enter. The entry point is server.js. So I will keep server.js. What is the test command? I will skip it now. I will skip the git repository. What are the keywords? Maybe Spotify. Music. Author is Harry. What is the license? I will skip blank for now. All this information is fine. You see once. Yes. And what will happen? It will become package.json. Now what happens if we do this? We get the advantage that we have this folder. It has become an NPM project. And what we will do with this NPM project is that we can install some packages in it. We have initialized it as a single entity. Now I will tell you what does it mean. Don't get confused. I will tell you what it means. Now I can say NPM install. And I can install anything here. For example, I can install a package. Whose name is. I will google here. Package NPM package NPM package for time. Suppose it is a time formatting package. It is a data time. It is time.js. Suppose I want to install time.js. For example, Or I want to install data time. Or I want to install a package. Suppose I write slugify name. Slugify. Slugify name is a package. Which tells you slugs related functions. So what will I do? Here I can write NPM i slugify. You can also write NPM install. NPM i can also write NPM i shortcut. So I will write NPM install slugify. I will enter slugify. And you will see here it will become a folder. It is called node.js. Sorry. It is called node module. And the folder of node module will hold all my packages. Sometimes packages have different dependencies. So it holds that too. So I have understood the pack. We installed NPM. So that we can manage packages like this. We will install NPM. The code that someone else has written in the package. We have brought it here. And we can use it in this app. What is node.js? Node.js is nothing. JavaScript's v8 engine. Chrome's v8 engine. It was first uploaded on Google Chrome. Which was uploaded on browsers. We have put it in a C++ program. The person named Randall has put it. And we basically made it so that we can write our back end programs. That means the powers to process JavaScript in the browser. By using it, we can write our back end programs. Or we can write our standalone programs in JS. When JS started becoming so popular, people asked why we should use JavaScript for all these things. Why should we use the web? When JavaScript can be used for even more functions. For example, we can use JavaScript to list folders in a folder. We can use it to copy files. We can do a lot of things in a server. So when we want to run JavaScript in a back end language, that is, in a server, we will use Node.js and NPM. Why will we use NPM? Whenever we have made a Node.js package, we will install NPM in it and install some packages in Node modules. And when we want to do this, we can do it. Because NPM is installed in our computer. NPM installs slugify. Slugify package will come in this project, which is our NPM project as Node modules. And its information will go in package.json. So double click on package.json and you will see what dependencies are. You can see the slugify of dependencies. Suppose someone has deleted Node modules. Now what happens is that when I push on the grid or give this code to someone, then I will not give Node modules. So I will delete Node modules. I have deleted it by pressing delete. And you see, the Node modules have gone away from here. I can recreate Node modules again. So I will install NPM install. Just NPM install. Nothing is in package. So what will it do? It will go in package.json. You will see which packages will be installed again. So there are many codes in Node modules. Node modules of complex projects are very big. Node modules also have a meme. If I show you one or two. Because there are so many codes in it. There are so many files. If I show you the memes of Node modules, then you will see the heaviest object in the universe. Sun, Neuron, Neutron Star, Black Hole Node modules. Node modules have gone completely over the frame. So there are many things here that you can see on the net. And you can understand that you should learn some memes. I like memes coding. So the thing is that you can use Node.js to back and parent JavaScript. How did you feel? I didn't get the understanding yet. Please let me know in the comment section. I won't go too complex. And you can use it. I will copy this code. And I will come back to my server.js. And slugify is equal to request. I said that I am using slugify as slugify. Then I will write slugify some string. And after that, if you prefer something other than dash and separator. You can underscore here. So what does slugify do? It converts a string to a slug. I will take it as a variable. Let A is equal to A. And I will do console.log. And here I will do B is equal to A. Const B is equal to A. I don't do led. So slugify is a package that makes a string as a slug. If you don't know what slug is, then the thing that you see in the URL is slug. It can't have spaces. So what will it do? It will remove spaces. And if you want to do it in the URL, then I will run it. It will do some dash string. If you want to underscore, then underscore. If I add some special characters here, then it won't be allowed in the URL. So what will it do? It made it like this. Such that it is a valid slug. So whenever we make a blog or an application, then we use such packages. So we don't have to write this code. It is a logic written in slugify. If you go to the files of slugify, then you will see that it is written in such a logic. But we don't have to write this logic. Because in slugify package, someone already made a function for us. So we use slugify. So we used this package. And our work is done. So I hope you know what is the note? I hope you know what is NPM? Note package manager. Through which you can install your own packages. Okay. So this is the logic. One more thing is that you don't write JavaScript on the front end. Remember, you don't need a script tag. This is a standalone JavaScript. We will run it on our computer. And in the coming time, we will run it on our server. So I want to introduce you to a resource here. And that is Node.js.org Tutorials. I will show you in a minute. Node.js.org So Node.js has a lot of good tutorials. So here is an example. When you copy the Node application and I will do one thing. I will let this function be the file level. I will make one more. And I will make it in the name of myserver.js. So if I write here Node.myserver.js So look, a server is running. And I will open this server. If I click here. Now how it works? So here is a code. We imported Node.http We said, hostname is port is server is equal tohttp.createServer. It is a method which we got from this package. Who made this method? I don't know. I just came to use. So I can use. That's why I imported the package. I didn't write it. I just imported the package. So the meaning of the package is a black box. Like you use your computer and you know what is happening in it. Don't write the comment. I don't know what is happening in the phone. How the display works. How the circuit works. I don't know. Just like here. We don't know what is happening in the phone. Just like that. We don't know how the create server works. We just know that we will give a function to create server. We will give a request, response. And after that we can give the rest.status code. We can set the header. We can give the content. And finally we can close it. We can start the server. The server is listening on port 3000. And the host name is this. It is running on localhost. And it is writing on the console for our information. And when we go to this website. We are getting this server. So we can serve the files. There are many things. In fact, there is a package called express. Which we can install by NPMI express. If you will write the express. So the NPM install express. When you will do this. NPM install express. I will control C. And as soon as you install NPM you can see that express is installed. And see what is installed here. Express needs many things. That is why express has installed so many dependencies. You will see package.json. Express has come. And express has come here. Because of this. If I delete node modules. I will delete node modules. And write NPM I. It is not necessary to write NPM install. I can write NPM I only. And as soon as I write NPM I. I will write folder access denied. I will give it access. Delete permanently. Now I will write NPM I. And this will become folder again. And all the packages will come. Express needs it. So this is the basic node.js project setup. I don't want to go into detail in this video. Because in the coming videos we will do all this. But express is used. Majorly. To make back end applications. Okay. In the coming time react, next.js When you will learn. You will know that in the react, next.js framework. You can take back end. Like you can use jango back end. With react. Next.js if you are using then back end is yours. So learn express. You will learn it easily. Because javascript back end is there. Let me tell you. Just like in next.js you will write code. And the code you will write in express. It will be very similar. Middleware concept. There are many things. They will be the same. I hope you understood. I will give you the source code. Although I didn't write much source code. Now I will just increase it as much as you want. To learn express. To make back end applications. And I won't go into much detail. Like tutorial is going on. It goes into a lot of detail. And it tells you many things. Basically we have set the header. Set status code. And what content we have to give. We have set that. In that set. Many things are told here. You can read it. I will give you the link. I will put the link here. I will write further reading. But how is the course going on. Do tell me in the comment section. And with that. Go to the first video. And give me a review. How did you like the course. If you liked the course. Thank you so much for watching this video. And I will see you next time. Bye."
+}
