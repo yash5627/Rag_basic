@@ -10,6 +10,7 @@ import torch
 from mp3_to_json import transcribe_audio
 from preProcessJson import create_embeddings_from_json
 from video_to_mp3 import convert_videos_to_audio
+from store_embeddings import store_embeddings
 
 
 def merge_chunks(input_dir, output_dir, merge_size):
@@ -75,6 +76,18 @@ def run_pipeline(args):
 
     create_embeddings_from_json(embeddings_dir, args.embeddings_output)
     build_faiss_index(args.embeddings_output, args.faiss_output)
+    if args.mongo_uri:
+        store_embeddings(
+            embeddings_path=args.embeddings_output,
+            mongo_uri=args.mongo_uri,
+            mongo_db=args.mongo_db,
+            mongo_collection=args.mongo_collection,
+            video_title=args.video_title,
+            video_number=args.video_number,
+            course_name=args.course_name,
+        )
+
+
 
 
 if __name__ == "__main__":
@@ -92,6 +105,12 @@ if __name__ == "__main__":
     parser.add_argument("--embeddings-output", default="embeddings.joblib", help="Embeddings output.")
     parser.add_argument("--faiss-output", default="faiss_index.bin", help="FAISS index output.")
     parser.add_argument("--overwrite-audio", action="store_true", help="Overwrite audio files.")
+    parser.add_argument("--video-title", default="", help="Video title metadata override.")
+    parser.add_argument("--video-number", default="", help="Video number metadata override.")
+    parser.add_argument("--course-name", default="", help="Course name metadata.")
+    parser.add_argument("--mongo-uri", default="", help="MongoDB connection string.")
+    parser.add_argument("--mongo-db", default="rag_basic", help="MongoDB database name.")
+    parser.add_argument("--mongo-collection", default="video_embeddings", help="MongoDB collection name.")
     args = parser.parse_args()
 
     run_pipeline(args)

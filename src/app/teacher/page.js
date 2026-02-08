@@ -109,6 +109,7 @@ export default function TeacherPortal() {
                 className="rounded-lg border border-slate-700 bg-[#0b1220] px-4 py-3 text-sm text-white focus:border-blue-500 focus:outline-none"
                 required
               />
+            
             </label>
           </div>
 
