@@ -6,29 +6,69 @@ import { randomUUID } from "crypto";
 
 const DEFAULT_MERGE_SIZE = 5;
 
-const runCommand = (command, args, options = {}) =>
-  new Promise((resolve, reject) => {
-    const child = spawn(command, args, { ...options, stdio: "pipe" });
-    let stdout = "";
-    let stderr = "";
+const createProgressStream = (command, args, options = {}) => {
+  const encoder = new TextEncoder();
+  return new ReadableStream({
+    start(controller) {
+      const child = spawn(command, args, { ...options, stdio: "pipe" });
+      let buffer = "";
 
-    child.stdout.on("data", (data) => {
-      stdout += data.toString();
-    });
+      const send = (payload) => {
+        controller.enqueue(encoder.encode(`${JSON.stringify(payload)}\n`));
+      };
 
-    child.stderr.on("data", (data) => {
-      stderr += data.toString();
-    });
+      send({
+        type: "status",
+        step: "upload_complete",
+        progress: 0.02,
+        message: "Upload complete. Starting processing...",
+      });
 
-    child.on("error", reject);
-    child.on("close", (code) => {
-      if (code !== 0) {
-        reject(new Error(stderr || stdout || `Process exited with code ${code}`));
-        return;
-      }
-      resolve({ stdout, stderr });
-    });
+      child.stdout.on("data", (data) => {
+        buffer += data.toString();
+        const lines = buffer.split("\n");
+        buffer = lines.pop() || "";
+        lines.forEach((line) => {
+          const trimmed = line.trim();
+          if (!trimmed) {
+            return;
+          }
+          try {
+            const parsed = JSON.parse(trimmed);
+            send(parsed);
+          } catch (error) {
+            send({ type: "log", message: trimmed });
+          }
+        });
+      });
+
+      child.stderr.on("data", (data) => {
+        send({ type: "log", message: data.toString() });
+      });
+
+      child.on("error", (error) => {
+        send({ type: "error", message: error.message });
+        controller.close();
+      });
+
+      child.on("close", (code) => {
+        if (code === 0) {
+          send({
+            type: "done",
+            message: "Transcription, chunking, embedding, and MongoDB storage completed.",
+          });
+        } else {
+          send({
+            type: "error",
+            message: `Processing failed with exit code ${code}.`,
+          });
+        }
+        controller.close();
+      });
+    },
   });
+};
+
 
 const sanitizeTitle = (title) =>
   title
@@ -89,7 +129,7 @@ export async function POST(request) {
     const pythonBin = process.env.PYTHON_BIN || "python3";
     const processScript = path.join(process.cwd(), "backend", "process_videos.py");
 
-    await runCommand(
+     const stream = createProgressStream(
       pythonBin,
       [
         processScript,
@@ -108,6 +148,7 @@ export async function POST(request) {
         "--faiss-output",
         faissPath,
         "--overwrite-audio",
+        "--cleanup",
         "--mongo-uri",
         mongoUri,
         "--mongo-db",
@@ -124,8 +165,12 @@ export async function POST(request) {
       { cwd: process.cwd() }
     );
 
-    return NextResponse.json({
-      message: "Transcription, chunking, embedding, and MongoDB storage completed.",
+    return new NextResponse(stream, {
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "no-cache",
+        Connection: "keep-alive",
+      },
     });
   } catch (error) {
     return NextResponse.json(

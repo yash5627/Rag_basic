@@ -1,6 +1,8 @@
 import argparse
 import json
 import os
+import shutil
+import time
 
 import faiss
 import joblib
@@ -56,38 +58,100 @@ def build_faiss_index(embeddings_path, index_path):
     faiss.write_index(index, index_path)
 
 
+def emit_progress(step, step_index, total_steps, start_time):
+    elapsed = time.perf_counter() - start_time
+    eta_seconds = None
+    if step_index:
+        average_per_step = elapsed / step_index
+        eta_seconds = max(0.0, average_per_step * (total_steps - step_index))
+    payload = {
+        "type": "progress",
+        "step": step,
+        "progress": round(step_index / total_steps, 3) if total_steps else 1.0,
+        "elapsed_seconds": round(elapsed, 1),
+        "eta_seconds": round(eta_seconds, 1) if eta_seconds is not None else None,
+    }
+    print(json.dumps(payload), flush=True)
+
+
+def cleanup_dirs(*dirs):
+    for target_dir in dirs:
+        if not target_dir or not os.path.exists(target_dir):
+            continue
+        shutil.rmtree(target_dir, ignore_errors=True)
+
+
 def run_pipeline(args):
     resolved_device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
-    convert_videos_to_audio(args.video_dir, args.audio_dir, args.overwrite_audio)
-
-    transcribe_audio(
-        audio_dir=args.audio_dir,
-        output_dir=args.json_dir,
-        model_name=args.model,
-        device=resolved_device,
-        translate=args.translate
-    )
-
+    steps = [
+        ("video_to_audio", lambda: convert_videos_to_audio(args.video_dir, args.audio_dir, args.overwrite_audio)),
+        (
+            "transcribe",
+            lambda: transcribe_audio(
+                audio_dir=args.audio_dir,
+                output_dir=args.json_dir,
+                model_name=args.model,
+                device=resolved_device,
+                translate=args.translate,
+            ),
+        ),
+    ]
+def run_pipeline(args):
+    resolved_device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
+    steps = [
+        ("video_to_audio", lambda: convert_videos_to_audio(args.video_dir, args.audio_dir, args.overwrite_audio)),
+        (
+            "transcribe",
+            lambda: transcribe_audio(
+                audio_dir=args.audio_dir,
+                output_dir=args.json_dir,
+                model_name=args.model,
+                device=resolved_device,
+                translate=args.translate,
+            ),
+        ),
+    ]
     if args.merge_size > 1:
-        merge_chunks(args.json_dir, args.improved_json_dir, args.merge_size)
+        steps.append(
+            ("merge_chunks", lambda: merge_chunks(args.json_dir, args.improved_json_dir, args.merge_size))
+        )
         embeddings_dir = args.improved_json_dir
     else:
         embeddings_dir = args.json_dir
 
-    create_embeddings_from_json(embeddings_dir, args.embeddings_output)
-    build_faiss_index(args.embeddings_output, args.faiss_output)
+    steps.extend(
+        [
+            ("create_embeddings", lambda: create_embeddings_from_json(embeddings_dir, args.embeddings_output)),
+            ("build_faiss", lambda: build_faiss_index(args.embeddings_output, args.faiss_output)),
+        ]
+    )
     if args.mongo_uri:
-        store_embeddings(
-            embeddings_path=args.embeddings_output,
-            mongo_uri=args.mongo_uri,
-            mongo_db=args.mongo_db,
-            mongo_collection=args.mongo_collection,
-            video_title=args.video_title,
-            video_number=args.video_number,
-            course_name=args.course_name,
-        )
+         steps.append(
+            (
+                "store_embeddings",
+                lambda: store_embeddings(
+                    embeddings_path=args.embeddings_output,
+                    mongo_uri=args.mongo_uri,
+                    mongo_db=args.mongo_db,
+                    mongo_collection=args.mongo_collection,
+                    video_title=args.video_title,
+                    video_number=args.video_number,
+                    course_name=args.course_name,
+                ),
+            )
 
 
+         )
+    if args.cleanup:
+        steps.append(("cleanup", lambda: cleanup_dirs(args.video_dir, args.audio_dir)))
+
+    total_steps = len(steps)
+    start_time = time.perf_counter()
+    emit_progress("starting", 0, total_steps, start_time)
+
+    for step_index, (step_name, step_fn) in enumerate(steps, start=1):
+        step_fn()
+        emit_progress(step_name, step_index, total_steps, start_time)
 
 
 if __name__ == "__main__":
@@ -111,6 +175,7 @@ if __name__ == "__main__":
     parser.add_argument("--mongo-uri", default="", help="MongoDB connection string.")
     parser.add_argument("--mongo-db", default="rag_basic", help="MongoDB database name.")
     parser.add_argument("--mongo-collection", default="video_embeddings", help="MongoDB collection name.")
+    parser.add_argument("--cleanup", action="store_true", help="Delete video and audio folders after processing.")
     args = parser.parse_args()
 
     run_pipeline(args)

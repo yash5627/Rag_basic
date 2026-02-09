@@ -13,6 +13,12 @@ export default function TeacherPortal() {
   const [videoFile, setVideoFile] = useState(null);
   const [status, setStatus] = useState({ type: "", message: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [progress, setProgress] = useState({
+    percent: 0,
+    step: "",
+    etaSeconds: null,
+    message: "",
+  });
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -34,6 +40,7 @@ export default function TeacherPortal() {
 
     setIsSubmitting(true);
     setStatus({ type: "", message: "" });
+    setProgress({ percent: 0, step: "upload", etaSeconds: null, message: "Uploading video..." });
 
     const payload = new FormData();
     payload.append("video", videoFile);
@@ -50,15 +57,70 @@ export default function TeacherPortal() {
         body: payload,
       });
 
-      const result = await response.json();
-
       if (!response.ok) {
+        const result = await response.json();
         throw new Error(result.error || "Unable to process the video");
       }
 
+      if (!response.body) {
+        throw new Error("Streaming response not available.");
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      let finalMessage = "";
+      let streamError = null;
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) {
+          break;
+        }
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split("\n");
+        buffer = lines.pop() || "";
+
+        lines.forEach((line) => {
+          const trimmed = line.trim();
+          if (!trimmed) {
+            return;
+          }
+          let payload;
+          try {
+            payload = JSON.parse(trimmed);
+          } catch (error) {
+            return;
+          }
+
+          if (payload.type === "error") {
+            streamError = payload.message || "Processing failed.";
+            return;
+          }
+
+          if (payload.type === "done") {
+            finalMessage = payload.message || "Video processed.";
+          }
+
+          if (payload.type === "progress" || payload.type === "status") {
+            setProgress({
+              percent: Math.min(100, Math.round((payload.progress || 0) * 100)),
+              step: payload.step || "",
+              etaSeconds: payload.eta_seconds ?? null,
+              message: payload.message || "",
+            });
+          }
+        });
+      }
+
+      if (streamError) {
+        throw new Error(streamError);
+      }
+
+      setProgress((prev) => ({ ...prev, percent: 100 }));
       setStatus({
         type: "success",
-        message: `Video processed. ${result.message}`,
+        message: `Video processed. ${finalMessage}`,
       });
       setFormState(initialFormState);
       setVideoFile(null);
@@ -70,6 +132,16 @@ export default function TeacherPortal() {
     } finally {
       setIsSubmitting(false);
     }
+  };
+
+  const formatEta = (seconds) => {
+    if (seconds === null || Number.isNaN(seconds)) {
+      return "Estimating...";
+    }
+    const clamped = Math.max(0, Math.round(seconds));
+    const minutes = Math.floor(clamped / 60);
+    const remainingSeconds = clamped % 60;
+    return `${minutes}:${remainingSeconds.toString().padStart(2, "0")}`;
   };
 
   return (
@@ -109,7 +181,7 @@ export default function TeacherPortal() {
                 className="rounded-lg border border-slate-700 bg-[#0b1220] px-4 py-3 text-sm text-white focus:border-blue-500 focus:outline-none"
                 required
               />
-            
+
             </label>
           </div>
 
@@ -145,6 +217,25 @@ export default function TeacherPortal() {
               }`}
             >
               {status.message}
+            </div>
+          )}
+
+          {isSubmitting && (
+            <div className="space-y-2 rounded-lg border border-slate-700 bg-[#0b1220] px-4 py-3 text-sm text-slate-200">
+              <div className="flex items-center justify-between text-xs uppercase tracking-[0.2em] text-slate-400">
+                <span>Processing status</span>
+                <span>{progress.percent}%</span>
+              </div>
+              <div className="h-2 w-full overflow-hidden rounded-full bg-slate-800">
+                <div
+                  className="h-full rounded-full bg-blue-500 transition-all"
+                  style={{ width: `${progress.percent}%` }}
+                />
+              </div>
+              <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-slate-300">
+                <span>{progress.message || `Step: ${progress.step || "starting"}`}</span>
+                <span>ETA: {formatEta(progress.etaSeconds)}</span>
+              </div>
             </div>
           )}
 
