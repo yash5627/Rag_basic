@@ -3,7 +3,7 @@ import json
 import os
 import shutil
 import time
-
+import sys
 import faiss
 import joblib
 import numpy as np
@@ -73,6 +73,9 @@ def emit_progress(step, step_index, total_steps, start_time):
     }
     print(json.dumps(payload), flush=True)
 
+def emit_error(message):
+    print(json.dumps({"type": "error", "message": message}), flush=True)
+
 
 def cleanup_dirs(*dirs):
     for target_dir in dirs:
@@ -81,21 +84,7 @@ def cleanup_dirs(*dirs):
         shutil.rmtree(target_dir, ignore_errors=True)
 
 
-def run_pipeline(args):
-    resolved_device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
-    steps = [
-        ("video_to_audio", lambda: convert_videos_to_audio(args.video_dir, args.audio_dir, args.overwrite_audio)),
-        (
-            "transcribe",
-            lambda: transcribe_audio(
-                audio_dir=args.audio_dir,
-                output_dir=args.json_dir,
-                model_name=args.model,
-                device=resolved_device,
-                translate=args.translate,
-            ),
-        ),
-    ]
+
 def run_pipeline(args):
     resolved_device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
     steps = [
@@ -177,5 +166,8 @@ if __name__ == "__main__":
     parser.add_argument("--mongo-collection", default="video_embeddings", help="MongoDB collection name.")
     parser.add_argument("--cleanup", action="store_true", help="Delete video and audio folders after processing.")
     args = parser.parse_args()
-
-    run_pipeline(args)
+    try:
+        run_pipeline(args)
+    except Exception as exc:
+        emit_error(str(exc))
+        sys.exit(1)

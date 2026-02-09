@@ -14,7 +14,7 @@ import argparse
 import os
 import re
 import subprocess
-
+import shutil
 VIDEO_EXTENSIONS = (".mp4", ".mkv", ".mov", ".avi", ".webm")
 
 
@@ -30,6 +30,11 @@ def extract_number_title(filename):
 
 
 def convert_videos_to_audio(video_dir, audio_dir, overwrite=False):
+    if shutil.which("ffmpeg") is None:
+        raise RuntimeError(
+            "ffmpeg is required to convert videos. Install it and ensure it is on your PATH."
+        )
+
     os.makedirs(audio_dir, exist_ok=True)
     files = [
         file for file in os.listdir(video_dir)

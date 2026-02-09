@@ -1,10 +1,24 @@
 import { NextResponse } from "next/server";
 import { mkdir, writeFile } from "fs/promises";
 import path from "path";
-import { spawn } from "child_process";
+import { spawn,spawnSync  } from "child_process";
 import { randomUUID } from "crypto";
 
 const DEFAULT_MERGE_SIZE = 5;
+const resolvePythonBin = () => {
+  if (process.env.PYTHON_BIN) {
+    return process.env.PYTHON_BIN;
+  }
+
+  const candidates = process.platform === "win32" ? ["python", "python3"] : ["python3", "python"];
+  for (const candidate of candidates) {
+    const result = spawnSync(candidate, ["--version"], { stdio: "ignore" });
+    if (!result.error) {
+      return candidate;
+    }
+  }
+  return null;
+};
 
 const createProgressStream = (command, args, options = {}) => {
   const encoder = new TextEncoder();
@@ -126,10 +140,16 @@ export async function POST(request) {
     const buffer = Buffer.from(await video.arrayBuffer());
     await writeFile(filePath, buffer);
 
-    const pythonBin = process.env.PYTHON_BIN || "python3";
+    const pythonBin = resolvePythonBin();
+    if (!pythonBin) {
+      return NextResponse.json(
+        { error: "Python is required to process videos. Install Python or set PYTHON_BIN." },
+        { status: 500 }
+      );
+    }
     const processScript = path.join(process.cwd(), "backend", "process_videos.py");
 
-     const stream = createProgressStream(
+    const stream = createProgressStream(
       pythonBin,
       [
         processScript,
