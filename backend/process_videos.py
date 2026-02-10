@@ -85,10 +85,17 @@ def cleanup_dirs(*dirs):
 
 
 
+def cleanup_dir(target_dir):
+    if not target_dir or not os.path.exists(target_dir):
+        return
+    shutil.rmtree(target_dir, ignore_errors=True)
+
+
 def run_pipeline(args):
     resolved_device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
     steps = [
         ("video_to_audio", lambda: convert_videos_to_audio(args.video_dir, args.audio_dir, args.overwrite_audio)),
+        ("cleanup_video", lambda: cleanup_dir(args.video_dir)),
         (
             "transcribe",
             lambda: transcribe_audio(
@@ -134,8 +141,9 @@ def run_pipeline(args):
 
 
          )
+    steps.append(("cleanup_audio", lambda: cleanup_dir(args.audio_dir)))
     if args.cleanup:
-        steps.append(("cleanup", lambda: cleanup_dirs(args.video_dir, args.audio_dir)))
+        steps.append(("cleanup", lambda: cleanup_dirs(args.json_dir, args.improved_json_dir)))
 
     total_steps = len(steps)
     start_time = time.perf_counter()
@@ -168,7 +176,7 @@ if __name__ == "__main__":
     parser.add_argument("--mongo-uri", default="", help="MongoDB connection string.")
     parser.add_argument("--mongo-db", default="rag_basic", help="MongoDB database name.")
     parser.add_argument("--mongo-collection", default="video_embeddings", help="MongoDB collection name.")
-    parser.add_argument("--cleanup", action="store_true", help="Delete video and audio folders after processing.")
+    parser.add_argument("--cleanup", action="store_true", help="Delete intermediate json folders after processing.")
     args = parser.parse_args()
     try:
         run_pipeline(args)

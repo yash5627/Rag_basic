@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
 import { mkdir, writeFile } from "fs/promises";
 import path from "path";
-import { spawn,spawnSync  } from "child_process";
+import { spawn, spawnSync } from "child_process";
 import { randomUUID } from "crypto";
 
 const DEFAULT_MERGE_SIZE = 5;
+
 const resolvePythonBin = () => {
   if (process.env.PYTHON_BIN) {
     return process.env.PYTHON_BIN;
@@ -20,75 +21,24 @@ const resolvePythonBin = () => {
   return null;
 };
 
-const createProgressStream = (command, args, options = {}) => {
-  const encoder = new TextEncoder();
-  return new ReadableStream({
-    start(controller) {
-      const child = spawn(command, args, { ...options, stdio: "pipe" });
-      let buffer = "";
-
-      const send = (payload) => {
-        controller.enqueue(encoder.encode(`${JSON.stringify(payload)}\n`));
-      };
-
-      send({
-        type: "status",
-        step: "upload_complete",
-        progress: 0.02,
-        message: "Upload complete. Starting processing...",
-      });
-
-      child.stdout.on("data", (data) => {
-        buffer += data.toString();
-        const lines = buffer.split("\n");
-        buffer = lines.pop() || "";
-        lines.forEach((line) => {
-          const trimmed = line.trim();
-          if (!trimmed) {
-            return;
-          }
-          try {
-            const parsed = JSON.parse(trimmed);
-            send(parsed);
-          } catch (error) {
-            send({ type: "log", message: trimmed });
-          }
-        });
-      });
-
-      child.stderr.on("data", (data) => {
-        send({ type: "log", message: data.toString() });
-      });
-
-      child.on("error", (error) => {
-        send({ type: "error", message: error.message });
-        controller.close();
-      });
-
-      child.on("close", (code) => {
-        if (code === 0) {
-          send({
-            type: "done",
-            message: "Transcription, chunking, embedding, and MongoDB storage completed.",
-          });
-        } else {
-          send({
-            type: "error",
-            message: `Processing failed with exit code ${code}.`,
-          });
-        }
-        controller.close();
-      });
-    },
-  });
-};
-
-
 const sanitizeTitle = (title) =>
   title
     .replace(/[^\w\s-]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+
+const createRunPaths = (uploadId) => {
+  const baseDir = path.join(process.cwd(), "backend", "runs", uploadId);
+  return {
+    baseDir,
+    videoDir: path.join(baseDir, "videos"),
+    audioDir: path.join(baseDir, "audio"),
+    jsonDir: path.join(baseDir, "jsons"),
+    improvedJsonDir: path.join(baseDir, "new_jsons"),
+    embeddingsPath: path.join(baseDir, "embeddings.joblib"),
+    faissPath: path.join(baseDir, "faiss_index.bin"),
+  };
+};
 
 export async function POST(request) {
   try {
@@ -118,13 +68,7 @@ export async function POST(request) {
     }
 
     const uploadId = randomUUID();
-    const baseDir = path.join(process.cwd(), "backend", "runs", uploadId);
-    const videoDir = path.join(baseDir, "videos");
-    const audioDir = path.join(baseDir, "audio");
-    const jsonDir = path.join(baseDir, "jsons");
-    const improvedJsonDir = path.join(baseDir, "new_jsons");
-    const embeddingsPath = path.join(baseDir, "embeddings.joblib");
-    const faissPath = path.join(baseDir, "faiss_index.bin");
+    const { videoDir, audioDir, jsonDir, improvedJsonDir, embeddingsPath, faissPath } = createRunPaths(uploadId);
 
     await Promise.all([
       mkdir(videoDir, { recursive: true }),
@@ -147,50 +91,50 @@ export async function POST(request) {
         { status: 500 }
       );
     }
+
     const processScript = path.join(process.cwd(), "backend", "process_videos.py");
+    const args = [
+      processScript,
+      "--video-dir",
+      videoDir,
+      "--audio-dir",
+      audioDir,
+      "--json-dir",
+      jsonDir,
+      "--improved-json-dir",
+      improvedJsonDir,
+      "--merge-size",
+      String(DEFAULT_MERGE_SIZE),
+      "--embeddings-output",
+      embeddingsPath,
+      "--faiss-output",
+      faissPath,
+      "--overwrite-audio",
+      "--cleanup",
+      "--mongo-uri",
+      mongoUri,
+      "--mongo-db",
+      process.env.MONGODB_DB || "rag_basic",
+      "--mongo-collection",
+      process.env.MONGODB_COLLECTION || "video_embeddings",
+      "--video-title",
+      title,
+      "--video-number",
+      number,
+      "--course-name",
+      course || "",
+    ];
 
-    const stream = createProgressStream(
-      pythonBin,
-      [
-        processScript,
-        "--video-dir",
-        videoDir,
-        "--audio-dir",
-        audioDir,
-        "--json-dir",
-        jsonDir,
-        "--improved-json-dir",
-        improvedJsonDir,
-        "--merge-size",
-        String(DEFAULT_MERGE_SIZE),
-        "--embeddings-output",
-        embeddingsPath,
-        "--faiss-output",
-        faissPath,
-        "--overwrite-audio",
-        "--cleanup",
-        "--mongo-uri",
-        mongoUri,
-        "--mongo-db",
-        process.env.MONGODB_DB || "rag_basic",
-        "--mongo-collection",
-        process.env.MONGODB_COLLECTION || "video_embeddings",
-        "--video-title",
-        title,
-        "--video-number",
-        number,
-        "--course-name",
-        course || "",
-      ],
-      { cwd: process.cwd() }
-    );
+    const child = spawn(pythonBin, args, {
+      cwd: process.cwd(),
+      stdio: "ignore",
+      detached: true,
+    });
+    child.unref();
 
-    return new NextResponse(stream, {
-      headers: {
-        "Content-Type": "text/plain; charset=utf-8",
-        "Cache-Control": "no-cache",
-        Connection: "keep-alive",
-      },
+    return NextResponse.json({
+      message:
+        "Video uploaded successfully. Processing has started in the background and embeddings will be available shortly.",
     });
   } catch (error) {
     return NextResponse.json(
