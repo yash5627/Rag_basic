@@ -97,6 +97,9 @@ def run_pipeline(args):
                 model_name=args.model,
                 device=resolved_device,
                 translate=args.translate,
+                video_title=args.video_title or None,
+                video_number=args.video_number or None,
+                language=args.language or None,                
             ),
         ),
     ]
@@ -155,6 +158,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", default="small", help="Whisper model name.")
     parser.add_argument("--device", default=None, help="Force device: cpu or cuda.")
     parser.add_argument("--translate", action="store_true", help="Translate audio to English.")
+    parser.add_argument("--language", default="", help="Force transcription language (e.g., en).")
     parser.add_argument("--embeddings-output", default="embeddings.joblib", help="Embeddings output.")
     parser.add_argument("--faiss-output", default="faiss_index.bin", help="FAISS index output.")
     parser.add_argument("--overwrite-audio", action="store_true", help="Overwrite audio files.")
