@@ -1,12 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function StudentPortal() {
   const [query, setQuery] = useState("");
-  const [course, setCourse] = useState("Sigma Web Development");
+  const [course, setCourse] = useState("");
   const [isSearching, setIsSearching] = useState(false);
   const [results, setResults] = useState(null);
+  const [courses, setCourses] = useState([]);
+  const [coursesError, setCoursesError] = useState("");
 
   const exampleQueries = [
     "Where is DOM manipulation explained?",
@@ -14,6 +16,29 @@ export default function StudentPortal() {
     "Explain Node.js error handling",
     "How are callbacks introduced?"
   ];
+
+  useEffect(() => {
+    const loadCourses = async () => {
+      try {
+        const response = await fetch("/api/courses");
+        const payload = await response.json();
+
+        if (!response.ok) {
+          throw new Error(payload.error || "Unable to load courses.");
+        }
+
+        const dbCourses = payload.courses || [];
+        setCourses(dbCourses);
+        setCourse(dbCourses[0]?.name || "");
+      } catch (error) {
+        setCourses([]);
+        setCourse("");
+        setCoursesError(error instanceof Error ? error.message : "Unable to load courses.");
+      }
+    };
+
+    loadCourses();
+  }, []);
 
   const handleSearch = (event) => {
     event.preventDefault();
@@ -34,7 +59,7 @@ export default function StudentPortal() {
   };
 
   return (
-    <div className="min-h-[85vh] px-6 py-12">
+    <div className="min-h-[85vh] bg-[rgb(3,0,0)] px-6 py-12">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-10">
           <p className="text-xs uppercase tracking-[0.3em] text-green-400 mb-3">
@@ -59,11 +84,15 @@ export default function StudentPortal() {
                 <select
                   value={course}
                   onChange={(event) => setCourse(event.target.value)}
+                  disabled={!courses.length}
                   className="w-full px-4 py-3 rounded-lg border-2 border-gray-600 bg-gray-900/50 text-gray-200 focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500/20 transition-all"
                 >
-                  <option>Sigma Web Development</option>
-                  <option>Data Structures Bootcamp</option>
-                  <option>UI/UX Fundamentals</option>
+                  {!courses.length && <option>{coursesError ? "Unable to load courses" : "No courses available"}</option>}
+                  {courses.map((courseItem) => (
+                    <option key={courseItem.id} value={courseItem.name}>
+                      {courseItem.name}
+                    </option>
+                  ))}
                 </select>
               </div>
               <div>
@@ -89,6 +118,7 @@ export default function StudentPortal() {
           </form>
 
           <div className="mt-6 pt-6 border-t border-gray-700">
+
             <p className="text-sm text-gray-400 mb-4 font-medium">Try a sample question:</p>
             <div className="flex flex-wrap gap-2">
               {exampleQueries.map((example) => (

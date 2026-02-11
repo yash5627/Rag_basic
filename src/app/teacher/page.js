@@ -67,9 +67,9 @@ export default function TeacherPortal() {
       setFormState(initialFormState);
       setVideoFile(null);
 
-      setTimeout(() => {
-        router.push("/");
-      }, 1200);
+      // setTimeout(() => {
+      //   router.push("/");
+      // }, 1200);
     } catch (error) {
       setStatus({
         type: "error",

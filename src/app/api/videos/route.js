@@ -15,6 +15,16 @@ const sanitizeDbName = (value) => {
   return cleaned || "rag_basic";
 };
 
+const sanitizeCollectionName = (value, fallback) => {
+  const cleaned = value
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, "_")
+    .replace(/_+/g, "_")
+    .replace(/^_+|_+$/g, "");
+
+  return cleaned || fallback;
+};
+
 const resolvePythonBin = () => {
   if (process.env.PYTHON_BIN) {
     return process.env.PYTHON_BIN;
@@ -102,7 +112,11 @@ export async function POST(request) {
     }
 
     const processScript = path.join(process.cwd(), "backend", "process_videos.py");
-    const resolvedDbName = sanitizeDbName(course || process.env.MONGODB_DB || "rag_basic");
+    const resolvedDbName = sanitizeDbName(process.env.MONGODB_DB || "rag_basic");
+    const normalizedCourse = sanitizeCollectionName(course || "General", "general");
+    const embeddingsCollection = `course_embeddings_${normalizedCourse}`;
+    const jsonCollection = `course_jsons_${normalizedCourse}`;
+
 
     const args = [
       processScript,
@@ -127,9 +141,10 @@ export async function POST(request) {
       "--mongo-db",
       resolvedDbName,
       "--mongo-collection",
-      process.env.MONGODB_COLLECTION || "video_embeddings",
-       "--merged-json-collection",
-      process.env.MONGODB_JSON_COLLECTION || "course_jsons",
+       embeddingsCollection,
+      "--merged-json-collection",
+      jsonCollection,
+      "--translate",
       "--video-title",
       title,
       "--video-number",

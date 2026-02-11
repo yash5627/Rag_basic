@@ -131,14 +131,15 @@ def transcribe_audio(
             translated_text = ""
             if translated_result and i < len(translated_segments):
                 translated_text = translated_segments[i].get("text", "").strip()
-
+            final_text = translated_text or segment_text
             chunks.append(
                 {
                     "title": title,
                     "Number": number,
                     "start": segment["start"],
                     "end": segment["end"],
-                    "text": segment_text,
+                    "text": final_text,
+                    "original_text": segment_text,
                     "translated_text": translated_text,
                 }
             )
