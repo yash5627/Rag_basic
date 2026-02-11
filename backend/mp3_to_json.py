@@ -75,6 +75,7 @@ def transcribe_audio(
     output_dir,
     model_name,
     device,
+    capture_original,
     translate,
     video_title=None,
     video_number=None,
@@ -99,31 +100,38 @@ def transcribe_audio(
 
         audio_path = os.path.join(audio_dir, audio)
 
-        # -------- ORIGINAL TRANSCRIPTION --------
-        original_result = model.transcribe(
-            audio_path,
-            task="transcribe",
-            language=language if language else None,
-            fp16=device == "cuda",
-        )
-
-        # -------- TRANSLATION (ONLY IF REQUESTED) --------
+        
         translated_result = None
+        original_result = None
         if translate:
             translated_result = model.transcribe(
                 audio_path,
                 task="translate",
                 fp16=device == "cuda",
             )
+            if capture_original:
+                original_result = model.transcribe(
+                    audio_path,
+                    task="transcribe",
+                    language=language if language else None,
+                    fp16=device == "cuda",
+                )
+        else:
+            original_result = model.transcribe(
+                audio_path,
+                task="transcribe",
+                language=language if language else None,
+                fp16=device == "cuda",
+            )
+
 
         chunks = []
 
-        original_segments = original_result.get("segments", [])
-        translated_segments = (
-            translated_result.get("segments", []) if translated_result else []
-        )
+        source_result = original_result or translated_result or {}
+        source_segments = source_result.get("segments", [])
+        translated_segments = translated_result.get("segments", []) if translated_result else []
 
-        for i, segment in enumerate(original_segments):
+        for i, segment in enumerate(source_segments):
             segment_text = segment.get("text", "").strip()
             if not segment_text:
                 continue
@@ -145,7 +153,9 @@ def transcribe_audio(
             )
 
         output_data = {
-            "original_text": original_result.get("text", "").strip(),
+            "original_text": original_result.get("text", "").strip()
+            if original_result
+            else "",
             "translated_text": translated_result.get("text", "").strip()
             if translated_result
             else "",
@@ -172,6 +182,11 @@ if __name__ == "__main__":
     parser.add_argument("--model", default="small")
     parser.add_argument("--device", default=None)
     parser.add_argument("--translate", action="store_true")
+    parser.add_argument(
+        "--capture-original",
+        action="store_true",
+        help="When used with --translate, also run a second pass for original-language text.",
+    )
     parser.add_argument("--video-title", default="")
     parser.add_argument("--video-number", default="")
     parser.add_argument("--language", default="")
@@ -187,6 +202,7 @@ if __name__ == "__main__":
         args.model,
         resolved_device,
         args.translate,
+        args.capture_original,
         video_title=args.video_title or None,
         video_number=args.video_number or None,
         language=args.language or None,

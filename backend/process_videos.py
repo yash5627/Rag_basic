@@ -103,6 +103,7 @@ def run_pipeline(args):
                 output_dir=args.json_dir,
                 model_name=args.model,
                 device=resolved_device,
+                capture_original=args.capture_original,
                 translate=args.translate,
                 video_title=args.video_title or None,
                 video_number=args.video_number or None,
@@ -168,6 +169,11 @@ if __name__ == "__main__":
     parser.add_argument("--model", default="small", help="Whisper model name.")
     parser.add_argument("--device", default=None, help="Force device: cpu or cuda.")
     parser.add_argument("--translate", action="store_true", help="Translate audio to English.")
+    parser.add_argument(
+        "--capture-original",
+        action="store_true",
+        help="With --translate, keep original-language text by running an additional pass.",
+    )
     parser.add_argument("--language", default="", help="Force transcription language (e.g., en).")
     parser.add_argument("--embeddings-output", default="embeddings.joblib", help="Embeddings output.")
     parser.add_argument("--faiss-output", default="faiss_index.bin", help="FAISS index output.")
