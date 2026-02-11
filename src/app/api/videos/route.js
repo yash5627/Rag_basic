@@ -5,6 +5,15 @@ import { spawn, spawnSync } from "child_process";
 import { randomUUID } from "crypto";
 
 const DEFAULT_MERGE_SIZE = 5;
+const sanitizeDbName = (value) => {
+  const cleaned = value
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, "_")
+    .replace(/_+/g, "_")
+    .replace(/^_+|_+$/g, "");
+
+  return cleaned || "rag_basic";
+};
 
 const resolvePythonBin = () => {
   if (process.env.PYTHON_BIN) {
@@ -93,6 +102,8 @@ export async function POST(request) {
     }
 
     const processScript = path.join(process.cwd(), "backend", "process_videos.py");
+    const resolvedDbName = sanitizeDbName(course || process.env.MONGODB_DB || "rag_basic");
+
     const args = [
       processScript,
       "--video-dir",
@@ -114,9 +125,11 @@ export async function POST(request) {
       "--mongo-uri",
       mongoUri,
       "--mongo-db",
-      process.env.MONGODB_DB || "rag_basic",
+      resolvedDbName,
       "--mongo-collection",
       process.env.MONGODB_COLLECTION || "video_embeddings",
+       "--merged-json-collection",
+      process.env.MONGODB_JSON_COLLECTION || "course_jsons",
       "--video-title",
       title,
       "--video-number",

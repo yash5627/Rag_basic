@@ -136,6 +136,8 @@ def run_pipeline(args):
                     video_title=args.video_title,
                     video_number=args.video_number,
                     course_name=args.course_name,
+                    merged_json_dir=embeddings_dir,
+                    merged_json_collection=args.merged_json_collection,
                 ),
             )
 
@@ -176,6 +178,11 @@ if __name__ == "__main__":
     parser.add_argument("--mongo-uri", default="", help="MongoDB connection string.")
     parser.add_argument("--mongo-db", default="rag_basic", help="MongoDB database name.")
     parser.add_argument("--mongo-collection", default="video_embeddings", help="MongoDB collection name.")
+    parser.add_argument(
+        "--merged-json-collection",
+        default="course_jsons",
+        help="Collection where merged json contents are stored.",
+    )
     parser.add_argument("--cleanup", action="store_true", help="Delete intermediate json folders after processing.")
     args = parser.parse_args()
     try:

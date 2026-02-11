@@ -1,4 +1,6 @@
 import argparse
+import json
+import os
 import joblib
 from pymongo import MongoClient
 
@@ -11,6 +13,8 @@ def store_embeddings(
     video_title="",
     video_number="",
     course_name="",
+    merged_json_dir="",
+    merged_json_collection="course_jsons",
 ):
     df = joblib.load(embeddings_path)
 
@@ -28,8 +32,34 @@ def store_embeddings(
             record["embedding"] = embedding.tolist()
 
     client = MongoClient(mongo_uri)
-    collection = client[mongo_db][mongo_collection]
-    collection.insert_many(records)
+    db = client[mongo_db]
+    embedding_collection = db[mongo_collection]
+    embedding_collection.insert_many(records)
+
+    if merged_json_dir and os.path.isdir(merged_json_dir):
+        merged_docs = []
+        for filename in os.listdir(merged_json_dir):
+            if not filename.endswith(".json"):
+                continue
+
+            file_path = os.path.join(merged_json_dir, filename)
+            with open(file_path, "r", encoding="utf-8") as file:
+                json_content = json.load(file)
+
+            merged_docs.append(
+                {
+                    "course": course_name,
+                    "title": video_title,
+                    "Number": video_number,
+                    "filename": filename,
+                    "content": json_content,
+                }
+            )
+
+        if merged_docs:
+            json_collection = db[merged_json_collection]
+            json_collection.insert_many(merged_docs)
+
     client.close()
 
 
@@ -42,6 +72,12 @@ if __name__ == "__main__":
     parser.add_argument("--video-title", default="", help="Video title metadata override.")
     parser.add_argument("--video-number", default="", help="Video number metadata override.")
     parser.add_argument("--course-name", default="", help="Course name metadata.")
+    parser.add_argument("--merged-json-dir", default="", help="Directory that contains merged jsons.")
+    parser.add_argument(
+        "--merged-json-collection",
+        default="course_jsons",
+        help="Collection where merged json contents are stored.",
+    )
     args = parser.parse_args()
 
     store_embeddings(
@@ -52,4 +88,6 @@ if __name__ == "__main__":
         video_title=args.video_title,
         video_number=args.video_number,
         course_name=args.course_name,
+        merged_json_dir=args.merged_json_dir,
+        merged_json_collection=args.merged_json_collection,
     )
