@@ -143,7 +143,7 @@ export default function Search() {
             <div className="flex items-start justify-between mb-6">
               <div>
                 <h2 className="text-2xl font-semibold text-gray-200 mb-2">Search Results</h2>
-                <p className="text-sm text-gray-400">Query: "{results.query}"</p>
+                <p className="text-sm text-gray-400">Query: &quot;{results.query}&quot;</p>
               </div>
               <div className="px-3 py-1 bg-green-500/20 text-green-400 rounded-lg text-xs font-medium border border-green-500/30">
                 {Math.round(results.confidence * 100)}% Match

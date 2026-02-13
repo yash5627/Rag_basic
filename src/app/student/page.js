@@ -9,6 +9,7 @@ export default function StudentPortal() {
   const [results, setResults] = useState(null);
   const [courses, setCourses] = useState([]);
   const [coursesError, setCoursesError] = useState("");
+  const [searchError, setSearchError] = useState("");
 
   const exampleQueries = [
     "Where is DOM manipulation explained?",
@@ -40,22 +41,55 @@ export default function StudentPortal() {
     loadCourses();
   }, []);
 
-  const handleSearch = (event) => {
+  const formatTimestamp = (seconds) => {
+    const totalSeconds = Math.max(0, Math.floor(Number(seconds) || 0));
+    const hrs = Math.floor(totalSeconds / 3600)
+      .toString()
+      .padStart(2, "0");
+    const mins = Math.floor((totalSeconds % 3600) / 60)
+      .toString()
+      .padStart(2, "0");
+    const secs = (totalSeconds % 60).toString().padStart(2, "0");
+    return `${hrs}:${mins}:${secs}`;
+  };
+
+  const handleSearch = async (event) => {
     event.preventDefault();
-    if (!query.trim()) return;
+    if (!query.trim() || !course.trim()) return;
 
     setIsSearching(true);
-    setTimeout(() => {
-      setResults({
-        answer:
-          "DOM manipulation is introduced with live examples. Look at the section where elements are selected and updated using query selectors.",
-        video: "Video 01 - DOM",
-        timestamp: "00:12:42",
-        summary: "Selecting elements and updating content.",
-        confidence: 0.93
+    setSearchError("");
+
+    try {
+      const response = await fetch("/api/student-query", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          course,
+          question: query,
+        }),
       });
+
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload.error || "Unable to get an answer for this question.");
+      }
+
+      setResults({
+        answer: payload.answer,
+        video: payload.video,
+        timestamp: `${formatTimestamp(payload.timestamp?.start)} - ${formatTimestamp(payload.timestamp?.end)}`,
+        summary: payload.summary,
+        confidence: payload.confidence,
+      });
+    } catch (error) {
+      setResults(null);
+      setSearchError(error instanceof Error ? error.message : "Unable to get an answer for this question.");
+    } finally {
       setIsSearching(false);
-    }, 1400);
+    }
   };
 
   return (
@@ -110,12 +144,18 @@ export default function StudentPortal() {
             </div>
             <button
               type="submit"
-              disabled={isSearching || !query.trim()}
+              disabled={isSearching || !query.trim() || !course.trim()}
               className="w-full px-6 py-4 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 disabled:bg-gray-600 disabled:cursor-not-allowed transition-all duration-300"
             >
               {isSearching ? "Searching..." : "Get Answer"}
             </button>
           </form>
+
+          {searchError && (
+            <div className="mt-4 rounded-lg border border-red-500/40 bg-red-950/30 px-4 py-3 text-sm text-red-200">
+              {searchError}
+            </div>
+          )}
 
           <div className="mt-6 pt-6 border-t border-gray-700">
 
