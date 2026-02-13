@@ -1,5 +1,5 @@
 import path from "path";
-import { spawnSync } from "child_process";
+import { spawn, spawnSync } from "child_process";
 import { NextResponse } from "next/server";
 
 const sanitizeDbName = (value) => {
@@ -32,6 +32,7 @@ export async function POST(request) {
   const body = await request.json().catch(() => null);
   const question = body?.question?.trim();
   const course = body?.course?.trim();
+  const stream = Boolean(body?.stream);
 
   if (!question || !course) {
     return NextResponse.json({ error: "Question and course are required." }, { status: 400 });
@@ -49,34 +50,87 @@ export async function POST(request) {
 
   const scriptPath = path.join(process.cwd(), "backend", "answer_question.py");
   const mongoDb = sanitizeDbName(process.env.MONGODB_DB || "rag_basic");
+  const scriptArgs = [scriptPath, "--mongo-uri", mongoUri, "--mongo-db", mongoDb, "--course", course, "--question", question];
 
-  const result = spawnSync(
-    pythonBin,
-    [scriptPath, "--mongo-uri", mongoUri, "--mongo-db", mongoDb, "--course", course, "--question", question],
-    {
+  if (!stream) {
+    const result = spawnSync(pythonBin, scriptArgs, {
       cwd: process.cwd(),
       encoding: "utf-8",
       env: process.env,
-    }
-  );
+    });
 
-  if (result.status !== 0) {
-    return NextResponse.json(
-      {
-        error: result.stderr?.trim() || "Failed to process question.",
-      },
-      { status: 500 }
-    );
-  }
-
-  try {
-    const payload = JSON.parse(result.stdout || "{}");
-    if (payload.error) {
-      return NextResponse.json({ error: payload.error }, { status: 404 });
+    if (result.status !== 0) {
+      return NextResponse.json(
+        {
+          error: result.stderr?.trim() || "Failed to process question.",
+        },
+        { status: 500 }
+      );
     }
 
-    return NextResponse.json(payload);
-  } catch {
-    return NextResponse.json({ error: "Invalid response while answering question." }, { status: 500 });
+    try {
+      const payload = JSON.parse(result.stdout || "{}");
+      if (payload.error) {
+        return NextResponse.json({ error: payload.error }, { status: 404 });
+      }
+
+      return NextResponse.json(payload);
+    } catch {
+      return NextResponse.json({ error: "Invalid response while answering question." }, { status: 500 });
+    }
   }
+
+  scriptArgs.push("--stream");
+
+  const child = spawn(pythonBin, scriptArgs, {
+    cwd: process.cwd(),
+    env: process.env,
+  });
+
+  const encoder = new TextEncoder();
+
+  const readable = new ReadableStream({
+    start(controller) {
+      let buffer = "";
+
+      child.stdout.on("data", (chunk) => {
+        buffer += chunk.toString();
+        const lines = buffer.split(/\r?\n/);
+        buffer = lines.pop() || "";
+
+        for (const line of lines) {
+          const trimmed = line.trim();
+          if (!trimmed) continue;
+          controller.enqueue(encoder.encode(`${trimmed}\n`));
+        }
+      });
+
+      child.stderr.on("data", (chunk) => {
+        controller.enqueue(encoder.encode(`${JSON.stringify({ type: "error", error: chunk.toString().trim() })}\n`));
+      });
+
+      child.on("close", () => {
+        if (buffer.trim()) {
+          controller.enqueue(encoder.encode(`${buffer.trim()}\n`));
+        }
+        controller.close();
+      });
+
+      child.on("error", (error) => {
+        controller.enqueue(encoder.encode(`${JSON.stringify({ type: "error", error: error.message })}\n`));
+        controller.close();
+      });
+    },
+    cancel() {
+      child.kill();
+    },
+  });
+
+  return new Response(readable, {
+    headers: {
+      "Content-Type": "application/x-ndjson; charset=utf-8",
+      "Cache-Control": "no-cache, no-transform",
+      Connection: "keep-alive",
+    },
+  });
 }

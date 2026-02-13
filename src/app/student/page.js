@@ -59,6 +59,7 @@ export default function StudentPortal() {
 
     setIsSearching(true);
     setSearchError("");
+    setResults({ answer: "", video: "", timestamp: "", summary: "", confidence: 0 });
 
     try {
       const response = await fetch("/api/student-query", {
@@ -69,21 +70,59 @@ export default function StudentPortal() {
         body: JSON.stringify({
           course,
           question: query,
+          stream: true,
         }),
       });
 
-      const payload = await response.json();
       if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
         throw new Error(payload.error || "Unable to get an answer for this question.");
       }
 
-      setResults({
-        answer: payload.answer,
-        video: payload.video,
-        timestamp: `${formatTimestamp(payload.timestamp?.start)} - ${formatTimestamp(payload.timestamp?.end)}`,
-        summary: payload.summary,
-        confidence: payload.confidence,
-      });
+      if (!response.body) {
+        throw new Error("Streaming is not supported in this browser.");
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let pending = "";
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+
+        pending += decoder.decode(value, { stream: true });
+        const lines = pending.split(/\r?\n/);
+        pending = lines.pop() || "";
+
+        for (const line of lines) {
+          const trimmed = line.trim();
+          if (!trimmed) continue;
+
+          const eventPayload = JSON.parse(trimmed);
+
+          if (eventPayload.type === "token") {
+            setResults((prev) => ({
+              ...(prev || { answer: "", video: "", timestamp: "", summary: "", confidence: 0 }),
+              answer: `${prev?.answer || ""}${eventPayload.content || ""}`,
+            }));
+          }
+
+          if (eventPayload.type === "final") {
+            setResults({
+              answer: eventPayload.answer,
+              video: eventPayload.video,
+              timestamp: `${formatTimestamp(eventPayload.timestamp?.start)} - ${formatTimestamp(eventPayload.timestamp?.end)}`,
+              summary: eventPayload.summary,
+              confidence: eventPayload.confidence,
+            });
+          }
+
+          if (eventPayload.type === "error") {
+            throw new Error(eventPayload.error || "Unable to get an answer for this question.");
+          }
+        }
+      }
     } catch (error) {
       setResults(null);
       setSearchError(error instanceof Error ? error.message : "Unable to get an answer for this question.");
@@ -118,7 +157,7 @@ export default function StudentPortal() {
                 <select
                   value={course}
                   onChange={(event) => setCourse(event.target.value)}
-                  disabled={!courses.length}
+                  disabled={!courses.length || isSearching}
                   className="w-full px-4 py-3 rounded-lg border-2 border-gray-600 bg-gray-900/50 text-gray-200 focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500/20 transition-all"
                 >
                   {!courses.length && <option>{coursesError ? "Unable to load courses" : "No courses available"}</option>}
@@ -138,6 +177,7 @@ export default function StudentPortal() {
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
                   placeholder="e.g., Where is DOM manipulation explained?"
+                  disabled={isSearching}
                   className="w-full px-4 py-3 rounded-lg border-2 border-gray-600 bg-gray-900/50 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500/20 transition-all"
                 />
               </div>
@@ -147,7 +187,7 @@ export default function StudentPortal() {
               disabled={isSearching || !query.trim() || !course.trim()}
               className="w-full px-6 py-4 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 disabled:bg-gray-600 disabled:cursor-not-allowed transition-all duration-300"
             >
-              {isSearching ? "Searching..." : "Get Answer"}
+              {isSearching ? "Streaming answer..." : "Get Answer"}
             </button>
           </form>
 
@@ -182,28 +222,30 @@ export default function StudentPortal() {
                 <h2 className="text-2xl font-semibold text-gray-200">Answer</h2>
               </div>
               <span className="px-3 py-1 rounded-lg bg-green-500/20 text-green-300 text-xs font-medium border border-green-500/30">
-                {Math.round(results.confidence * 100)}% Match
+                {Math.round((results.confidence || 0) * 100)}% Match
               </span>
             </div>
 
             <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700 mb-6">
-              <p className="text-gray-200 text-lg leading-relaxed">{results.answer}</p>
-              <p className="text-sm text-gray-500 mt-3">{results.summary}</p>
+              <p className="text-gray-200 text-lg leading-relaxed whitespace-pre-line">{results.answer || "Thinking..."}</p>
+              {results.summary && <p className="text-sm text-gray-500 mt-3">{results.summary}</p>}
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="bg-gray-900/50 rounded-lg p-5 border border-gray-700">
-                <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">Video</p>
-                <p className="text-gray-200 font-semibold">{results.video}</p>
+            {!!results.video && (
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-gray-900/50 rounded-lg p-5 border border-gray-700">
+                  <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">Video</p>
+                  <p className="text-gray-200 font-semibold">{results.video}</p>
+                </div>
+                <div className="bg-gray-900/50 rounded-lg p-5 border border-gray-700">
+                  <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">Timestamp</p>
+                  <p className="text-gray-200 font-semibold">{results.timestamp}</p>
+                  <button className="mt-4 w-full px-4 py-2 bg-green-600 text-white rounded-lg text-sm font-medium hover:bg-green-700 transition-all duration-200">
+                    Jump to Video
+                  </button>
+                </div>
               </div>
-              <div className="bg-gray-900/50 rounded-lg p-5 border border-gray-700">
-                <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">Timestamp</p>
-                <p className="text-gray-200 font-semibold">{results.timestamp}</p>
-                <button className="mt-4 w-full px-4 py-2 bg-green-600 text-white rounded-lg text-sm font-medium hover:bg-green-700 transition-all duration-200">
-                  Jump to Video
-                </button>
-              </div>
-            </div>
+            )}
           </div>
         )}
       </div>

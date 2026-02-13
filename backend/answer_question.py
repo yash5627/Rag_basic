@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 import re
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Generator
 
 import numpy as np
 import requests
@@ -22,7 +22,7 @@ def create_embedding(text_list: List[str]) -> List[List[float]]:
     response = requests.post(
         "http://localhost:11434/api/embed",
         json={"model": "bge-m3", "input": text_list},
-        timeout=60,
+        timeout=30,
     )
     response.raise_for_status()
     payload = response.json()
@@ -31,7 +31,7 @@ def create_embedding(text_list: List[str]) -> List[List[float]]:
     return payload["embeddings"]
 
 
-def search_similar_chunks(records: List[Dict[str, Any]], question_embedding: List[float], k: int = 9):
+def search_similar_chunks(records: List[Dict[str, Any]], question_embedding: List[float], k: int = 6):
     if not records:
         return [], []
 
@@ -69,12 +69,16 @@ I am teaching web development in {course_name}. Here are subtitle chunks contain
 {question}
 
 User asked this question related to the video chunks.
-Answer where and how much content is taught, in which video and at what timestamp.
-If the question is unrelated, say you can only answer course-related questions. Also try not to use special characters like * in your answer.
+Respond in a clean ChatGPT-style format:
+1) Short answer (2-4 lines)
+2) Where to learn it (bullet points with video + timestamp in minutes range)
+3) Quick explanation (small bullet list)
+If unrelated, say you can only answer course-related questions.
+Avoid markdown tables and avoid special characters like *.
 """.strip()
 
 
-def infer_answer(prompt: str, openrouter_api_key: str) -> str:
+def stream_answer(prompt: str, openrouter_api_key: str, model: str) -> Generator[str, None, None]:
     response = requests.post(
         "https://openrouter.ai/api/v1/chat/completions",
         headers={
@@ -84,25 +88,51 @@ def infer_answer(prompt: str, openrouter_api_key: str) -> str:
             "X-Title": "Sigma Web Dev RAG",
         },
         json={
-            "model": "openai/gpt-oss-120b",
+            "model": model,
             "messages": [
                 {"role": "system", "content": "You are a helpful teaching assistant."},
                 {"role": "user", "content": prompt},
             ],
-            "temperature": 0.2,
-            "stream": False,
+            "temperature": 0.15,
+            "stream": True,
         },
         timeout=120,
+        stream=True,
     )
     response.raise_for_status()
-    payload = response.json()
 
-    choices = payload.get("choices", [])
-    if not choices:
-        raise RuntimeError("OpenRouter did not return any choices")
+    for raw_line in response.iter_lines(decode_unicode=True):
+        if not raw_line:
+            continue
+        if not raw_line.startswith("data:"):
+            continue
 
-    message = choices[0].get("message", {})
-    return message.get("content", "").strip()
+        payload_line = raw_line[5:].strip()
+        if payload_line == "[DONE]":
+            break
+
+        data = json.loads(payload_line)
+        choices = data.get("choices", [])
+        if not choices:
+            continue
+        delta = choices[0].get("delta", {})
+        token = delta.get("content", "")
+        if token:
+            yield token
+
+
+def infer_answer(prompt: str, openrouter_api_key: str, model: str) -> str:
+    answer_parts = []
+    for token in stream_answer(prompt, openrouter_api_key, model):
+        answer_parts.append(token)
+    answer = "".join(answer_parts).strip()
+    if not answer:
+        raise RuntimeError("OpenRouter did not return any answer")
+    return answer
+
+
+def emit(event: Dict[str, Any]):
+    print(json.dumps(event, ensure_ascii=False), flush=True)
 
 
 def main():
@@ -111,12 +141,14 @@ def main():
     parser.add_argument("--mongo-db", default="rag_basic")
     parser.add_argument("--course", required=True)
     parser.add_argument("--question", required=True)
+    parser.add_argument("--stream", action="store_true")
     args = parser.parse_args()
 
     openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
     if not openrouter_api_key:
         raise RuntimeError("OPENROUTER_API_KEY not found")
 
+    model = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini")
     course_collection = f"{COURSE_PREFIX}{normalize_course_name(args.course)}"
 
     client = MongoClient(args.mongo_uri)
@@ -139,22 +171,57 @@ def main():
     client.close()
 
     if not records:
-        print(json.dumps({"error": "No embeddings found for selected course."}))
+        error_payload = {"error": "No embeddings found for selected course."}
+        if args.stream:
+            emit({"type": "error", "error": error_payload["error"]})
+            return
+        print(json.dumps(error_payload))
         return
 
     question_embedding = create_embedding([args.question])[0]
     top_rows, distances = search_similar_chunks(records, question_embedding)
 
     if not top_rows:
-        print(json.dumps({"error": "Unable to search in the selected course embeddings."}))
+        error_payload = {"error": "Unable to search in the selected course embeddings."}
+        if args.stream:
+            emit({"type": "error", "error": error_payload["error"]})
+            return
+        print(json.dumps(error_payload))
         return
 
     prompt = build_prompt(args.question, top_rows, args.course)
-    answer = infer_answer(prompt, openrouter_api_key)
 
     primary = top_rows[0]
     best_distance = distances[0] if distances else 0.0
     confidence = float(1 / (1 + best_distance))
+
+    if args.stream:
+        final_answer_parts = []
+        for token in stream_answer(prompt, openrouter_api_key, model):
+            final_answer_parts.append(token)
+            emit({"type": "token", "content": token})
+
+        final_answer = "".join(final_answer_parts).strip()
+        if not final_answer:
+            emit({"type": "error", "error": "OpenRouter did not return any answer"})
+            return
+
+        emit(
+            {
+                "type": "final",
+                "answer": final_answer,
+                "video": primary.get("title", ""),
+                "timestamp": {
+                    "start": primary.get("start", 0),
+                    "end": primary.get("end", 0),
+                },
+                "summary": primary.get("text", ""),
+                "confidence": confidence,
+            }
+        )
+        return
+
+    answer = infer_answer(prompt, openrouter_api_key, model)
 
     print(
         json.dumps(
