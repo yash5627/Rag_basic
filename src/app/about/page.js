@@ -5,7 +5,7 @@ export default function About() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-200 mb-4">
-            About Sigma Course AI
+            About VideoAssistant  AI
           </h1>
           <p className="text-xl text-gray-400">
             Intelligent Course Content Search Powered by AI
